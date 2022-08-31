@@ -10,7 +10,9 @@ courses, items = reader.readJson(base.COVERAGE_FILE)
 
 reader.readActions(base.ACTIONS_FILE, courses)
 
-inventory = reader.readInventory(base.INVENTORY_FILE, items)
+with open(base.INVENTORY_FILE, encoding='utf-8-sig') as file:
+    inventoryLines = file.read().splitlines()
+inventory = reader.readInventory(inventoryLines, items)
 
 if base.READ_SOLUTION:
     solutionCombinations, solutionItems = reader.readSolutionFile(base.SOLUTION_FILE)

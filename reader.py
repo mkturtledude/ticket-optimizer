@@ -254,28 +254,45 @@ def makeInventory(allItems, inventoryItems):
     return result
 
 
-def readInventory(file, allItems):
+def readInventory(inventoryLines, allItems):
     result = {}
-    assert(file)
     upperToNormal = dict()
     for item in allItems:
         # We need the unidecode to get rid of accents, as in Strawberry Cr^epe
         upperToNormal[unidecode.unidecode(item.upper())] = item
-    with open(file, encoding='utf-8-sig') as csvfile:
-        for line in csvfile.read().splitlines():
-            if not line:
+
+
+    for line in inventoryLines:
+        if not line:
+            continue
+        row = re.split('[,;\t]', line)
+        if row and row[2] != '0':
+            assert(len(row) == 4)
+            if row[2] == 0:
                 continue
-            row = re.split('[,;\t]', line)
-            if row and row[2] != '0':
-                assert(len(row) == 4)
-                if row[2] == 0:
-                    continue
-                itemDict = dict()
-                itemDict["name"] = upperToNormal[unidecode.unidecode(row[0].upper())]
-                itemDict["type"] = row[1]
-                itemDict["level"] = int(row[2])
-                itemDict["uncaps"] = int(row[3])
-                result[itemDict["name"]] = itemDict
+            itemDict = dict()
+            itemDict["name"] = upperToNormal[unidecode.unidecode(row[0].upper())]
+            itemDict["type"] = row[1]
+            itemDict["level"] = int(row[2])
+            itemDict["uncaps"] = int(row[3])
+            result[itemDict["name"]] = itemDict
+
+
+    # with open(file, encoding='utf-8-sig') as csvfile:
+    #     for line in csvfile.read().splitlines():
+    #         if not line:
+    #             continue
+    #         row = re.split('[,;\t]', line)
+    #         if row and row[2] != '0':
+    #             assert(len(row) == 4)
+    #             if row[2] == 0:
+    #                 continue
+    #             itemDict = dict()
+    #             itemDict["name"] = upperToNormal[unidecode.unidecode(row[0].upper())]
+    #             itemDict["type"] = row[1]
+    #             itemDict["level"] = int(row[2])
+    #             itemDict["uncaps"] = int(row[3])
+    #             result[itemDict["name"]] = itemDict
 
     return makeInventory(allItems, result)
 

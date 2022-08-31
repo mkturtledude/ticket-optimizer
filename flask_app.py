@@ -54,9 +54,6 @@ def home():
         return render_template('index.html', form=form, message="")
     else:
         invFile = form.inventoryFile
-        print(invFile.name)
-        print(invFile.data)
-        print(invFile.raw_data)
         playerLevel = form.playerLevel.data
         tickets = optimizer.Tickets()
         tickets.lnd = form.lnd.data
@@ -77,18 +74,15 @@ def home():
         tickets.uhd = form.uhd.data
         tickets.uhk = form.uhk.data
         tickets.uhg = form.uhg.data
-        result2 = ""
 
         # with open(invFile.data, encoding='utf-8-sig') as csvfile:
         # for line in invFile.data.read().splitlines():
-        for line in codecs.iterdecode(invFile.data, 'utf-8-sig'):
-            result2 += line
-            result2 += "\n"
+        inventoryLines = codecs.iterdecode(invFile.data, 'utf-8-sig')
         # for line in request.files[invFile.name]:
         #     result2 += line
         #     result2 += "\n"
-        result = optimizer.optimize(invFile, tickets, playerLevel)
-        message = str(result2)
+        result = optimizer.optimize(inventoryLines, tickets, playerLevel)
+        message = str(result)
         return render_template('index.html', form=form, message=message)
 
 
@@ -108,5 +102,5 @@ def home():
 #        info["result"] = result
 #    return template("/",info=info)
 
-if __name__ == "__main__":
-   app.run(debug=True)
+# if __name__ == "__main__":
+#    app.run(debug=True)
