@@ -101,7 +101,6 @@ def home():
 #            result += "\n"
 #        info["result"] = result
 #    return template("/",info=info)
-
-# For local development, I will provide an argument
-if len(sys.argv) > 0:
-   app.run(debug=True)
+#
+# if __name__ == "__main__":
+#    app.run(debug=True)
