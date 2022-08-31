@@ -27,9 +27,9 @@ class Tickets:
         uhg = 0
 
 
-def optimize(inventoryLines, tickets, playerLevel):
-    coverageFile = os.getcwd() + "/data/alldata.json"
-    actionsFile = os.getcwd() + "/data/actions.csv"
+def optimize(workDir, inventoryLines, tickets, playerLevel):
+    coverageFile = os.path.join(workDir, "data", "alldata.json")
+    actionsFile = os.path.join(workDir, "data", "actions.csv")
     courses, items = reader.readJson(coverageFile)
     reader.readActions(base.ACTIONS_FILE, courses)
     inventory = reader.readInventory(inventoryLines, items)

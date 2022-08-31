@@ -81,7 +81,7 @@ def home():
         # for line in request.files[invFile.name]:
         #     result2 += line
         #     result2 += "\n"
-        result = optimizer.optimize(inventoryLines, tickets, playerLevel)
+        result = optimizer.optimize(app.root_path, inventoryLines, tickets, playerLevel)
         message = str(result)
         return render_template('index.html', form=form, message=message)
 
