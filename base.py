@@ -2,9 +2,9 @@ READ_SOLUTION = False
 
 COVERAGE_FILE = "/home/marco/ticketOptimizer/data/BowserTour_alldata_multilang.json"
 ACTIONS_FILE = "/home/marco/ticketOptimizer/data/actions.csv"
-# INVENTORY_FILE = "/home/marco/ticketOptimizer/data/inventory.csv"
+INVENTORY_FILE = "/home/marco/ticketOptimizer/data/inventory.csv"
 # INVENTORY_FILE = "/home/marco/ticketOptimizer/data/ffb-inventory-fixed-drivers.csv"
-INVENTORY_FILE = "/home/marco/ticketOptimizer/data/elle-inventory.csv"
+# INVENTORY_FILE = "/home/marco/ticketOptimizer/data/elle-inventory.csv"
 # INVENTORY_FILE = "/home/marco/ticketOptimizer/data/Justin_C_inventory.csv"
 # INVENTORY_FILE = "/home/marco/ticketOptimizer/data/inventory.csv"
 SOLUTION_FILE = "/home/marco/ticketOptimizer/tickets-elle.sol"

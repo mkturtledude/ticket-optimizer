@@ -14,14 +14,14 @@
         input[type=number] {
             -moz-appearance:textfield; /* Firefox */
         }
-        /* End of hide arro*/
+        /* End of hide arrows*/
     </style>
   </head>
   <body>
       <h1>Ticket Optimizer</h1>
       <h2>Updated for the Bowser Tour</h2>
       <h3> By aturtledude </h3>
-    <form action="/" method="POST">
+    <form action="/" method="POST" enctype="multipart/form-data">
         {{ form.inventoryFile.label }} {{ form.inventoryFile }} <br>
         {{ form.playerLevel.label }} {{ form.playerLevel(size=3) }} <br>
         Level-up tickets:<br>

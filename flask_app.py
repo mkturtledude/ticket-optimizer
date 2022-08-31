@@ -2,7 +2,7 @@
 # A very simple Flask Hello World app for you to get started with...
 
 from flask import Flask, render_template, request, redirect, url_for
-import os, csv, codecs
+import os, csv, codecs, re
 
 
 
@@ -53,7 +53,10 @@ def home():
             session.pop('formdata')
         return render_template('index.html', form=form, message="")
     else:
-        inventoryFile = 0
+        invFile = form.inventoryFile
+        print(invFile.name)
+        print(invFile.data)
+        print(invFile.raw_data)
         playerLevel = form.playerLevel.data
         tickets = optimizer.Tickets()
         tickets.lnd = form.lnd.data
@@ -74,8 +77,18 @@ def home():
         tickets.uhd = form.uhd.data
         tickets.uhk = form.uhk.data
         tickets.uhg = form.uhg.data
-        result = optimizer.optimize(inventoryFile, tickets, playerLevel)
-        message = str(result)
+        result2 = ""
+
+        # with open(invFile.data, encoding='utf-8-sig') as csvfile:
+        # for line in invFile.data.read().splitlines():
+        for line in codecs.iterdecode(invFile.data, 'utf-8-sig'):
+            result2 += line
+            result2 += "\n"
+        # for line in request.files[invFile.name]:
+        #     result2 += line
+        #     result2 += "\n"
+        result = optimizer.optimize(invFile, tickets, playerLevel)
+        message = str(result2)
         return render_template('index.html', form=form, message=message)
 
 
@@ -86,7 +99,7 @@ def home():
 #    else:
 #        info["errMessage"] = ""
 #        result = ""
-#        reader = csv.reader(codecs.iterdecode(upload.file, 'utf-8'))
+#        reader = csv.reader(codecs.iterdecode(upload.file, 'utf-8-sig'))
 #        for line in reader:
 #            for element in line:
 #                result += str(element)
@@ -95,5 +108,5 @@ def home():
 #        info["result"] = result
 #    return template("/",info=info)
 
-#if __name__ == "__main__":
-#    app.run(debug=True)
+if __name__ == "__main__":
+   app.run(debug=True)
