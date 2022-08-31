@@ -1,5 +1,3 @@
-import pyscipopt as scip
-
 import base
 import reader
 import calculator
