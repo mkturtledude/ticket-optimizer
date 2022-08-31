@@ -2,7 +2,7 @@
 # A very simple Flask Hello World app for you to get started with...
 
 from flask import Flask, render_template, request, redirect, url_for
-import os, csv, codecs, re
+import os, csv, codecs, re, sys
 
 
 
@@ -102,5 +102,6 @@ def home():
 #        info["result"] = result
 #    return template("/",info=info)
 
-# if __name__ == "__main__":
-#    app.run(debug=True)
+# For local development, I will provide an argument
+if len(sys.argv) > 0:
+   app.run(debug=True)
