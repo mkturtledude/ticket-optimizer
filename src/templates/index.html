@@ -1,0 +1,51 @@
+<html>
+  <head>
+  <meta charset="UTF-8">
+    <title>Ticket Optimizer</title>
+    <style>
+        /* Hide arrows from number boxes: https://stackoverflow.com/questions/3790935/can-i-hide-the-html5-number-input-s-spin-box */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            /* display: none; <- Crashes Chrome on hover */
+            -webkit-appearance: none;
+            margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+        }
+
+        input[type=number] {
+            -moz-appearance:textfield; /* Firefox */
+        }
+        /* End of hide arro*/
+    </style>
+  </head>
+  <body>
+      <h1>Ticket Optimizer</h1>
+      <h2>Updated for the Bowser Tour</h2>
+      <h3> By aturtledude </h3>
+    <form action="/" method="POST">
+        {{ form.inventoryFile.label }} {{ form.inventoryFile }} <br>
+        {{ form.playerLevel.label }} {{ form.playerLevel(size=3) }} <br>
+        Level-up tickets:<br>
+        {{ form.lnd(size=3, style="border-color:Silver;") }}
+        {{ form.lnk(size=3, style="border-color:Silver;") }}
+        {{ form.lng(size=3, style="border-color:Silver;") }}<br><br>
+        {{ form.lsd(size=3, style="border-color:Goldenrod;") }}
+        {{ form.lsk(size=3, style="border-color:Goldenrod;") }}
+        {{ form.lsg(size=3, style="border-color:Goldenrod;") }}<br><br>
+        {{ form.lhd(size=3, style="border-color:Fuchsia;") }}
+        {{ form.lhk(size=3, style="border-color:Fuchsia;") }}
+        {{ form.lhg(size=3, style="border-color:Fuchsia;") }}<br><br>
+        Uncap tickets:<br>
+        {{ form.und(size=3, style="border-color:Silver;") }}
+        {{ form.unk(size=3, style="border-color:Silver;") }}
+        {{ form.ung(size=3, style="border-color:Silver;") }}<br><br>
+        {{ form.usd(size=3, style="border-color:Goldenrod;") }}
+        {{ form.usk(size=3, style="border-color:Goldenrod;") }}
+        {{ form.usg(size=3, style="border-color:Goldenrod;") }}<br><br>
+        {{ form.uhd(size=3, style="border-color:Fuchsia;") }}
+        {{ form.uhk(size=3, style="border-color:Fuchsia;") }}
+        {{ form.uhg(size=3, style="border-color:Fuchsia;") }}<br>
+        <input type="submit" value="Run" />
+    </form>
+    {{message}}
+  </body>
+</html>
