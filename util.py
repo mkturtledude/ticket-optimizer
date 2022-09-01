@@ -1,63 +1,189 @@
-import base
+import copy
 
-def isFeasible(originalItem, targetLevel, targetUncaps):
+import base, calculator
+
+def isFeasible(originalItem, targetLevel, targetUncaps, tickets):
     t = originalItem.gameItem.type
     r = originalItem.gameItem.rarity
     ltn = base.calculateLevelTicketsNeeded(originalItem, targetLevel)
     utn = base.calculateCapTicketsNeeded(originalItem, targetUncaps)
     if t == "D":
         if r == "N":
-            if ltn > base.ND_LEVEL_TIX or utn > base.ND_UNCAP_TIX:
+            if ltn > tickets.lnd or utn > tickets.und:
                 return False
         elif r == "S":
-            if ltn > base.SD_LEVEL_TIX or utn > base.SD_UNCAP_TIX:
+            if ltn > tickets.lsd or utn > tickets.usd:
                 return False
         else:
             assert(r == "HE")
-            if ltn > base.HD_LEVEL_TIX or utn > base.HD_UNCAP_TIX:
+            if ltn > tickets.lhd or utn > tickets.uhd:
                 return False
     elif t == "K":
         if r == "N":
-            if ltn > base.NK_LEVEL_TIX or utn > base.NK_UNCAP_TIX:
+            if ltn > tickets.lnk or utn > tickets.unk:
                 return False
         elif r == "S":
-            if ltn > base.SK_LEVEL_TIX or utn > base.SK_UNCAP_TIX:
+            if ltn > tickets.lsk or utn > tickets.unk:
                 return False
         else:
             assert(r == "HE")
-            if ltn > base.HK_LEVEL_TIX or utn > base.HK_UNCAP_TIX:
+            if ltn > tickets.lhk or utn > tickets.uhk:
                 return False
     else:
         assert(t == "G")
         if r == "N":
-            if ltn > base.NG_LEVEL_TIX or utn > base.NG_UNCAP_TIX:
+            if ltn > tickets.lng or utn > tickets.ung:
                 return False
         elif r == "S":
-            if ltn > base.SG_LEVEL_TIX or utn > base.SG_UNCAP_TIX:
+            if ltn > tickets.lsg or utn > tickets.usg:
                 return False
         else:
             assert(r == "HE")
-            if ltn > base.HG_LEVEL_TIX or utn > base.HG_UNCAP_TIX:
+            if ltn > tickets.lhg or utn > tickets.uhg:
                 return False
     return True
 
-def expandInventoryByType(items, itemType, numberOfMiis):
+def expandInventoryByType(items, itemType, numberOfMiis, tickets):
     result = set()
     for item in items:
         minLevel = item.level
         minUncaps = item.uncaps
         for level in range(minLevel,8+1):
             for uncaps in range(minUncaps, 3+1):
-                if isFeasible(item, level, uncaps):
+                if isFeasible(item, level, uncaps, tickets):
                     basePoints = base.calculateBasePoints(itemType, item.rarity, uncaps, item.isMii, numberOfMiis)
                     result.add(base.InventoryItem(item.gameItem, level, basePoints, uncaps, 0))
-    print("Input inventory has size {}".format(len(items)))
-    print("Output inventory has size {}".format(len(result)))
+    # print("Input inventory has size {}".format(len(items)))
+    # print("Output inventory has size {}".format(len(result)))
     return result
 
-def expandInventory(inventory):
+def expandInventory(inventory, tickets):
     result = base.Inventory()
-    result.drivers = expandInventoryByType(inventory.drivers, "D", inventory.numberOfMiis)
-    result.karts = expandInventoryByType(inventory.karts, "K", inventory.numberOfMiis)
-    result.gliders = expandInventoryByType(inventory.gliders, "G", inventory.numberOfMiis)
+    result.drivers = expandInventoryByType(inventory.drivers, "D", inventory.numberOfMiis, tickets)
+    result.karts = expandInventoryByType(inventory.karts, "K", inventory.numberOfMiis, tickets)
+    result.gliders = expandInventoryByType(inventory.gliders, "G", inventory.numberOfMiis, tickets)
+    return result
+
+def createCombinationsOnCourses(courses, optWithCurrent, expandedInventory):
+    SHELF_THRESHOLD = 2
+    combinationsOnCourses = dict()
+    for course in courses:
+        combinationsOnCourses[course] = set()
+        reducedInventory = base.Inventory()
+        referenceScore = optWithCurrent[course][0]
+        referenceDriver = optWithCurrent[course][1]
+        referenceKart = optWithCurrent[course][2]
+        referenceGlider = optWithCurrent[course][3]
+
+        # For each item in the expanded inventory, calculate the score obtained by combining it with the other 2 reference items
+        # If it beats the reference score, add the item to the course-dependent reduced inventory
+        for driver in expandedInventory.drivers:
+            if calculator.getShelf(course, driver) >= SHELF_THRESHOLD:
+                if referenceScore <= calculator.calculateScore(driver, referenceKart, referenceGlider,
+                                                               base.PLAYER_LEVEL, course):
+                    reducedInventory.drivers.add(driver)
+        for kart in expandedInventory.karts:
+            if calculator.getShelf(course, kart) >= SHELF_THRESHOLD:
+                if referenceScore <= calculator.calculateScore(referenceDriver, kart, referenceGlider,
+                                                               base.PLAYER_LEVEL, course):
+                    reducedInventory.karts.add(kart)
+        for glider in expandedInventory.gliders:
+            if calculator.getShelf(course, glider) >= SHELF_THRESHOLD:
+                if referenceScore <= calculator.calculateScore(referenceDriver, referenceKart, glider,
+                                                               base.PLAYER_LEVEL, course):
+                    reducedInventory.gliders.add(glider)
+
+        # For each DKG combination in the reduced inventory, calculate the score and save score+combination in combinationsOnCourses
+        for driver in reducedInventory.drivers:
+            for kart in reducedInventory.karts:
+                for glider in reducedInventory.gliders:
+                    score = calculator.calculateScore(driver, kart, glider, base.PLAYER_LEVEL, course)
+                    combinationsOnCourses[course].add(tuple([score, driver, kart, glider]))
+        # print("{} has {} combinations".format(course.englishName, len(combinationsOnCourses[course])))
+    return combinationsOnCourses
+
+def calculateOptWithCurrent(courses, inventory):
+    #TODO: For each course, precompute highest shelf available with original inventory, and use that as threshold
+    totalScore = 0
+    optWithCurrent = dict()
+    SHELF_THRESHOLD = 2
+    ## This whole loop only looks for the optimal combinations with the current loadouts, i.e., without any upgrades
+    ## It also fills the dict optWithCurrent
+    for course in courses:
+        maxScore = 0
+        d = None
+        k = None
+        g = None
+        combinations = 0
+
+        ## Create reduced inventory from original inventory ##
+        reducedInventory = base.Inventory()
+        for driver in inventory.drivers:
+            if calculator.getShelf(course, driver) >= SHELF_THRESHOLD:
+                reducedInventory.drivers.add(driver)
+        for kart in inventory.karts:
+            if calculator.getShelf(course, kart) >= SHELF_THRESHOLD:
+                reducedInventory.karts.add(kart)
+        for glider in inventory.gliders:
+            if calculator.getShelf(course, glider) >= SHELF_THRESHOLD:
+                reducedInventory.gliders.add(glider)
+        # print("{}: The reduced inventory has {} drivers, {} karts and {} gliders".format(course.englishName, len(reducedInventory.drivers), len(reducedInventory.karts), len(reducedInventory.gliders)))
+        inv = reducedInventory
+        for driver in inv.drivers:
+            for kart in inv.karts:
+                for glider in inv.gliders:
+                    combinations += 1
+                    score = calculator.calculateScore(driver, kart, glider, base.PLAYER_LEVEL, course)
+                    if maxScore < score:
+                        maxScore = score
+                        d = driver
+                        k = kart
+                        g = glider
+        # # print("Calculating score again")
+        # if course.englishName == "SNES Donut Plains 2T":
+        #     print("Found course")
+        #     calculator.calculateScore(d,k,g,PLAYER_LEVEL,course)
+        #     exit(0)
+        optWithCurrent[course] = [maxScore, d, k, g]
+        # print(maxScore)
+        totalScore += maxScore
+    #     # Uncomment for pre-fill of DKR sheet
+    #     print("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}".format(d.englishName, calculator.getShelf(course, d), d.level, d.basePoints, k.englishName, calculator.getShelf(course, k), k.level, k.basePoints, g.englishName, calculator.getShelf(course, g), g.level, g.basePoints))
+    return totalScore, optWithCurrent
+
+def createOriginalInventoryIdToItem(inventory):
+    originalInventoryIdToItem = dict()
+    for d in inventory.drivers:
+        originalInventoryIdToItem[d.gameItem.id] = d
+    for k in inventory.karts:
+        originalInventoryIdToItem[k.gameItem.id] = k
+    for g in inventory.gliders:
+        originalInventoryIdToItem[g.gameItem.id] = g
+    return originalInventoryIdToItem
+
+def updateInventory(currentInventory, solutionCombinations):
+    result = copy.deepcopy(currentInventory)
+    driverIdToCombinations = dict()
+    kartIdToCombinations = dict()
+    gliderIdToCombinations = dict()
+    for c in solutionCombinations:
+        driverIdToCombinations[c[0]] = [c[0],c[1],c[2]]
+        kartIdToCombinations[c[3]] = [c[3],c[4],c[5]]
+        gliderIdToCombinations[c[6]] = [c[6],c[7],c[8]]
+
+    for d in result.drivers:
+        if d.gameItem.id in driverIdToCombinations:
+            comb = driverIdToCombinations[d.gameItem.id]
+            d.level = comb[1]
+            d.uncaps = comb[2]
+    for k in result.karts:
+        if k.gameItem.id in kartIdToCombinations:
+            comb = kartIdToCombinations[k.gameItem.id]
+            k.level = comb[1]
+            k.uncaps = comb[2]
+    for g in result.gliders:
+        if g.gameItem.id in gliderIdToCombinations:
+            comb = gliderIdToCombinations[g.gameItem.id]
+            g.level = comb[1]
+            g.uncaps = comb[2]
     return result

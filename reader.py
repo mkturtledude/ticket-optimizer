@@ -299,7 +299,6 @@ def readInventory(inventoryLines, allItems):
 def readSolutionFile(file):
     f = open(file, "r")
     combinations = dict()
-    items = []
     for line in f.readlines():
         if line[0] == "#" or line[0] == 'o':
             continue
@@ -323,12 +322,7 @@ def readSolutionFile(file):
             gl =  int(variableElements[9])
             gu =  int(variableElements[10])
             combinations[combNumber] = tuple([did,dl,du,kid,kl,ku,gid,gl,gu])
-        elif(variableElements[0] == "x"):
-            id = int(variableElements[1])
-            l = int(variableElements[2])
-            u = int(variableElements[3])
-            items.append([id,l,u])
     finalCombinations = []
     for i in range(len(combinations)):
         finalCombinations.append(combinations[i])
-    return finalCombinations, items
+    return finalCombinations

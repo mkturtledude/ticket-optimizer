@@ -58,27 +58,69 @@ SOLUTION_FILE = "/home/marco/ticketOptimizer/tickets-elle.sol"
 #Elle
 PLAYER_LEVEL = 208
 
-ND_LEVEL_TIX = 64
-NK_LEVEL_TIX = 64
-NG_LEVEL_TIX = 64
-SD_LEVEL_TIX = 0
-SK_LEVEL_TIX = 32
-SG_LEVEL_TIX = 32
-HD_LEVEL_TIX = 0
-HK_LEVEL_TIX = 16
-HG_LEVEL_TIX = 16
+# ND_LEVEL_TIX = 0
+# NK_LEVEL_TIX = 0
+# NG_LEVEL_TIX = 64
+# SD_LEVEL_TIX = 0
+# SK_LEVEL_TIX = 0
+# SG_LEVEL_TIX = 32
+# HD_LEVEL_TIX = 0
+# HK_LEVEL_TIX = 0
+# HG_LEVEL_TIX = 16
+#
+# ND_UNCAP_TIX = 0
+# NK_UNCAP_TIX = 0
+# NG_UNCAP_TIX = 64
+# SD_UNCAP_TIX = 0
+# SK_UNCAP_TIX = 0
+# SG_UNCAP_TIX = 32
+# HD_UNCAP_TIX = 0
+# HK_UNCAP_TIX = 0
+# HG_UNCAP_TIX = 16
 
-ND_UNCAP_TIX = 64
-NK_UNCAP_TIX = 64
-NG_UNCAP_TIX = 64
-SD_UNCAP_TIX = 0
-SK_UNCAP_TIX = 32
-SG_UNCAP_TIX = 32
-HD_UNCAP_TIX = 0
-HK_UNCAP_TIX = 16
-HG_UNCAP_TIX = 16
+class TicketStash:
+    lnd = 0
+    lnk = 0
+    lng = 0
+    lsd = 0
+    lsk = 0
+    lsg = 0
+    lhd = 0
+    lhk = 0
+    lhg = 0
+    und = 0
+    unk = 0
+    ung = 0
+    usd = 0
+    usk = 0
+    usg = 0
+    uhd = 0
+    uhk = 0
+    uhg = 0
 
+    def setDriversToZero(self):
+        self.lnd = 0
+        self.lsd = 0
+        self.lhd = 0
+        self.und = 0
+        self.usd = 0
+        self.uhd = 0
 
+    def setKartsToZero(self):
+        self.lnk = 0
+        self.lsk = 0
+        self.lhk = 0
+        self.unk = 0
+        self.usk = 0
+        self.uhk = 0
+
+    def setGlidersToZero(self):
+        self.lng = 0
+        self.lsg = 0
+        self.lhg = 0
+        self.ung = 0
+        self.usg = 0
+        self.uhg = 0
 
 class CupItem:
     def __init__(self, name, promotionLevel):
@@ -149,6 +191,14 @@ class Inventory:
         self.karts = set()
         self.gliders = set()
         self.numberOfMiis = 0
+
+    def print(self):
+        for d in self.drivers:
+            d.print()
+        for d in self.karts:
+            d.print()
+        for d in self.gliders:
+            d.print()
 
 
 def calculateBasePoints(type, rarity, uncaps, isMii, numberOfMiis):
