@@ -19,24 +19,24 @@ with open(base.INVENTORY_FILE, encoding='utf-8-sig') as file:
 inventory = reader.readInventory(inventoryLines, items)
 
 tickets = base.TicketStash()
-tickets.lnd = 10
-tickets.lnk = 10
-tickets.lng = 10
-tickets.lsd = 10
-tickets.lsk = 10
-tickets.lsg = 10
-tickets.lhd = 10
-tickets.lhk = 10
-tickets.lhg = 10
-tickets.und = 10
-tickets.unk = 10
-tickets.ung = 10
-tickets.usd = 10
-tickets.usk = 10
-tickets.usg = 10
-tickets.uhd = 10
-tickets.uhk = 10
-tickets.uhg = 10
+tickets.lnd = 50
+tickets.lnk = 50
+tickets.lng = 50
+tickets.lsd = 50
+tickets.lsk = 50
+tickets.lsg = 50
+tickets.lhd = 50
+tickets.lhk = 50
+tickets.lhg = 50
+tickets.und = 50
+tickets.unk = 50
+tickets.ung = 50
+tickets.usd = 50
+tickets.usk = 50
+tickets.usg = 50
+tickets.uhd = 50
+tickets.uhk = 50
+tickets.uhg = 50
 
 solverTime = 0
 
@@ -87,9 +87,15 @@ currentInventory = util.updateInventory(currentInventory, solutionCombinations)
 totalScore, optWithCurrent = util.calculateOptWithCurrent(courses, currentInventory)
 print("The total score after all upgrades is {}".format(totalScore))
 
-solver.printFinalOutput(solutionCombinations, inventory, courses)
+upgrades, rows = solver.constructUpgradeTableStrings(solutionCombinations, inventory, courses)
 
+print("Upgrades:")
+for upgrade in upgrades:
+    print(upgrade)
 
+print("\nTable:")
+for row in rows:
+    print(row)
 
 stop = timeit.default_timer()
 
