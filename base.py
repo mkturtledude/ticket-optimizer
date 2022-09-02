@@ -56,7 +56,7 @@ SOLUTION_FILE = "/home/marco/ticketOptimizer/tickets-elle.sol"
 # HG_UNCAP_TIX = 55 # 49 + 6 from ranked# FFB
 
 #Elle
-PLAYER_LEVEL = 208
+#PLAYER_LEVEL = 208
 
 # ND_LEVEL_TIX = 0
 # NK_LEVEL_TIX = 0

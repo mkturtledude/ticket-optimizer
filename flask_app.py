@@ -13,10 +13,26 @@ from werkzeug.datastructures import MultiDict
 from flask_wtf import FlaskForm
 from wtforms import IntegerField, FileField
 
-import optimizer
+import base, util, reader
 
 app = Flask(__name__)
 app.secret_key = 'secret'
+
+
+def optimize(workDir, inventoryLines, tickets, playerLevel):
+    coverageFile = os.path.join(workDir, "data", "alldata.json")
+    actionsFile = os.path.join(workDir, "data", "actions.csv")
+    courses, items = reader.readJson(coverageFile)
+    reader.readActions(actionsFile, courses)
+    inventory = reader.readInventory(inventoryLines, items)
+
+    upgrades, rows = util.optimize(inventory, courses, tickets, playerLevel)
+
+    result = ""
+
+    for upgrade in upgrades:
+        result += upgrade
+    return result
 
 class MyForm(FlaskForm):
     inventoryFile = FileField('Inventory file')
@@ -55,7 +71,7 @@ def home():
     else:
         invFile = form.inventoryFile
         playerLevel = form.playerLevel.data
-        tickets = optimizer.Tickets()
+        tickets = base.TicketStash()
         tickets.lnd = form.lnd.data
         tickets.lnk = form.lnk.data
         tickets.lng = form.lng.data
@@ -75,13 +91,9 @@ def home():
         tickets.uhk = form.uhk.data
         tickets.uhg = form.uhg.data
 
-        # with open(invFile.data, encoding='utf-8-sig') as csvfile:
-        # for line in invFile.data.read().splitlines():
         inventoryLines = codecs.iterdecode(invFile.data, 'utf-8-sig')
-        # for line in request.files[invFile.name]:
-        #     result2 += line
-        #     result2 += "\n"
-        result = optimizer.optimize(app.root_path, inventoryLines, tickets, playerLevel)
+
+        result = optimize(app.root_path, inventoryLines, tickets, playerLevel)
         message = str(result)
         return render_template('index.html', form=form, message=message)
 

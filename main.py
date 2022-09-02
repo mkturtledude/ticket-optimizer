@@ -38,56 +38,10 @@ tickets.uhd = 50
 tickets.uhk = 50
 tickets.uhg = 50
 
-solverTime = 0
+playerLevel = 167
 
-currentInventory = copy.deepcopy(inventory)
-currentTickets = copy.deepcopy(tickets)
-currentTickets.setKartsToZero()
-currentTickets.setGlidersToZero()
-originalInventoryIdToItem = util.createOriginalInventoryIdToItem(currentInventory)
-totalScore, optWithCurrent = util.calculateOptWithCurrent(courses, currentInventory)
-print("The total score without any upgrades is {}".format(totalScore))
-expandedInventory = util.expandInventory(currentInventory, currentTickets)
-combinationsOnCourses = util.createCombinationsOnCourses(courses, optWithCurrent, expandedInventory)
-solverStart = timeit.default_timer()
-solutionCombinations = solver.solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, currentTickets)
-solverEnd = timeit.default_timer()
-solverTime += (solverEnd - solverStart)
+upgrades, rows = util.optimize(inventory, courses, tickets, playerLevel)
 
-currentInventory = util.updateInventory(currentInventory, solutionCombinations)
-currentTickets = copy.deepcopy(tickets)
-currentTickets.setDriversToZero()
-currentTickets.setGlidersToZero()
-originalInventoryIdToItem = util.createOriginalInventoryIdToItem(currentInventory)
-totalScore, optWithCurrent = util.calculateOptWithCurrent(courses, currentInventory)
-print("The total score after driver upgrades is {}".format(totalScore))
-expandedInventory = util.expandInventory(currentInventory, currentTickets)
-combinationsOnCourses = util.createCombinationsOnCourses(courses, optWithCurrent, expandedInventory)
-solverStart = timeit.default_timer()
-solutionCombinations = solver.solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, currentTickets)
-solverEnd = timeit.default_timer()
-solverTime += (solverEnd - solverStart)
-
-currentInventory = util.updateInventory(currentInventory, solutionCombinations)
-currentTickets = copy.deepcopy(tickets)
-currentTickets.setDriversToZero()
-currentTickets.setKartsToZero()
-originalInventoryIdToItem = util.createOriginalInventoryIdToItem(currentInventory)
-totalScore, optWithCurrent = util.calculateOptWithCurrent(courses, currentInventory)
-print("The total score after driver and kart upgrades is {}".format(totalScore))
-expandedInventory = util.expandInventory(currentInventory, currentTickets)
-combinationsOnCourses = util.createCombinationsOnCourses(courses, optWithCurrent, expandedInventory)
-
-solverStart = timeit.default_timer()
-solutionCombinations = solver.solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, currentTickets)
-solverEnd = timeit.default_timer()
-solverTime += (solverEnd - solverStart)
-
-currentInventory = util.updateInventory(currentInventory, solutionCombinations)
-totalScore, optWithCurrent = util.calculateOptWithCurrent(courses, currentInventory)
-print("The total score after all upgrades is {}".format(totalScore))
-
-upgrades, rows = solver.constructUpgradeTableStrings(solutionCombinations, inventory, courses)
 
 print("Upgrades:")
 for upgrade in upgrades:
@@ -100,4 +54,3 @@ for row in rows:
 stop = timeit.default_timer()
 
 print('Time: ', stop - start)
-print("Solver time: {}".format(solverTime))

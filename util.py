@@ -1,6 +1,6 @@
 import copy
 
-import base, calculator
+import base, calculator, solver
 
 def isFeasible(originalItem, targetLevel, targetUncaps, tickets):
     t = originalItem.gameItem.type
@@ -64,7 +64,7 @@ def expandInventory(inventory, tickets):
     result.gliders = expandInventoryByType(inventory.gliders, "G", inventory.numberOfMiis, tickets)
     return result
 
-def createCombinationsOnCourses(courses, optWithCurrent, expandedInventory):
+def createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, playerLevel):
     SHELF_THRESHOLD = 2
     combinationsOnCourses = dict()
     for course in courses:
@@ -80,29 +80,29 @@ def createCombinationsOnCourses(courses, optWithCurrent, expandedInventory):
         for driver in expandedInventory.drivers:
             if calculator.getShelf(course, driver) >= SHELF_THRESHOLD:
                 if referenceScore <= calculator.calculateScore(driver, referenceKart, referenceGlider,
-                                                               base.PLAYER_LEVEL, course):
+                                                               playerLevel, course):
                     reducedInventory.drivers.add(driver)
         for kart in expandedInventory.karts:
             if calculator.getShelf(course, kart) >= SHELF_THRESHOLD:
                 if referenceScore <= calculator.calculateScore(referenceDriver, kart, referenceGlider,
-                                                               base.PLAYER_LEVEL, course):
+                                                               playerLevel, course):
                     reducedInventory.karts.add(kart)
         for glider in expandedInventory.gliders:
             if calculator.getShelf(course, glider) >= SHELF_THRESHOLD:
                 if referenceScore <= calculator.calculateScore(referenceDriver, referenceKart, glider,
-                                                               base.PLAYER_LEVEL, course):
+                                                               playerLevel, course):
                     reducedInventory.gliders.add(glider)
 
         # For each DKG combination in the reduced inventory, calculate the score and save score+combination in combinationsOnCourses
         for driver in reducedInventory.drivers:
             for kart in reducedInventory.karts:
                 for glider in reducedInventory.gliders:
-                    score = calculator.calculateScore(driver, kart, glider, base.PLAYER_LEVEL, course)
+                    score = calculator.calculateScore(driver, kart, glider, playerLevel, course)
                     combinationsOnCourses[course].add(tuple([score, driver, kart, glider]))
         # print("{} has {} combinations".format(course.englishName, len(combinationsOnCourses[course])))
     return combinationsOnCourses
 
-def calculateOptWithCurrent(courses, inventory):
+def calculateOptWithCurrent(courses, inventory, playerLevel):
     #TODO: For each course, precompute highest shelf available with original inventory, and use that as threshold
     totalScore = 0
     optWithCurrent = dict()
@@ -133,7 +133,7 @@ def calculateOptWithCurrent(courses, inventory):
             for kart in inv.karts:
                 for glider in inv.gliders:
                     combinations += 1
-                    score = calculator.calculateScore(driver, kart, glider, base.PLAYER_LEVEL, course)
+                    score = calculator.calculateScore(driver, kart, glider, playerLevel, course)
                     if maxScore < score:
                         maxScore = score
                         d = driver
@@ -187,3 +187,52 @@ def updateInventory(currentInventory, solutionCombinations):
             g.level = comb[1]
             g.uncaps = comb[2]
     return result
+
+
+def createSolutionCombinations(inventory, courses, tickets, playerLevel):
+    currentInventory = copy.deepcopy(inventory)
+    currentTickets = copy.deepcopy(tickets)
+    currentTickets.setKartsToZero()
+    currentTickets.setGlidersToZero()
+    originalInventoryIdToItem = createOriginalInventoryIdToItem(currentInventory)
+    totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
+    print("The total score without any upgrades is {}".format(totalScore))
+    expandedInventory = expandInventory(currentInventory, currentTickets)
+    combinationsOnCourses = createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, playerLevel)
+    solutionCombinations = solver.solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, currentTickets)
+
+    currentInventory = updateInventory(currentInventory, solutionCombinations)
+    currentTickets = copy.deepcopy(tickets)
+    currentTickets.setDriversToZero()
+    currentTickets.setGlidersToZero()
+    originalInventoryIdToItem = createOriginalInventoryIdToItem(currentInventory)
+    totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
+    print("The total score after driver upgrades is {}".format(totalScore))
+    expandedInventory = expandInventory(currentInventory, currentTickets)
+    combinationsOnCourses = createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, playerLevel)
+    solutionCombinations = solver.solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, currentTickets)
+
+    currentInventory = updateInventory(currentInventory, solutionCombinations)
+    currentTickets = copy.deepcopy(tickets)
+    currentTickets.setDriversToZero()
+    currentTickets.setKartsToZero()
+    originalInventoryIdToItem = createOriginalInventoryIdToItem(currentInventory)
+    totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
+    print("The total score after driver and kart upgrades is {}".format(totalScore))
+    expandedInventory = expandInventory(currentInventory, currentTickets)
+    combinationsOnCourses = createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, playerLevel)
+
+    solutionCombinations = solver.solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, currentTickets)
+
+    currentInventory = updateInventory(currentInventory, solutionCombinations)
+    totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory)
+    print("The total score after all upgrades is {}".format(totalScore))
+
+    return solutionCombinations
+
+
+
+def optimize(inventory, courses, tickets, playerLevel):
+    solutionCombinations = createSolutionCombinations(inventory, courses, tickets, playerLevel)
+    upgrades, rows = solver.constructUpgradeTableStrings(solutionCombinations, inventory, courses)
+    return upgrades, rows

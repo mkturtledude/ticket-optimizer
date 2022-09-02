@@ -23,7 +23,6 @@ def calculateBonusPointsBoost(course, driver, kart, glider):
     result = bonusPointsBoostMultiplier(course, driver)
     result += bonusPointsBoostMultiplier(course, kart)
     result += bonusPointsBoostMultiplier(course, glider)
-    r = result
     result *= min(201, totalActions(course, driver) + 1)
     result *= 2 * 150 / 30000
     return result
