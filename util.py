@@ -225,7 +225,7 @@ def createSolutionCombinations(inventory, courses, tickets, playerLevel):
     solutionCombinations = solver.solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, currentTickets)
 
     currentInventory = updateInventory(currentInventory, solutionCombinations)
-    totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory)
+    totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
     print("The total score after all upgrades is {}".format(totalScore))
 
     return solutionCombinations
