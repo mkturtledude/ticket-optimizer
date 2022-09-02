@@ -365,15 +365,14 @@ def constructUpgradeTableStrings(solutionCombinations, inventory, courses):
             s = "{}: [{}/{}] -> [{}/{}]".format(item[0], item[1], item[2], item[3], item[4])
             upgradeStrings.append(s)
 
-    tableStrings = []
+    tableRows = []
     for i in range(len(finalCombinations)):
         [d, k, g] = finalCombinations[i]
         course = courses[i]
-        s = "{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}".format(d.englishName, calculator.getShelf(course, d),
+        tableRows.append([d.englishName, calculator.getShelf(course, d),
                                                                       d.level, d.basePoints, k.englishName,
                                                                       calculator.getShelf(course, k), k.level,
                                                                       k.basePoints, g.englishName,
                                                                       calculator.getShelf(course, g), g.level,
-                                                                      g.basePoints)
-        tableStrings.append(s)
-    return upgradeStrings, tableStrings
+                                                                      g.basePoints])
+    return upgradeStrings, tableRows

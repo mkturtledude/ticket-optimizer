@@ -46,19 +46,24 @@
         {{ form.uhg(size=3, style="border-color:Fuchsia;") }}<br>
         <input type="submit" value="Run" />
     </form>
-    {{message}}
-      <table>
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-</table>
+    {% if upgrades %}
+        <h4>Upgrades:</h4>
+        {% for upgrade in upgrades %}
+            {{upgrade}}<br>
+        {% endfor %}
+      {% endif %}
+    {% if rows %}
+        <h4>Pre-fill for the DKR.exe sheet:</h4>
+        <table>
+        {% for row in rows %}
+            <tr>
+            {% for element in row %}
+            <td align="left">{{element}}</td>
+            {% endfor %}
+            </tr>
+        {% endfor %}
+        </table>
+      {% endif %}
     <h4>Thanks to DKR.exe for the action counts and formulas, and to Sam78it for the coverage data.</h4>
   </body>
 </html>

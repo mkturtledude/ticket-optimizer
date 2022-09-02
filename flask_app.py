@@ -28,11 +28,7 @@ def optimize(workDir, inventoryLines, tickets, playerLevel):
 
     upgrades, rows = util.optimize(inventory, courses, tickets, playerLevel)
 
-    result = ""
-
-    for upgrade in upgrades:
-        result += upgrade
-    return result
+    return upgrades, rows
 
 class MyForm(FlaskForm):
     inventoryFile = FileField('Inventory file')
@@ -93,9 +89,14 @@ def home():
 
         inventoryLines = codecs.iterdecode(invFile.data, 'utf-8-sig')
 
-        result = optimize(app.root_path, inventoryLines, tickets, playerLevel)
-        message = str(result)
-        return render_template('index.html', form=form, message=message)
+        upgrades, rows = optimize(app.root_path, inventoryLines, tickets, playerLevel)
+        # splittedRows = []
+        # for row in rows:
+        #     splittedRow = []
+        #     for element in row:
+        #         splittedRow.append(element)
+        #     splittedRows.append(splittedRow)
+        return render_template('index.html', form=form, upgrades=upgrades, rows=rows)
 
 
 #    upload     = request.files.get('upload')
