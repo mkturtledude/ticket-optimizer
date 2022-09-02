@@ -74,20 +74,26 @@ def createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, play
         referenceDriver = optWithCurrent[course][1]
         referenceKart = optWithCurrent[course][2]
         referenceGlider = optWithCurrent[course][3]
+        assert(referenceDriver)
+        assert(referenceKart)
+        assert(referenceGlider)
 
         # For each item in the expanded inventory, calculate the score obtained by combining it with the other 2 reference items
         # If it beats the reference score, add the item to the course-dependent reduced inventory
         for driver in expandedInventory.drivers:
+            assert(driver)
             if calculator.getShelf(course, driver) >= SHELF_THRESHOLD:
                 if referenceScore <= calculator.calculateScore(driver, referenceKart, referenceGlider,
                                                                playerLevel, course):
                     reducedInventory.drivers.add(driver)
         for kart in expandedInventory.karts:
+            assert(kart)
             if calculator.getShelf(course, kart) >= SHELF_THRESHOLD:
                 if referenceScore <= calculator.calculateScore(referenceDriver, kart, referenceGlider,
                                                                playerLevel, course):
                     reducedInventory.karts.add(kart)
         for glider in expandedInventory.gliders:
+            assert(glider)
             if calculator.getShelf(course, glider) >= SHELF_THRESHOLD:
                 if referenceScore <= calculator.calculateScore(referenceDriver, referenceKart, glider,
                                                                playerLevel, course):
