@@ -66,6 +66,7 @@ def expandInventory(inventory, tickets):
 
 
 def getMaxShelves(course, inventory):
+    #print("Calling getMaxShelves with an inventory with size {}/{}/{}".format(len(inventory.drivers), len(inventory.karts), len(inventory.gliders)))
     maxDriverShelf = 0
     for driver in inventory.drivers:
         assert(driver)
@@ -78,6 +79,7 @@ def getMaxShelves(course, inventory):
     for glider in inventory.gliders:
         assert(glider)
         maxGliderShelf = max(maxGliderShelf, calculator.getShelf(course, glider))
+    #print("getMaxShelves on course {} will return {}/{}/{}".format(course.englishName, maxDriverShelf, maxKartShelf, maxGliderShelf))
     return maxDriverShelf, maxKartShelf, maxGliderShelf
 
 def createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, playerLevel):
@@ -89,6 +91,12 @@ def createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, play
         referenceDriver = optWithCurrent[course][1]
         referenceKart = optWithCurrent[course][2]
         referenceGlider = optWithCurrent[course][3]
+        if not referenceDriver:
+            print("Course {} has no reference driver".format(course.englishName))
+        if not referenceKart:
+            print("Course {} has no reference kart".format(course.englishName))
+        if not referenceGlider:
+            print("Course {} has no reference glider".format(course.englishName))
         assert(referenceDriver)
         assert(referenceKart)
         assert(referenceGlider)
