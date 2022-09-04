@@ -363,8 +363,7 @@ def constructUpgradeTableStrings(solutionCombinations, inventory, courses):
 
     for l in [driverUpgrades, kartUpgrades, gliderUpgrades]:
         for item in l:
-            s = "{}: [{}/{}] -> [{}/{}]".format(item[0], item[1], item[2], item[3], item[4])
-            upgradeStrings.append(s)
+            upgradeStrings.append([item[0], str(item[1]) + "/" + str(item[2]), str(item[3]) + "/" + str(item[4])])
 
     tableRows = []
     for i in range(len(finalCombinations)):
