@@ -64,8 +64,23 @@ def expandInventory(inventory, tickets):
     result.gliders = expandInventoryByType(inventory.gliders, "G", inventory.numberOfMiis, tickets)
     return result
 
+
+def getMaxShelves(course, inventory):
+    maxDriverShelf = 0
+    for driver in inventory.drivers:
+        assert(driver)
+        maxDriverShelf = max(maxDriverShelf, calculator.getShelf(course, driver))
+    maxKartShelf = 0
+    for kart in inventory.karts:
+        assert(kart)
+        maxKartShelf = max(maxKartShelf, calculator.getShelf(course, kart))
+    maxGliderShelf = 0
+    for glider in inventory.gliders:
+        assert(glider)
+        maxGliderShelf = max(maxGliderShelf, calculator.getShelf(course, glider))
+    return maxDriverShelf, maxKartShelf, maxGliderShelf
+
 def createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, playerLevel):
-    SHELF_THRESHOLD = 2
     combinationsOnCourses = dict()
     for course in courses:
         combinationsOnCourses[course] = set()
@@ -80,21 +95,20 @@ def createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, play
 
         # For each item in the expanded inventory, calculate the score obtained by combining it with the other 2 reference items
         # If it beats the reference score, add the item to the course-dependent reduced inventory
+        maxDriverShelf, maxKartShelf, maxGliderShelf = getMaxShelves(course, expandedInventory)
+
         for driver in expandedInventory.drivers:
-            assert(driver)
-            if calculator.getShelf(course, driver) >= SHELF_THRESHOLD:
+            if calculator.getShelf(course, driver) >= maxDriverShelf:
                 if referenceScore <= calculator.calculateScore(driver, referenceKart, referenceGlider,
                                                                playerLevel, course):
                     reducedInventory.drivers.add(driver)
         for kart in expandedInventory.karts:
-            assert(kart)
-            if calculator.getShelf(course, kart) >= SHELF_THRESHOLD:
+            if calculator.getShelf(course, kart) >= maxKartShelf:
                 if referenceScore <= calculator.calculateScore(referenceDriver, kart, referenceGlider,
                                                                playerLevel, course):
                     reducedInventory.karts.add(kart)
         for glider in expandedInventory.gliders:
-            assert(glider)
-            if calculator.getShelf(course, glider) >= SHELF_THRESHOLD:
+            if calculator.getShelf(course, glider) >= maxGliderShelf:
                 if referenceScore <= calculator.calculateScore(referenceDriver, referenceKart, glider,
                                                                playerLevel, course):
                     reducedInventory.gliders.add(glider)
@@ -112,7 +126,6 @@ def calculateOptWithCurrent(courses, inventory, playerLevel):
     #TODO: For each course, precompute highest shelf available with original inventory, and use that as threshold
     totalScore = 0
     optWithCurrent = dict()
-    SHELF_THRESHOLD = 2
     ## This whole loop only looks for the optimal combinations with the current loadouts, i.e., without any upgrades
     ## It also fills the dict optWithCurrent
     for course in courses:
@@ -124,14 +137,17 @@ def calculateOptWithCurrent(courses, inventory, playerLevel):
 
         ## Create reduced inventory from original inventory ##
         reducedInventory = base.Inventory()
+
+        maxDriverShelf, maxKartShelf, maxGliderShelf = getMaxShelves(course, inventory)
+
         for driver in inventory.drivers:
-            if calculator.getShelf(course, driver) >= SHELF_THRESHOLD:
+            if calculator.getShelf(course, driver) >= maxDriverShelf:
                 reducedInventory.drivers.add(driver)
         for kart in inventory.karts:
-            if calculator.getShelf(course, kart) >= SHELF_THRESHOLD:
+            if calculator.getShelf(course, kart) >= maxKartShelf:
                 reducedInventory.karts.add(kart)
         for glider in inventory.gliders:
-            if calculator.getShelf(course, glider) >= SHELF_THRESHOLD:
+            if calculator.getShelf(course, glider) >= maxGliderShelf:
                 reducedInventory.gliders.add(glider)
         # print("{}: The reduced inventory has {} drivers, {} karts and {} gliders".format(course.englishName, len(reducedInventory.drivers), len(reducedInventory.karts), len(reducedInventory.gliders)))
         inv = reducedInventory

@@ -297,6 +297,7 @@ def solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, tick
         model.optimize()
         sol = model.getBestSol()
     else:
+        # prob.writeLP("pulp.lp")
         prob.solve()
 
     # model.writeBestSol("tickets-ffb.sol")
