@@ -10,8 +10,8 @@ import pandas as pd
 
 import base
 
-FIRST_WEEK_SPOTLIGHTS = {"Meowser", "Dr. Bowser", "Red Offroader", "Green-Yellow Capsule Kart", "Lava Rocks", "Wicked Topaz"}
-SECOND_WEEK_SPOTLIGHTS = {"Kamek", "Chargin' Chuck", "Bowser Jr. (Pirate)", "Silver King", "Goo-Goo Black", "Magma Broom", "Home-Field Glider", "Black Great Sail", "Dream Glider"}
+FIRST_WEEK_SPOTLIGHTS = {"Mario (Samurai)", "Luigi (Knight)", "Warrior Wagon", "Shielded Speedster", "Origami Glider", "Silver Luigi's Mustache"}
+SECOND_WEEK_SPOTLIGHTS = {"Peach (Yukata)", "Daisy (Yukata)", "Sakura Quickshaw", "Festival Girl", "Boo Masks", "Yukata Ribbon"}
 
 def skillIdToString(id):
     # Drivers

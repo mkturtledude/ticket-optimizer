@@ -163,7 +163,7 @@ class TourCourse:
         self.courseActions = CourseActions()
 
 class InventoryItem:
-    def __init__(self, gameItem, level, basePoints, uncaps, partialUncaps):
+    def __init__(self, gameItem, level, basePoints, uncaps, partialLevels):
         self.gameItem = gameItem
         self.englishName = gameItem.name
         self.skill = gameItem.skill
@@ -172,7 +172,7 @@ class InventoryItem:
         self.level = level
         self.basePoints = basePoints
         self.uncaps = uncaps
-        self.partialUncaps = partialUncaps
+        self.partialLevels = partialLevels
 
     def print(self):
         print("{}:".format(self.englishName))
@@ -182,7 +182,7 @@ class InventoryItem:
         print("\tLevel: {}".format(self.level))
         print("\tBase Points: {}".format(self.basePoints))
         print("\tUncaps: {}".format(self.uncaps))
-        print("\tPartial Uncaps: {}".format(self.partialUncaps))
+        print("\tPartial Uncaps: {}".format(self.partialLevels))
 
 
 class Inventory:
