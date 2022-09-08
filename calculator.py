@@ -13,11 +13,14 @@ def calculatePositionPoints(level):
         return constantPoints + 150*20 + 50*10 + (level - 200)*5
 
 def calculateBonusPoints(course, driver, kart, glider):
-    # print("action: {}".format(action(course, driver, kart)))
-    # print("kart skill: {}".format(kartSkill(course, kart)))
-    # print("glider skill: {}".format(gliderSkill(course, driver, glider)))
-    # print("combo: {}".format(combo(course, driver, glider)))
-    return action(course, driver, kart) + kartSkill(course, kart) + gliderSkill(course, driver, glider) + combo(course, driver, glider)
+    sum = action(course, driver, kart) + kartSkill(course, kart) + gliderSkill(course, driver, glider) + combo(course, driver, glider)
+    if abs(sum - 14959) < 1:
+        print("action: {}".format(action(course, driver, kart)))
+        print("kart skill: {}".format(kartSkill(course, kart)))
+        print("glider skill: {}".format(gliderSkill(course, driver, glider)))
+        print("combo: {}".format(combo(course, driver, glider)))
+        print("total actions: {}".format(totalActions(course, driver)))
+    return sum
 
 def calculateBonusPointsBoost(course, driver, kart, glider):
     result = bonusPointsBoostMultiplier(course, driver)
@@ -139,9 +142,9 @@ def coinboxCoins(course, driver):
         return 40
     elif driver.skill == "Coin Box":
         if course.courseActions.itemBoxes < 6:
-            return 60
+            return 35
         else:
-            return 80
+            return 55
     return 0
 
 def boomerangActions(driver):
@@ -151,8 +154,8 @@ def boomerangActions(driver):
 
 def bananaActions(driver):
     if driver.skill == "Giant Banana":
-        return 30
-    return 5
+        return 35
+    return 10
 
 def totalActions(course, driver):
     result = course.courseActions.normal
@@ -238,8 +241,10 @@ def calculateScore(driver, kart, glider, playerLevel, course):
     posPoints = calculatePositionPoints(playerLevel)
     bonusPoints = calculateBonusPoints(course, driver, kart, glider)
     bonusPointsBoost = calculateBonusPointsBoost(course, driver, kart, glider)
-    # print("basePoints: {}".format(basePoints))
-    # print("posPoints: {}".format(posPoints))
-    # print("bonusPoints: {}".format(bonusPoints))
-    # print("bonusPointsBoost: {}".format(bonusPointsBoost))
-    return basePoints + posPoints + bonusPoints + bonusPointsBoost
+    sum = basePoints + posPoints + bonusPoints + bonusPointsBoost
+    if abs(sum - 48911.75) < 1:
+        print("basePoints: {}".format(basePoints))
+        print("posPoints: {}".format(posPoints))
+        print("bonusPoints: {}".format(bonusPoints))
+        print("bonusPointsBoost: {}".format(bonusPointsBoost))
+    return sum
