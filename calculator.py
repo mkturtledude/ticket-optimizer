@@ -37,14 +37,13 @@ def action(course, driver, kart):
     result += course.courseActions.dashPanels * 10
     result += course.courseActions.glideTime * 10
     result += course.courseActions.courseCoins * 5
-    result += itemBoxCoins(course, driver) * 5
     result += coinboxCoins(course, driver) * 5
+    result += itemBoxCoins(course, driver) * 5
     result += boomerangActions(driver) * 25
     result += bananaActions(driver) * 25
     remainingActions = totalActions(course, driver) - course.courseActions.miniTurbos - course.courseActions.jumpBoosts - course.courseActions.dashPanels - course.courseActions.glideTime - course.courseActions.courseCoins - itemBoxCoins(course, driver) - coinboxCoins(course, driver) - boomerangActions(driver) - bananaActions(driver)
     if remainingActions > 0:
         result += remainingActions * 10
-
     result *= trackMultiplier(course, kart)
     result *= skillMultiplier(kart)
 
@@ -130,7 +129,7 @@ def itemBoxCoins(course, driver):
     if driver.skill == "Boomerang Flower":
         result += 25
     elif driver.skill == "Coin Box":
-        result += 0
+        result += 25
     elif driver.skill == "Lucky Seven":
         result += 35
     else:
@@ -242,9 +241,9 @@ def calculateScore(driver, kart, glider, playerLevel, course):
     bonusPoints = calculateBonusPoints(course, driver, kart, glider)
     bonusPointsBoost = calculateBonusPointsBoost(course, driver, kart, glider)
     sum = basePoints + posPoints + bonusPoints + bonusPointsBoost
-    if abs(sum - 48911.75) < 1:
-        print("basePoints: {}".format(basePoints))
-        print("posPoints: {}".format(posPoints))
-        print("bonusPoints: {}".format(bonusPoints))
-        print("bonusPointsBoost: {}".format(bonusPointsBoost))
+    # if abs(sum - 48911.75) < 1:
+    #     print("basePoints: {}".format(basePoints))
+    #     print("posPoints: {}".format(posPoints))
+    #     print("bonusPoints: {}".format(bonusPoints))
+    #     print("bonusPointsBoost: {}".format(bonusPointsBoost))
     return sum

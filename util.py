@@ -178,7 +178,7 @@ def calculateOptWithCurrent(courses, inventory, playerLevel):
         # print(maxScore)
         totalScore += maxScore
     #     # Uncomment for pre-fill of DKR sheet
-        print(maxScore)
+    #     print(maxScore)
     #     print("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}".format(d.englishName, calculator.getShelf(course, d), d.level, d.basePoints, k.englishName, calculator.getShelf(course, k), k.level, k.basePoints, g.englishName, calculator.getShelf(course, g), g.level, g.basePoints))
     return totalScore, optWithCurrent
 
