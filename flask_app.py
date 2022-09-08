@@ -54,6 +54,10 @@ class MyForm(FlaskForm):
     uhg = IntegerField()
 
 
+@app.route('/faq')
+def faq():
+    return render_template('faq.html')
+
 @app.route('/', methods = ['POST','GET'])
 def home():
     form = MyForm()

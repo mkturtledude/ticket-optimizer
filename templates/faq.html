@@ -1,0 +1,84 @@
+<html>
+  <head>
+  <meta charset="UTF-8">
+    <title>Ticket Optimizer</title>
+    <style>
+        /* Hide arrows from number boxes: https://stackoverflow.com/questions/3790935/can-i-hide-the-html5-number-input-s-spin-box */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            /* display: none; <- Crashes Chrome on hover */
+            -webkit-appearance: none;
+            margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+        }
+
+        input[type=number] {
+            -moz-appearance:textfield; /* Firefox */
+        }
+        /* End of hide arrows*/
+
+        /* Table borders */
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+  </head>
+  <body>
+      <h1>Ticket Optimizer</h1>
+      <h2>Frequently Asked Questions</h2>
+      <h4>What does the Ticket Optimizer do?</h4>
+      It calculates the optimal way of spending your tickets if your only goal is to maximize your estimate in the DKR.exe scoresheet.
+      It takes all relevant factors into account (cup boosts, Mii boosts, spotlight boosts).
+      However, it doesn't know or care about tracks that are not in the tour, recency of DKG, etc. So you should definitely <b>not</b> use it for
+      planning long-term investments.
+      <h4>What input do I need?</h4>
+      Besides filling the fields for player level and ticket amounts, you'll need a CSV file containing your inventory.<br>
+      <ul>
+      <li>If you use the BGR tracker or any of its variants (Antilev's, Ben's), go to the Export/Import tab and copy the 4 columns
+      under <b>Output from Old Sheet</b>. Create a new tab in the same document, do a right click on the upper left cell,
+      select "Paste special" and then "Values only". Finally, go to "File&rarr;"Download"&rarr;"Comma Separated Values (CSV)".</li>
+      <li>If you use the <a href="https://www.mkttoolbox.com">MKT Toolbox</a> and your inventory is up to date, go to "Import Wizard"&rarr;
+      "Bam/Gerbs/reichembach"&rarr;"Export". Copy the whole table that appears, paste it into a new spreadsheet and save it as CSV,
+      just as in the previous case.</li>
+      </ul>
+      <h4>Is the solution found really optimal?</h4>
+      Not necessarily. To guarantee optimality, we would need to simultaneously consider all possible combinations of upgrades of D/K/G.
+      The program then needs several hours to run, so it's not practicable. What the tool currently does is:
+      <ol>
+          <li>Identify the optimal loadouts of the current inventory, without any upgrades</li>
+          <li>Find the best way of spending the driver tickets, assuming that the karts and gliders remain as they are.</li>
+          <li>Find the best way of spending the kart tickets, assuming that the drivers have been upgraded as determined by the previous step,
+              but leaving the gliders as they are.</li>
+          <li>Find the best way of spending the glider tickets, assuming the upgrades for drivers and karts have already been done.</li>
+      </ol>
+      If you find a combination of upgrades that gives you a better score than the tool, please let me know, so I can adjust it.
+      <h4>Are there more features upcoming?</h4>
+      Yes, for example:
+      <ol>
+      <li>The possibility to specify how many partial level-ups have been done on the items, via tickets or dupes.
+          Currently, it's assumed to be 0.</li>
+      <li>Make it possible to put a limit on how many tickets you are willing to put into specific items.</li>
+      <li>Display more information to the user, for example what are the gains on each track after the investments.</li>
+      <li>If the runtime is not prohibitive, I will allow the option of running the tool also on tracks that aren't in the tour,
+      which should be a good indicator of how to spend tickets for long-term value.</li>
+      </ol>
+      <h4>What should we know about the runtime?</h4>
+      In general terms, the runtime increases both when the inventory is larger and when there are more tickets available. Something around 30s
+      seems to be a good indicator. The runtime will increase a lot when there are many options for a given track, all of them at a very low level.
+      <h4>Are there any runtime limitations?</h4>
+      The free server I'm using allows only one calculation at each moment. This means that if 3 people start a calculation at roughly the same time,
+      the last one will have to wait around 1:30min. If the tool is being slow for you, it might be because other people are using it, so try again
+      later.<br>
+      Additionally, calculations are limited by the server to 5 min. So if you start a calculation with an inventory that owns every single item at level 1,
+      and with 100 tickets of each type available, chances are that after 5 min you'll see an error message. <br>
+      <h4>When does the Ticket Optimizer get updated?</h4>
+      Shortly after the DKR.exe sheet and the datamined coverage data have been released.
+      That's usually in the first day of the tour, sometimes in the second.
+      <h4>Where to report bugs, offer feedback, ask questions or compliment the futuristic look of this website?</h4>
+      You can DM me on Discord (aturtledude#0589) or Reddit (u/aturtledude).
+      <br>
+    <form action="/" >
+        <input type="submit" value="Back" />
+    </form>
+  </body>
+</html>
