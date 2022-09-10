@@ -242,9 +242,10 @@ def makeInventory(allItems, inventoryItems):
         type = inventoryItems[item]["type"]
         level = inventoryItems[item]["level"]
         uncaps = inventoryItems[item]["uncaps"]
+        progress = inventoryItems[item]["partialLevels"]
         gameItem = allItems[name]
         basePoints = base.calculateBasePoints(type, gameItem.rarity, uncaps, gameItem.isMii, result.numberOfMiis)
-        invItem = base.InventoryItem(gameItem, level, basePoints, uncaps, 0)
+        invItem = base.InventoryItem(gameItem, level, basePoints, uncaps, progress)
         if type == "D":
             result.drivers.add(invItem)
         elif type == "K":
@@ -267,7 +268,7 @@ def readInventory(inventoryLines, allItems):
             continue
         row = re.split('[,;\t]', line)
         if row and row[2] != '0':
-            assert(len(row) == 4)
+            assert(len(row) in {4,5})
             if row[2] == 0:
                 continue
             itemDict = dict()
@@ -275,6 +276,10 @@ def readInventory(inventoryLines, allItems):
             itemDict["type"] = row[1]
             itemDict["level"] = int(row[2])
             itemDict["uncaps"] = int(row[3])
+            if len(row) == 5 and row[4].isdigit():
+                itemDict["partialLevels"] = int(row[4])
+            else:
+                itemDict["partialLevels"] = 0
             result[itemDict["name"]] = itemDict
 
 

@@ -182,7 +182,7 @@ class InventoryItem:
         print("\tLevel: {}".format(self.level))
         print("\tBase Points: {}".format(self.basePoints))
         print("\tUncaps: {}".format(self.uncaps))
-        print("\tPartial Uncaps: {}".format(self.partialLevels))
+        print("\tPartial Levels: {}".format(self.partialLevels))
 
 
 class Inventory:
@@ -334,16 +334,10 @@ def calculateLevelTicketsNeeded(oldItem, targetLevel):
     if oldItem.level == targetLevel:
         return 0
     result = calculateLevelTicketsUsed(oldItem, targetLevel) - calculateLevelTicketsUsed(oldItem, oldItem.level)
-    # if oldItem.englishName == "Kamek":
-    #     result -= 4
-    # elif oldItem.englishName == "Meowser":
-    #     result -= 3
-    # elif oldItem.englishName == "Gold Koopa (Freerunning)":
-    #     result -= 4
-    # elif oldItem.englishName == "Pink Shy Guy (Ninja)":
-    #     result -= 2
-    # elif oldItem.englishName == "Red Offroader":
-    #     result -= 2
+    result -= oldItem.partialLevels
+    if oldItem.englishName == "Luigi (Knight)":
+        print("It takes {} tickets to get Luigi Knight to level {}".format(result, targetLevel))
+    assert(result > 0)
     return result
 
 def calculateCapTicketsNeeded(oldItem, targetUncaps):

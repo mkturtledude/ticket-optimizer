@@ -6,6 +6,7 @@ def isFeasible(originalItem, targetLevel, targetUncaps, tickets):
     t = originalItem.gameItem.type
     r = originalItem.gameItem.rarity
     ltn = base.calculateLevelTicketsNeeded(originalItem, targetLevel)
+    assert(originalItem.level == targetLevel or originalItem.partialLevels < ltn)
     utn = base.calculateCapTicketsNeeded(originalItem, targetUncaps)
     if t == "D":
         if r == "N":
@@ -49,10 +50,11 @@ def expandInventoryByType(items, itemType, numberOfMiis, tickets):
         minLevel = item.level
         minUncaps = item.uncaps
         for level in range(minLevel,8+1):
+            partialLevels = item.partialLevels if level == minLevel else 0
             for uncaps in range(minUncaps, 3+1):
                 if isFeasible(item, level, uncaps, tickets):
                     basePoints = base.calculateBasePoints(itemType, item.rarity, uncaps, item.isMii, numberOfMiis)
-                    result.add(base.InventoryItem(item.gameItem, level, basePoints, uncaps, 0))
+                    result.add(base.InventoryItem(item.gameItem, level, basePoints, uncaps, partialLevels))
     # print("Input inventory has size {}".format(len(items)))
     # print("Output inventory has size {}".format(len(result)))
     return result
