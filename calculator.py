@@ -23,12 +23,12 @@ def calculateBonusPoints(course, driver, kart, glider):
     return sum
 
 def calculateBonusPointsBoost(course, driver, kart, glider):
-    result = bonusPointsBoostMultiplier(course, driver)
-    result += bonusPointsBoostMultiplier(course, kart)
-    result += bonusPointsBoostMultiplier(course, glider)
-    result *= min(201, totalActions(course, driver) + 1)
-    result *= 2 * 150 / 30000
-    return result
+    oColumn = bonusPointsBoostMultiplier(course, driver)
+    oColumn += bonusPointsBoostMultiplier(course, kart)
+    oColumn += bonusPointsBoostMultiplier(course, glider)
+    oColumn *= 150.0 / 30000
+    multiplier = min(200, totalActions(course, driver))
+    return (math.ceil(oColumn) + oColumn) * multiplier
 
 def action(course, driver, kart):
     result = lapDependent(course)
