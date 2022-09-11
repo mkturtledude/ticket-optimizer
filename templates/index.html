@@ -1,6 +1,6 @@
 <html>
   <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Ticket Optimizer</title>
     <style>
         /* Hide arrows from number boxes: https://stackoverflow.com/questions/3790935/can-i-hide-the-html5-number-input-s-spin-box */
@@ -21,12 +21,38 @@
             border: 1px solid black;
             border-collapse: collapse;
         }
+
+        /* Collapsibles (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible_animate)*/
+        .collapsible {
+          outline-style: groove;
+          border: 1px solid black;
+          background-color: #777;
+          color: white;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          font-size: 15px;
+        }
+
+        .active, .collapsible:hover {
+          background-color: #555;
+        }
+
+        .content {
+          padding: 0 18px;
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.2s ease-out;
+        }
     </style>
   </head>
   <body>
       <h1>Ticket Optimizer</h1>
       <h2>Updated for the Mario vs Luigi Tour</h2>
       <h3>By aturtledude </h3>
+
     <form action="/" method="POST" enctype="multipart/form-data">
         {{ form.inventoryFile.label }} {{ form.inventoryFile }} <br>
         {{ form.playerLevel.label }} {{ form.playerLevel(size=3) }} <br>
@@ -53,7 +79,8 @@
         <input type="submit" value="Run" />
     </form>
     {% if upgrades %}
-        <h4>Upgrades:</h4>
+        <button class="collapsible">Upgrades</button>
+        <div class="content">
         <table>
             <tr>
                 <th>Item</th>
@@ -70,9 +97,11 @@
                 </tr>
             {% endfor %}
         </table>
+        </div>
       {% endif %}
     {% if rows %}
-        <h4>Pre-fill for the DKR.exe sheet:</h4>
+        <button class="collapsible">Pre-fill for the DKR.exe sheet</button>
+        <div class="content">
         <table>
         {% for row in rows %}
             <tr>
@@ -82,8 +111,27 @@
             </tr>
         {% endfor %}
         </table>
+        </div>
       {% endif %}
   <a href="/faq">Help/FAQ</a>
     <h4>Thanks to DKR.exe for the action counts and formulas, and to Sam78it for the coverage data.</h4>
+
+
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
   </body>
 </html>
