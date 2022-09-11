@@ -1,6 +1,11 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <title>Ticket Optimizer</title>
     <style>
         /* Hide arrows from number boxes: https://stackoverflow.com/questions/3790935/can-i-hide-the-html5-number-input-s-spin-box */
@@ -55,6 +60,7 @@
     {% if upgrades %}
         <button class="collapsible">Upgrades</button>
         <div class="content">
+        <div class="table-responsive">
         <table>
             <tr>
                 <th>Item</th>
@@ -77,10 +83,12 @@
             {% endfor %}
         </table>
         </div>
+        </div>
       {% endif %}
     {% if rows %}
         <button class="collapsible">Pre-fill for the DKR.exe sheet</button>
         <div class="content">
+        <div class="table-responsive">
         <table>
         {% for row in rows %}
             <tr>
@@ -90,6 +98,7 @@
             </tr>
         {% endfor %}
         </table>
+        </div>
         </div>
       {% endif %}
       <br>
