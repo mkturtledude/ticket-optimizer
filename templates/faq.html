@@ -89,6 +89,10 @@
       "Bam/Gerbs/reichembach"&rarr;"Export". Copy the whole table that appears, paste it into a new spreadsheet and save it as CSV,
       just as in the previous case.</li>
       </ul>
+      <h4>What if some items have partial progress towards the next level thanks to dupes or tickets?</h4>
+      You can add this data to the CSV file as follows. Open the file in Excel or Google Docs, and add the number of partial level-ups
+      on the fifth column. For example, if the game shows something like 3/5 for a HE driver at level 6, enter a 3 in the corresponding row.
+      You can enter this only for some items, all others will be interpreted as 0.
       <h4>Is the found solution really optimal?</h4>
       Not necessarily. To guarantee optimality, we would need to simultaneously consider all possible combinations of upgrades of D/K/G.
       The program then needs several hours to run, so it's not practicable. What the tool currently does is:
@@ -103,8 +107,7 @@
       <h4>Are there more features upcoming?</h4>
       Yes, for example:
       <ol>
-      <li>The possibility to specify how many partial level-ups have been done on the items, via tickets or dupes.
-          Currently, it's assumed to be 0.</li>
+          <li>Consider only the ranked courses</li>
       <li>Make it possible to put a limit on how many tickets you are willing to put into specific items.</li>
       <li>Display more information to the user, for example what are the gains on each track after the investments.</li>
       <li>If the runtime is not prohibitive, I will allow the option of running the tool also on tracks that aren't in the tour,
