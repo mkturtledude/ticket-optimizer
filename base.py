@@ -335,8 +335,6 @@ def calculateLevelTicketsNeeded(oldItem, targetLevel):
         return 0
     result = calculateLevelTicketsUsed(oldItem, targetLevel) - calculateLevelTicketsUsed(oldItem, oldItem.level)
     result -= oldItem.partialLevels
-    if oldItem.englishName == "Luigi (Knight)":
-        print("It takes {} tickets to get Luigi Knight to level {}".format(result, targetLevel))
     assert(result > 0)
     return result
 

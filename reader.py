@@ -266,7 +266,7 @@ def readInventory(inventoryLines, allItems):
     for line in inventoryLines:
         if not line:
             continue
-        row = re.split('[,;\t]', line)
+        row = re.split('[,;\t]', line.strip()) # split to remove the newline
         if row and row[2] != '0':
             assert(len(row) in {4,5})
             if row[2] == 0:

@@ -6,7 +6,6 @@ def isFeasible(originalItem, targetLevel, targetUncaps, tickets):
     t = originalItem.gameItem.type
     r = originalItem.gameItem.rarity
     ltn = base.calculateLevelTicketsNeeded(originalItem, targetLevel)
-    assert(originalItem.level == targetLevel or originalItem.partialLevels < ltn)
     utn = base.calculateCapTicketsNeeded(originalItem, targetUncaps)
     if t == "D":
         if r == "N":
@@ -207,16 +206,22 @@ def updateInventory(currentInventory, solutionCombinations):
     for d in result.drivers:
         if d.gameItem.id in driverIdToCombinations:
             comb = driverIdToCombinations[d.gameItem.id]
+            if (comb[1] > d.level):
+                d.partialLevels = 0
             d.level = comb[1]
             d.uncaps = comb[2]
     for k in result.karts:
         if k.gameItem.id in kartIdToCombinations:
             comb = kartIdToCombinations[k.gameItem.id]
+            if (comb[1] > k.level):
+                k.partialLevels = 0
             k.level = comb[1]
             k.uncaps = comb[2]
     for g in result.gliders:
         if g.gameItem.id in gliderIdToCombinations:
             comb = gliderIdToCombinations[g.gameItem.id]
+            if (comb[1] > g.level):
+                g.partialLevels = 0
             g.level = comb[1]
             g.uncaps = comb[2]
     return result
