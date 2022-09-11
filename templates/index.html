@@ -79,41 +79,6 @@
         {{ form.uhg(size=3, style="border-color:Fuchsia;") }}<br><br>
         <input type="submit" value="Run" />
     </form>
-    {% if upgrades %}
-        <button class="collapsible">Upgrades</button>
-        <div class="content">
-        <table>
-            <tr>
-                <th>Item</th>
-                <th>Before upgrades</th>
-                <th>After upgrades</th>
-            </tr>
-            {% for upgrade in upgrades %}
-                <tr>
-                    {% for element in upgrade%}
-                        <td align="left">
-                            {{element}}
-                        </td>
-                    {% endfor %}
-                </tr>
-            {% endfor %}
-        </table>
-        </div>
-      {% endif %}
-    {% if rows %}
-        <button class="collapsible">Pre-fill for the DKR.exe sheet</button>
-        <div class="content">
-        <table>
-        {% for row in rows %}
-            <tr>
-            {% for element in row %}
-            <td align="left">{{element}}</td>
-            {% endfor %}
-            </tr>
-        {% endfor %}
-        </table>
-        </div>
-      {% endif %}
   <a href="/faq">Help/FAQ</a>
     <h4>Thanks to DKR.exe for the action counts and formulas, and to Sam78it for the coverage data.</h4>
 

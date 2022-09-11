@@ -333,7 +333,14 @@ def constructUpgradeTableStrings(solutionCombinations, inventory, courses):
                     newCombination[-1].basePoints = base.calculateBasePoints("D", d.gameItem.rarity, du,
                                                                              d.gameItem.isMii, inventory.numberOfMiis)
                     if did not in processedIds:
-                        driverUpgrades.append([d.englishName, d.level, d.uncaps, dl, du])
+                        ltn = base.calculateLevelTicketsNeeded(d, dl)
+                        utn = base.calculateCapTicketsNeeded(d,du)
+                        color = base.rarityToColor(d.gameItem.rarity)
+                        usage = 0
+                        for c in solutionCombinations:
+                            if c[0] == did:
+                                usage += 1
+                        driverUpgrades.append([d.englishName, d.level, d.uncaps, dl, du, ltn, utn, usage, color])
         for k in inventory.karts:
             if k.gameItem.id == kid:
                 newCombination.append(copy.deepcopy(k))
@@ -343,7 +350,14 @@ def constructUpgradeTableStrings(solutionCombinations, inventory, courses):
                     newCombination[-1].basePoints = base.calculateBasePoints("K", k.gameItem.rarity, ku, False,
                                                                              inventory.numberOfMiis)
                     if kid not in processedIds:
-                        kartUpgrades.append([k.englishName, k.level, k.uncaps, kl, ku])
+                        ltn = base.calculateLevelTicketsNeeded(k, kl)
+                        utn = base.calculateCapTicketsNeeded(k,ku)
+                        color = base.rarityToColor(k.gameItem.rarity)
+                        usage = 0
+                        for c in solutionCombinations:
+                            if c[3] == kid:
+                                usage += 1
+                        kartUpgrades.append([k.englishName, k.level, k.uncaps, kl, ku, ltn, utn, usage, color])
         for g in inventory.gliders:
             if g.gameItem.id == gid:
                 newCombination.append(copy.deepcopy(g))
@@ -353,7 +367,14 @@ def constructUpgradeTableStrings(solutionCombinations, inventory, courses):
                     newCombination[-1].basePoints = base.calculateBasePoints("G", g.gameItem.rarity, gu, False,
                                                                              inventory.numberOfMiis)
                     if gid not in processedIds:
-                        gliderUpgrades.append([g.englishName, g.level, g.uncaps, gl, gu])
+                        ltn = base.calculateLevelTicketsNeeded(g, gl)
+                        utn = base.calculateCapTicketsNeeded(g,gu)
+                        color = base.rarityToColor(g.gameItem.rarity)
+                        usage = 0
+                        for c in solutionCombinations:
+                            if c[6] == gid:
+                                usage += 1
+                        gliderUpgrades.append([g.englishName, g.level, g.uncaps, gl, gu, ltn, utn, usage, color])
         processedIds.add(did)
         processedIds.add(kid)
         processedIds.add(gid)
@@ -363,7 +384,7 @@ def constructUpgradeTableStrings(solutionCombinations, inventory, courses):
 
     for l in [driverUpgrades, kartUpgrades, gliderUpgrades]:
         for item in l:
-            upgradeStrings.append([item[0], str(item[1]) + "/" + str(item[2]), str(item[3]) + "/" + str(item[4])])
+            upgradeStrings.append([item[0], str(item[1]) + "/" + str(item[2]), str(item[3]) + "/" + str(item[4]), str(item[5]), str(item[6]), str(item[7]), str(item[8])])
 
     tableRows = []
     for i in range(len(finalCombinations)):

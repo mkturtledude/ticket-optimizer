@@ -60,13 +60,18 @@
                 <th>Item</th>
                 <th>Before upgrades</th>
                 <th>After upgrades</th>
+                <th>Level-up tickets used</th>
+                <th>Uncap tickets used</th>
+                <th>Usage</th>
             </tr>
             {% for upgrade in upgrades %}
-                <tr>
+                <tr bgcolor="{{upgrade[-1]}}">
                     {% for element in upgrade%}
+                        {% if element != upgrade[-1] %}
                         <td align="left">
                             {{element}}
                         </td>
+                        {% endif %}
                     {% endfor %}
                 </tr>
             {% endfor %}

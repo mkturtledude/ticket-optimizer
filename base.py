@@ -201,6 +201,14 @@ class Inventory:
             d.print()
 
 
+def rarityToColor(rarity):
+    if rarity == "HE":
+        return "#FDE3FC"
+    elif rarity == "S":
+        return "#fbf4d0"
+    else:
+        return "#f6f6f6"
+
 def calculateBasePoints(type, rarity, uncaps, isMii, numberOfMiis):
     result = 0
     if isMii:
