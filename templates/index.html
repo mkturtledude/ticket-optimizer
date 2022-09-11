@@ -54,8 +54,9 @@
       <h3>By aturtledude </h3>
 
     <form action="/" method="POST" enctype="multipart/form-data">
-        {{ form.inventoryFile.label }} {{ form.inventoryFile }} <br>
+        {{ form.inventoryFile.label }} {{ form.inventoryFile }}<br>
         {{ form.playerLevel.label }} {{ form.playerLevel(size=3) }} <br>
+        {{ form.cups.label }} {{ form.cups }} <br>
         Level-up tickets:<br>
         {{ form.lnd(size=3, style="border-color:Silver;") }}
         {{ form.lnk(size=3, style="border-color:Silver;") }}

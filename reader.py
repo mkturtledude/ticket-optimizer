@@ -105,10 +105,14 @@ def skillIdToString(id):
         print("Unknown skill {}!".format(id))
         exit(0)
 
-def collectCourses(data):
+def collectCourses(data, cupsToConsider):
     courses = []
     cupsData = data["tour"]["Cups"]
+    cupNumber = -1
     for cup in cupsData:
+        cupNumber += 1
+        if cupsToConsider and (not cupNumber in cupsToConsider):
+            continue
         cupDriverIds = []
         for driver in cup["Drivers"]:
             if driver["Name"]: # There are boosted unassigned Mii suit IDs
@@ -196,10 +200,10 @@ def fillCourseNames(courses, data):
         course.englishName = englishName
 
 
-def readJson(file):
+def readJson(file, cups):
     f = open(file, encoding="utf-8")
     data = json.load(f)
-    courses = collectCourses(data)
+    courses = collectCourses(data, cups)
     allItems = readItems(courses, FIRST_WEEK_SPOTLIGHTS, SECOND_WEEK_SPOTLIGHTS, data)
     fillCourseNames(courses,data)
     return courses, allItems

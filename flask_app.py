@@ -11,7 +11,7 @@ from flask import session
 from werkzeug.datastructures import MultiDict
 
 from flask_wtf import FlaskForm
-from wtforms import IntegerField, FileField
+from wtforms import IntegerField, FileField, SelectField
 
 import base, util, reader
 
@@ -19,10 +19,21 @@ app = Flask(__name__)
 app.secret_key = 'secret'
 
 
-def optimize(workDir, inventoryLines, tickets, playerLevel):
+def stringToCups(cupsString):
+    if cupsString == "all":
+        return {0,1,2,3,4,5,6,7,8,9,10,11}
+    elif cupsString == "rankedFirst":
+        return {0}
+    elif cupsString == "rankedSecond":
+        return {2}
+    else:
+        assert(cupsString == "rankedBoth")
+        return {0,2}
+
+def optimize(workDir, inventoryLines, tickets, playerLevel, cups):
     coverageFile = os.path.join(workDir, "data", "alldata.json")
     actionsFile = os.path.join(workDir, "data", "actions.csv")
-    courses, items = reader.readJson(coverageFile)
+    courses, items = reader.readJson(coverageFile, cups)
     reader.readActions(actionsFile, courses)
     inventory = reader.readInventory(inventoryLines, items)
 
@@ -33,6 +44,7 @@ def optimize(workDir, inventoryLines, tickets, playerLevel):
 class MyForm(FlaskForm):
     inventoryFile = FileField('Inventory file')
     playerLevel = IntegerField('Player level')
+    cups = SelectField('Cups to consider', choices=[('all', 'All'), ('rankedFirst', 'First week ranked'), ('rankedSecond', 'Second week ranked'), ('rankedBoth', 'Both ranked cups')])
     # Ticket counts
     lnd = IntegerField()
     lnk = IntegerField()
@@ -62,15 +74,11 @@ def faq():
 def home():
     form = MyForm()
     if request.method == 'GET':
-        formdata = session.get('formdata', None)
-        if formdata:
-            form = MyForm(MultiDict(formdata))
-            #form.validate()
-            session.pop('formdata')
-        return render_template('index.html', form=form, message="")
+        return render_template('index.html', form=form)
     else:
         invFile = form.inventoryFile
         playerLevel = form.playerLevel.data
+        cups = stringToCups(form.cups.data)
         tickets = base.TicketStash()
         tickets.lnd = form.lnd.data if form.lnd.data else 0
         tickets.lnk = form.lnk.data if form.lnk.data else 0
@@ -94,7 +102,7 @@ def home():
         assert(invFile.data)
         inventoryLines = codecs.iterdecode(invFile.data, 'utf-8-sig')
 
-        upgrades, rows = optimize(app.root_path, inventoryLines, tickets, playerLevel)
+        upgrades, rows = optimize(app.root_path, inventoryLines, tickets, playerLevel, cups)
         # splittedRows = []
         # for row in rows:
         #     splittedRow = []
