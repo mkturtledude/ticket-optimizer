@@ -50,35 +50,8 @@
   </head>
   <body>
       <h1>Ticket Optimizer</h1>
-      <h2>Updated for the Mario vs Luigi Tour</h2>
-      <h3>By aturtledude </h3>
+      <h2>Results</h2>
 
-    <form action="/results" method="POST" enctype="multipart/form-data">
-        {{ form.inventoryFile.label }} {{ form.inventoryFile }}<br>
-        {{ form.playerLevel.label }} {{ form.playerLevel(size=3) }} <br>
-        {{ form.cups.label }} {{ form.cups }} <br>
-        Level-up tickets:<br>
-        {{ form.lnd(size=3, style="border-color:Silver;") }}
-        {{ form.lnk(size=3, style="border-color:Silver;") }}
-        {{ form.lng(size=3, style="border-color:Silver;") }}<br><br>
-        {{ form.lsd(size=3, style="border-color:Goldenrod;") }}
-        {{ form.lsk(size=3, style="border-color:Goldenrod;") }}
-        {{ form.lsg(size=3, style="border-color:Goldenrod;") }}<br><br>
-        {{ form.lhd(size=3, style="border-color:Fuchsia;") }}
-        {{ form.lhk(size=3, style="border-color:Fuchsia;") }}
-        {{ form.lhg(size=3, style="border-color:Fuchsia;") }}<br><br>
-        Uncap tickets:<br>
-        {{ form.und(size=3, style="border-color:Silver;") }}
-        {{ form.unk(size=3, style="border-color:Silver;") }}
-        {{ form.ung(size=3, style="border-color:Silver;") }}<br><br>
-        {{ form.usd(size=3, style="border-color:Goldenrod;") }}
-        {{ form.usk(size=3, style="border-color:Goldenrod;") }}
-        {{ form.usg(size=3, style="border-color:Goldenrod;") }}<br><br>
-        {{ form.uhd(size=3, style="border-color:Fuchsia;") }}
-        {{ form.uhk(size=3, style="border-color:Fuchsia;") }}
-        {{ form.uhg(size=3, style="border-color:Fuchsia;") }}<br><br>
-        <input type="submit" value="Run" />
-    </form>
     {% if upgrades %}
         <button class="collapsible">Upgrades</button>
         <div class="content">
@@ -114,9 +87,14 @@
         </table>
         </div>
       {% endif %}
-  <a href="/faq">Help/FAQ</a>
-    <h4>Thanks to DKR.exe for the action counts and formulas, and to Sam78it for the coverage data.</h4>
+      <br>
+      <button onclick="goBack()">Go Back</button>
 
+        <script>
+        function goBack() {
+          window.history.back();
+        }
+        </script>
 
     <script>
     var coll = document.getElementsByClassName("collapsible");

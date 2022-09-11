@@ -70,6 +70,7 @@ class MyForm(FlaskForm):
 def faq():
     return render_template('faq.html')
 
+
 @app.route('/', methods = ['POST','GET'])
 def home():
     form = MyForm()
@@ -110,6 +111,39 @@ def home():
         #         splittedRow.append(element)
         #     splittedRows.append(splittedRow)
         return render_template('index.html', form=form, upgrades=upgrades, rows=rows)
+
+
+@app.route('/results/', methods = ['POST','GET'])
+def results():
+    form = MyForm()
+    invFile = form.inventoryFile
+    playerLevel = form.playerLevel.data
+    cups = stringToCups(form.cups.data)
+    tickets = base.TicketStash()
+    tickets.lnd = form.lnd.data if form.lnd.data else 0
+    tickets.lnk = form.lnk.data if form.lnk.data else 0
+    tickets.lng = form.lng.data if form.lng.data else 0
+    tickets.lsd = form.lsd.data if form.lsd.data else 0
+    tickets.lsk = form.lsk.data if form.lsk.data else 0
+    tickets.lsg = form.lsg.data if form.lsg.data else 0
+    tickets.lhd = form.lhd.data if form.lhd.data else 0
+    tickets.lhk = form.lhk.data if form.lhk.data else 0
+    tickets.lhg = form.lhg.data if form.lhg.data else 0
+    tickets.und = form.und.data if form.und.data else 0
+    tickets.unk = form.unk.data if form.unk.data else 0
+    tickets.ung = form.ung.data if form.ung.data else 0
+    tickets.usd = form.usd.data if form.usd.data else 0
+    tickets.usk = form.usk.data if form.usk.data else 0
+    tickets.usg = form.usg.data if form.usg.data else 0
+    tickets.uhd = form.uhd.data if form.uhd.data else 0
+    tickets.uhk = form.uhk.data if form.uhk.data else 0
+    tickets.uhg = form.uhg.data if form.uhg.data else 0
+
+    assert (invFile.data)
+    inventoryLines = codecs.iterdecode(invFile.data, 'utf-8-sig')
+
+    upgrades, rows = optimize(app.root_path, inventoryLines, tickets, playerLevel, cups)
+    return render_template('results.html', form=form, upgrades=upgrades, rows=rows)
 
 
 #    upload     = request.files.get('upload')

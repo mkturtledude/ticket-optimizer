@@ -129,11 +129,27 @@
       <h4>If I want to change something after a calculation, do I need to upload the file again?</h4>
       If you don't  want to select the file again, you need to press "Back" in your browser.
       Then you'll see the name of your inventory file next to the "Browse" button, so you can change the parameters and recalculate.
-      <h4>Where to report bugs, offer feedback, ask questions or compliment the futuristic look of this website?</h4>
+      <h4>The app crashes</h4>
+      This is my first experience with web development, so the page is still very rudimentary.
+      In particular, it's still not able to provide useful error messages.
+      It's entirely possible that the app is buggy, but before contacting me, please make sure that you are doing all the following correctly:
+      <ul>
+          <li>
+              You have selected a file (see previous question) and entered a player level.
+          </li>
+          <li>
+              Your inventory file is in the right format. It should be of type CSV, have either 4 or 5 columns with the content specified above,
+              and it should have no header row, so the upper-left cell should contain "BABY MARIO".
+          </li>
+      </ul>
+      <h4>Where to report bugs, offer feedback or ask questions?</h4>
       You can DM me on Discord (aturtledude#0589) or Reddit (u/aturtledude).
-      <br>
-    <form action="/" >
-        <input type="submit" value="Back" />
-    </form>
+      <br><br>
+      <button onclick="goBack()">Go Back</button>
+        <script>
+        function goBack() {
+          window.history.back();
+        }
+        </script>
   </body>
 </html>
