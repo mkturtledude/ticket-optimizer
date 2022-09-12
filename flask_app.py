@@ -36,7 +36,6 @@ def optimize(workDir, inventoryLines, tickets, playerLevel, cups):
     courses, items = reader.readJson(coverageFile, cups)
     reader.readActions(actionsFile, courses)
     inventory = reader.readInventory(inventoryLines, items)
-
     upgrades, rows, courseLoadouts = util.optimize(inventory, courses, tickets, playerLevel)
 
     return upgrades, rows, courseLoadouts
@@ -147,7 +146,10 @@ def results():
         return throwError("Please enter a player level between 1 and 300")
     inventoryLines = codecs.iterdecode(invFile.data, 'utf-8-sig')
 
-    upgrades, rows, courseLoadouts = optimize(app.root_path, inventoryLines, tickets, playerLevel, cups)
+    try:
+        upgrades, rows, courseLoadouts = optimize(app.root_path, inventoryLines, tickets, playerLevel, cups)
+    except Exception as e:
+        return throwError(e.args[0])
     return render_template('results.html', form=form, upgrades=upgrades, rows=rows, courses=courseLoadouts)
 
 
