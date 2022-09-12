@@ -132,7 +132,6 @@ def createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, play
     return combinationsOnCourses
 
 def calculateOptWithCurrent(courses, inventory, playerLevel):
-    #TODO: For each course, precompute highest shelf available with original inventory, and use that as threshold
     totalScore = 0
     optWithCurrent = dict()
     ## This whole loop only looks for the optimal combinations with the current loadouts, i.e., without any upgrades
@@ -210,6 +209,7 @@ def updateInventory(currentInventory, solutionCombinations):
                 d.partialLevels = 0
             d.level = comb[1]
             d.uncaps = comb[2]
+            d.basePoints = base.calculateBasePoints(d.gameItem.type, d.gameItem.rarity, d.uncaps, d.gameItem.isMii, currentInventory.numberOfMiis)
     for k in result.karts:
         if k.gameItem.id in kartIdToCombinations:
             comb = kartIdToCombinations[k.gameItem.id]
@@ -217,6 +217,7 @@ def updateInventory(currentInventory, solutionCombinations):
                 k.partialLevels = 0
             k.level = comb[1]
             k.uncaps = comb[2]
+            k.basePoints = base.calculateBasePoints(k.gameItem.type, k.gameItem.rarity, k.uncaps, k.gameItem.isMii, currentInventory.numberOfMiis)
     for g in result.gliders:
         if g.gameItem.id in gliderIdToCombinations:
             comb = gliderIdToCombinations[g.gameItem.id]
@@ -224,6 +225,7 @@ def updateInventory(currentInventory, solutionCombinations):
                 g.partialLevels = 0
             g.level = comb[1]
             g.uncaps = comb[2]
+            g.basePoints = base.calculateBasePoints(g.gameItem.type, g.gameItem.rarity, g.uncaps, g.gameItem.isMii, currentInventory.numberOfMiis)
     return result
 
 
@@ -234,6 +236,7 @@ def createSolutionCombinations(inventory, courses, tickets, playerLevel):
     currentTickets.setGlidersToZero()
     originalInventoryIdToItem = createOriginalInventoryIdToItem(currentInventory)
     totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
+    optLoadoutsBeforeUpgrades = copy.deepcopy(optWithCurrent)
     print("The total score without any upgrades is {}".format(totalScore))
     expandedInventory = expandInventory(currentInventory, currentTickets)
     combinationsOnCourses = createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, playerLevel)
@@ -265,6 +268,13 @@ def createSolutionCombinations(inventory, courses, tickets, playerLevel):
     currentInventory = updateInventory(currentInventory, solutionCombinations)
     totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
     print("The total score after all upgrades is {}".format(totalScore))
+    # for sol in solutionCombinations:
+    #     print(sol)
+    # for c in optWithCurrent:
+    #     d = optWithCurrent[c][1]
+    #     k = optWithCurrent[c][2]
+    #     g = optWithCurrent[c][3]
+    #     print("[{},{},{},{},{},{},{},{},{}]".format(d.gameItem.id,d.level,d.uncaps,k.gameItem.id,k.level,k.uncaps,g.gameItem.id,g.level,g.uncaps))
 
     return solutionCombinations
 
