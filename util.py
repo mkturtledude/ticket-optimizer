@@ -268,19 +268,32 @@ def createSolutionCombinations(inventory, courses, tickets, playerLevel):
     currentInventory = updateInventory(currentInventory, solutionCombinations)
     totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
     print("The total score after all upgrades is {}".format(totalScore))
-    # for sol in solutionCombinations:
-    #     print(sol)
-    # for c in optWithCurrent:
-    #     d = optWithCurrent[c][1]
-    #     k = optWithCurrent[c][2]
-    #     g = optWithCurrent[c][3]
-    #     print("[{},{},{},{},{},{},{},{},{}]".format(d.gameItem.id,d.level,d.uncaps,k.gameItem.id,k.level,k.uncaps,g.gameItem.id,g.level,g.uncaps))
 
-    return solutionCombinations
+    courseLoadouts = dict()
+    for c in optWithCurrent:
+        courseLoadouts[c] = []
+        print("{}:".format(c.englishName))
+        for c2 in optLoadoutsBeforeUpgrades:
+            if c.englishName == c2.englishName and c.sortId == c2.sortId:
+                s0 = round(optLoadoutsBeforeUpgrades[c2][0])
+                d0 = optLoadoutsBeforeUpgrades[c2][1]
+                k0 = optLoadoutsBeforeUpgrades[c2][2]
+                g0 = optLoadoutsBeforeUpgrades[c2][3]
+                l = [d0.englishName,str(d0.level),str(d0.basePoints),k0.englishName,str(k0.level),str(k0.basePoints),str(g0.englishName),str(g0.level),str(g0.basePoints),str(s0)]
+                courseLoadouts[c].append(l)
+
+        s = round(optWithCurrent[c][0])
+        d = optWithCurrent[c][1]
+        k = optWithCurrent[c][2]
+        g = optWithCurrent[c][3]
+        l = [d.englishName,str(d.level),str(d.basePoints),k.englishName,str(k.level),str(k.basePoints),str(g.englishName),str(g.level),str(g.basePoints),str(s), str(s-s0)]
+        courseLoadouts[c].append(l)
+
+    return solutionCombinations, courseLoadouts
 
 
 
 def optimize(inventory, courses, tickets, playerLevel):
-    solutionCombinations = createSolutionCombinations(inventory, courses, tickets, playerLevel)
+    solutionCombinations, courseLoadouts = createSolutionCombinations(inventory, courses, tickets, playerLevel)
     upgrades, rows = solver.constructUpgradeTableStrings(solutionCombinations, inventory, courses)
-    return upgrades, rows
+    return upgrades, rows, courseLoadouts

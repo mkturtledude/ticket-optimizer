@@ -35,6 +35,42 @@
         </div>
         </div>
       {% endif %}
+    {% if courses %}
+        <button class="collapsible">Overview by courses</button>
+        <div class="content">
+        <div class="table-responsive">
+        <table>
+            <tr>
+                <th></th>
+                <th colspan="3">Driver</th>
+                <th colspan="3">Kart</th>
+                <th colspan="3">Glider</th>
+                <th>Score</th>
+                <th>Improvement</th>
+            </tr>
+        {% for c in courses %}
+            <tr><td align="left" bgcolor="#a4e2ff">{{c.englishName}}</td></tr>
+            <tr>
+                <td align="left">Before</td>
+            {% for element in courses[c][0] %}
+            <td align="left">{{element}}</td>
+            {% endfor %}
+            </tr>
+            <tr>
+                <td align="left">After</td>
+            {% for element in courses[c][1] %}
+                {% if element == courses[c][1][-1] %}
+                    <td align="left" bgcolor="#9aff79">{{element}}</td>
+                {% else %}
+                    <td align="left">{{element}}</td>
+                {% endif %}
+            {% endfor %}
+            </tr>
+        {% endfor %}
+        </table>
+        </div>
+        </div>
+      {% endif %}
     {% if rows %}
         <button class="collapsible">Pre-fill for the DKR.exe sheet</button>
         <div class="content">

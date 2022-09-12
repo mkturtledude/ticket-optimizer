@@ -37,9 +37,9 @@ def optimize(workDir, inventoryLines, tickets, playerLevel, cups):
     reader.readActions(actionsFile, courses)
     inventory = reader.readInventory(inventoryLines, items)
 
-    upgrades, rows = util.optimize(inventory, courses, tickets, playerLevel)
+    upgrades, rows, courseLoadouts = util.optimize(inventory, courses, tickets, playerLevel)
 
-    return upgrades, rows
+    return upgrades, rows, courseLoadouts
 
 class MyForm(FlaskForm):
     inventoryFile = FileField('Inventory file')
@@ -103,14 +103,14 @@ def home():
         assert(invFile.data)
         inventoryLines = codecs.iterdecode(invFile.data, 'utf-8-sig')
 
-        upgrades, rows = optimize(app.root_path, inventoryLines, tickets, playerLevel, cups)
+        upgrades, rows, courseLoadouts = optimize(app.root_path, inventoryLines, tickets, playerLevel, cups)
         # splittedRows = []
         # for row in rows:
         #     splittedRow = []
         #     for element in row:
         #         splittedRow.append(element)
         #     splittedRows.append(splittedRow)
-        return render_template('index.html', form=form, upgrades=upgrades, rows=rows)
+        return render_template('index.html', form=form, upgrades=upgrades, rows=rows, courses=courseLoadouts)
 
 
 @app.route('/results/', methods = ['POST','GET'])
@@ -142,8 +142,8 @@ def results():
     assert (invFile.data)
     inventoryLines = codecs.iterdecode(invFile.data, 'utf-8-sig')
 
-    upgrades, rows = optimize(app.root_path, inventoryLines, tickets, playerLevel, cups)
-    return render_template('results.html', form=form, upgrades=upgrades, rows=rows)
+    upgrades, rows, courseLoadouts = optimize(app.root_path, inventoryLines, tickets, playerLevel, cups)
+    return render_template('results.html', form=form, upgrades=upgrades, rows=rows, courses=courseLoadouts)
 
 
 #    upload     = request.files.get('upload')
