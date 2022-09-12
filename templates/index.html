@@ -11,28 +11,28 @@
 
     <form action="/results" method="POST" enctype="multipart/form-data">
         {{ form.inventoryFile.label }} {{ form.inventoryFile }}<br>
-        {{ form.playerLevel.label }} {{ form.playerLevel(size=3) }} <br>
+        {{ form.playerLevel.label }} {{ form.playerLevel(size=3, type="number", min="1", max="300") }} <br>
         {{ form.cups.label }} {{ form.cups }} <br>
         Level-up tickets:<br>
         {{ form.lnd(size=3, style="border-color:Silver;", type="number", min="0", max="999") }}
         {{ form.lnk(size=3, style="border-color:Silver;", type="number", min="0", max="999") }}
         {{ form.lng(size=3, style="border-color:Silver;", type="number", min="0", max="999") }}<br><br>
-        {{ form.lsd(size=3, style="border-color:Goldenrod;") }}
-        {{ form.lsk(size=3, style="border-color:Goldenrod;") }}
-        {{ form.lsg(size=3, style="border-color:Goldenrod;") }}<br><br>
-        {{ form.lhd(size=3, style="border-color:Fuchsia;") }}
-        {{ form.lhk(size=3, style="border-color:Fuchsia;") }}
-        {{ form.lhg(size=3, style="border-color:Fuchsia;") }}<br><br>
+        {{ form.lsd(size=3, style="border-color:Goldenrod;", type="number", min="0", max="999") }}
+        {{ form.lsk(size=3, style="border-color:Goldenrod;", type="number", min="0", max="999") }}
+        {{ form.lsg(size=3, style="border-color:Goldenrod;", type="number", min="0", max="999") }}<br><br>
+        {{ form.lhd(size=3, style="border-color:Fuchsia;", type="number", min="0", max="999") }}
+        {{ form.lhk(size=3, style="border-color:Fuchsia;", type="number", min="0", max="999") }}
+        {{ form.lhg(size=3, style="border-color:Fuchsia;", type="number", min="0", max="999") }}<br><br>
         Uncap tickets:<br>
-        {{ form.und(size=3, style="border-color:Silver;") }}
-        {{ form.unk(size=3, style="border-color:Silver;") }}
-        {{ form.ung(size=3, style="border-color:Silver;") }}<br><br>
-        {{ form.usd(size=3, style="border-color:Goldenrod;") }}
-        {{ form.usk(size=3, style="border-color:Goldenrod;") }}
-        {{ form.usg(size=3, style="border-color:Goldenrod;") }}<br><br>
-        {{ form.uhd(size=3, style="border-color:Fuchsia;") }}
-        {{ form.uhk(size=3, style="border-color:Fuchsia;") }}
-        {{ form.uhg(size=3, style="border-color:Fuchsia;") }}<br><br>
+        {{ form.und(size=3, style="border-color:Silver;", type="number", min="0", max="999") }}
+        {{ form.unk(size=3, style="border-color:Silver;", type="number", min="0", max="999") }}
+        {{ form.ung(size=3, style="border-color:Silver;", type="number", min="0", max="999") }}<br><br>
+        {{ form.usd(size=3, style="border-color:Goldenrod;", type="number", min="0", max="999") }}
+        {{ form.usk(size=3, style="border-color:Goldenrod;", type="number", min="0", max="999") }}
+        {{ form.usg(size=3, style="border-color:Goldenrod;", type="number", min="0", max="999") }}<br><br>
+        {{ form.uhd(size=3, style="border-color:Fuchsia;", type="number", min="0", max="999") }}
+        {{ form.uhk(size=3, style="border-color:Fuchsia;", type="number", min="0", max="999") }}
+        {{ form.uhg(size=3, style="border-color:Fuchsia;", type="number", min="0", max="999") }}<br><br>
         <input type="submit" value="Run" />
     </form>
 <br><br>
