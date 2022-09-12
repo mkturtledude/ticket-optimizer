@@ -70,6 +70,8 @@ class MyForm(FlaskForm):
 def faq():
     return render_template('faq.html')
 
+def throwError(message):
+    return render_template('error.html', message=message)
 
 @app.route('/', methods = ['POST','GET'])
 def home():
@@ -100,7 +102,7 @@ def home():
         tickets.uhk = form.uhk.data if form.uhk.data else 0
         tickets.uhg = form.uhg.data if form.uhg.data else 0
 
-        assert(invFile.data)
+
         inventoryLines = codecs.iterdecode(invFile.data, 'utf-8-sig')
 
         upgrades, rows, courseLoadouts = optimize(app.root_path, inventoryLines, tickets, playerLevel, cups)
@@ -139,7 +141,10 @@ def results():
     tickets.uhk = form.uhk.data if form.uhk.data else 0
     tickets.uhg = form.uhg.data if form.uhg.data else 0
 
-    assert (invFile.data)
+    if not invFile.data:
+        return throwError("No inventory file selected")
+    if not playerLevel or not str(playerLevel).isdigit() or int(playerLevel) < 1 or int(playerLevel) > 300:
+        return throwError("Please enter a player level between 1 and 300")
     inventoryLines = codecs.iterdecode(invFile.data, 'utf-8-sig')
 
     upgrades, rows, courseLoadouts = optimize(app.root_path, inventoryLines, tickets, playerLevel, cups)
