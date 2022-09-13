@@ -21,16 +21,14 @@ app.secret_key = 'secret'
 
 
 def stringToCups(cupsString):
-    if cupsString == "all":
-        return {0,1,2,3,4,5,6,7,8,9,10,11}
-    elif cupsString == "rankedFirst":
+    if cupsString == "rankedFirst":
         return {0}
     elif cupsString == "rankedSecond":
         return {2}
-    else:
-        if cupsString != "rankedBoth":
-            raise Exception("Unkown cups string: " + cupsString + ". This shouldn't happen, please send this error message to the developer")
+    elif cupsString == "rankedBoth":
         return {0,2}
+    else:
+        return {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
 
 def optimize(workDir, inventoryLines, tickets, playerLevel, cups):
     coverageFile = os.path.join(workDir, "data", "alldata.json")
