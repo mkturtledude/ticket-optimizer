@@ -297,24 +297,14 @@ def readInventory(inventoryLines, allItems):
                 itemDict["partialLevels"] = 0
             result[itemDict["name"]] = itemDict
 
-
-    # with open(file, encoding='utf-8-sig') as csvfile:
-    #     for line in csvfile.read().splitlines():
-    #         if not line:
-    #             continue
-    #         row = re.split('[,;\t]', line)
-    #         if row and row[2] != '0':
-    #             assert(len(row) == 4)
-    #             if row[2] == 0:
-    #                 continue
-    #             itemDict = dict()
-    #             itemDict["name"] = upperToNormal[unidecode.unidecode(row[0].upper())]
-    #             itemDict["type"] = row[1]
-    #             itemDict["level"] = int(row[2])
-    #             itemDict["uncaps"] = int(row[3])
-    #             result[itemDict["name"]] = itemDict
-
-    return makeInventory(allItems, result)
+    result = makeInventory(allItems, result)
+    if not result.drivers:
+        raise Exception("Couldn't find any owned drivers in the inventory file! Make sure that the third column contains the levels of your drivers.")
+    if not result.karts:
+        raise Exception("Couldn't find any owned karts in the inventory file! Make sure that the third column contains the levels of your karts.")
+    if not result.gliders:
+        raise Exception("Couldn't find any owned gliders in the inventory file! Make sure that the third column contains the levels of your gliders.")
+    return result
 
 def readSolutionFile(file):
     f = open(file, "r")
