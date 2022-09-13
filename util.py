@@ -272,7 +272,6 @@ def createSolutionCombinations(inventory, courses, tickets, playerLevel):
     courseLoadouts = dict()
     for c in optWithCurrent:
         courseLoadouts[c] = []
-        print("{}:".format(c.englishName))
         for c2 in optLoadoutsBeforeUpgrades:
             if c.englishName == c2.englishName and c.sortId == c2.sortId:
                 s0 = round(optLoadoutsBeforeUpgrades[c2][0])

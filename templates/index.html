@@ -34,6 +34,11 @@
         {{ form.uhk(size=3, style="border-color:Fuchsia;", type="number", min="0", max="999") }}
         {{ form.uhg(size=3, style="border-color:Fuchsia;", type="number", min="0", max="999") }}<br><br>
         <input type="submit" value="Run" />
+         {% for field, errors in form.errors.items() %}
+        <small class="form-text text-muted ">
+        {{ ', '.join(errors) }}
+        </small>
+{% endfor %}
     </form>
 <br><br>
       <h4>By aturtledude </h4>

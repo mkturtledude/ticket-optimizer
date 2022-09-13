@@ -14,12 +14,12 @@ def calculatePositionPoints(level):
 
 def calculateBonusPoints(course, driver, kart, glider):
     sum = action(course, driver, kart) + kartSkill(course, kart) + gliderSkill(course, driver, glider) + combo(course, driver, glider)
-    if abs(sum - 14959) < 1:
-        print("action: {}".format(action(course, driver, kart)))
-        print("kart skill: {}".format(kartSkill(course, kart)))
-        print("glider skill: {}".format(gliderSkill(course, driver, glider)))
-        print("combo: {}".format(combo(course, driver, glider)))
-        print("total actions: {}".format(totalActions(course, driver)))
+    # if abs(sum - 14959) < 1:
+    #     print("action: {}".format(action(course, driver, kart)))
+    #     print("kart skill: {}".format(kartSkill(course, kart)))
+    #     print("glider skill: {}".format(gliderSkill(course, driver, glider)))
+    #     print("combo: {}".format(combo(course, driver, glider)))
+    #     print("total actions: {}".format(totalActions(course, driver)))
     return sum
 
 def calculateBonusPointsBoost(course, driver, kart, glider):

@@ -1,3 +1,4 @@
+import copy
 
 # A very simple Flask Hello World app for you to get started with...
 
@@ -12,11 +13,11 @@ from werkzeug.datastructures import MultiDict
 
 from flask_wtf import FlaskForm
 from wtforms import IntegerField, FileField, SelectField
-
 import base, util, reader
 
 app = Flask(__name__)
 app.secret_key = 'secret'
+
 
 
 def stringToCups(cupsString):
@@ -27,7 +28,8 @@ def stringToCups(cupsString):
     elif cupsString == "rankedSecond":
         return {2}
     else:
-        assert(cupsString == "rankedBoth")
+        if cupsString != "rankedBoth":
+            raise Exception("Unkown cups string: " + cupsString + ". This shouldn't happen, please send this error message to the developer")
         return {0,2}
 
 def optimize(workDir, inventoryLines, tickets, playerLevel, cups):
@@ -102,6 +104,7 @@ def home():
         tickets.uhg = form.uhg.data if form.uhg.data else 0
 
 
+
         inventoryLines = codecs.iterdecode(invFile.data, 'utf-8-sig')
 
         upgrades, rows, courseLoadouts = optimize(app.root_path, inventoryLines, tickets, playerLevel, cups)
@@ -144,10 +147,17 @@ def results():
         return throwError("No inventory file selected")
     if not playerLevel or not str(playerLevel).isdigit() or int(playerLevel) < 1 or int(playerLevel) > 300:
         return throwError("Please enter a player level between 1 and 300")
+
     inventoryLines = codecs.iterdecode(invFile.data, 'utf-8-sig')
+    lines = []
+    try:
+        for line in inventoryLines:
+            lines.append(line)
+    except UnicodeDecodeError:
+        return throwError("Couldn't read inventory file. Are you sure it's in CSV format and can be open with a spreadsheet program?")
 
     try:
-        upgrades, rows, courseLoadouts = optimize(app.root_path, inventoryLines, tickets, playerLevel, cups)
+        upgrades, rows, courseLoadouts = optimize(app.root_path, lines, tickets, playerLevel, cups)
     except Exception as e:
         return throwError(e.args[0])
     return render_template('results.html', form=form, upgrades=upgrades, rows=rows, courses=courseLoadouts)
