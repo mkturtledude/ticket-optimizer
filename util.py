@@ -289,7 +289,7 @@ def createSolutionCombinations(inventory, courses, tickets, playerLevel):
         l = [d.englishName,str(d.level),str(d.basePoints),k.englishName,str(k.level),str(k.basePoints),str(g.englishName),str(g.level),str(g.basePoints),str(s), str(s-s0)]
         courseLoadouts[c].append(l)
 
-    return solutionCombinations, courseLoadouts, [str(totalBeforeUpgrades), str(totalScore), str(totalScore - totalBeforeUpgrades)]
+    return solutionCombinations, courseLoadouts, [str(round(totalBeforeUpgrades)), str(round(totalScore)), str(round(totalScore - totalBeforeUpgrades))]
 
 
 
