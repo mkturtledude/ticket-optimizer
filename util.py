@@ -236,6 +236,7 @@ def createSolutionCombinations(inventory, courses, tickets, playerLevel):
     currentTickets.setGlidersToZero()
     originalInventoryIdToItem = createOriginalInventoryIdToItem(currentInventory)
     totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
+    totalBeforeUpgrades = copy.deepcopy(totalScore)
     optLoadoutsBeforeUpgrades = copy.deepcopy(optWithCurrent)
     print("The total score without any upgrades is {}".format(totalScore))
     expandedInventory = expandInventory(currentInventory, currentTickets)
@@ -288,11 +289,11 @@ def createSolutionCombinations(inventory, courses, tickets, playerLevel):
         l = [d.englishName,str(d.level),str(d.basePoints),k.englishName,str(k.level),str(k.basePoints),str(g.englishName),str(g.level),str(g.basePoints),str(s), str(s-s0)]
         courseLoadouts[c].append(l)
 
-    return solutionCombinations, courseLoadouts
+    return solutionCombinations, courseLoadouts, [str(totalBeforeUpgrades), str(totalScore), str(totalScore - totalBeforeUpgrades)]
 
 
 
 def optimize(inventory, courses, tickets, playerLevel):
-    solutionCombinations, courseLoadouts = createSolutionCombinations(inventory, courses, tickets, playerLevel)
+    solutionCombinations, courseLoadouts, totalScores = createSolutionCombinations(inventory, courses, tickets, playerLevel)
     upgrades, rows = solver.constructUpgradeTableStrings(solutionCombinations, inventory, courses)
-    return upgrades, rows, courseLoadouts
+    return upgrades, rows, courseLoadouts, totalScores

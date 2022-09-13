@@ -35,6 +35,24 @@
         </div>
         </div>
       {% endif %}
+
+        <button class="collapsible">Total score</button>
+        <div class="content">
+        <div class="table-responsive">
+        <table>
+            <tr>
+                <th>Total before upgrades</th>
+                <th>Total after upgrades</th>
+                <th>Total improvement</th>
+            </tr>
+            <tr>
+                {% for s in scores %}
+                    <td>{{s}}</td>
+                {% endfor %}
+            </tr>
+        </table>
+        </div>
+        </div>
     {% if courses %}
         <button class="collapsible">Overview by courses</button>
         <div class="content">

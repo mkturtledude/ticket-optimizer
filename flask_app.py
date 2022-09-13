@@ -36,9 +36,9 @@ def optimize(workDir, inventoryLines, tickets, playerLevel, cups):
     courses, items = reader.readJson(coverageFile, cups)
     reader.readActions(actionsFile, courses)
     inventory = reader.readInventory(inventoryLines, items)
-    upgrades, rows, courseLoadouts = util.optimize(inventory, courses, tickets, playerLevel)
+    upgrades, rows, courseLoadouts, totalScores = util.optimize(inventory, courses, tickets, playerLevel)
 
-    return upgrades, rows, courseLoadouts
+    return upgrades, rows, courseLoadouts, totalScores
 
 class MyForm(FlaskForm):
     inventoryFile = FileField('Inventory file')
@@ -155,10 +155,10 @@ def results():
         return throwError("Couldn't read inventory file. Are you sure it's in CSV format and can be open with a spreadsheet program?")
 
     try:
-        upgrades, rows, courseLoadouts = optimize(app.root_path, lines, tickets, playerLevel, cups)
+        upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups)
     except Exception as e:
         return throwError(e.args[0])
-    return render_template('results.html', form=form, upgrades=upgrades, rows=rows, courses=courseLoadouts)
+    return render_template('results.html', form=form, upgrades=upgrades, rows=rows, courses=courseLoadouts, scores=totalScores)
 
 
 #    upload     = request.files.get('upload')
