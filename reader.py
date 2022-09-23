@@ -265,28 +265,30 @@ def readInventory(inventoryLines, allItems):
     for item in allItems:
         # We need the unidecode to get rid of accents, as in Strawberry Cr^epe
         upperToNormal[unidecode.unidecode(item.upper())] = item
+    lineNumber = 0
     for line in inventoryLines:
+        lineNumber += 1
         if not line:
             continue
         row = re.split('[,;\t]', line.strip()) # split to remove the newline
         if len(row) < 4:
-            raise Exception("Following row in the inventory file has less than 4 columns:   " + line)
+            raise Exception("Row number " + str(lineNumber) + " in the inventory file has less than 4 columns:   " + line)
         if len(row) > 5:
-            raise Exception("Following row in the inventory file has more than 5 columns:   " + line)
+            raise Exception("Row number " + str(lineNumber) + " in the inventory file has more than 5 columns:   " + line)
         if row and row[2] != '0':
             assert(len(row) in {4,5})
             if row[2] == 0:
                 continue
             itemDict = dict()
             if len(row[1]) != 1:
-                raise Exception("The second element in this row should be a single letter (N/S/H):   " + line)
+                raise Exception("The second element in row number " + str(lineNumber) + " should be a single letter (N/S/H):   " + line)
             if not row[2].isdigit() or len(row[2]) != 1:
-                raise Exception("The third element in this row should be a single digit, representing the item's level:   " + line)
+                raise Exception("The third element in row number " + str(lineNumber) + " should be a single digit, representing the item's level:   " + line)
             if not row[3].isdigit() or len(row[3]) != 1:
-                raise Exception("The fourth element in this row should be a single digit, representing the item's uncaps:   " + line)
+                raise Exception("The fourth element in row number " + str(lineNumber) + " should be a single digit, representing the item's uncaps:   " + line)
             upper = unidecode.unidecode(row[0].upper())
             if upper not in upperToNormal:
-                raise Exception("Can't find item with following name:   " + upper)
+                raise Exception("Row number " + str(lineNumber) + " has an invalid item name:\n" + line)
             itemDict["name"] = upperToNormal[upper]
             itemDict["type"] = row[1]
             itemDict["level"] = int(row[2])
