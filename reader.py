@@ -281,7 +281,7 @@ def readInventory(inventoryLines, allItems):
                 continue
             itemDict = dict()
             if len(row[1]) != 1:
-                raise Exception("The second element in row number " + str(lineNumber) + " should be a single letter (N/S/H):   " + line)
+                raise Exception("The second element in row number " + str(lineNumber) + " should be a single letter (D/K/G):   " + line)
             if not row[2].isdigit() or len(row[2]) != 1:
                 raise Exception("The third element in row number " + str(lineNumber) + " should be a single digit, representing the item's level:   " + line)
             if not row[3].isdigit() or len(row[3]) != 1:
