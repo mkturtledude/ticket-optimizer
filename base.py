@@ -343,6 +343,8 @@ def calculateLevelTicketsNeeded(oldItem, targetLevel):
         return 0
     result = calculateLevelTicketsUsed(oldItem, targetLevel) - calculateLevelTicketsUsed(oldItem, oldItem.level)
     result -= oldItem.partialLevels
+    if result <= 0:
+        raise Exception("The inventory file is incorrect: {} at level {} with {} partial level-ups is impossible.".format(oldItem.gameItem.name, oldItem.level, oldItem.partialLevels))
     assert(result > 0)
     return result
 
