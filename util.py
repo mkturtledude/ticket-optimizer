@@ -50,7 +50,7 @@ def expandInventoryByType(items, itemType, numberOfMiis, tickets):
         minUncaps = item.uncaps
         for level in range(minLevel,8+1):
             partialLevels = item.partialLevels if level == minLevel else 0
-            for uncaps in range(minUncaps, 3+1):
+            for uncaps in range(minUncaps, 4+1):
                 if isFeasible(item, level, uncaps, tickets):
                     basePoints = base.calculateBasePoints(itemType, item.rarity, uncaps, item.isMii, numberOfMiis)
                     result.add(base.InventoryItem(item.gameItem, level, basePoints, uncaps, partialLevels))

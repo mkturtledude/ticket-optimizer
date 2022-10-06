@@ -222,9 +222,11 @@ def calculateBasePoints(type, rarity, uncaps, isMii, numberOfMiis):
                 result += 980
             elif uncaps == 2:
                 result += 1190
+            elif uncaps == 3:
+                result += 1430
             else:
-                assert(uncaps == 3)
-                result += 1400
+                assert(uncaps == 4)
+                result += 1610
         elif rarity == "S":
             if uncaps == 0:
                 result += 675
@@ -232,9 +234,11 @@ def calculateBasePoints(type, rarity, uncaps, isMii, numberOfMiis):
                 result += 765
             elif uncaps == 2:
                 result += 870
+            elif uncaps == 3:
+                result += 990
             else:
-                assert(uncaps == 3)
-                result += 975
+                assert(uncaps == 4)
+                result += 1080
         elif rarity == "N":
             if uncaps == 0:
                 result += 600
@@ -242,9 +246,11 @@ def calculateBasePoints(type, rarity, uncaps, isMii, numberOfMiis):
                 result += 648
             elif uncaps == 2:
                 result += 704
+            elif uncaps == 3:
+                result += 768
             else:
-                assert(uncaps == 3)
-                result += 760
+                assert(uncaps == 4)
+                result += 816
     else:
         assert(type in ["K", "G"])
         assert(not isMii)
@@ -255,19 +261,23 @@ def calculateBasePoints(type, rarity, uncaps, isMii, numberOfMiis):
                 result += 490
             elif uncaps == 2:
                 result += 595
+            elif uncaps == 3:
+                result += 715
             else:
-                assert(uncaps == 3)
-                result += 700
+                assert(uncaps == 4)
+                result += 805
         elif rarity == "S":
             if uncaps == 0:
                 result += 330
             elif uncaps == 1:
                 result += 366
             elif uncaps == 2:
-                result += 408
+                result += 414
+            elif uncaps == 3:
+                result += 456
             else:
-                assert(uncaps == 3)
-                result += 450
+                assert(uncaps == 4)
+                result += 492
         elif rarity == "N":
             if uncaps == 0:
                 result += 300
@@ -275,9 +285,11 @@ def calculateBasePoints(type, rarity, uncaps, isMii, numberOfMiis):
                 result += 324
             elif uncaps == 2:
                 result += 352
+            elif uncaps == 3:
+                result += 384
             else:
-                assert(uncaps == 3)
-                result += 380
+                assert(uncaps == 4)
+                result += 408
     return result
 
 def calculateLevelTicketsUsed(item, level):
@@ -360,15 +372,25 @@ def calculateCapTicketsNeeded(oldItem, targetUncaps):
             return 1
         elif uu == 2:
             return 6
-        else:
-            assert(uu == 3)
+        elif uu == 3:
             return 16
+        else:
+            assert(uu == 4)
+            return 28
     elif ou == 1:
         if uu == 2:
             return 5
-        else:
-            assert(uu == 3)
+        elif uu == 3:
             return 15
+        else:
+            assert(uu == 4)
+            return 27
+    elif ou == 2:
+        if uu == 3:
+            return 10
+        else:
+            assert(uu == 4)
+            return 22
     else:
-        assert(ou == 2 and uu == 3)
-        return 10
+        assert(ou == 3 and uu == 4)
+        return 12
