@@ -10,8 +10,8 @@ import pandas as pd
 
 import base
 
-FIRST_WEEK_SPOTLIGHTS = {"Yoshi (Kangaroo)", "Luigi (Vacation)", "Mario (Hakama)", "Gold Double-Decker", "Kabuki Dasher", "Tropical Truck", "Gold Cloud Balloons", "White Waves Origami Glider", "Silver Surf Master"}
-SECOND_WEEK_SPOTLIGHTS = {"Rosalina (Volendam)", "Luigi (Lederhosen)", "Mario (Baseball)", "Flower Kart", "Black Carriage", "Pinch Hitter", "Tulip Corsage", "Home-Field Glider", "Pretzel Glider"}
+FIRST_WEEK_SPOTLIGHTS = {}
+SECOND_WEEK_SPOTLIGHTS = {}
 
 def skillIdToString(id):
     # Drivers
@@ -197,7 +197,9 @@ def readItems(courses, firstWeekSpotlights, secondWeekSpotlights, data):
 def fillCourseNames(courses, data):
     for course in courses:
         englishName = data["courses"][course.internalName]["Translations"]["USen"]
+        type = data["courses"][course.internalName]["type"]
         course.englishName = englishName
+        course.type = type
 
 
 def readJson(file, cups):
@@ -228,7 +230,7 @@ def readActions(file, courses):
                     course.courseActions.glideTime = int(row["Glide Time"])
                     course.courseActions.courseCoins = int(row["Coins (Course)"])
                     course.courseActions.itemCoins = int(row["Coins (Items)"])
-                    course.courseActions.lanterns = int(row["Lanterns"]) if row["Lanterns"] else 0
+                    course.courseActions.lanterns = int(row["Pumpkins"]) if row["Pumpkins"] else 0
 
 def countMiis(allItems, inventoryItems):
     result = 0

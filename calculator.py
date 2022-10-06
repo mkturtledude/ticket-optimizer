@@ -14,7 +14,10 @@ def calculatePositionPoints(level):
 
 def calculateBonusPoints(course, driver, kart, glider):
     sum = action(course, driver, kart) + kartSkill(course, kart) + gliderSkill(course, driver, glider) + combo(course, driver, glider)
-    # if abs(sum - 14959) < 1:
+    if abs(action(course,driver,kart) - 13984) < 1:
+        action(course,driver,kart)
+    # if abs(sum - 20904) < 1:
+    #     print(course.englishName)
     #     print("action: {}".format(action(course, driver, kart)))
     #     print("kart skill: {}".format(kartSkill(course, kart)))
     #     print("glider skill: {}".format(gliderSkill(course, driver, glider)))
@@ -41,7 +44,11 @@ def action(course, driver, kart):
     result += itemBoxCoins(course, driver) * 5
     result += boomerangActions(driver) * 25
     result += bananaActions(driver) * 25
-    remainingActions = totalActions(course, driver) - course.courseActions.miniTurbos - course.courseActions.jumpBoosts - course.courseActions.dashPanels - course.courseActions.glideTime - course.courseActions.courseCoins - itemBoxCoins(course, driver) - coinboxCoins(course, driver) - boomerangActions(driver) - bananaActions(driver)
+    BActions =  8 if course.type == "Battle" else 0 # column AA
+    WFActions = 1 if course.type == "Battle" else 0# column AB
+    result += 150 * BActions
+    result += 3000 * WFActions
+    remainingActions = totalActions(course, driver) - course.courseActions.miniTurbos - course.courseActions.jumpBoosts - course.courseActions.dashPanels - course.courseActions.glideTime - course.courseActions.courseCoins - itemBoxCoins(course, driver) - coinboxCoins(course, driver) - boomerangActions(driver) - bananaActions(driver) -BActions -WFActions
     if remainingActions > 0:
         result += remainingActions * 10
     result *= trackMultiplier(course, kart)
@@ -242,7 +249,7 @@ def calculateScore(driver, kart, glider, playerLevel, course):
     bonusPointsBoost = calculateBonusPointsBoost(course, driver, kart, glider)
     sum = basePoints + posPoints + bonusPoints + bonusPointsBoost
 
-    # if abs(sum - 48911.75) < 1:
+    # if abs(sum - 46438) < 1:
     #     print("basePoints: {}".format(basePoints))
     #     print("posPoints: {}".format(posPoints))
     #     print("bonusPoints: {}".format(bonusPoints))

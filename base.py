@@ -156,6 +156,7 @@ class TourCourse:
     def __init__(self, internalName, cupDriverIds, sortId):
         self.internalName = internalName
         self.englishName = ""
+        self.type = ""
         self.cupDriverIds = cupDriverIds
         self.sortId = sortId # Within the cup
         self.topShelf = []
