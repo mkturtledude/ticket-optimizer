@@ -1,18 +1,21 @@
+import copy
 import csv
 import json
+import unidecode
 
-# import reader
 
-# with open('reich-buffs-anniv.csv', newline='') as csvfile:
-#     spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
-#     for row in spamreader:
-#         print(', '.join(row))
-
-cups = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11}
-oldJson = "/home/marco/ticketOptimizer/data/BowserTour_alldata_multilang.json"
+oldJson = "/home/marco/ticketOptimizer/data/3rdAnniversaryTour_alldata_multilang.json"
 
 f = open(oldJson, encoding="utf-8")
 data = json.load(f)
+
+# for skillList in [data["skills"]["drivers"], data["skills"]["karts"], data["skills"]["gliders"]]:
+#     for key in skillList:
+#         skill = skillList[key]
+#         id = skill["Id"]
+#         name = skill["Translations"]["USen"]
+#         print("{}\t{}".format(name,id))
+# exit(0)
 
 # Write courses to file
 with open("/home/marco/ticketOptimizer/data/new-courses.csv") as f:
@@ -20,7 +23,9 @@ with open("/home/marco/ticketOptimizer/data/new-courses.csv") as f:
     for row in reader:
         name = row['Name']
         platform = row['Platform']
+        type = row['Type']
         data["courses"][name] = {}
+        data["courses"][name]["type"] = type
         data["courses"][name]["platform"] = platform
         data["courses"][name]["Translations"] = {"USen":name}
     with open("temp-1.json", 'w', encoding = "utf-8") as outfile:
@@ -63,6 +68,7 @@ with open("/home/marco/ticketOptimizer/data/new-cups.csv") as f:
     cupId = 0
     data["tour"]["Cups"].clear()
     for row in reader:
+        print(row)
         course1 = row["Course1"]
         course2 = row["Course2"]
         course3 = row["Course3"]
@@ -70,7 +76,7 @@ with open("/home/marco/ticketOptimizer/data/new-cups.csv") as f:
         drivers = []
         for driverDict in data["drivers"]:
             if (driverDict["IsMiiSuit"] and driver == "Mii") or driverDict["Translations"]["USen"] == driver:
-                drivers.append({"Id":driverDict["Id"]})
+                drivers.append({"Id":driverDict["Id"], "Name":driver})
         course1internal = ""
         course2internal = ""
         course3internal = ""
@@ -96,15 +102,11 @@ with open("/home/marco/ticketOptimizer/data/new-cups.csv") as f:
     with open("temp-3.json", 'w', encoding = "utf-8") as outfile:
         json.dump(data,outfile,indent=4, ensure_ascii=False)
 
-exit(0)
 
+f = open("temp-3.json", encoding="utf-8")
+data = json.load(f)
 
-# data["courses"][B]
-
-# courses, items = reader.readJson(oldJson, cups)
-
-
-with open('reich-buffs-anniv.csv') as f:
+with open('data/reich-buffs.csv') as f:
     reader = csv.DictReader(f, delimiter=',')
     for row in reader:
         name = row['ITEM']
@@ -113,15 +115,70 @@ with open('reich-buffs-anniv.csv') as f:
         l6unlocks = list(filter(None,[row['L6 UNLOCK 1'], row['L6 UNLOCK 2']]))
         midShelf = list(filter(None,[row['MIDSHELF 1'], row['MIDSHELF 2'], row['MIDSHELF 3'], row['MIDSHELF 4'], row['MIDSHELF 5'], row['MIDSHELF 6'], row['MIDSHELF 7'], row['MIDSHELF 8'], row['MIDSHELF 9'], row['MIDSHELF 10']]))
 
-        if topShelf:
-            print(name)
-            print(topShelf)
-            if l3unlocks:
-                print("L3:")
-                print(l3unlocks)
-            if l6unlocks:
-                print("L6:")
-                print(l6unlocks)
-            if midShelf:
-                print("Mid:")
-                print(midShelf)
+        buffs = [topShelf, l3unlocks, l6unlocks, midShelf]
+        newBuffs = []
+        for tracks in buffs:
+            newTracks = []
+            for track in tracks:
+                newName = track.replace("RT","R/T")
+                if newName == "-NONE-":
+                    continue
+                matches = 0
+                for key in data["courses"]:
+                    course = data["courses"][key]
+                    englishName = course["Translations"]["USen"]
+                    if len(englishName) >= len(newName) and englishName[-len(newName):] == newName:
+                        newName = key
+                        matches += 1
+                assert(matches == 1)
+                newTracks.append(newName)
+            newBuffs.append(newTracks)
+
+
+        topShelf = newBuffs[0]
+        l3unlocks = newBuffs[1]
+        l6unlocks = newBuffs[2]
+        midShelf = newBuffs[3]
+
+        itemLists = [data["drivers"], data["karts"], data["gliders"]]
+        newItemLists = []
+        for itemList in itemLists:
+            newItemList = []
+            for item in itemList:
+                properName = item["Translations"]["USen"]
+                upperCaseName = unidecode.unidecode(properName.upper())
+                if upperCaseName == name:
+                    if not "CourseMoreGoodAtDetail" in item:
+                        item["CourseMoreGoodAtDetail"] = []
+                    if not "CourseGoodAtDetail" in item:
+                        item["CourseGoodAtDetail"] = []
+                    item["CourseMoreGoodAtDetail"].extend(topShelf)
+                    for course in l3unlocks:
+                        item["CourseGoodAtDetail"].append({"Key":course, "PromotionLevel":3})
+                    for course in l6unlocks:
+                        item["CourseGoodAtDetail"].append({"Key":course, "PromotionLevel":6})
+                    for course in midShelf:
+                        item["CourseGoodAtDetail"].append({"Key":course, "PromotionLevel":0})
+                newItemList.append(item)
+            newItemLists.append(newItemList)
+
+        data["drivers"] = newItemLists[0]
+        data["karts"] = newItemLists[1]
+        data["gliders"] = newItemLists[2]
+
+        # if topShelf:
+        #     print(name)
+        #     print(newBuffs[0])
+        #     if l3unlocks:
+        #         print("L3:")
+        #         print(newBuffs[1])
+        #     if l6unlocks:
+        #         print("L6:")
+        #         print(newBuffs[2])
+        #     if midShelf:
+        #         print("Mid:")
+        #         print(newBuffs[3])
+
+
+with open("temp-4.json", 'w', encoding = "utf-8") as outfile:
+    json.dump(data,outfile,indent=4, ensure_ascii=False)
