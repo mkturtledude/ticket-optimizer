@@ -1,7 +1,11 @@
 Name,Platform,Type
-GBA Battle Course 1,GBA,Battle
-GCN Cookie Land,GCN,Battle
-RMX Donut Plains 1,GBA,Remix
-RMX Donut Plains 1T,GBA,Remix
-RMX Donut Plains 1R,GBA,Remix
-RMX Donut Plains 1R/T,GBA,Remix
+GBA Boo Lake,GBA,Classic
+GBA Boo Lake R,GBA,Classic
+GBA Boo Lake T,GBA,Classic
+GBA Boo Lake R/T,GBA,Classic
+SNES Donut Plains 3,SNES,Classic
+SNES Donut Plains 3R,SNES,Classic
+SNES Donut Plains 3T,SNES,Classic
+SNES Donut Plains 3R/T,SNES,Classic
+SNES Ghost Valley 2R/T,SNES,Classic
+DS Twilight House,DS,Battle

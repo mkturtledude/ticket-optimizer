@@ -9,13 +9,6 @@ oldJson = "/home/marco/ticketOptimizer/data/3rdAnniversaryTour_alldata_multilang
 f = open(oldJson, encoding="utf-8")
 data = json.load(f)
 
-# for skillList in [data["skills"]["drivers"], data["skills"]["karts"], data["skills"]["gliders"]]:
-#     for key in skillList:
-#         skill = skillList[key]
-#         id = skill["Id"]
-#         name = skill["Translations"]["USen"]
-#         print("{}\t{}".format(name,id))
-# exit(0)
 
 # Write courses to file
 with open("/home/marco/ticketOptimizer/data/new-courses.csv") as f:
@@ -165,19 +158,6 @@ with open('data/reich-buffs.csv') as f:
         data["drivers"] = newItemLists[0]
         data["karts"] = newItemLists[1]
         data["gliders"] = newItemLists[2]
-
-        # if topShelf:
-        #     print(name)
-        #     print(newBuffs[0])
-        #     if l3unlocks:
-        #         print("L3:")
-        #         print(newBuffs[1])
-        #     if l6unlocks:
-        #         print("L6:")
-        #         print(newBuffs[2])
-        #     if midShelf:
-        #         print("Mid:")
-        #         print(newBuffs[3])
 
 
 with open("temp-4.json", 'w', encoding = "utf-8") as outfile:
