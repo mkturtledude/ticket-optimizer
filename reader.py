@@ -230,7 +230,7 @@ def readActions(file, courses):
                     course.courseActions.glideTime = int(row["Glide Time"])
                     course.courseActions.courseCoins = int(row["Coins (Course)"])
                     course.courseActions.itemCoins = int(row["Coins (Items)"])
-                    course.courseActions.lanterns = int(row["Pumpkins"]) if row["Pumpkins"] else 0
+                    # course.courseActions.lanterns = int(row["Pumpkins"]) if row["Pumpkins"] else 0
 
 def countMiis(allItems, inventoryItems):
     result = 0

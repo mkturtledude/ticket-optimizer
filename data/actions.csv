@@ -1,367 +1,372 @@
-Course,Normal,Giant Banana,Lucky 7,Boomerang Flower,Coin Box,Coin Box?,Tour Buff?,CB to BB?,WR,WR Holder,Item Boxes,Mini-Turbos,Jump Boosts,Dash Panels,Glide Time,Coins (Course),Coins (Items),Pumpkins
-3DS Bowser's Castle,195,205,215,235,235,Y,,,274,PIEN,6,38,20,8,8,32,16,
-3DS Bowser's Castle R,180,190,200,220,220,Y,,,268,KM,6,40,22,2,3,34,16,
-3DS Bowser's Castle T,180,190,200,220,220,Y,,,252,Danny,6,32,38,6,4,28,16,
-3DS Bowser's Castle R/T,200,210,220,240,240,Y,,,275,MasaPooh,6,22,50,4,6,34,16,
-3DS Cheep Cheep Lagoon,145,155,165,185,180,,,,158,N3vermind,5,8,21,4,0,16,8,
-3DS Cheep Cheep Lagoon R,145,155,165,185,180,Y,,,217,KM,5,8,21,5,0,34,12,
-3DS Cheep Cheep Lagoon T,135,145,155,175,170,Y,,,208,Zephiel810,5,8,31,8,0,23,12,
-3DS Cheep Cheep Lagoon R/T,130,140,150,170,165,Y,,,208,ugu,4,8,30,6,0,22,8,
-3DS Daisy Hills,185,195,205,225,225,,,,210,hiro,6,16,19,10,8,28,12,
-3DS Daisy Hills R,195,205,215,235,235,,,,222,heriawsity ,6,18,25,9,6,34,12,
-3DS Daisy Hills T,195,205,215,235,235,Y,,,288,RepleteLight,6,16,41,18,8,33,16,
-3DS Daisy Hills R/T,190,200,210,230,230,Y,,,263,Harry Copper,6,14,38,14,0,20,16,
-3DS Mario Circuit,180,190,200,220,220,Y,,,272,ugu,6,22,15,0,6,50,16,
-3DS Mario Circuit R,175,185,195,215,215,Y,,,258,GamerAmy,8,20,13,2,2,41,24,
-3DS Mario Circuit T,190,200,210,230,230,Y,,,247,Iva_n,8,22,28,14,4,28,24,
-3DS Mario Circuit R/T,195,205,215,235,235,Y,,,263,Gadam64,8,20,37,14,0,12,24,
-3DS Neo Bowser City,165,175,185,205,205,Y,,,242,stic,6,26,3,0,5,43,16,
-3DS Neo Bowser City R,165,175,185,205,205,Y,,,264,kame,6,26,4,0,0,50,16,
-3DS Neo Bowser City T,195,205,215,235,235,Y,,,259,Ethan Yang,6,26,33,12,0,40,16,
-3DS Neo Bowser City R/T,180,190,200,220,220,Y,,,260,zinma,6,26,29,12,0,38,16,
-3DS Piranha Plant Slide,200,210,220,240,240,,,,259,Alpha69,9,28,30,8,4,32,24,
-3DS Piranha Plant Slide R,170,180,190,210,210,Y,,,244,Crunchycheez,6,20,30,3,2,24,16,
-3DS Piranha Plant Slide T,215,225,235,255,255,,,,284,Captain Evan,8,18,50,6,6,44,20,
-3DS Rainbow Road,225,235,245,265,265,Y,,,333,Crazi,7,22,32,23,16,33,20,0
-3DS Rainbow Road R,210,220,230,250,245,Y,,,278,ParisPeach_Ace,5,22,26,21,11,33,12,0
-3DS Rainbow Road T,230,240,250,270,270,Y,,,287,heriawsity,7,22,44,34,10,18,20,0
-3DS Rainbow Road R/T,230,240,250,270,270,Y,,,314,Nikey,7,22,45,20,10,31,20,
-3DS Rock Rock Mountain,200,210,220,240,240,Y,,,270,hiro,6,20,13,12,25,40,16,
-3DS Rock Rock Mountain R,180,190,200,220,220,Y,,,239,nao,6,22,22,8,0,33,16,
-3DS Rock Rock Mountain T,210,220,230,250,250,,,,282,Crugga,6,20,35,14,20,38,12,
-3DS Rosalina's Ice World,175,185,195,215,215,,,,225,Tsubasa,8,34,6,8,0,20,20,0
-3DS Rosalina's Ice World R,180,190,200,220,220,,,,270,heriawsity,6,30,10,10,8,38,12,0
-3DS Rosalina's Ice World T,190,200,210,230,230,Y,,,254,Com Truise,6,28,38,16,0,28,16,0
-3DS Rosalina's Ice World R/T,180,190,200,220,235,Y,,,256,Kannagi_re,6,25,30,14,4,30,16,0
-3DS Shy Guy Bazaar,180,190,200,220,220,Y,,,268,Sloth,6,24,20,10,8,36,16,15
-3DS Shy Guy Bazaar R,190,200,210,230,230,Y,,,264,RepleteLight,6,24,16,8,12,41,16,15
-3DS Shy Guy Bazaar T,190,200,210,230,230,Y,,,258,Flo427,8,22,44,12,6,40,24,15
-3DS Shy Guy Bazaar R/T,160,170,180,200,200,Y,,,,,6,22,26,10,0,16,16,
-3DS Toad Circuit,150,160,170,190,190,Y,,,216,petemob,6,18,2,2,4,33,16,
-3DS Toad Circuit R,165,175,185,205,195,Y,,,220,Com Truise,6,18,1,12,0,22,16,
-3DS Toad Circuit T,170,180,185,220,210,,,,253,MisterB,6,16,45,2,3,33,12,
-3DS Toad Circuit R/T,180,190,200,220,220,Y,,,224,zinma,6,16,35,9,0,12,16,
-3DS Wario Shipyard,170,180,190,210,210,,,,237,Iva_n,6,26,16,18,4,18,12,
-3DS Wario Shipyard R,175,185,195,215,215,Y,,,254,hiro,6,26,14,6,10,24,16,
-3DS Wario Shipyard T,170,180,190,210,210,Y,,,272,RexPlayz,6,24,44,6,0,22,16,
-3DS Wario Shipyard R/T,180,190,200,220,220,,,,243,Jack88,6,28,34,12,6,20,12,
-Amsterdam Drift,180,190,200,220,220,,,,224,Hiro,6,32,16,4,10,30,12,
-Amsterdam Drift R,175,185,195,215,215,Y,,,230,Hiro,6,28,22,2,6,32,16,
-Amsterdam Drift T,180,190,200,220,220,,,,226,mariogi,6,28,32,2,10,16,12,
-Amsterdam Drift R/T,175,185,195,215,215,Y,,,222,kong,6,22,36,8,4,24,16,
-Amsterdam Drift 2,135,145,155,175,175,Y,,,225,PIEN,6,24,10,0,0,30,16,
-Amsterdam Drift 2R,135,145,155,175,175,Y,,,216,Shy Guy Kart,6,26,10,0,0,26,16,
-Amsterdam Drift 2T,140,150,160,180,180,Y,,,207,TheRealLatios,6,18,26,2,0,20,16,
-Amsterdam Drift 2R/T,155,165,175,195,195,Y,,,213,Iva_n,6,16,22,0,10,28,16,
-Bangkok Rush,170,180,190,210,210,Y,,,226,seventere,6,24,22,0,0,40,16,
-Bangkok Rush R,170,180,190,210,210,Y,,,241,OG★MattYT,6,26,10,0,10,40,16,
-Bangkok Rush T,190,200,210,230,230,Y,,,234,Krzych88,6,20,44,0,6,38,16,
-Bangkok Rush R/T,175,185,195,215,215,Y,,,230,Couch000,6,24,36,2,0,22,16,
-Berlin Byways,150,160,170,190,190,,,,191,heriawsity,6,40,6,3,0,22,12,
-Berlin Byways R,150,160,170,190,190,Y,,,222,Luc,6,40,4,5,0,18,16,
-Berlin Byways T,180,190,200,220,220,Y,,,213,Isai,6,32,36,2,2,26,16,
-Berlin Byways 2,165,175,185,205,205,Y,,,250,cool guy,8,24,12,0,10,26,24,
-Berlin Byways 2R,160,170,180,200,200,Y,,,234,stic,6,28,12,0,8,34,16,
-Berlin Byways 2T,175,185,190,215,205,Y,,,257,Tylerrrr,8,20,30,1,2,30,24,
-Berlin Byways 2R/T,175,185,195,215,215,Y,,,235,Swarls,6,26,32,0,0,32,16,
-Berlin Byways 3,145,155,165,185,185,,,,190,heriawsity,6,32,3,0,0,26,12,
-Berlin Byways 3R,155,165,175,195,195,Y,,,249,hiro,6,34,0,2,0,32,16,
-Berlin Byways 3T,165,175,185,205,205,,,,225,lacavuigi,6,20,33,4,4,27,12,
-DS Airship Fortress,180,190,200,220,220,Y,,,,,6,38,10,4,4,22,16,10
-DS Airship Fortress R,180,190,200,220,220,Y,,,,,6,38,12,0,2,26,16,10
-DS Airship Fortress T,230,240,250,270,270,Y,,,341,Leo,8,34,45,8,0,26,24,10
-DS Airship Fortress R/T,218,228,238,258,258,Y,,,261,Pien,8,40,48,8,4,20,24,8
-DS DK Pass,185,195,205,225,225,,,,230,惡魔Z,8,26,10,0,6,44,20,
-DS DK Pass R,195,205,215,235,235,Y,,,287,prodbydemo,8,24,8,2,6,54,24,
-DS DK Pass T,230,240,250,270,270,Y,,,337,Rapha,8,33,48,0,6,40,24,
-DS DK Pass R/T,220,230,240,260,260,,,,223,DKR.exe,7,18,44,6,8,64,16,0
-DS Luigi's Mansion,164,174,184,204,204,Y,,,226,Sucha,6,18,9,2,0,26,16,14
-DS Luigi's Mansion R,170,180,190,210,210,,,,256,Harry Copper,8,22,4,2,0,32,20,10
-DS Luigi's Mansion T,182,192,202,222,222,Y,,,244,seventere,6,16,33,14,0,30,16,12
-DS Luigi's Mansion R/T,190,200,200,230,230,,,,227,heriawsity,8,14,28,6,0,26,20,10
-DS Twilight House,130,130,160,140,170,Y,,,#N/A,#N/A,15,0,0,0,0,0,0,0
-DS Waluigi Pinball,180,190,200,220,220,Y,,,254,Kungfupanda4,6,26,8,10,6,40,16,
-DS Waluigi Pinball R,185,195,205,225,225,Y,,,292,miya,6,26,8,26,6,66,16,
-DS Waluigi Pinball T,210,220,230,250,250,Y,,,283,Com Truise,6,26,35,19,6,46,16,
-DS Waluigi Pinball R/T,180,190,200,220,220,Y,,,293,tsubasa,6,26,30,20,6,51,16,
-GBA Battle Course 1,120,120,150,130,160,,,,#N/A,#N/A,15,0,0,0,0,0,0,
-GBA Boo Lake,166,176,186,206,206,Y,,,#N/A,#N/A,6,24,16,0,0,30,16,16
-GBA Boo Lake R,168,178,188,208,208,,,,#N/A,#N/A,6,26,16,0,0,22,12,18
-GBA Boo Lake T,179,189,199,219,219,,,,#N/A,#N/A,6,20,38,2,0,24,12,14
-GBA Boo Lake R/T,175,185,195,215,215,Y,,,#N/A,#N/A,6,18,26,2,6,28,16,10
-GBA Bowser's Castle 1,125,135,145,165,160,Y,,,187,Autodrift,4,20,8,8,0,22,8,
-GBA Bowser's Castle 1R,130,140,150,170,165,Y,,,202,miya,4,18,10,8,0,29,8,
-GBA Bowser's Castle 1T,150,160,170,190,185,Y,,,225,nii,4,15,27,8,0,37,8,
-GBA Bowser's Castle 1R/T,140,150,160,180,175,Y,,,198,Swarls,4,10,22,31,0,46,8,
-GBA Bowser's Castle 2,180,190,200,220,220,Y,,,266,N3vermind,6,22,22,26,0,32,16,
-GBA Bowser's Castle 2R,180,190,200,220,220,Y,,,269,X211,6,22,22,26,0,24,16,
-GBA Bowser's Castle 2T,180,190,200,220,220,Y,,,292,Kenta,6,22,59,28,0,24,16,
-GBA Bowser's Castle 2R/T,180,190,200,220,220,Y,,,,,6,20,50,24,0,24,16,
-GBA Bowser's Castle 3,185,195,205,225,225,Y,,,291,Hikarun,8,32,22,10,0,26,24,
-GBA Bowser's Castle 3R,180,190,200,220,220,Y,,,290,hiro,8,30,22,10,0,26,24,
-GBA Bowser's Castle 3T,215,225,235,255,255,Y,,,245,naoto,8,20,56,20,2,20,24,
-GBA Cheep-Cheep Island,150,160,170,190,190,,,,185,Autodrift,6,28,4,2,0,24,12,
-GBA Cheep-Cheep Island R,155,165,175,200,195,Y,,,224,weller,6,30,4,2,0,28,16,
-GBA Cheep-Cheep Island T,180,190,200,220,220,Y,,,278,Acquiesce,6,28,45,4,0,28,16,
-GBA Sky Garden,150,160,170,190,190,,,,230,WootMoo,6,28,8,0,6,24,12,
-GBA Sky Garden R,150,160,170,190,190,,,,247,POKAI,6,26,10,2,4,24,12,
-GBA Sky Garden T,170,180,190,200,210,,,,213,naoto,6,28,24,4,0,26,12,
-GBA Sunset Wilds,150,160,170,190,190,Y,,,245,Nikey,6,34,4,6,0,20,16,
-GBA Sunset Wilds R,145,155,165,185,185,Y,,,228,stic,6,34,4,6,0,20,16,
-GBA Sunset Wilds T,195,205,215,235,235,Y,,,254,hiro,6,20,40,8,8,30,16,
-GBA Sunset Wilds R/T,180,190,200,220,205,Y,,,246,prodbydemo,6,22,50,2,0,18,16,
-GCN Baby Park,140,150,160,180,180,,,,171,Autodrift,6,30,0,0,0,35,12,
-GCN Baby Park R,140,150,160,180,175,,Y,,210,RSK,5,25,5,10,0,30,12,
-GCN Baby Park T,165,175,185,205,205,,Y,,226,Rachel,6,12,33,3,12,33,16,
-GCN Cookie Land,130,130,160,140,170,Y,,,#N/A,#N/A,15,0,0,0,0,0,0,0
-GCN Daisy Cruiser,150,160,170,190,190,Y,,,209,hiro,6,26,12,4,0,26,16,
-GCN Daisy Cruiser R,150,160,170,190,190,Y,,,201,shoronpo,6,24,10,2,4,26,16,
-GCN Daisy Cruiser T,160,170,180,200,200,,,,200,heriawsity,6,18,30,4,0,20,12,
-GCN Dino Dino Jungle,160,170,180,200,200,Y,,,240,Iva_n,6,32,22,0,6,16,16,10
-GCN Dino Dino Jungle R,180,190,200,220,220,Y,,,256,Iva_n,6,18,22,6,6,46,16,10
-GCN Dino Dino Jungle T,185,195,205,225,225,Y,,,256,Kong,6,18,44,3,6,30,16,10
-GCN Dino Dino Jungle R/T,170,180,190,210,210,Y,,,240,seventere,6,18,45,4,0,38,16,
-GCN Yoshi Circuit,180,190,200,220,220,,,,206,Rakker85,6,42,3,0,0,44,12,
-GCN Yoshi Circuit R,185,195,205,225,225,Y,,,229,Burrato,8,42,7,6,4,22,24,
-GCN Yoshi Circuit T,180,190,200,220,220,,,,233,Cool guy,8,26,18,0,6,38,20,
-GCN Yoshi Circuit R/T,170,180,190,210,235,Y,,,267,Nikey,8,44,26,2,0,40,24,
-London Loop,160,170,180,200,200,Y,,,223,heriawsity,6,38,4,0,0,30,16,
-London Loop 3R/T,150,160,170,190,185,,,,191,Tanuke,4,26,28,4,14,30,4,
-London Loop R,180,190,200,220,220,,,,,,8,40,3,0,0,38,20,
-London Loop R/T,180,190,200,220,220,,,,,,8,30,36,0,,42,20,
-London Loop 2,160,170,180,200,200,Y,,,201,heriawsity,6,36,6,0,0,34,16,
-London Loop 2R,150,160,170,190,190,Y,,,218,Luc,6,36,6,0,0,26,16,
-London Loop 2T,160,170,180,200,200,Y,,,221,Mikan,6,24,28,4,0,18,16,
-London Loop 2R/T,155,165,175,195,195,Y,,,203,heriawsity,6,20,25,4,4,22,16,
-London Loop 3,170,180,190,210,210,Y,,,206,DKR.exe,6,32,2,0,2,26,16,10
-London Loop 3R,170,180,190,210,210,Y,,,236,EcuaChef,6,28,4,4,8,26,16,10
-London Loop 3T,180,190,200,220,220,Y,,,266,tsubasa,6,20,32,10,2,18,16,10
-London Loop T,185,195,205,225,225,,,,,,6,32,30,2,0,42,12,10
-Los Angeles Laps,140,150,160,180,180,Y,,,,,6,34,8,4,0,28,16,
-Los Angeles Laps 2T,170,180,190,210,210,,,,,,6,24,26,0,0,26,12,
-Los Angeles Laps T,160,170,180,200,200,Y,,,228,Ed havok,6,20,32,2,6,24,16,
-Los Angeles Laps R,140,150,160,180,180,,,,,,6,30,6,2,0,28,12,
-Los Angeles Laps 2,140,150,160,180,180,Y,,,201,ugu,6,34,1,0,3,22,16,
-Los Angeles Laps 2R,135,145,155,175,175,Y,,,222,iso,6,34,0,0,0,20,16,
-Los Angeles Laps R/T,160,170,180,200,200,,,,,,6,24,30,8,8,22,12,
-Los Angeles Laps 2R/T,165,175,185,205,205,,,,221,Marc,6,28,24,4,0,16,12,
-Los Angeles Laps 3,160,170,180,200,200,,,,229,Swarls,6,28,4,0,6,34,12,
-Los Angeles Laps 3R,160,170,180,200,200,Y,,,224,miya,6,26,6,0,8,26,16,
-Los Angeles Laps 3T,170,180,190,210,210,Y,,,224,Swarls,6,24,30,4,0,24,16,
-Los Angeles Laps 3R/T,170,180,190,210,210,Y,,,240,zain,6,20,31,0,10,28,16,
-Merry Mountain,160,170,180,200,200,Y,,,221,Swarls,6,30,12,6,0,34,16,
-Merry Mountain R,160,170,180,200,200,Y,,,215,Miya,6,24,13,6,0,20,16,
-Merry Mountain T,165,175,185,205,205,Y,,,193,heriawsity,6,16,28,10,6,27,16,
-Merry Mountain R/T,160,170,180,200,200,,,,243,Niti,6,30,26,8,0,30,12,
-N64 Choco Mountain,180,190,200,220,220,Y,,,264,kaikai,6,26,17,0,4,34,16,5
-N64 Choco Mountain R,170,180,190,210,210,,,,237,heriawsity,6,26,15,0,4,34,12,5
-N64 Choco Mountain T,175,185,195,215,215,Y,,,240,Zephiel810,6,20,40,6,0,26,16,5
-N64 Choco Mountain R/T,175,185,195,215,215,Y,,,253,N3vermind,6,26,40,2,0,26,16,5
-N64 Frappe Snowland,160,170,180,200,200,Y,,,236,N3vermind,6,26,5,0,0,34,16,
-N64 Frappe Snowland R,155,165,175,195,195,Y,,,239,miya,6,24,3,2,0,24,16,
-N64 Frappe Snowland T,190,200,210,230,230,,,,266,heriawsity,6,18,40,10,8,24,12,
-N64 Frappe Snowland R/T,190,200,200,230,230,Y,,,226,prodbydemo,6,22,39,2,0,32,16,
-N64 Kalimari Desert,150,160,170,200,200,Y,,,238,ugu,6,16,8,0,0,30,16,
-N64 Kalimari Desert R,165,175,185,205,205,Y,,,234,PIEN / xy,6,16,7,0,6,46,16,
-N64 Kalimari Desert T,170,180,190,210,210,Y,,,233,heriawsity,6,16,41,0,0,32,16,
-N64 Kalimari Desert R/T,175,185,195,215,215,Y,,,244,michi,6,12,29,6,0,25,16,
-N64 Kalimari Desert 2,130,140,150,170,180,Y,,,189,Crazi,5,22,6,1,0,25,12,10
-N64 Kalimari Desert 2R,130,140,150,170,180,Y,,,223,miya,5,22,6,2,0,24,12,5
-N64 Kalimari Desert 2T,130,140,150,170,180,Y,,,211,Danny,5,18,20,1,0,32,12,5
-N64 Kalimari Desert 2R/T,140,150,160,180,175,Y,,,208,barbicon,5,21,22,0,0,20,12,
-N64 Koopa Troopa Beach,160,170,180,200,200,Y,,,248,ecliptix,8,22,14,8,10,40,24,
-N64 Koopa Troopa Beach R,155,165,175,195,195,Y,,,266,heriawsity,6,18,10,6,6,36,16,
-N64 Koopa Troopa Beach T,160,170,180,200,200,Y,,,230,seventere,8,22,24,14,8,31,24,
-N64 Koopa Troopa Beach R/T,160,170,180,200,200,Y,,,236,Baseball Club,6,16,22,8,8,18,16,
-N64 Luigi Raceway,165,175,185,205,205,,,,229,heriawsity,7,28,10,12,0,32,16,
-N64 Luigi Raceway R,165,175,185,205,205,Y,,,246,ugu,7,28,10,12,0,32,20,
-N64 Luigi Raceway T,180,190,200,220,220,Y,,,243,heriawsity,6,22,26,10,0,36,16,
-N64 Royal Raceway,160,170,180,200,200,Y,,,234,Zephiel810,6,34,4,6,6,34,16,
-N64 Royal Raceway R,160,170,180,200,200,Y,,,240,Delta,8,34,8,6,0,26,24,
-N64 Royal Raceway T,170,180,190,210,210,Y,,,225,Kungfupanda4,6,26,32,14,0,26,16,
-N64 Royal Raceway R/T,180,190,200,220,220,,,,210,heriawsity,6,32,24,8,4,34,12,
-N64 Yoshi Valley,170,180,190,210,210,Y,,,246,Rachid,7,38,16,0,1,24,20,
-N64 Yoshi Valley R,175,185,195,215,215,Y,,,248,RepleteLight,6,40,14,0,0,34,16,
-N64 Yoshi Valley T,200,210,220,240,240,,,,265,Crazi,6,23,55,0,4,36,12,
-New York Minute,,10,20,40,40,,,,,,6,18,2,0,,22,12,
-New York Minute 2,,10,20,40,40,,,,,,6,22,4,0,,32,12,
-New York Minute 2R,,10,20,40,40,Y,,,,,6,20,5,0,,30,16,
-New York Minute 2R/T,,10,20,40,40,Y,,,,,6,20,26,4,,20,16,
-New York Minute 2T,,10,20,40,40,Y,,,,,6,22,22,4,,24,16,
-New York Minute 3,125,135,145,165,165,Y,,,,,6,22,6,0,,26,16,
-New York Minute 3R,130,140,150,170,170,,,,,,6,22,6,0,,26,12,
-New York Minute 3R/T,120,130,140,160,160,Y,,,,,6,20,22,2,,30,16,
-New York Minute 3T,180,190,200,220,220,,,,,,6,22,22,2,,20,12,
-New York Minute 4,110,120,125,150,145,,,,129,heriawsity,4,20,7,3,1,20,4,
-New York Minute 4R,110,120,130,150,145,,,,168,heriawsity,4,20,8,3,0,20,4,
-New York Minute 4R/T,115,125,135,155,150,,,,,,4,18,20,4,1,21,4,
-New York Minute 4T,115,125,135,155,150,,,,,,4,16,20,1,2,20,4,
-New York Minute R,,10,20,40,40,,,,,,6,20,2,0,,27,12,
-New York Minute R/T,,10,20,40,40,,,,,,6,20,22,8,,30,12,
-New York Minute T,,10,20,40,40,,,,,,6,18,22,8,,20,12,
-Ninja Hideaway,180,190,200,220,220,Y,,,,,6,22,30,0,10,43,16,
-Ninja Hideaway R,180,190,200,220,220,Y,,,253,Anke,6,20,25,0,8,38,16,
-Ninja Hideaway T,180,190,200,220,220,Y,,,245,いきゅう,6,20,38,0,4,44,16,
-Ninja Hideaway R/T,180,190,200,220,220,,,,217,hiro,6,28,40,0,0,38,12,
-Paris Promenade,130,140,150,170,165,Y,,,188,Zack,4,24,2,0,6,32,8,
-Paris Promenade R,150,160,170,190,190,Y,,,223,stic,6,20,8,0,6,34,16,
-Paris Promenade 3R/T,160,170,180,200,200,Y,,,,,6,16,28,6,5,18,16,
-Paris Promenade R/T,140,150,160,180,180,Y,,,,,6,18,18,4,0,26,16,
-Paris Promenade 2,150,160,160,190,190,,,,153,EcuaChef,6,18,5,0,0,22,12,
-Paris Promenade 2R,140,150,160,180,175,Y,,,201,Delta,4,20,5,0,0,31,8,
-Paris Promenade 2T,160,170,175,200,185,Y,,,227,Nathalie,6,16,26,2,0,28,16,
-Paris Promenade 2R/T,140,150,160,180,180,,,,165,EcuaChef,6,16,26,6,0,12,12,
-Paris Promenade 3,160,170,180,200,200,,,,204,heriawsity,6,34,6,0,0,44,12,
-Paris Promenade 3R,150,160,170,190,190,Y,,,216,Luc,6,20,10,0,5,30,16,
-Paris Promenade 3T,165,175,185,205,205,Y,,,249,heriawsity,6,22,26,6,5,22,16,
-Paris Promenade T,130,140,150,170,165,,,,140,DKR.exe,4,14,24,4,2,18,4,
-RMX Bowser's Castle 1,150,160,170,190,190,Y,,,226,ᴿᶜLumi,6,27,7,4,0,23,16,
-RMX Bowser's Castle 1R,155,165,175,195,195,Y,,,241,zephiel810,6,26,8,4,4,24,16,
-RMX Bowser's Castle 1T,170,180,190,210,210,Y,,,249,RepleteLight,6,24,30,4,0,24,16,
-RMX Choco Island 1,150,160,170,190,185,Y,,,211,Ed havok,4,18,33,0,0,34,8,10
-RMX Choco Island 1R,140,150,150,180,175,,,,177,Swarls,4,18,24,2,0,32,4,10
-RMX Choco Island 1T,160,175,180,200,195,,,,224,zephiel810,4,24,30,10,0,32,4,10
-RMX Choco Island 1R/T,160,170,180,200,195,Y,,,198,Wootmoo,4,24,24,4,4,26,8,8
-RMX Choco Island 2,150,160,170,190,190,Y,,,230,heriawsity,8,20,16,2,0,18,24,
-RMX Choco Island 2R,140,150,160,180,180,Y,,,218,heriawsity,6,20,16,4,6,28,16,
-RMX Choco Island 2T,170,180,190,210,190,Y,,,233,Anthony D,6,20,34,6,0,24,16,
-RMX Donut Plains 1,145,155,165,185,185,,,,#N/A,#N/A,6,20,12,0,6,20,12,14
-RMX Donut Plains 1R,150,160,170,190,190,Y,,,#N/A,#N/A,6,20,20,2,0,20,16,14
-RMX Donut Plains 1T,175,185,195,215,215,Y,,,#N/A,#N/A,6,14,44,0,6,26,16,10
-RMX Donut Plains 1R/T,175,185,195,215,207,Y,,,#N/A,#N/A,6,18,44,6,0,20,16,12
-RMX Ghost Valley 1,150,160,170,190,190,Y,,,212,Rapha,6,34,26,0,0,22,16,10
-RMX Ghost Valley 1R,150,160,170,190,190,Y,,,215,pyro,6,34,26,0,0,22,16,10
-RMX Ghost Valley 1T,165,175,185,205,205,Y,,,231,ugu,6,22,36,4,0,24,16,5
-RMX Ghost Valley 1R/T,180,190,200,220,220,,,,231,Joshxzss,6,14,40,0,8,28,12,5
-RMX Mario Circuit 1,190,200,210,230,230,,,,211,mashiron,8,24,24,4,0,31,20,10
-RMX Mario Circuit 1R,170,180,190,210,210,Y,,,211,Wootmoo,6,24,28,4,0,26,16,10
-RMX Mario Circuit 1T,190,200,210,230,230,Y,,,217,いきゅう,6,22,44,8,0,30,16,10
-RMX Mario Circuit 1R/T,170,180,190,230,210,Y,,,285,Dom Hongisto,7,20,32,4,18,28,20,
-RMX Rainbow Road 1,160,170,180,200,200,Y,,,240,Shadows,6,18,20,6,16,30,16,0
-RMX Rainbow Road 1R,160,170,180,200,200,Y,,,249,Zephiel810,6,18,16,4,16,24,16,0
-RMX Rainbow Road 1T,185,195,205,225,225,,,,222,zephiel810,6,18,46,4,0,32,12,0
-RMX Rainbow Road 1R/T,160,170,180,200,195,Y,,,216,Iva_n,4,20,40,2,6,36,8,
-RMX Rainbow Road 2,180,190,200,220,220,Y,,,278,Autodrift,6,20,34,4,6,28,16,
-RMX Rainbow Road 2R,170,180,190,210,210,Y,,,226,Aaron,6,22,30,4,6,34,16,
-RMX Rainbow Road 2T,180,190,200,220,220,Y,,,268,Swarls,6,20,52,6,6,23,16,
-RMX Rainbow Road 2R/T,195,205,215,235,235,Y,,,256,Lacavuigi,6,18,58,10,0,35,16,
-RMX Vanilla Lake 1,160,170,180,200,200,Y,,,251,RepleteLight,6,18,24,0,6,30,16,
-RMX Vanilla Lake 1R,160,170,180,200,200,,,,200,Miya,6,18,20,0,6,30,12,
-RMX Vanilla Lake 1T,175,185,195,215,215,,,,202,Danny,6,15,36,8,6,30,12,
-Singapore Speedway,150,160,170,190,190,Y,,,222,Jonboy88,6,20,6,4,10,24,16,
-Singapore Speedway R,150,160,170,190,190,,,,193,Iva_n,6,18,14,0,4,24,12,
-Singapore Speedway T,170,180,190,210,210,,,,239,Iva_n,6,14,26,6,12,24,12,
-Singapore Speedway R/T,170,180,190,210,210,,,,209,Iva_n,6,20,22,8,6,34,12,
-Singapore Speedway 2,160,170,180,200,200,Y,,,222,Danny,6,28,22,2,6,24,16,
-Singapore Speedway 2R,160,170,180,200,200,Y,,,252,miya,6,22,20,2,6,26,16,
-Singapore Speedway 2T,180,190,200,220,220,Y,,,246,Dallitos,6,14,32,2,14,32,16,
-Singapore Speedway 2R/T,180,190,200,220,220,Y,,,258,PIEN,6,24,38,4,4,30,16,
-Sky-High Sundae,170,180,190,210,210,,,,220,Porsche,6,26,36,0,6,24,12,
-Sky-High Sundae R,180,190,200,220,210,Y,,,232,PIEN,6,16,34,0,16,30,16,
-Sky-High Sundae T,190,200,210,230,210,Y,,,249,swarls,6,16,41,2,7,36,16,
-Sky-High Sundae R/T,160,170,180,190,200,,,N,216,aron,6,14,40,3,2,20,12,
-SNES Choco Island 1,135,145,155,175,170,Y,,,197,Iva_n,4,14,29,0,0,28,8,0
-SNES Choco Island 1R,135,145,155,175,170,Y,,,208,okayandia,4,14,28,0,0,33,8,0
-SNES Choco Island 1T,140,150,160,180,175,Y,,,183,Miya,4,14,36,10,0,16,8,0
-SNES Choco Island 1R/T,135,145,155,175,170,Y,,,181,Robert1202,4,12,32,2,0,24,8,10
-SNES Choco Island 2,140,150,160,180,180,Y,,,219,heriawsity,6,18,24,0,4,36,16,10
-SNES Choco Island 2R,140,150,160,180,175,,Y,,173,hiro,5,12,24,0,4,40,12,10
-SNES Choco Island 2T,140,150,160,180,175,Y,,,206,Crazi,5,12,36,1,2,16,12,10
-SNES Choco Island 2R/T,130,140,150,170,170,Y,,,181,heriawsity,6,10,20,2,0,20,16,10
-SNES Donut Plains 1,120,130,140,160,155,Y,,,194,heriawsity,4,24,0,0,0,24,8,10
-SNES Donut Plains 1R,120,130,140,160,155,Y,,,140,Zephiel810,4,24,0,0,0,24,8,10
-SNES Donut Plains 1T,130,140,150,170,165,Y,,,166,Rapha,4,18,26,2,0,22,8,10
-SNES Donut Plains 1R/T,120,130,140,160,155,Y,,,161,miya,4,16,8,2,6,22,8,10
-SNES Donut Plains 2,140,150,160,180,180,Y,,,229,zephiel810,6,25,12,0,0,24,16,0
-SNES Donut Plains 2R,140,150,160,180,180,Y,,,224,scrub,6,25,10,0,0,22,16,0
-SNES Donut Plains 2T,150,160,170,175,190,,,,212,Zephiel810,6,18,30,2,0,24,12,0
-SNES Donut Plains 2R/T,160,170,170,200,200,Y,,,242,RexPlayz,6,18,32,8,0,26,16,0
-SNES Donut Plains 3,155,165,170,195,195,,,,#N/A,#N/A,6,20,12,0,0,18,12,20
-SNES Donut Plains 3R,145,155,170,185,185,Y,,,#N/A,#N/A,6,12,10,0,2,14,16,20
-SNES Donut Plains 3T,166,176,170,206,206,Y,,,#N/A,#N/A,6,18,26,0,0,22,16,16
-SNES Donut Plains 3R/T,164,174,170,204,204,Y,,,#N/A,#N/A,6,14,26,0,0,26,16,14
-SNES Ghost Valley 1,130,140,150,170,165,Y,,,184,pyro,4,14,7,0,0,26,8,10
-SNES Ghost Valley 1R,130,140,150,170,165,Y,,,186,Swarls,4,14,3,0,0,32,8,10
-SNES Ghost Valley 1T,145,155,165,185,180,Y,,,174,Hyperino,4,14,30,0,0,24,8,10
-SNES Ghost Valley 1R/T,135,145,155,175,170,Y,,,174,kaikai,4,10,22,4,4,18,8,10
-SNES Ghost Valley 2,130,140,150,170,165,,Y,,212,Misterb,4,18,4,2,4,36,8,0
-SNES Ghost Valley 2R,130,140,150,170,165,Y,,,174,heriawsity,4,22,4,2,4,32,8,0
-SNES Ghost Valley 2T,160,170,180,200,195,Y,,,224,Tanuke,4,10,28,10,8,34,8,0
-SNES Ghost Valley 2R/T,155,165,175,195,190,Y,,,#N/A,#N/A,4,10,24,2,6,44,8,0
-SNES Koopa Troopa Beach 2,120,130,140,160,160,Y,,,231,hiro,6,20,0,0,0,16,16,
-SNES Koopa Troopa Beach 2R,135,145,155,175,175,Y,,,203,Melody,8,20,2,2,0,26,24,
-SNES Koopa Troopa Beach 2T,155,165,175,195,195,Y,,,211,Miya,6,20,14,2,0,26,16,
-SNES Mario Circuit 1,115,125,135,155,150,Y,,,165,Cintia,4,18,0,0,0,42,8,
-SNES Mario Circuit 1R,115,125,135,155,150,Y,,,165,Com Truise,4,12,3,0,0,30,8,
-SNES Mario Circuit 1T,115,125,135,155,150,Y,,,156,Zephiel810,4,12,20,0,0,30,8,
-SNES Mario Circuit 1R/T,120,130,140,160,155,Y,,,,,4,10,21,4,6,38,8,
-SNES Mario Circuit 2,120,130,140,160,155,Y,,,163,Com Truise,4,20,5,2,8,36,8,
-SNES Mario Circuit 2R,140,150,160,180,180,,,,174,heriawsity,6,18,3,0,2,32,12,
-SNES Mario Circuit 2T,140,150,160,180,180,,,,198,Miya,6,18,24,4,0,24,12,
-SNES Mario Circuit 2R/T,140,150,160,180,180,Y,,,202,tsubasa,6,18,29,2,0,26,16,
-SNES Mario Circuit 3,145,155,165,185,185,Y,,,212,nao,6,26,0,2,0,42,16,
-SNES Mario Circuit 3R,145,155,165,185,185,Y,,,219,Danny,6,26,0,2,0,40,16,
-SNES Mario Circuit 3R/T,165,175,185,205,205,Y,,,200,Misterix,8,24,36,10,0,19,24,
-SNES Mario Circuit 3T,160,170,180,200,200,Y,,,,,6,26,22,2,0,32,16,
-SNES Rainbow Road,150,160,170,190,190,Y,,,226,睡蓮菩薩,6,16,20,0,0,37,16,0
-SNES Rainbow Road R,160,170,180,200,200,Y,,,216,zinma,7,16,18,0,4,48,20,0
-SNES Rainbow Road T,160,170,180,200,200,Y,,,242,zinma,6,16,44,0,0,35,16,0
-SNES Rainbow Road R/T,160,170,180,200,200,Y,,,169,Captain Evan,6,16,32,0,0,22,16,0
-SNES Vanilla Lake 1,110,120,130,150,145,Y,,,177,GrievousKronos,4,12,0,0,0,32,8,
-SNES Vanilla Lake 1R,110,120,130,150,145,Y,,,175,Ljcameron,5,12,2,0,0,28,12,
-SNES Vanilla Lake 1T,130,140,150,170,170,Y,,,208,N3vermind,6,14,20,0,0,28,16,
-SNES Vanilla Lake 1R/T,100,110,120,140,135,Y,,,157,Mikakinkun,5,12,16,4,6,22,12,
-SNES Vanilla Lake 2,105,115,125,145,140,,,,149,hiro,4,10,6,0,0,26,4,
-SNES Vanilla Lake 2R,110,120,130,150,145,Y,,,164,睡蓮菩薩,4,14,12,0,0,26,8,
-SNES Vanilla Lake 2T,110,120,130,150,145,Y,,,159,惡魔Z,4,8,22,6,0,26,8,
-Sydney Sprint,160,170,180,200,200,Y,,,198,DKR.exe,6,22,6,0,4,26,16,
-Sydney Sprint R,175,185,195,215,215,Y,,,,,6,16,6,0,4,28,16,
-Sydney Sprint T,160,170,180,200,200,Y,,,,,6,16,40,10,2,32,16,
-Sydney Sprint R/T,155,165,175,195,195,Y,,,219,heriawsity,6,14,32,6,6,26,16,
-Sydney Sprint 2,155,165,175,195,195,Y,,,253,RepleteLight,6,30,4,0,6,26,16,
-Sydney Sprint 2R,150,160,170,190,190,Y,,,233,Delta,6,28,4,0,6,22,16,
-Sydney Sprint 2T,170,180,190,210,210,Y,,,259,HauntedMike,6,20,26,0,12,32,16,
-Sydney Sprint 2R/T,160,170,180,200,200,Y,,,,,6,12,38,8,12,26,16,
-Sydney Sprint 3,160,170,180,200,200,Y,,,228,heriawsity,6,44,5,2,0,26,16,
-Sydney Sprint 3R,155,165,175,195,195,Y,,,249,Robert1202,6,40,2,0,0,32,16,
-Sydney Sprint 3T,195,205,215,235,235,Y,,,279,miya,6,32,36,4,0,38,16,
-Tokyo Blur,105,115,125,145,145,Y,,,196,heriawsity,6,20,0,0,0,24,16,
-Tokyo Blur 2,100,110,120,140,140,Y,,,205,Lengoss,6,20,1,0,0,30,16,
-Tokyo Blur 2R,110,120,130,150,150,Y,,,,,6,20,1,0,0,30,16,
-Tokyo Blur 2R/T,,10,20,40,40,Y,,,,,6,,21,2,,7,16,
-Tokyo Blur 2T,130,140,150,170,170,Y,,,,,6,26,27,0,0,28,16,
-Tokyo Blur 3,165,175,185,205,205,,,,,,6,20,2,0,0,42,12,
-Tokyo Blur 3R,140,150,160,180,180,Y,,,,,8,24,2,0,0,36,24,
-Tokyo Blur 4,125,135,145,165,160,,,,141,Com Truise,5,22,1,0,0,28,8,
-Tokyo Blur 4R,123,133,143,163,158,Y,,,167,heriawsity,5,18,1,0,0,28,12,
-Tokyo Blur 4R/T,102,112,122,142,137,,,,,,4,20,13,2,,16,4,
-Tokyo Blur 3T,140,150,160,180,180,Y,,,200,Antonio,6,28,40,2,0,26,16,
-Tokyo Blur 3R/T,200,210,220,240,240,,,,236,Misterix,6,24,24,13,18,18,12,
-Tokyo Blur 4T,130,140,150,170,165,,,,,,4,30,23,0,0,22,4,
-Tokyo Blur R,105,115,125,145,140,Y,,,173,Shadows,4,24,0,0,0,28,8,
-Tokyo Blur R/T,125,135,145,165,160,Y,,,196,Da Bear,4,23,16,2,0,30,8,
-Tokyo Blur T,130,140,150,170,165,,,,,,4,22,32,0,0,28,4,
-Vancouver Velocity,160,170,180,200,200,Y,,,221,Ed havok,6,26,14,0,6,32,16,
-Vancouver Velocity R,165,175,185,205,205,Y,,,,,6,40,18,2,6,30,16,
-Vancouver Velocity T,170,180,190,210,210,,,,,,6,32,20,16,5,16,12,
-Vancouver Velocity R/T,160,170,180,200,200,Y,,,223,Ed havok,6,36,36,6,6,26,16,
-Vancouver Velocity 2,170,180,190,210,210,,,,174,Zack,6,34,10,0,6,28,12,
-Vancouver Velocity 2R,170,180,190,210,210,,,,208,heriawsity,6,32,10,2,8,26,12,
-Vancouver Velocity 2T,200,210,220,240,240,,,,214,Zephiel810,8,30,44,2,8,24,20,
-Vancouver Velocity 2R/T,195,205,215,235,235,,,,195,Crazi,6,30,34,8,8,24,12,
-Wii Coconut Mall,165,175,185,205,205,Y,,,226,BurntSausages,6,30,26,10,2,18,16,
-Wii Coconut Mall R,160,170,180,200,200,Y,,,261,Patomo,6,26,20,8,0,26,16,
-Wii Coconut Mall T,200,210,220,240,240,,,,265,Autodrift,6,22,56,6,3,32,12,
-Wii DK Summit,180,190,200,220,220,Y,,,236,Shadows,6,30,20,10,6,32,16,
-Wii DK Summit R,185,195,205,225,225,Y,,,250,Jason436,6,30,18,6,6,37,16,
-Wii DK Summit T,190,200,210,230,230,,,,270,CrunchyCheez,6,24,38,10,6,26,12,
-Wii Koopa Cape,200,210,220,240,240,Y,,,264,NoJokesInc.,6,36,30,6,6,36,16,
-Wii Koopa Cape R,190,200,210,230,230,Y,,,266,Alpha69,6,38,28,2,4,32,16,
-Wii Koopa Cape T,205,215,225,245,245,Y,,,269,MisterB,6,32,40,6,6,36,16,
-Wii Maple Treeway,190,200,210,230,240,Y,,,243,RcGoldJohnii,6,28,14,6,14,30,16,10
-Wii Maple Treeway R,180,190,200,220,240,Y,,,277,heriawsity,6,25,20,2,8,24,16,10
-Wii Maple Treeway T,210,220,230,250,240,Y,,,277,stic,6,22,50,0,16,24,16,10
-Wii Maple Treeway R/T,215,225,235,255,255,Y,,,280,いきゅう,6,30,46,12,0,20,16,15
-Wii Mushroom Gorge,180,190,200,220,220,Y,,,239,heriawsity,6,26,16,10,8,34,16,
-Wii Mushroom Gorge R,170,180,190,210,210,Y,,,240,hiro,6,22,12,8,10,26,16,
-Wii Mushroom Gorge T,190,200,210,230,230,Y,,,242,kame,6,16,56,8,0,30,16,
+Course,Normal,Giant Banana,Lucky 7,Boomerang Flower,Coin Box,Coin Box?,Tour Buff?,CB to BB?,WR,WR Holder,Item Boxes,Mini-Turbos,Jump Boosts,Dash Panels,Glide Time,Coins (Course),Coins (Items)
+3DS Bowser's Castle,195,205,215,235,235,Y,,,274,PIEN,6,38,20,8,8,32,16
+3DS Bowser's Castle R,180,190,200,220,220,Y,,,268,KM,6,40,22,2,3,34,16
+3DS Bowser's Castle T,180,190,200,220,220,Y,,,252,Danny,6,32,38,6,4,28,16
+3DS Bowser's Castle R/T,200,210,220,240,240,Y,,,275,MasaPooh,6,22,50,4,6,34,16
+3DS Cheep Cheep Lagoon,145,155,165,175,180,,,,158,N3vermind,5,8,21,4,0,16,8
+3DS Cheep Cheep Lagoon R,145,155,165,175,180,Y,,,217,KM,5,8,21,5,0,34,12
+3DS Cheep Cheep Lagoon T,135,145,155,165,170,Y,,,208,Zephiel810,5,8,31,8,0,23,12
+3DS Cheep Cheep Lagoon R/T,130,140,150,160,165,Y,,,208,ugu,4,8,30,6,0,22,8
+3DS Daisy Hills,185,195,205,225,225,,,,210,hiro,6,16,19,10,8,28,12
+3DS Daisy Hills R,195,205,215,235,235,,,,222,heriawsity ,6,18,25,9,6,34,12
+3DS Daisy Hills T,195,205,215,235,235,Y,,,288,RepleteLight,6,16,41,18,8,33,16
+3DS Daisy Hills R/T,190,200,210,230,230,Y,,,263,Harry Copper,6,14,38,14,0,20,16
+3DS Mario Circuit,180,190,200,220,220,Y,,,272,ugu,6,22,15,0,6,50,16
+3DS Mario Circuit R,175,185,195,215,215,Y,,,258,GamerAmy,8,20,13,2,2,41,24
+3DS Mario Circuit T,190,200,210,230,230,Y,,,247,Iva_n,8,22,28,14,4,28,24
+3DS Mario Circuit R/T,195,205,215,235,235,Y,,,263,Gadam64,8,20,37,14,0,12,24
+3DS Neo Bowser City,165,175,185,205,205,Y,,,242,stic,6,26,3,0,5,43,16
+3DS Neo Bowser City R,165,175,185,205,205,Y,,,264,kame,6,26,4,0,0,50,16
+3DS Neo Bowser City T,195,205,215,235,235,Y,,,259,Ethan Yang,6,26,33,12,0,40,16
+3DS Neo Bowser City R/T,180,190,200,220,220,Y,,,260,zinma,6,26,29,12,0,38,16
+3DS Piranha Plant Slide,200,210,220,240,240,,,,259,Alpha69,9,28,30,8,4,32,24
+3DS Piranha Plant Slide R,170,180,190,210,210,Y,,,244,Crunchycheez,6,20,30,3,2,24,16
+3DS Piranha Plant Slide T,215,225,235,255,255,,,,284,Captain Evan,8,18,50,6,6,44,20
+3DS Rainbow Road,225,235,245,265,265,Y,,,333,Crazi,7,22,32,23,16,33,20
+3DS Rainbow Road R,210,220,230,240,245,Y,,,278,ParisPeach_Ace,5,22,26,21,11,33,12
+3DS Rainbow Road T,230,240,250,270,270,Y,,,287,heriawsity,7,22,44,34,10,18,20
+3DS Rainbow Road R/T,230,240,250,270,270,Y,,,314,Nikey,7,22,45,20,10,31,20
+3DS Rock Rock Mountain,200,210,220,240,240,Y,,,270,hiro,6,20,13,12,25,40,16
+3DS Rock Rock Mountain R,180,190,200,220,220,Y,,,239,nao,6,22,22,8,0,33,16
+3DS Rock Rock Mountain T,210,220,230,250,250,,,,282,Crugga,6,20,35,14,20,38,12
+3DS Rosalina's Ice World,175,185,195,215,215,,,,225,Tsubasa,8,34,6,8,0,20,20
+3DS Rosalina's Ice World R,180,190,200,220,220,,,,270,heriawsity,6,30,10,10,8,38,12
+3DS Rosalina's Ice World T,190,200,210,230,230,Y,,,254,Com Truise,6,28,38,16,0,28,16
+3DS Rosalina's Ice World R/T,180,190,200,220,235,Y,,,256,Kannagi_re,6,25,30,14,4,30,16
+3DS Shy Guy Bazaar,180,190,200,220,220,Y,,,268,Sloth,6,24,20,10,8,36,16
+3DS Shy Guy Bazaar R,190,200,210,230,230,Y,,,264,RepleteLight,6,24,16,8,12,41,16
+3DS Shy Guy Bazaar T,190,200,210,230,230,Y,,,258,Flo427,8,22,44,12,6,40,24
+3DS Shy Guy Bazaar R/T,160,170,180,200,200,Y,,,,,6,22,26,10,0,16,16
+3DS Toad Circuit,150,160,170,190,190,Y,,,216,petemob,6,18,2,2,4,33,16
+3DS Toad Circuit R,165,175,185,205,195,Y,,,220,Com Truise,6,18,1,12,0,22,16
+3DS Toad Circuit T,170,180,185,220,210,,,,253,MisterB,6,16,45,2,3,33,12
+3DS Toad Circuit R/T,180,190,200,220,220,Y,,,224,zinma,6,16,35,9,0,12,16
+3DS Wario Shipyard,170,180,190,210,210,,,,237,Iva_n,6,26,16,18,4,18,12
+3DS Wario Shipyard R,175,185,195,215,215,Y,,,254,hiro,6,26,14,6,10,24,16
+3DS Wario Shipyard T,170,180,190,210,210,Y,,,272,RexPlayz,6,24,44,6,0,22,16
+3DS Wario Shipyard R/T,180,190,200,220,220,,,,243,Jack88,6,28,34,12,6,20,12
+Amsterdam Drift,180,190,200,220,220,,,,224,Hiro,6,32,16,4,10,30,12
+Amsterdam Drift R,175,185,195,215,215,Y,,,230,Hiro,6,28,22,2,6,32,16
+Amsterdam Drift T,180,190,200,220,220,,,,226,mariogi,6,28,32,2,10,16,12
+Amsterdam Drift R/T,175,185,195,215,215,Y,,,222,kong,6,22,36,8,4,24,16
+Amsterdam Drift 2,135,145,155,175,175,Y,,,225,PIEN,6,24,10,0,0,30,16
+Amsterdam Drift 2R,135,145,155,175,175,Y,,,216,Shy Guy Kart,6,26,10,0,0,26,16
+Amsterdam Drift 2T,140,150,160,180,180,Y,,,207,TheRealLatios,6,18,26,2,0,20,16
+Amsterdam Drift 2R/T,155,165,175,195,195,Y,,,213,Iva_n,6,16,22,0,10,28,16
+Bangkok Rush,170,180,190,210,210,Y,,,226,seventere,6,24,22,0,0,40,16
+Bangkok Rush R,170,180,190,210,210,Y,,,241,OG★MattYT,6,26,10,0,10,40,16
+Bangkok Rush T,190,200,210,230,230,Y,,,234,Krzych88,6,20,44,0,6,38,16
+Bangkok Rush R/T,175,185,195,215,215,Y,,,230,Couch000,6,24,36,2,0,22,16
+Berlin Byways,150,160,170,190,190,,,,191,heriawsity,6,40,6,3,0,22,12
+Berlin Byways R,150,160,170,190,190,Y,,,222,Luc,6,40,4,5,0,18,16
+Berlin Byways T,180,190,200,220,220,Y,,,213,Isai,6,32,36,2,2,26,16
+Berlin Byways 2,165,175,185,205,205,Y,,,250,cool guy,8,24,12,0,10,26,24
+Berlin Byways 2R,160,170,180,200,200,Y,,,234,stic,6,28,12,0,8,34,16
+Berlin Byways 2T,175,185,190,215,205,Y,,,257,Tylerrrr,8,20,30,1,2,30,24
+Berlin Byways 2R/T,175,185,195,215,215,Y,,,235,Swarls,6,26,32,0,0,32,16
+Berlin Byways 3,145,155,165,185,185,,,,190,heriawsity,6,32,3,0,0,26,12
+Berlin Byways 3R,155,165,175,195,195,Y,,,249,hiro,6,34,0,2,0,32,16
+Berlin Byways 3T,165,175,185,205,205,,,,225,lacavuigi,6,20,33,4,4,27,12
+DS Airship Fortress,170,180,190,210,210,Y,,,,,6,38,10,4,4,22,16
+DS Airship Fortress R,170,180,190,210,210,Y,,,,,6,38,12,0,2,26,16
+DS Airship Fortress T,215,225,235,255,255,Y,,,341,Leo,8,34,45,8,0,26,24
+DS Airship Fortress R/T,210,220,230,250,250,Y,,,261,Pien,8,40,48,8,4,20,24
+DS DK Pass,185,195,205,225,225,,,,230,惡魔Z,8,26,10,0,6,44,20
+DS DK Pass R,195,205,215,235,235,Y,,,287,prodbydemo,8,24,8,2,6,54,24
+DS DK Pass T,230,240,250,270,270,Y,,,337,Rapha,8,33,48,0,6,40,24
+DS DK Pass R/T,220,230,240,260,260,,,,223,DKR.exe,7,18,44,6,8,64,16
+DS Luigi's Mansion,150,160,170,190,190,Y,,,226,Sucha,6,18,9,2,0,26,16
+DS Luigi's Mansion R,160,170,180,200,200,,,,256,Harry Copper,8,22,4,2,0,32,20
+DS Luigi's Mansion T,170,180,190,210,210,Y,,,244,seventere,6,16,33,14,0,30,16
+DS Luigi's Mansion R/T,170,180,190,210,210,,,,227,heriawsity,8,14,28,6,0,26,20
+DS Twilight House,130,130,160,170,170,Y,,,,,15,0,0,0,0,0,0
+DS Waluigi Pinball,180,190,200,220,220,Y,,,254,Kungfupanda4,6,26,8,10,6,40,16
+DS Waluigi Pinball R,185,195,205,225,225,Y,,,292,miya,6,26,8,26,6,66,16
+DS Waluigi Pinball T,210,220,230,250,250,Y,,,283,Com Truise,6,26,35,19,6,46,16
+DS Waluigi Pinball R/T,180,190,200,220,220,Y,,,293,tsubasa,6,26,30,20,6,51,16
+GBA Battle Course 1,120,120,150,160,160,,,,,,15,0,0,0,0,0,0
+GBA Boo Lake,150,160,170,190,190,Y,,,,,6,24,16,0,0,30,16
+GBA Boo Lake R,150,160,170,190,190,,,,,,6,26,16,0,0,22,12
+GBA Boo Lake T,165,175,185,205,205,,,,,,6,20,38,2,0,24,12
+GBA Boo Lake R/T,165,175,185,205,205,Y,,,,,6,18,26,2,6,28,16
+GBA Bowser's Castle 1,125,135,145,155,160,Y,,,187,Autodrift,4,20,8,8,0,22,8
+GBA Bowser's Castle 1R,130,140,150,160,165,Y,,,202,miya,4,18,10,8,0,29,8
+GBA Bowser's Castle 1T,150,160,170,180,185,Y,,,225,nii,4,15,27,8,0,37,8
+GBA Bowser's Castle 1R/T,140,150,160,170,175,Y,,,198,Swarls,4,10,22,31,0,46,8
+GBA Bowser's Castle 2,180,190,200,220,220,Y,,,266,N3vermind,6,22,22,26,0,32,16
+GBA Bowser's Castle 2R,180,190,200,220,220,Y,,,269,X211,6,22,22,26,0,24,16
+GBA Bowser's Castle 2T,180,190,200,220,220,Y,,,292,Kenta,6,22,59,28,0,24,16
+GBA Bowser's Castle 2R/T,180,190,200,220,220,Y,,,,,6,20,50,24,0,24,16
+GBA Bowser's Castle 3,185,195,205,225,225,Y,,,291,Hikarun,8,32,22,10,0,26,24
+GBA Bowser's Castle 3R,180,190,200,220,220,Y,,,290,hiro,8,30,22,10,0,26,24
+GBA Bowser's Castle 3T,215,225,235,255,255,Y,,,245,naoto,8,20,56,20,2,20,24
+GBA Cheep-Cheep Island,150,160,170,190,190,,,,185,Autodrift,6,28,4,2,0,24,12
+GBA Cheep-Cheep Island R,155,165,175,200,195,Y,,,224,weller,6,30,4,2,0,28,16
+GBA Cheep-Cheep Island T,180,190,200,220,220,Y,,,278,Acquiesce,6,28,45,4,0,28,16
+GBA Sky Garden,150,160,170,190,190,,,,230,WootMoo,6,28,8,0,6,24,12
+GBA Sky Garden R,150,160,170,190,190,,,,247,POKAI,6,26,10,2,4,24,12
+GBA Sky Garden T,170,180,190,200,210,,,,213,naoto,6,28,24,4,0,26,12
+GBA Sunset Wilds,150,160,170,190,190,Y,,,245,Nikey,6,34,4,6,0,20,16
+GBA Sunset Wilds R,145,155,165,185,185,Y,,,228,stic,6,34,4,6,0,20,16
+GBA Sunset Wilds T,195,205,215,235,235,Y,,,254,hiro,6,20,40,8,8,30,16
+GBA Sunset Wilds R/T,180,190,200,220,205,Y,,,246,prodbydemo,6,22,50,2,0,18,16
+GCN Baby Park,140,150,160,180,180,,,,171,Autodrift,6,30,0,0,0,35,12
+GCN Baby Park R,140,150,160,170,175,,Y,,210,RSK,5,25,5,10,0,30,12
+GCN Baby Park T,165,175,185,205,205,,Y,,226,Rachel,6,12,33,3,12,33,16
+GCN Cookie Land,130,130,160,170,170,Y,,,,,15,0,0,0,0,0,0
+GCN Daisy Cruiser,150,160,170,190,190,Y,,,209,hiro,6,26,12,4,0,26,16
+GCN Daisy Cruiser R,150,160,170,190,190,Y,,,201,shoronpo,6,24,10,2,4,26,16
+GCN Daisy Cruiser T,160,170,180,200,200,,,,200,heriawsity,6,18,30,4,0,20,12
+GCN Dino Dino Jungle,160,170,180,200,200,Y,,,240,Iva_n,6,32,22,0,6,16,16
+GCN Dino Dino Jungle R,180,190,200,220,220,Y,,,256,Iva_n,6,18,22,6,6,46,16
+GCN Dino Dino Jungle T,185,195,205,225,225,Y,,,256,Kong,6,18,44,3,6,30,16
+GCN Dino Dino Jungle R/T,170,180,190,210,210,Y,,,240,seventere,6,18,45,4,0,38,16
+GCN Yoshi Circuit,180,190,200,220,220,,,,206,Rakker85,6,42,3,0,0,44,12
+GCN Yoshi Circuit R,185,195,205,225,225,Y,,,229,Burrato,8,42,7,6,4,22,24
+GCN Yoshi Circuit T,180,190,200,220,220,,,,233,Cool guy,8,26,18,0,6,38,20
+GCN Yoshi Circuit R/T,170,180,190,210,235,Y,,,267,Nikey,8,44,26,2,0,40,24
+London Loop,160,170,180,200,200,Y,,,223,heriawsity,6,38,4,0,0,30,16
+London Loop 3R/T,150,160,170,180,185,,,,191,Tanuke,4,26,28,4,14,30,4
+London Loop R,180,190,200,220,220,,,,,,8,40,3,0,0,38,20
+London Loop R/T,180,190,200,220,220,,,,,,8,30,36,0,,42,20
+London Loop 2,160,170,180,200,200,Y,,,201,heriawsity,6,36,6,0,0,34,16
+London Loop 2R,150,160,170,190,190,Y,,,218,Luc,6,36,6,0,0,26,16
+London Loop 2T,160,170,180,200,200,Y,,,221,Mikan,6,24,28,4,0,18,16
+London Loop 2R/T,155,165,175,195,195,Y,,,203,heriawsity,6,20,25,4,4,22,16
+London Loop 3,170,180,190,210,210,Y,,,206,DKR.exe,6,32,2,0,2,26,16
+London Loop 3R,170,180,190,210,210,Y,,,236,EcuaChef,6,28,4,4,8,26,16
+London Loop 3T,180,190,200,220,220,Y,,,266,tsubasa,6,20,32,10,2,18,16
+London Loop T,185,195,205,225,225,,,,,,6,32,30,2,0,42,12
+Los Angeles Laps,140,150,160,180,180,Y,,,,,6,34,8,4,0,28,16
+Los Angeles Laps 2T,160,170,180,200,200,Y,,,,,6,24,26,0,0,26,16
+Los Angeles Laps T,160,170,180,200,200,Y,,,241,zinma,6,20,32,2,6,24,16
+Los Angeles Laps R,140,150,160,180,180,,,,,,6,30,6,2,0,28,12
+Los Angeles Laps 2,140,150,160,180,180,Y,,,201,ugu,6,34,1,0,3,22,16
+Los Angeles Laps 2R,135,145,155,175,175,Y,,,222,iso,6,34,0,0,0,20,16
+Los Angeles Laps R/T,160,170,180,200,200,,,,,,6,24,30,8,8,22,12
+Los Angeles Laps 2R/T,165,175,185,195,200,Y,,,221,Marc,4,28,24,4,0,16,8
+Los Angeles Laps 3,160,170,180,200,200,,,,229,Swarls,6,28,4,0,6,34,12
+Los Angeles Laps 3R,160,170,180,200,200,Y,,,224,miya,6,26,6,0,8,26,16
+Los Angeles Laps 3T,170,180,190,210,210,Y,,,224,Swarls,6,24,30,4,0,24,16
+Los Angeles Laps 3R/T,170,180,190,210,210,Y,,,240,zain,6,20,31,0,10,28,16
+Merry Mountain,160,170,180,200,200,Y,,,221,Swarls,6,30,12,6,0,34,16
+Merry Mountain R,160,170,180,200,200,Y,,,215,Miya,6,24,13,6,0,20,16
+Merry Mountain T,165,175,185,205,205,Y,,,193,heriawsity,6,16,28,10,6,27,16
+Merry Mountain R/T,160,170,180,200,200,,,,243,Niti,6,30,26,8,0,30,12
+N64 Choco Mountain,180,190,200,220,220,Y,,,264,kaikai,6,26,17,0,4,34,16
+N64 Choco Mountain R,170,180,190,210,210,,,,237,heriawsity,6,26,15,0,4,34,12
+N64 Choco Mountain T,175,185,195,215,215,Y,,,240,Zephiel810,6,20,40,6,0,26,16
+N64 Choco Mountain R/T,175,185,195,215,215,Y,,,253,N3vermind,6,26,40,2,0,26,16
+N64 Frappe Snowland,160,170,180,200,200,Y,,,236,N3vermind,6,26,5,0,0,34,16
+N64 Frappe Snowland R,155,165,175,195,195,Y,,,239,miya,6,24,3,2,0,24,16
+N64 Frappe Snowland T,190,200,210,230,230,,,,266,heriawsity,6,18,40,10,8,24,12
+N64 Frappe Snowland R/T,190,200,200,230,230,Y,,,226,prodbydemo,6,22,39,2,0,32,16
+N64 Kalimari Desert,150,160,170,200,200,Y,,,238,ugu,6,16,8,0,0,30,16
+N64 Kalimari Desert R,165,175,185,205,205,Y,,,234,PIEN / xy,6,16,7,0,6,46,16
+N64 Kalimari Desert T,170,180,190,210,210,Y,,,233,heriawsity,6,16,41,0,0,32,16
+N64 Kalimari Desert R/T,175,185,195,215,215,Y,,,244,michi,6,12,29,6,0,25,16
+N64 Kalimari Desert 2,130,140,150,160,180,Y,,,189,Crazi,5,22,6,1,0,25,12
+N64 Kalimari Desert 2R,130,140,150,160,180,Y,,,223,miya,5,22,6,2,0,24,12
+N64 Kalimari Desert 2T,130,140,150,160,180,Y,,,211,Danny,5,18,20,1,0,32,12
+N64 Kalimari Desert 2R/T,140,150,160,170,175,Y,,,208,barbicon,5,21,22,0,0,20,12
+N64 Koopa Troopa Beach,160,170,180,200,200,Y,,,248,ecliptix,8,22,14,8,10,40,24
+N64 Koopa Troopa Beach R,155,165,175,195,195,Y,,,266,heriawsity,6,18,10,6,6,36,16
+N64 Koopa Troopa Beach T,160,170,180,200,200,Y,,,230,seventere,8,22,24,14,8,31,24
+N64 Koopa Troopa Beach R/T,160,170,180,200,200,Y,,,236,Baseball Club,6,16,22,8,8,18,16
+N64 Luigi Raceway,165,175,185,205,205,,,,229,heriawsity,7,28,10,12,0,32,16
+N64 Luigi Raceway R,165,175,185,205,205,Y,,,246,ugu,7,28,10,12,0,32,20
+N64 Luigi Raceway T,180,190,200,220,220,Y,,,243,heriawsity,6,22,26,10,0,36,16
+N64 Royal Raceway,160,170,180,200,200,Y,,,234,Zephiel810,6,34,4,6,6,34,16
+N64 Royal Raceway R,160,170,180,200,200,Y,,,240,Delta,8,34,8,6,0,26,24
+N64 Royal Raceway T,170,180,190,210,210,Y,,,225,Kungfupanda4,6,26,32,14,0,26,16
+N64 Royal Raceway R/T,180,190,200,220,220,,,,210,heriawsity,6,32,24,8,4,34,12
+N64 Yoshi Valley,170,180,190,210,210,Y,,,246,Rachid,7,38,16,0,1,24,20
+N64 Yoshi Valley R,175,185,195,215,215,Y,,,248,RepleteLight,6,40,14,0,0,34,16
+N64 Yoshi Valley T,200,210,220,240,240,,,,265,Crazi,6,23,55,0,4,36,12
+New York Minute,130,140,150,170,170,,,,,,6,22,4,0,0,22,12
+New York Minute 2,150,160,170,190,190,Y,,,,,6,24,4,0,4,34,16
+New York Minute 2R,150,160,170,190,190,Y,,,,,6,22,4,0,4,30,16
+New York Minute 2R/T,160,170,180,200,200,Y,,,,,6,20,24,4,0,28,16
+New York Minute 2T,160,170,180,200,200,Y,,,,,6,22,22,4,0,24,16
+New York Minute 3,125,135,145,165,165,Y,,,,,6,22,6,0,0,26,16
+New York Minute 3R,130,140,150,170,170,,,,,,6,22,6,0,0,26,12
+New York Minute 3R/T,120,130,140,160,160,Y,,,,,6,20,22,2,0,30,16
+New York Minute 3T,180,190,200,220,220,,,,134,Captain Evan,6,22,22,2,0,20,12
+New York Minute 4,110,120,125,140,145,,Y,,129,heriawsity,4,20,7,3,1,20,8
+New York Minute 4R,110,120,130,140,145,,,,168,heriawsity,4,20,8,3,0,20,4
+New York Minute 4R/T,115,125,135,145,150,,,,,,4,18,20,4,1,21,4
+New York Minute 4T,115,125,135,145,150,Y,,,,,4,16,20,1,2,20,8
+New York Minute R,140,150,160,180,180,,,,,,6,20,2,0,0,32,12
+New York Minute R/T,160,170,180,200,200,Y,,,,,6,16,24,8,0,32,16
+New York Minute T,160,170,180,200,200,Y,,,121,Hmmmm :],6,22,22,8,0,24,16
+New York Minute B,130,130,160,170,170,Y,,,,,15,0,0,0,0,0,0
+Ninja Hideaway,180,190,200,220,220,Y,,,,,6,22,30,0,10,43,16
+Ninja Hideaway R,180,190,200,220,220,Y,,,253,Anke,6,20,25,0,8,38,16
+Ninja Hideaway T,180,190,200,220,220,Y,,,245,いきゅう,6,20,38,0,4,44,16
+Ninja Hideaway R/T,180,190,200,220,220,,,,217,hiro,6,28,40,0,0,38,12
+Paris Promenade,130,140,150,160,165,Y,,,188,Zack,4,24,2,0,6,32,8
+Paris Promenade R,150,160,170,190,190,Y,,,223,stic,6,20,8,0,6,34,16
+Paris Promenade 3R/T,160,170,180,200,200,Y,,,,,6,16,28,6,5,18,16
+Paris Promenade R/T,140,150,160,180,180,Y,,,,,6,18,18,4,0,26,16
+Paris Promenade 2,150,160,160,190,190,,,,153,EcuaChef,6,18,5,0,0,22,12
+Paris Promenade 2R,140,150,160,170,175,Y,,,201,Delta,4,20,5,0,0,31,8
+Paris Promenade 2T,160,170,175,200,185,Y,,,227,Nathalie,6,16,26,2,0,28,16
+Paris Promenade 2R/T,140,150,160,180,180,,,,165,EcuaChef,6,16,26,6,0,12,12
+Paris Promenade 3,160,170,180,200,200,,,,204,heriawsity,6,34,6,0,0,44,12
+Paris Promenade 3R,150,160,170,190,190,Y,,,216,Luc,6,20,10,0,5,30,16
+Paris Promenade 3T,165,175,185,205,205,Y,,,249,heriawsity,6,22,26,6,5,22,16
+Paris Promenade T,130,140,150,160,165,,,,140,DKR.exe,4,14,24,4,2,18,4
+RMX Bowser's Castle 1,150,160,170,190,190,Y,,,226,ᴿᶜLumi,6,27,7,4,0,23,16
+RMX Bowser's Castle 1R,155,165,175,195,195,Y,,,241,zephiel810,6,26,8,4,4,24,16
+RMX Bowser's Castle 1T,170,180,190,210,210,Y,,,249,RepleteLight,6,24,30,4,0,24,16
+RMX Choco Island 1,150,160,170,180,185,Y,,,211,Ed havok,4,18,33,0,0,34,8
+RMX Choco Island 1R,140,150,150,170,175,,,,177,Swarls,4,18,24,2,0,32,4
+RMX Choco Island 1T,160,175,180,190,195,,,,224,zephiel810,4,24,30,10,0,32,4
+RMX Choco Island 1R/T,160,170,180,190,195,Y,,,198,Wootmoo,4,24,24,4,4,26,8
+RMX Choco Island 2,150,160,170,190,190,Y,,,230,heriawsity,8,20,16,2,0,18,24
+RMX Choco Island 2R,140,150,160,180,180,Y,,,218,heriawsity,6,20,16,4,6,28,16
+RMX Choco Island 2T,170,180,190,210,190,Y,,,233,Anthony D,6,20,34,6,0,24,16
+RMX Donut Plains 1,145,155,165,185,185,,,,,,6,20,12,0,6,20,12
+RMX Donut Plains 1R,150,160,170,190,190,Y,,,,,6,20,20,2,0,20,16
+RMX Donut Plains 1T,175,185,195,215,215,Y,,,,,6,14,44,0,6,26,16
+RMX Donut Plains 1R/T,175,185,195,215,207,Y,,,,,6,18,44,6,0,20,16
+RMX Ghost Valley 1,150,160,170,190,190,Y,,,212,Rapha,6,34,26,0,0,22,16
+RMX Ghost Valley 1R,150,160,170,190,190,Y,,,215,pyro,6,34,26,0,0,22,16
+RMX Ghost Valley 1T,165,175,185,205,205,Y,,,231,ugu,6,22,36,4,0,24,16
+RMX Ghost Valley 1R/T,180,190,200,220,220,,,,231,Joshxzss,6,14,40,0,8,28,12
+RMX Mario Circuit 1,190,200,210,230,230,,,,211,mashiron,8,24,24,4,0,31,20
+RMX Mario Circuit 1R,170,180,190,210,210,Y,,,211,Wootmoo,6,24,28,4,0,26,16
+RMX Mario Circuit 1T,190,200,210,230,230,Y,,,217,いきゅう,6,22,44,8,0,30,16
+RMX Mario Circuit 1R/T,170,180,190,230,210,Y,,,285,Dom Hongisto,7,20,32,4,18,28,20
+RMX Rainbow Road 1,160,170,180,200,200,Y,,,240,Shadows,6,18,20,6,16,30,16
+RMX Rainbow Road 1R,160,170,180,200,200,Y,,,249,Zephiel810,6,18,16,4,16,24,16
+RMX Rainbow Road 1T,185,195,205,225,225,,,,222,zephiel810,6,18,46,4,0,32,12
+RMX Rainbow Road 1R/T,160,170,180,190,195,Y,,,216,Iva_n,4,20,40,2,6,36,8
+RMX Rainbow Road 2,180,190,200,220,220,Y,,,278,Autodrift,6,20,34,4,6,28,16
+RMX Rainbow Road 2R,170,180,190,210,210,Y,,,226,Aaron,6,22,30,4,6,34,16
+RMX Rainbow Road 2T,180,190,200,220,220,Y,,,268,Swarls,6,20,52,6,6,23,16
+RMX Rainbow Road 2R/T,195,205,215,235,235,Y,,,256,Lacavuigi,6,18,58,10,0,35,16
+RMX Vanilla Lake 1,160,170,180,200,200,Y,,,251,RepleteLight,6,18,24,0,6,30,16
+RMX Vanilla Lake 1R,160,170,180,200,200,,,,200,Miya,6,18,20,0,6,30,12
+RMX Vanilla Lake 1T,175,185,195,215,215,,,,202,Danny,6,15,36,8,6,30,12
+Singapore Speedway,150,160,170,190,190,Y,,,222,Jonboy88,6,20,6,4,10,24,16
+Singapore Speedway R,150,160,170,190,190,,,,193,Iva_n,6,18,14,0,4,24,12
+Singapore Speedway T,170,180,190,210,210,,,,239,Iva_n,6,14,26,6,12,24,12
+Singapore Speedway R/T,170,180,190,210,210,,,,209,Iva_n,6,20,22,8,6,34,12
+Singapore Speedway 2,160,170,180,200,200,Y,,,222,Danny,6,28,22,2,6,24,16
+Singapore Speedway 2R,160,170,180,200,200,Y,,,252,miya,6,22,20,2,6,26,16
+Singapore Speedway 2T,180,190,200,220,220,Y,,,246,Dallitos,6,14,32,2,14,32,16
+Singapore Speedway 2R/T,180,190,200,220,220,Y,,,258,PIEN,6,24,38,4,4,30,16
+Sky-High Sundae,170,180,190,210,210,,,,220,Porsche,6,26,36,0,6,24,12
+Sky-High Sundae R,180,190,200,220,210,Y,,,232,PIEN,6,16,34,0,16,30,16
+Sky-High Sundae T,190,200,210,230,210,Y,,,249,swarls,6,16,41,2,7,36,16
+Sky-High Sundae R/T,160,170,180,190,200,,,N,216,aron,6,14,40,3,2,20,12
+SNES Choco Island 1,135,145,155,165,170,Y,,,197,Iva_n,4,14,29,0,0,28,8
+SNES Choco Island 1R,135,145,155,165,170,Y,,,208,okayandia,4,14,28,0,0,33,8
+SNES Choco Island 1T,140,150,160,170,175,Y,,,183,Miya,4,14,36,10,0,16,8
+SNES Choco Island 1R/T,135,145,155,165,170,Y,,,181,Robert1202,4,12,32,2,0,24,8
+SNES Choco Island 2,140,150,160,180,180,Y,,,219,heriawsity,6,18,24,0,4,36,16
+SNES Choco Island 2R,140,150,160,170,175,,Y,,173,hiro,5,12,24,0,4,40,12
+SNES Choco Island 2T,140,150,160,170,175,Y,,,206,Crazi,5,12,36,1,2,16,12
+SNES Choco Island 2R/T,130,140,150,170,170,Y,,,181,heriawsity,6,10,20,2,0,20,16
+SNES Donut Plains 1,120,130,140,150,155,Y,,,194,heriawsity,4,24,0,0,0,24,8
+SNES Donut Plains 1R,120,130,140,150,155,Y,,,140,Zephiel810,4,24,0,0,0,24,8
+SNES Donut Plains 1T,130,140,150,160,165,Y,,,166,Rapha,4,18,26,2,0,22,8
+SNES Donut Plains 1R/T,120,130,140,150,155,Y,,,161,miya,4,16,8,2,6,22,8
+SNES Donut Plains 2,140,150,160,180,180,Y,,,229,zephiel810,6,25,12,0,0,24,16
+SNES Donut Plains 2R,140,150,160,180,180,Y,,,224,scrub,6,25,10,0,0,22,16
+SNES Donut Plains 2T,150,160,170,175,190,,,,212,Zephiel810,6,18,30,2,0,24,12
+SNES Donut Plains 2R/T,160,170,170,200,200,Y,,,242,RexPlayz,6,18,32,8,0,26,16
+SNES Donut Plains 3,135,145,170,175,175,,,,,,6,20,12,0,0,18,12
+SNES Donut Plains 3R,125,135,170,165,165,Y,,,,,6,12,10,0,2,14,16
+SNES Donut Plains 3T,150,160,170,190,190,Y,,,,,6,18,26,0,0,22,16
+SNES Donut Plains 3R/T,150,160,170,190,190,Y,,,,,6,14,26,0,0,26,16
+SNES Ghost Valley 1,120,130,140,150,155,Y,,,184,pyro,4,14,7,0,0,26,8
+SNES Ghost Valley 1R,120,130,140,150,155,Y,,,186,Swarls,4,14,3,0,0,32,8
+SNES Ghost Valley 1T,135,145,155,165,170,Y,,,174,Hyperino,4,14,30,0,0,24,8
+SNES Ghost Valley 1R/T,125,135,145,155,160,Y,,,174,kaikai,4,10,22,4,4,18,8
+SNES Ghost Valley 2,130,140,150,160,165,,Y,,212,Misterb,4,18,4,2,4,36,8
+SNES Ghost Valley 2R,130,140,150,160,165,Y,,,187,heriawsity,4,22,4,2,4,32,8
+SNES Ghost Valley 2T,160,170,180,190,195,Y,,,224,Tanuke,4,10,28,10,8,34,8
+SNES Ghost Valley 2R/T,150,155,160,165,170,Y,,,185,stic,4,10,24,2,6,44,8
+SNES Koopa Troopa Beach 2,120,130,140,160,160,Y,,,231,hiro,6,20,0,0,0,16,16
+SNES Koopa Troopa Beach 2R,135,145,155,175,175,Y,,,203,Melody,8,20,2,2,0,26,24
+SNES Koopa Troopa Beach 2T,155,165,175,195,195,Y,,,211,Miya,6,20,14,2,0,26,16
+SNES Mario Circuit 1,115,125,135,145,150,Y,,,165,Cintia,4,18,0,0,0,42,8
+SNES Mario Circuit 1R,115,125,135,145,150,Y,,,165,Com Truise,4,12,3,0,0,30,8
+SNES Mario Circuit 1T,115,125,135,145,150,Y,,,156,Zephiel810,4,12,20,0,0,30,8
+SNES Mario Circuit 1R/T,120,130,140,150,155,Y,,,,,4,10,21,4,6,38,8
+SNES Mario Circuit 2,120,130,140,150,155,Y,,,163,Com Truise,4,20,5,2,8,36,8
+SNES Mario Circuit 2R,140,150,160,180,180,,,,174,heriawsity,6,18,3,0,2,32,12
+SNES Mario Circuit 2T,140,150,160,180,180,,,,198,Miya,6,18,24,4,0,24,12
+SNES Mario Circuit 2R/T,140,150,160,180,180,Y,,,202,tsubasa,6,18,29,2,0,26,16
+SNES Mario Circuit 3,145,155,165,185,185,Y,,,212,nao,6,26,0,2,0,42,16
+SNES Mario Circuit 3R,145,155,165,185,185,Y,,,219,Danny,6,26,0,2,0,40,16
+SNES Mario Circuit 3R/T,165,175,185,205,205,Y,,,200,Misterix,8,24,36,10,0,19,24
+SNES Mario Circuit 3T,160,170,180,200,200,Y,,,,,6,26,22,2,0,32,16
+SNES Rainbow Road,150,160,170,190,190,Y,,,235,heriawsity,6,16,20,0,0,37,16
+SNES Rainbow Road R,160,170,180,200,200,Y,,,236,hiro,7,16,18,0,4,48,20
+SNES Rainbow Road T,160,170,180,200,200,Y,,,242,zinma,6,16,44,0,0,35,16
+SNES Rainbow Road R/T,160,170,180,200,200,Y,,,229,tsubasa,6,16,32,0,0,22,16
+SNES Vanilla Lake 1,110,120,130,140,145,Y,,,177,GrievousKronos,4,12,0,0,0,32,8
+SNES Vanilla Lake 1R,110,120,130,140,145,Y,,,175,Ljcameron,5,12,2,0,0,28,12
+SNES Vanilla Lake 1T,130,140,150,170,170,Y,,,208,N3vermind,6,14,20,0,0,28,16
+SNES Vanilla Lake 1R/T,100,110,120,130,135,Y,,,157,Mikakinkun,5,12,16,4,6,22,12
+SNES Vanilla Lake 2,105,115,125,135,140,,,,149,hiro,4,10,6,0,0,26,4
+SNES Vanilla Lake 2R,110,120,130,140,145,Y,,,164,睡蓮菩薩,4,14,12,0,0,26,8
+SNES Vanilla Lake 2T,110,120,130,140,145,Y,,,159,惡魔Z,4,8,22,6,0,26,8
+Sydney Sprint,160,170,180,200,200,Y,,,198,DKR.exe,6,22,6,0,4,26,16
+Sydney Sprint R,175,185,195,215,215,Y,,,,,6,16,6,0,4,28,16
+Sydney Sprint T,160,170,180,200,200,Y,,,,,6,16,40,10,2,32,16
+Sydney Sprint R/T,155,165,175,195,195,Y,,,219,heriawsity,6,14,32,6,6,26,16
+Sydney Sprint 2,155,165,175,195,195,Y,,,253,RepleteLight,6,30,4,0,6,26,16
+Sydney Sprint 2R,150,160,170,190,190,Y,,,233,Delta,6,28,4,0,6,22,16
+Sydney Sprint 2T,170,180,190,210,210,Y,,,259,HauntedMike,6,20,26,0,12,32,16
+Sydney Sprint 2R/T,160,170,180,200,200,Y,,,,,6,12,38,8,12,26,16
+Sydney Sprint 3,160,170,180,200,200,Y,,,228,heriawsity,6,44,5,2,0,26,16
+Sydney Sprint 3R,155,165,175,195,195,Y,,,249,Robert1202,6,40,2,0,0,32,16
+Sydney Sprint 3T,195,205,215,235,235,Y,,,279,miya,6,32,36,4,0,38,16
+Tokyo Blur,105,115,125,145,145,Y,,,196,heriawsity,6,20,0,0,0,24,16
+Tokyo Blur 2,100,110,120,140,140,Y,,,205,Lengoss,6,20,1,0,0,30,16
+Tokyo Blur 2R,110,120,130,150,150,Y,,,,,6,20,1,0,0,30,16
+Tokyo Blur 2R/T,,10,20,40,40,Y,,,,,6,,21,2,,7,16
+Tokyo Blur 2T,130,140,150,170,170,Y,,,,,6,26,27,0,0,28,16
+Tokyo Blur 3,165,175,185,205,205,,,,,,6,20,2,0,0,42,12
+Tokyo Blur 3R,140,150,160,180,180,Y,,,,,8,24,2,0,0,36,24
+Tokyo Blur 4,125,135,145,155,160,,,,141,Com Truise,5,22,1,0,0,28,8
+Tokyo Blur 4R,123,133,143,153,158,Y,,,167,heriawsity,5,18,1,0,0,28,12
+Tokyo Blur 4R/T,102,112,122,132,137,,,,,,4,20,13,2,,16,4
+Tokyo Blur 3T,140,150,160,180,180,Y,,,200,Antonio,6,28,40,2,0,26,16
+Tokyo Blur 3R/T,200,210,220,240,240,,,,236,Misterix,6,24,24,13,18,18,12
+Tokyo Blur 4T,130,140,150,160,165,,,,,,4,30,23,0,0,22,4
+Tokyo Blur R,105,115,125,135,140,Y,,,173,Shadows,4,24,0,0,0,28,8
+Tokyo Blur R/T,125,135,145,155,160,Y,,,196,Da Bear,4,23,16,2,0,30,8
+Tokyo Blur T,130,140,150,160,165,,,,,,4,22,32,0,0,28,4
+Vancouver Velocity,160,170,180,200,200,Y,,,221,Ed havok,6,26,14,0,6,32,16
+Vancouver Velocity R,165,175,185,205,205,Y,,,,,6,40,18,2,6,30,16
+Vancouver Velocity T,170,180,190,210,210,,,,,,6,32,20,16,5,16,12
+Vancouver Velocity R/T,160,170,180,200,200,Y,,,223,Ed havok,6,36,36,6,6,26,16
+Vancouver Velocity 2,170,180,190,210,210,,,,174,Zack,6,34,10,0,6,28,12
+Vancouver Velocity 2R,170,180,190,210,210,,,,208,heriawsity,6,32,10,2,8,26,12
+Vancouver Velocity 2T,200,210,220,240,240,,,,214,Zephiel810,8,30,44,2,8,24,20
+Vancouver Velocity 2R/T,195,205,215,235,235,,,,195,Crazi,6,30,34,8,8,24,12
+Vancouver Velocity 3,155,165,175,195,195,,,,,,6,36,4,0,0,38,12
+Vancouver Velocity 3R,145,155,165,185,185,Y,,,,,6,34,6,0,0,18,16
+Vancouver Velocity 3T,175,185,195,215,215,Y,,,,,6,24,36,4,0,24,16
+Vancouver Velocity 3R/T,190,200,210,230,230,,,,,,6,26,40,2,0,40,12
+Wii Coconut Mall,165,175,185,205,205,Y,,,226,BurntSausages,6,30,26,10,2,18,16
+Wii Coconut Mall R,160,170,180,200,200,Y,,,261,Patomo,6,26,20,8,0,26,16
+Wii Coconut Mall T,200,210,220,240,240,,,,265,Autodrift,6,22,56,6,3,32,12
+Wii DK Summit,180,190,200,220,220,Y,,,236,Shadows,6,30,20,10,6,32,16
+Wii DK Summit R,185,195,205,225,225,Y,,,250,Jason436,6,30,18,6,6,37,16
+Wii DK Summit T,190,200,210,230,230,,,,270,CrunchyCheez,6,24,38,10,6,26,12
+Wii Koopa Cape,200,210,220,240,240,Y,,,264,NoJokesInc.,6,36,30,6,6,36,16
+Wii Koopa Cape R,190,200,210,230,230,Y,,,266,Alpha69,6,38,28,2,4,32,16
+Wii Koopa Cape T,205,215,225,245,245,Y,,,269,MisterB,6,32,40,6,6,36,16
+Wii Maple Treeway,180,190,200,220,230,Y,,,243,RcGoldJohnii,6,28,14,6,14,30,16
+Wii Maple Treeway R,170,180,190,210,230,Y,,,277,heriawsity,6,25,20,2,8,24,16
+Wii Maple Treeway T,200,210,220,240,230,Y,,,277,stic,6,22,50,0,16,24,16
+Wii Maple Treeway R/T,200,210,220,240,240,Y,,,280,いきゅう,6,30,46,12,0,20,16
+Wii Mushroom Gorge,180,190,200,220,220,Y,,,239,heriawsity,6,26,16,10,8,34,16
+Wii Mushroom Gorge R,170,180,190,210,210,Y,,,240,hiro,6,22,12,8,10,26,16
+Wii Mushroom Gorge T,190,200,210,230,230,Y,,,242,kame,6,16,56,8,0,30,16
