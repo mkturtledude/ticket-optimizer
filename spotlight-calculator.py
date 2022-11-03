@@ -9,9 +9,9 @@ def comb(n, r):
 
 baseWeights = [100, 50, 3]
 
-originalPoolDrivers = [3, 16, 8]
-originalPoolKarts = [6, 25, 10]
-originalPoolGliders = [2, 17, 9]
+originalPoolDrivers = [6, 19, 8]
+originalPoolKarts = [11, 34, 11]
+originalPoolGliders = [6, 25, 9]
 
 toDraw = 6
 
