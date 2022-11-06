@@ -164,7 +164,7 @@ class TourCourse:
         self.courseActions = CourseActions()
 
 class InventoryItem:
-    def __init__(self, gameItem, level, basePoints, uncaps, partialLevels):
+    def __init__(self, gameItem, level, basePoints, uncaps, partialLevels, levelCap, uncapCap):
         self.gameItem = gameItem
         self.englishName = gameItem.name
         self.skill = gameItem.skill
@@ -174,6 +174,8 @@ class InventoryItem:
         self.basePoints = basePoints
         self.uncaps = uncaps
         self.partialLevels = partialLevels
+        self.levelCap = levelCap
+        self.uncapCap = uncapCap
 
     def print(self):
         print("{}:".format(self.englishName))

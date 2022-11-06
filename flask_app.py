@@ -106,8 +106,8 @@ def results():
 
     if not invFile.data:
         return throwError("No inventory file selected")
-    if not playerLevel or not str(playerLevel).isdigit() or int(playerLevel) < 1 or int(playerLevel) > 300:
-        return throwError("Please enter a player level between 1 and 300")
+    if not playerLevel or not str(playerLevel).isdigit() or int(playerLevel) < 1 or int(playerLevel) > 400:
+        return throwError("Please enter a player level between 1 and 400")
 
     inventoryLines = codecs.iterdecode(invFile.data, 'utf-8-sig')
     lines = []

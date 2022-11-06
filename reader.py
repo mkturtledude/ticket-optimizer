@@ -249,9 +249,11 @@ def makeInventory(allItems, inventoryItems):
         level = inventoryItems[item]["level"]
         uncaps = inventoryItems[item]["uncaps"]
         progress = inventoryItems[item]["partialLevels"]
+        levelCap = inventoryItems[item]["levelCap"]
+        uncapCap = inventoryItems[item]["uncapCap"]
         gameItem = allItems[name]
         basePoints = base.calculateBasePoints(type, gameItem.rarity, uncaps, gameItem.isMii, result.numberOfMiis)
-        invItem = base.InventoryItem(gameItem, level, basePoints, uncaps, progress)
+        invItem = base.InventoryItem(gameItem, level, basePoints, uncaps, progress, levelCap, uncapCap)
         if type == "D":
             result.drivers.add(invItem)
         elif type == "K":
@@ -275,10 +277,10 @@ def readInventory(inventoryLines, allItems):
         row = re.split('[,;\t]', line.strip()) # split to remove the newline
         if len(row) < 4:
             raise Exception("Row number " + str(lineNumber) + " in the inventory file has less than 4 columns:   " + line)
-        if len(row) > 5:
+        if len(row) > 7:
             raise Exception("Row number " + str(lineNumber) + " in the inventory file has more than 5 columns:   " + line)
         if row and row[2] != '0':
-            assert(len(row) in {4,5})
+            assert(len(row) in {4,5,6,7})
             if row[2] == 0:
                 continue
             itemDict = dict()
@@ -295,10 +297,18 @@ def readInventory(inventoryLines, allItems):
             itemDict["type"] = row[1]
             itemDict["level"] = int(row[2])
             itemDict["uncaps"] = int(row[3])
-            if len(row) == 5 and row[4].isdigit():
+            if len(row) >= 5 and row[4].isdigit():
                 itemDict["partialLevels"] = int(row[4])
             else:
                 itemDict["partialLevels"] = 0
+            if len(row) >= 6 and row[5].isdigit():
+                itemDict["levelCap"] = int(row[5])
+            else:
+                itemDict["levelCap"] = 8
+            if len(row) >= 7 and row[6].isdigit():
+                itemDict["uncapCap"] = int(row[6])
+            else:
+                itemDict["uncapCap"] = 4
             result[itemDict["name"]] = itemDict
 
     result = makeInventory(allItems, result)
