@@ -11,7 +11,7 @@
 
     <form action="/results" method="POST" enctype="multipart/form-data">
         {{ form.inventoryFile.label }} {{ form.inventoryFile }}<br>
-        {{ form.playerLevel.label }} {{ form.playerLevel(size=3, type="number", min="1", max="300") }} <br>
+        {{ form.playerLevel.label }} {{ form.playerLevel(size=3, type="number", min="1", max="400") }} <br>
         {{ form.cups.label }} {{ form.cups }} <br>
         Level-up tickets:<br>
         {{ form.lnd(size=3, style="border-color:Silver;", type="number", min="0", max="999") }}
