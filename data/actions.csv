@@ -103,8 +103,8 @@ GBA Bowser's Castle 3T,215,225,235,255,255,Y,,,245,naoto,8,20,56,20,2,20,24
 GBA Cheep-Cheep Island,150,160,170,190,190,,,,185,Autodrift,6,28,4,2,0,24,12
 GBA Cheep-Cheep Island R,155,165,175,200,195,Y,,,224,weller,6,30,4,2,0,28,16
 GBA Cheep-Cheep Island T,180,190,200,220,220,Y,,,278,Acquiesce,6,28,45,4,0,28,16
-GBA Riverside Park,140,150,160,180,180,Y,,,,,6,28,4,2,0,22,16
-GBA Riverside Park R,140,150,160,180,180,,,,,,6,24,4,2,2,24,12
+GBA Riverside Park,125,135,145,160,160,Y,,,,,4,28,4,2,0,22,8
+GBA Riverside Park R,125,135,145,160,160,,,,188,Porsche,4,24,4,2,2,24,4
 GBA Riverside Park T,155,165,175,185,190,Y,,,120,Hmmmm :],4,20,28,0,4,32,8
 GBA Riverside Park R/T,175,185,195,215,215,Y,,,,,6,26,24,0,2,38,16
 GBA Sky Garden,150,160,170,190,190,,,,230,WootMoo,6,28,8,0,6,24,12
@@ -125,10 +125,10 @@ GCN Dino Dino Jungle,160,170,180,200,200,Y,,,240,Iva_n,6,32,22,0,6,16,16
 GCN Dino Dino Jungle R,180,190,200,220,220,Y,,,256,Iva_n,6,18,22,6,6,46,16
 GCN Dino Dino Jungle T,185,195,205,225,225,Y,,,256,Kong,6,18,44,3,6,30,16
 GCN Dino Dino Jungle R/T,170,180,190,210,210,Y,,,259,Hikarun,6,18,45,4,0,38,16
-GCN DK Mountain,165,175,185,205,205,Y,,,,,6,38,14,0,4,24,16
-GCN DK Mountain R,150,160,170,190,190,Y,,,,,6,42,14,0,4,8,16
-GCN DK Mountain T,185,195,205,225,225,,,,,,6,26,38,8,10,22,12
-GCN DK Mountain R/T,185,195,205,225,225,,,,,,6,24,42,4,10,26,12
+GCN DK Mountain,165,175,185,205,205,Y,,,233,shine,6,38,14,0,4,24,16
+GCN DK Mountain R,150,160,170,190,190,Y,,,198,heriawsity,6,42,14,0,4,8,16
+GCN DK Mountain T,185,195,205,225,225,,,,188,heriawsity,6,26,38,8,10,22,12
+GCN DK Mountain R/T,185,195,205,225,225,,,,229,hiro,6,24,42,4,10,26,12
 GCN Yoshi Circuit,180,190,200,220,220,,,,206,Rakker85,6,42,3,0,0,44,12
 GCN Yoshi Circuit R,185,195,205,225,225,Y,,,229,Burrato,8,42,7,6,4,22,24
 GCN Yoshi Circuit T,180,190,200,220,220,,,,233,Cool guy,8,26,18,0,6,38,20
