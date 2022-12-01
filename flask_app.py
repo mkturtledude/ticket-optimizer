@@ -117,10 +117,11 @@ def results():
     except UnicodeDecodeError:
         return throwError("Couldn't read inventory file. Are you sure it's in CSV format and can be open with a spreadsheet program?")
 
-    try:
-        upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups)
-    except Exception as e:
-        return throwError(e.args[0])
+    upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups)
+    # try:
+    #     upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups)
+    # except Exception as e:
+    #     return throwError(e.args[0])
     return render_template('results.html', form=form, upgrades=upgrades, rows=rows, courses=courseLoadouts, scores=totalScores)
 
 
