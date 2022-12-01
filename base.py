@@ -274,7 +274,7 @@ def calculateBasePoints(type, rarity, uncaps, isMii, numberOfMiis):
             elif uncaps == 1:
                 result += 366
             elif uncaps == 2:
-                result += 414
+                result += 408
             elif uncaps == 3:
                 result += 456
             else:
