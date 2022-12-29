@@ -117,7 +117,7 @@ def results():
     except UnicodeDecodeError:
         return throwError("Couldn't read inventory file. Are you sure it's in CSV format and can be open with a spreadsheet program?")
 
-    upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups)
+    # upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups)
     try:
         upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups)
     except Exception as e:

@@ -269,8 +269,6 @@ def readInventory(inventoryLines, allItems):
     for item in allItems:
         # We need the unidecode to get rid of accents, as in Strawberry Cr^epe
         upperToNormal[unidecode.unidecode(item.upper())] = item
-    for element in upperToNormal:
-        print(element)
     lineNumber = 0
     for line in inventoryLines:
         lineNumber += 1
