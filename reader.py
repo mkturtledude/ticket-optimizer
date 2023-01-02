@@ -297,6 +297,8 @@ def readInventory(inventoryLines, allItems):
             itemDict["type"] = row[1]
             itemDict["level"] = int(row[2])
             itemDict["uncaps"] = int(row[3])
+            if itemDict["uncaps"] < 0 or itemDict["uncaps"] > 4:
+                raise Exception("The number of uncaps of " + itemDict["name"] + " is " + str(itemDict["uncaps"]) + ", but it should be a number between 0 and 4")
             if len(row) >= 5 and row[4].isdigit():
                 itemDict["partialLevels"] = int(row[4])
             else:
