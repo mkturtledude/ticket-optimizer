@@ -8,7 +8,44 @@ if SCIP:
 else:
     import pulp as plp
 
-def solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, tickets):
+
+'''
+combinations: list<set<tuple<score, item, item, item>>>
+    The list contains as many sets as there are courses in the tour (usually 45), in that order.
+    Each tuple represents a "combination". It contains, in that order, a score, a driver, a kart and a glider. 
+    The score is the one that corresponds to those loadouts on the given course. The score is a number. 
+    The items need to contain game ID, level and number of uncaps. See how the variable "combination" is used, and adapt
+    to your convenience.
+originalInventoryIdToItem: A dict that maps the item's game ID to the item as it is in the inventory. 
+    The distinction "as it is in the inventory" is important because the items in combinationsOnCourses represent
+    hypothetical upgrades. The data that we need from this inventory item is: Rarity, Type (D/K/G), possibility to 
+    calculate the number of tickets needed to any given level (taking into account partial upgrades) or to any given 
+    number of uncaps. All this data could in theory be included in the items of the previous parameter, but I did it 
+    this way to avoid duplication.
+tickets: An object of the following class:
+class TicketStash:
+    lnd = 0
+    lnk = 0
+    lng = 0
+    lsd = 0
+    lsk = 0
+    lsg = 0
+    lhd = 0
+    lhk = 0
+    lhg = 0
+    und = 0
+    unk = 0
+    ung = 0
+    usd = 0
+    usk = 0
+    usg = 0
+    uhd = 0
+    uhk = 0
+    uhg = 0
+    In each of the members: The first letter is the ticket type (Level or Uncaps), the second is the rarity (n/s/h) and
+    the third is the item type (d/k/g)
+'''
+def solve(combinations, originalInventoryIdToItem, tickets):
     ## Create model
     print("Creating and solving model...")
     if SCIP:
@@ -20,32 +57,31 @@ def solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, tick
     allCombinationScores = []
     allCombinationVariables = []
     combinationVariablesByCourse = []
-    # print("Creating y variables")
-    for i in range(len(courses)):
-        course = courses[i]
+    for i in range(len(combinations)): # i will be used to name the variables
+        courseCombinations = combinations[i]
         combinationVariablesByCourse.append([])
         combinationsToVariables.append(dict())
-        for c in combinationsOnCourses[course]:
-            if c in combinationsToVariables[-1]:
-                v = combinationsToVariables[-1][c]
+        for combination in courseCombinations:
+            if combination in combinationsToVariables[-1]:
+                v = combinationsToVariables[-1][combination]
             else:
-                did = c[1].gameItem.id
-                dl = c[1].level
-                du = c[1].uncaps
-                kid = c[2].gameItem.id
-                kl = c[2].level
-                ku = c[2].uncaps
-                gid = c[3].gameItem.id
-                gl = c[3].level
-                gu = c[3].uncaps
+                did = combination[1].gameItem.id
+                dl = combination[1].level
+                du = combination[1].uncaps
+                kid = combination[2].gameItem.id
+                kl = combination[2].level
+                ku = combination[2].uncaps
+                gid = combination[3].gameItem.id
+                gl = combination[3].level
+                gu = combination[3].uncaps
                 if SCIP:
                     v = model.addVar(vtype="B",
                                      name="y_%s_%s_%s_%s_%s_%s_%s_%s_%s_%s" % (i, did, dl, du, kid, kl, ku, gid, gl, gu))
                 else:
                     v = plp.LpVariable("y_%s_%s_%s_%s_%s_%s_%s_%s_%s_%s" % (i, did, dl, du, kid, kl, ku, gid, gl, gu), 0, 1, plp.LpInteger)
                 # variablesToCombinations[v] = c
-                combinationsToVariables[-1][c] = v
-            allCombinationScores.append(c[0])
+                combinationsToVariables[-1][combination] = v
+            allCombinationScores.append(combination[0])
             allCombinationVariables.append(v)
             combinationVariablesByCourse[-1].append(v)
             # print("\t[{}/{}/{}] + [{}/{}/{}] + [{}/{}/{}] -> {}".format(c[1].englishName, c[1].level, c[1].basePoints, c[2].englishName, c[2].level, c[2].basePoints, c[3].englishName, c[3].level, c[3].basePoints, c[0]))
@@ -66,17 +102,17 @@ def solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, tick
     itemsToVariables = dict()
     # print("Adding x variables and constraints CombOnlyIf")
     for courseCombinations in combinationsToVariables:
-        for c in courseCombinations:
-            combinationVariable = courseCombinations[c]
-            did = c[1].gameItem.id
-            dl = c[1].level
-            du = c[1].uncaps
-            kid = c[2].gameItem.id
-            kl = c[2].level
-            ku = c[2].uncaps
-            gid = c[3].gameItem.id
-            gl = c[3].level
-            gu = c[3].uncaps
+        for combination in courseCombinations:
+            combinationVariable = courseCombinations[combination]
+            did = combination[1].gameItem.id
+            dl = combination[1].level
+            du = combination[1].uncaps
+            kid = combination[2].gameItem.id
+            kl = combination[2].level
+            ku = combination[2].uncaps
+            gid = combination[3].gameItem.id
+            gl = combination[3].level
+            gu = combination[3].uncaps
             d = tuple([did, dl, du])
             k = tuple([kid, kl, ku])
             g = tuple([gid, gl, gu])
@@ -314,6 +350,14 @@ def solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, tick
 
     print("Done solving model!")
     return optimalCombinations
+
+
+def solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, tickets):
+    combinations = []
+    for i in range(len(courses)):
+        course = courses[i]
+        combinations.append(combinationsOnCourses[course])
+    return solve(combinations, originalInventoryIdToItem, tickets)
 
 
 def constructUpgradeTableStrings(solutionCombinations, inventory, courses):
