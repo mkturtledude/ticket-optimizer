@@ -3,14 +3,14 @@ Course,Normal,Giant Banana,Lucky 7,Boomerang Flower,Coin Box,Coin Box?,Tour Buff
 3DS Bowser's Castle R,180,190,200,220,220,Y,,,268,KM,6,40,22,2,3,34,16
 3DS Bowser's Castle T,180,190,200,220,220,Y,,,252,Danny,6,32,38,6,4,28,16
 3DS Bowser's Castle R/T,200,210,220,240,240,Y,,,275,MasaPooh,6,22,50,4,6,34,16
-3DS Cheep Cheep Lagoon,145,155,165,175,180,,,,,,5,8,21,4,0,16,8
+3DS Cheep Cheep Lagoon,145,155,165,175,180,,Y,,,,5,8,21,4,0,16,12
 3DS Cheep Cheep Lagoon R,145,155,165,175,180,Y,,,217,KM,5,8,21,5,0,34,12
 3DS Cheep Cheep Lagoon T,135,145,155,165,170,Y,,,208,Zephiel810,5,8,31,8,0,23,12
-3DS Cheep Cheep Lagoon R/T,130,140,150,160,165,Y,,,208,ugu,4,8,30,6,0,22,8
+3DS Cheep Cheep Lagoon R/T,120,130,140,170,155,Y,,,208,ugu,4,8,30,6,0,22,8
 3DS Daisy Hills,185,195,205,225,225,,,,210,hiro,6,16,19,10,8,28,12
 3DS Daisy Hills R,195,205,215,235,235,,,,222,heriawsity ,6,18,25,9,6,34,12
 3DS Daisy Hills T,195,205,215,235,235,Y,,,288,RepleteLight,6,16,41,18,8,33,16
-3DS Daisy Hills R/T,190,200,210,230,230,Y,,,263,Harry Copper,6,14,38,14,0,20,16
+3DS Daisy Hills R/T,175,185,195,215,215,Y,,,263,Harry Copper,6,14,38,14,0,20,16
 3DS Mario Circuit,180,190,200,220,220,Y,,,272,ugu,6,22,15,0,6,50,16
 3DS Mario Circuit R,175,185,195,215,215,Y,,,287,heriawsity,8,20,13,2,2,41,24
 3DS Mario Circuit T,190,200,210,230,230,Y,,,247,Iva_n,8,22,28,14,4,28,24
@@ -22,11 +22,11 @@ Course,Normal,Giant Banana,Lucky 7,Boomerang Flower,Coin Box,Coin Box?,Tour Buff
 3DS Piranha Plant Slide,200,210,220,240,240,Y,,,278,hiro,9,28,30,8,4,32,28
 3DS Piranha Plant Slide R,170,180,190,210,210,Y,,,244,Crunchycheez,6,20,30,3,2,24,16
 3DS Piranha Plant Slide T,215,225,235,255,255,,,,284,Captain Evan,8,18,50,6,6,44,20
-3DS Piranha Plant Slide R/T,195,205,215,235,235,Y,,,,,8,28,39,5,0,28,24
+3DS Piranha Plant Slide R/T,200,210,220,240,240,Y,,,266,Gadam64,8,28,39,5,0,28,24
 3DS Rainbow Road,225,235,245,265,265,Y,,,333,Crazi,7,22,32,23,16,33,20
 3DS Rainbow Road R,210,220,230,240,245,Y,,,278,ParisPeach_Ace,5,22,26,21,11,33,12
 3DS Rainbow Road T,230,240,250,270,270,Y,,,287,heriawsity,7,22,44,34,10,18,20
-3DS Rainbow Road R/T,230,240,250,270,270,Y,,,314,Nikey,7,22,45,20,10,31,20
+3DS Rainbow Road R/T,220,230,240,260,260,Y,,,321,heriawsity,7,22,45,20,10,31,20
 3DS Rock Rock Mountain,200,210,220,240,240,Y,,,270,hiro,6,20,13,12,25,40,16
 3DS Rock Rock Mountain R,180,190,200,220,220,Y,,,249,Silgod,6,22,22,8,0,33,16
 3DS Rock Rock Mountain T,210,220,230,250,250,Y,,,282,Crugga,6,20,35,14,20,38,16
@@ -37,11 +37,11 @@ Course,Normal,Giant Banana,Lucky 7,Boomerang Flower,Coin Box,Coin Box?,Tour Buff
 3DS Shy Guy Bazaar,180,190,200,220,220,Y,,,268,Sloth,6,24,20,10,8,36,16
 3DS Shy Guy Bazaar R,190,200,210,230,230,Y,,,264,RepleteLight,6,24,16,8,12,41,16
 3DS Shy Guy Bazaar T,190,200,210,230,230,Y,,,258,Flo427,8,22,44,12,6,40,24
-3DS Shy Guy Bazaar R/T,160,170,180,200,200,Y,,,,,6,22,26,10,0,16,16
-3DS Toad Circuit,150,160,170,190,190,Y,,,216,petemob,6,18,2,2,4,33,16
-3DS Toad Circuit R,165,175,185,205,195,Y,,,220,Com Truise,6,18,1,12,0,22,16
-3DS Toad Circuit T,170,180,185,220,210,,,,253,MisterB,6,16,45,2,3,33,12
-3DS Toad Circuit R/T,180,190,200,220,220,Y,,,224,zinma,6,16,35,9,0,12,16
+3DS Shy Guy Bazaar R/T,160,170,180,200,200,Y,,,218,heriawsity,6,22,26,10,0,16,16
+3DS Toad Circuit,145,155,165,185,185,Y,,,216,petemob,6,18,2,2,4,33,16
+3DS Toad Circuit R,145,155,165,185,185,Y,,,220,Com Truise,6,18,1,12,0,22,16
+3DS Toad Circuit T,180,190,200,220,220,,,,253,MisterB,6,16,45,2,3,33,12
+3DS Toad Circuit R/T,155,165,175,195,195,Y,,,224,zinma,6,16,35,9,0,12,16
 3DS Wario Shipyard,170,180,190,210,210,,,,237,Iva_n,6,26,16,18,4,18,12
 3DS Wario Shipyard R,175,185,195,215,215,Y,,,254,hiro,6,26,14,6,10,24,16
 3DS Wario Shipyard T,170,180,190,210,210,Y,,,272,RexPlayz,6,24,44,6,0,22,16
@@ -79,7 +79,7 @@ DS Airship Fortress R/T,210,220,230,250,250,Y,,,262,miya,8,40,48,8,4,20,24
 DS DK Pass,185,195,205,225,225,,,,230,惡魔Z,8,26,10,0,6,44,20
 DS DK Pass R,195,205,215,235,235,Y,,,287,prodbydemo,8,24,8,2,6,54,24
 DS DK Pass T,230,240,250,270,270,Y,,,337,Rapha,8,33,48,0,6,40,24
-DS DK Pass R/T,220,230,240,260,260,,,,274,seventere,7,18,44,6,8,64,16
+DS DK Pass R/T,230,240,250,270,270,Y,,,302,seventere,7,18,44,6,8,64,20
 DS Luigi's Mansion,150,160,170,190,190,Y,,,226,Sucha,6,18,9,2,0,26,16
 DS Luigi's Mansion R,160,170,180,200,200,,,,256,Harry Copper,8,22,4,2,0,32,20
 DS Luigi's Mansion T,170,180,190,210,210,Y,,,244,seventere,6,16,33,14,0,30,16
@@ -88,20 +88,20 @@ DS Peach Gardens,155,165,175,195,195,,,,192,zinma,6,40,12,6,0,18,12
 DS Peach Gardens R,170,180,190,210,210,Y,,,232,seventere,6,40,12,6,8,26,16
 DS Peach Gardens T,180,190,200,220,220,Y,,,237,Lapo,6,32,36,2,0,26,16
 DS Peach Gardens R/T,180,190,200,220,220,,,,256,Daisuke,6,26,36,2,0,32,12
-DS Twilight House,130,130,160,130,170,Y,,,,,15,0,0,0,0,0,0
-DS Waluigi Pinball,180,190,200,220,220,Y,,,254,Kungfupanda4,6,26,8,10,6,40,16
-DS Waluigi Pinball R,185,195,205,225,225,Y,,,292,miya,6,26,8,26,6,66,16
-DS Waluigi Pinball T,210,220,230,250,250,Y,,,283,Com Truise,6,26,35,19,6,46,16
-DS Waluigi Pinball R/T,180,190,200,220,220,Y,,,293,tsubasa,6,26,30,20,6,51,16
+DS Twilight House,130,130,160,130,220,Y,,,,,15,0,0,0,0,0,0
+DS Waluigi Pinball,175,185,195,215,215,Y,,,254,Kungfupanda4,6,26,8,10,6,40,16
+DS Waluigi Pinball R,215,225,235,255,255,Y,,,292,miya,6,26,8,26,6,66,16
+DS Waluigi Pinball T,215,225,235,255,255,Y,,,283,Com Truise,6,26,35,19,6,46,16
+DS Waluigi Pinball R/T,220,230,240,260,260,Y,,,293,tsubasa,6,26,30,20,6,51,16
 GBA Battle Course 1,130,130,160,130,170,,Y,,,,15,0,0,0,0,0,0
-GBA Boo Lake,150,160,170,190,190,Y,,,,,6,24,16,0,0,30,16
+GBA Boo Lake,150,160,170,190,190,Y,,,184,Captain Evan,6,24,16,0,0,30,16
 GBA Boo Lake R,150,160,170,190,190,,,,,,6,26,16,0,0,22,12
-GBA Boo Lake T,165,175,185,205,205,,,,,,6,20,38,2,0,24,12
-GBA Boo Lake R/T,165,175,185,205,205,Y,,,182,Zack,6,18,26,2,6,28,16
+GBA Boo Lake T,165,175,185,205,205,,,,247,tsubasa,6,20,38,2,0,24,12
+GBA Boo Lake R/T,165,175,185,205,205,Y,,,217,Shadows,6,18,26,2,6,28,16
 GBA Bowser's Castle 1,125,135,145,155,160,Y,,,187,Autodrift,4,20,8,8,0,22,8
 GBA Bowser's Castle 1R,130,140,150,160,165,Y,,,202,miya,4,18,10,8,0,29,8
 GBA Bowser's Castle 1T,150,160,170,180,185,Y,,,225,nii,4,15,27,8,0,37,8
-GBA Bowser's Castle 1R/T,140,150,160,170,175,Y,,,198,Swarls,4,10,22,31,0,46,8
+GBA Bowser's Castle 1R/T,150,160,170,210,185,Y,,,238,MKD☆J€d1☆₩Ɇ,4,12,22,20,0,46,8
 GBA Bowser's Castle 2,180,190,200,220,220,Y,,,266,N3vermind,6,22,22,26,0,32,16
 GBA Bowser's Castle 2R,180,190,200,220,220,Y,,,269,X211,6,22,22,26,0,24,16
 GBA Bowser's Castle 2T,180,190,200,220,220,Y,,,292,Kenta,6,22,59,28,0,24,16
@@ -109,11 +109,11 @@ GBA Bowser's Castle 2R/T,180,190,200,220,220,Y,,,,,6,20,50,24,0,24,16
 GBA Bowser's Castle 3,185,195,205,225,225,Y,,,291,Hikarun,8,32,22,10,0,26,24
 GBA Bowser's Castle 3R,180,190,200,220,220,Y,,,293,zinma,8,30,22,10,0,26,24
 GBA Bowser's Castle 3T,215,225,235,255,255,Y,,,265,Autodrift,8,20,56,20,2,20,24
-GBA Bowser's Castle 3R/T,200,210,220,240,240,,,,,,8,16,64,10,0,16,20
+GBA Bowser's Castle 3R/T,200,210,220,240,240,,,,274,Tsubasa,8,16,64,10,0,16,20
 GBA Cheep-Cheep Island,150,160,170,190,190,,,,185,Autodrift,6,28,4,2,0,24,12
 GBA Cheep-Cheep Island R,155,165,175,200,195,Y,,,224,weller,6,30,4,2,0,28,16
 GBA Cheep-Cheep Island T,180,190,200,220,220,Y,,,278,Acquiesce,6,28,45,4,0,28,16
-GBA Cheep-Cheep Island R/T,185,195,205,225,225,Y,,,231,seventere,6,28,32,2,0,38,16
+GBA Cheep-Cheep Island R/T,185,195,205,225,225,Y,,,246,101,6,28,32,2,0,38,16
 GBA Riverside Park,125,135,145,155,160,Y,,,177,PIEN,4,28,4,2,0,22,8
 GBA Riverside Park R,125,135,145,155,160,,,,192,naoto,4,24,4,2,2,24,4
 GBA Riverside Park T,150,160,170,180,185,Y,,,209,Sebøssᵀᴹ,4,20,28,0,4,32,8
@@ -121,7 +121,7 @@ GBA Riverside Park R/T,175,185,195,215,215,Y,,,231,seventere,6,26,24,0,2,38,16
 GBA Sky Garden,150,160,170,190,190,,,,230,WootMoo,6,28,8,0,6,24,12
 GBA Sky Garden R,150,160,170,190,190,,Y,,247,POKAI,6,26,10,2,4,24,16
 GBA Sky Garden T,170,180,190,200,210,,,,213,naoto,6,28,24,4,0,26,12
-GBA Sky Garden R/T,165,175,185,205,205,Y,,,222,hiro,6,17,31,2,7,28,16
+GBA Sky Garden R/T,165,175,185,205,205,Y,,,248,hyperino,6,17,31,2,7,28,16
 GBA Snow Land,150,160,170,190,190,Y,,,,,6,32,4,4,0,22,16
 GBA Snow Land R,145,155,165,185,185,Y,,,,,6,28,4,2,0,22,16
 GBA Snow Land T,170,180,190,210,210,Y,,,,,6,20,34,0,0,26,16
@@ -133,8 +133,8 @@ GBA Sunset Wilds R/T,180,190,200,220,205,Y,,,246,prodbydemo,6,22,50,2,0,18,16
 GCN Baby Park,140,150,160,180,180,,,,205,Shadow Legend,6,30,0,0,0,35,12
 GCN Baby Park R,140,150,160,170,175,Y,,,210,RSK,5,25,5,10,0,30,12
 GCN Baby Park T,165,175,185,205,205,,,,230,Captain Evan,6,12,33,3,12,33,12
-GCN Baby Park R/T,160,170,180,190,190,Y,,,,,5,25,24,5,0,40,12
-GCN Cookie Land,130,130,160,130,170,Y,,,,,15,0,0,0,0,0,0
+GCN Baby Park R/T,155,165,175,185,190,Y,,,197,hiro,5,25,24,5,0,40,12
+GCN Cookie Land,130,130,160,130,190,Y,,,,,15,0,0,0,0,0,0
 GCN Daisy Cruiser,150,160,170,190,190,Y,,,209,hiro,6,26,12,4,0,26,16
 GCN Daisy Cruiser R,150,160,170,190,190,Y,,,201,shoronpo,6,24,10,2,4,26,16
 GCN Daisy Cruiser T,160,170,180,200,200,,,,200,heriawsity,6,18,30,4,0,20,12
@@ -189,7 +189,7 @@ N64 Frappe Snowland R/T,190,200,200,230,230,Y,,,226,prodbydemo,6,22,39,2,0,32,16
 N64 Kalimari Desert,150,160,170,200,200,Y,,,238,ugu,6,16,8,0,0,30,16
 N64 Kalimari Desert R,165,175,185,205,205,Y,,,234,PIEN / xy,6,16,7,0,6,46,16
 N64 Kalimari Desert T,170,180,190,210,210,Y,,,233,heriawsity,6,16,41,0,0,32,16
-N64 Kalimari Desert R/T,175,185,195,215,215,Y,,,244,michi,6,12,29,6,0,25,16
+N64 Kalimari Desert R/T,165,175,185,205,205,Y,,,244,michi,6,12,29,6,0,25,16
 N64 Kalimari Desert 2,130,140,150,160,180,Y,,,189,Crazi,5,22,6,1,0,25,12
 N64 Kalimari Desert 2R,130,140,150,160,180,Y,,,223,miya,5,22,6,2,0,24,12
 N64 Kalimari Desert 2T,130,140,150,160,180,Y,,,211,Danny,5,18,20,1,0,32,12
@@ -266,11 +266,11 @@ RMX Mario Circuit 1R/T,170,180,190,230,210,Y,,,285,Dom Hongisto,7,20,32,4,18,28,
 RMX Rainbow Road 1,160,170,180,200,200,Y,,,240,Shadows,6,18,20,6,16,30,16
 RMX Rainbow Road 1R,160,170,180,200,200,Y,,,249,Zephiel810,6,18,16,4,16,24,16
 RMX Rainbow Road 1T,185,195,205,225,225,,,,222,zephiel810,6,18,46,4,0,32,12
-RMX Rainbow Road 1R/T,160,170,180,190,195,Y,,,217,Danny,4,20,40,2,6,36,8
+RMX Rainbow Road 1R/T,165,175,185,195,200,Y,,,249,seventere,4,20,40,2,6,36,8
 RMX Rainbow Road 2,180,190,200,220,220,Y,,,278,Autodrift,6,20,34,4,6,28,16
 RMX Rainbow Road 2R,170,180,190,210,210,Y,,,226,Aaron,6,22,30,4,6,34,16
 RMX Rainbow Road 2T,180,190,200,220,220,Y,,,268,Swarls,6,20,52,6,6,23,16
-RMX Rainbow Road 2R/T,195,205,215,235,235,Y,,,256,Lacavuigi,6,18,58,10,0,35,16
+RMX Rainbow Road 2R/T,195,205,215,235,235,Y,,,267,Danny,6,18,58,10,0,35,16
 RMX Vanilla Lake 1,160,170,180,200,200,Y,,,251,RepleteLight,6,18,24,0,6,30,16
 RMX Vanilla Lake 1R,160,170,180,200,200,,,,200,Miya,6,18,20,0,6,30,12
 RMX Vanilla Lake 1T,175,185,195,215,215,,,,202,Danny,6,15,36,8,6,30,12
@@ -305,22 +305,22 @@ SNES Donut Plains 2R/T,160,170,170,200,200,Y,,,242,RexPlayz,6,18,32,8,0,26,16
 SNES Donut Plains 3,135,145,170,175,175,,,,,,6,20,12,0,0,18,12
 SNES Donut Plains 3R,125,135,170,165,165,Y,,,,,6,12,10,0,2,14,16
 SNES Donut Plains 3T,150,160,170,190,190,Y,,,,,6,18,26,0,0,22,16
-SNES Donut Plains 3R/T,150,160,170,190,190,Y,,,151,Tylerrrr,6,14,26,0,0,26,16
+SNES Donut Plains 3R/T,150,160,170,190,190,,,,167,Zack,6,14,26,0,0,26,12
 SNES Ghost Valley 1,120,130,140,150,155,Y,,,184,pyro,4,14,7,0,0,26,8
 SNES Ghost Valley 1R,120,130,140,150,155,Y,,,186,Swarls,4,14,3,0,0,32,8
 SNES Ghost Valley 1T,135,145,155,165,170,Y,,,174,Hyperino,4,14,30,0,0,24,8
 SNES Ghost Valley 1R/T,125,135,145,155,160,Y,,,174,kaikai,4,10,22,4,4,18,8
-SNES Ghost Valley 2,130,140,150,160,165,,Y,,212,Misterb,4,18,4,2,4,36,8
+SNES Ghost Valley 2,130,140,150,160,165,,,,212,Misterb,4,18,4,2,4,36,4
 SNES Ghost Valley 2R,130,140,150,160,165,Y,,,187,heriawsity,4,22,4,2,4,32,8
 SNES Ghost Valley 2T,160,170,180,190,195,Y,,,224,Tanuke,4,10,28,10,8,34,8
-SNES Ghost Valley 2R/T,150,155,160,165,170,Y,,,185,stic,4,10,24,2,6,44,8
+SNES Ghost Valley 2R/T,135,145,170,165,170,Y,,,196,JP,4,10,24,2,6,44,8
 SNES Koopa Troopa Beach 2,120,130,140,160,160,Y,,,231,hiro,6,20,0,0,0,16,16
 SNES Koopa Troopa Beach 2R,135,145,155,175,175,Y,,,203,Melody,8,20,2,2,0,26,24
 SNES Koopa Troopa Beach 2T,155,165,175,195,195,Y,,,211,Miya,6,20,14,2,0,26,16
 SNES Mario Circuit 1,115,125,135,145,150,Y,,,165,Cintia,4,18,0,0,0,42,8
 SNES Mario Circuit 1R,115,125,135,145,150,Y,,,165,Com Truise,4,12,3,0,0,30,8
 SNES Mario Circuit 1T,115,125,135,145,150,Y,,,156,Zephiel810,4,12,20,0,0,30,8
-SNES Mario Circuit 1R/T,120,130,140,150,155,Y,,,,,4,10,21,4,6,38,8
+SNES Mario Circuit 1R/T,125,135,145,155,160,Y,,,181,Captain Evan,4,10,21,4,6,38,8
 SNES Mario Circuit 2,120,130,140,150,155,Y,,,163,Com Truise,4,20,5,2,8,36,8
 SNES Mario Circuit 2R,140,150,160,180,180,,,,174,heriawsity,6,18,3,0,2,32,12
 SNES Mario Circuit 2T,140,150,160,180,180,,,,198,Miya,6,18,24,4,0,24,12
@@ -336,7 +336,7 @@ SNES Rainbow Road R/T,160,170,180,200,200,Y,,,229,tsubasa,6,16,32,0,0,22,16
 SNES Vanilla Lake 1,110,120,130,140,145,Y,,,177,GrievousKronos,4,12,0,0,0,32,8
 SNES Vanilla Lake 1R,110,120,130,140,145,Y,,,175,Ljcameron,5,12,2,0,0,28,12
 SNES Vanilla Lake 1T,130,140,150,170,170,Y,,,208,N3vermind,6,14,20,0,0,28,16
-SNES Vanilla Lake 1R/T,100,110,120,130,135,Y,,,157,Mikakinkun,5,12,16,4,6,22,12
+SNES Vanilla Lake 1R/T,105,115,125,135,140,Y,,,157,Mikakinkun,5,10,12,4,6,22,12
 SNES Vanilla Lake 2,105,115,125,135,140,,,,149,hiro,4,10,6,0,0,26,4
 SNES Vanilla Lake 2R,110,120,130,140,145,Y,,,164,睡蓮菩薩,4,14,12,0,0,26,8
 SNES Vanilla Lake 2T,110,120,130,140,145,Y,,,159,惡魔Z,4,8,22,6,0,26,8
@@ -389,7 +389,7 @@ Wii DK Summit R/T,210,220,230,250,250,Y,,,277,zinma,6,24,46,10,6,36,16
 Wii Koopa Cape,200,210,220,240,240,Y,,,264,NoJokesInc.,6,36,30,6,6,36,16
 Wii Koopa Cape R,190,200,210,230,230,Y,,,266,Alpha69,6,38,28,2,4,32,16
 Wii Koopa Cape T,205,215,225,245,245,Y,,,269,MisterB,6,32,40,6,6,36,16
-Wii Koopa Cape R/T,215,225,235,255,245,Y,,,243,Domppa,6,20,44,8,14,44,16
+Wii Koopa Cape R/T,215,225,235,255,245,Y,,,286,Rapha,6,20,44,8,14,44,16
 Wii Maple Treeway,180,190,200,220,230,Y,,,247,seventere,6,28,14,6,14,30,16
 Wii Maple Treeway R,170,180,190,210,230,Y,,,277,heriawsity,6,25,20,2,8,24,16
 Wii Maple Treeway T,200,210,220,240,230,Y,,,277,stic,6,22,50,0,16,24,16
@@ -397,3 +397,7 @@ Wii Maple Treeway R/T,200,210,220,240,240,Y,,,280,いきゅう,6,30,46,12,0,20,1
 Wii Mushroom Gorge,180,190,200,220,220,Y,,,239,heriawsity,6,26,16,10,8,34,16
 Wii Mushroom Gorge R,170,180,190,210,210,Y,,,240,hiro,6,22,12,8,10,26,16
 Wii Mushroom Gorge T,190,200,210,230,230,Y,,,242,kame,6,16,56,8,0,30,16
+Wii Rainbow Road,150,160,170,180,185,Y,,,170,heriawsity,4,22,8,18,14,20,8
+Wii Rainbow Road R,150,160,170,180,185,,,,,,4,23,16,14,11,20,4
+Wii Rainbow Road T,140,150,160,170,175,Y,,,,,3,18,20,12,14,22,4
+Wii Rainbow Road R/T,170,180,190,200,205,Y,,,,,4,22,30,15,15,20,8
