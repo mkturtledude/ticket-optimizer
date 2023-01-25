@@ -1,5 +1,6 @@
 import base, calculator
 import copy
+import unidecode
 
 SCIP = False
 
@@ -434,10 +435,10 @@ def constructUpgradeTableStrings(solutionCombinations, inventory, courses):
     for i in range(len(finalCombinations)):
         [d, k, g] = finalCombinations[i]
         course = courses[i]
-        tableRows.append([d.englishName, calculator.getShelf(course, d),
-                                                                      d.level, d.basePoints, k.englishName,
+        tableRows.append([unidecode.unidecode(d.englishName), calculator.getShelf(course, d),
+                                                                      d.level, d.basePoints, unidecode.unidecode(k.englishName),
                                                                       calculator.getShelf(course, k), k.level,
-                                                                      k.basePoints, g.englishName,
+                                                                      k.basePoints, unidecode.unidecode(g.englishName),
                                                                       calculator.getShelf(course, g), g.level,
                                                                       g.basePoints])
     return upgradeStrings, tableRows
