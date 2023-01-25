@@ -217,6 +217,7 @@ def readActions(file, courses):
             name = row["Course"]
             for course in courses:
                 if course.englishName == name:
+                    print("Reading actions for {}".format(name))
                     course.courseActions.miniTurbos = int(row["Mini-Turbos"])
                     course.courseActions.normal = int(row["Normal"])
                     course.courseActions.giantBanana = int(row["Giant Banana"])
