@@ -11,7 +11,14 @@
   <a href="https://www.youtube.com/watch?v=udHHcQWkhqc">Basic Video Tutorial</a>
 
     <form action="/results" method="POST" enctype="multipart/form-data">
-        {{ form.inventoryFile.label }} {{ form.inventoryFile }}<br>
+        <fieldset class="bg-light p-2">
+            <legend>Inventory</legend>
+            <p>Upload  as CSV:</p>
+            {{ form.inventoryFile }}<br><br>
+            <p>OR copy-paste straight from B&G or the MKT Toolbox:</p>
+            {{ form.inventoryText }}
+        </fieldset>
+        <br>
         {{ form.playerLevel.label }} {{ form.playerLevel(size=3, type="number", min="1", max="400") }} <br>
         {{ form.cups.label }} {{ form.cups }} <br>
         Level-up tickets:<br>

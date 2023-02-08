@@ -12,7 +12,7 @@ from flask import session
 from werkzeug.datastructures import MultiDict
 
 from flask_wtf import FlaskForm
-from wtforms import IntegerField, FileField, SelectField
+from wtforms import IntegerField, FileField, SelectField, TextAreaField
 import base, util, reader
 
 app = Flask(__name__)
@@ -42,6 +42,7 @@ def optimize(workDir, inventoryLines, tickets, playerLevel, cups):
 
 class MyForm(FlaskForm):
     inventoryFile = FileField('Inventory file')
+    inventoryText = TextAreaField('Inventory')
     playerLevel = IntegerField('Player level')
     cups = SelectField('Cups to consider', choices=[('all', 'All'), ('rankedFirst', 'First week ranked'), ('rankedSecond', 'Second week ranked'), ('rankedBoth', 'Both ranked cups')])
     # Ticket counts
@@ -104,28 +105,31 @@ def results():
     tickets.uhk = form.uhk.data if form.uhk.data else 0
     tickets.uhg = form.uhg.data if form.uhg.data else 0
 
-    if not invFile.data:
-        return throwError("No inventory file selected")
     if not playerLevel or not str(playerLevel).isdigit() or int(playerLevel) < 1 or int(playerLevel) > 400:
         return throwError("Please enter a player level between 1 and 400")
 
-
-    inventoryLines = codecs.iterdecode(invFile.data, 'utf-8-sig')
     lines = []
-    try:
-        for line in inventoryLines:
-            lines.append(line)
-    except UnicodeDecodeError:
-        return throwError("Couldn't read inventory file. Are you sure it's in CSV format and can be opened with a spreadsheet program?")
+    if invFile.data:
+        inventoryLines = codecs.iterdecode(invFile.data, 'utf-8-sig')
+        try:
+            for line in inventoryLines:
+                lines.append(line)
+        except UnicodeDecodeError:
+            return throwError("Couldn't read inventory file. Are you sure it's in CSV format and can be opened with a spreadsheet program?")
 
-    # Save the inventory file for research purposes
-    user_ip = request.remote_addr
-    if user_ip != "127.0.0.1":
-        user_ip = request.headers['X-Real-IP']
-        fileName = user_ip + datetime.datetime.now().strftime('-%H%M%S.csv')
-        outputPath = os.path.join(app.root_path, "inventories", fileName)
-        with open(outputPath, 'w', encoding='utf-8-sig') as f:
-            f.writelines(lines)
+        # Save the inventory file for research purposes
+        user_ip = request.remote_addr
+        if user_ip != "127.0.0.1":
+            user_ip = request.headers['X-Real-IP']
+            fileName = user_ip + datetime.datetime.now().strftime('-%H%M%S.csv')
+            outputPath = os.path.join(app.root_path, "inventories", fileName)
+            with open(outputPath, 'w', encoding='utf-8-sig') as f:
+                f.writelines(lines)
+    else:
+        lines = form.inventoryText.data.splitlines()
+        if not lines:
+            return throwError("No inventory data was provided")
+
 
     # upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups)
     try:
