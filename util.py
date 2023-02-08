@@ -285,17 +285,17 @@ def createSolutionCombinations(inventory, courses, tickets, playerLevel):
                 d0 = optLoadoutsBeforeUpgrades[c2][1]
                 k0 = optLoadoutsBeforeUpgrades[c2][2]
                 g0 = optLoadoutsBeforeUpgrades[c2][3]
-                l = [d0.englishName,str(d0.level),str(d0.basePoints),k0.englishName,str(k0.level),str(k0.basePoints),str(g0.englishName),str(g0.level),str(g0.basePoints),str(s0)]
+                l = [d0.englishName,str(d0.level),str(d0.basePoints),k0.englishName,str(k0.level),str(k0.basePoints),str(g0.englishName),str(g0.level),str(g0.basePoints),str('{:,}'.format(s0))]
                 courseLoadouts[c].append(l)
 
         s = round(optWithCurrent[c][0])
         d = optWithCurrent[c][1]
         k = optWithCurrent[c][2]
         g = optWithCurrent[c][3]
-        l = [d.englishName,str(d.level),str(d.basePoints),k.englishName,str(k.level),str(k.basePoints),str(g.englishName),str(g.level),str(g.basePoints),str(s), str(s-s0)]
+        l = [d.englishName,str(d.level),str(d.basePoints),k.englishName,str(k.level),str(k.basePoints),str(g.englishName),str(g.level),str(g.basePoints),str('{:,}'.format(s)), str('{:,}'.format(s-s0))]
         courseLoadouts[c].append(l)
 
-    return solutionCombinations, courseLoadouts, [str(round(totalBeforeUpgrades)), str(round(totalScore)), str(round(totalScore - totalBeforeUpgrades))]
+    return solutionCombinations, courseLoadouts, [str('{:,}'.format(round(totalBeforeUpgrades))), str('{:,}'.format(round(totalScore))), str('{:,}'.format(round(totalScore - totalBeforeUpgrades)))]
 
 
 
