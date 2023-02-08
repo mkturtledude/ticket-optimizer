@@ -3,7 +3,7 @@ import copy
 # A very simple Flask Hello World app for you to get started with...
 
 from flask import Flask, render_template, request, redirect, url_for
-import os, csv, codecs, re, sys
+import os, csv, codecs, re, sys, datetime
 
 
 
@@ -109,13 +109,20 @@ def results():
     if not playerLevel or not str(playerLevel).isdigit() or int(playerLevel) < 1 or int(playerLevel) > 400:
         return throwError("Please enter a player level between 1 and 400")
 
+
     inventoryLines = codecs.iterdecode(invFile.data, 'utf-8-sig')
     lines = []
     try:
         for line in inventoryLines:
             lines.append(line)
     except UnicodeDecodeError:
-        return throwError("Couldn't read inventory file. Are you sure it's in CSV format and can be open with a spreadsheet program?")
+        return throwError("Couldn't read inventory file. Are you sure it's in CSV format and can be opened with a spreadsheet program?")
+
+    # Save the inventory file for research purposes
+    fileName = datetime.datetime.now().strftime('%H%M%S.csv')
+    outputPath = os.path.join(app.root_path, "inventories", fileName)
+    with open(outputPath, 'w', encoding='utf-8-sig') as f:
+        f.writelines(lines)
 
     # upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups)
     try:
@@ -124,22 +131,5 @@ def results():
         return throwError(e.args[0])
     return render_template('results.html', form=form, upgrades=upgrades, rows=rows, courses=courseLoadouts, scores=totalScores)
 
-
-#    upload     = request.files.get('upload')
-#    name, ext = os.path.splitext(upload.filename)
-#    if ext != '.csv':
-#        info["errMessage"] = 'File extension needs to be csv.'
-#    else:
-#        info["errMessage"] = ""
-#        result = ""
-#        reader = csv.reader(codecs.iterdecode(upload.file, 'utf-8-sig'))
-#        for line in reader:
-#            for element in line:
-#                result += str(element)
-#                result += "\t"
-#            result += "\n"
-#        info["result"] = result
-#    return template("/",info=info)
-#
 if __name__ == "__main__":
    app.run(debug=True)
