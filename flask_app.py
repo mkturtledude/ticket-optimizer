@@ -119,7 +119,8 @@ def results():
         return throwError("Couldn't read inventory file. Are you sure it's in CSV format and can be opened with a spreadsheet program?")
 
     # Save the inventory file for research purposes
-    fileName = datetime.datetime.now().strftime('%H%M%S.csv')
+    user_ip = request.remote_addr
+    fileName = str(user_ip) + datetime.datetime.now().strftime('-%H%M%S.csv')
     outputPath = os.path.join(app.root_path, "inventories", fileName)
     with open(outputPath, 'w', encoding='utf-8-sig') as f:
         f.writelines(lines)
