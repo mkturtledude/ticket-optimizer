@@ -23,7 +23,7 @@ def isFeasible(originalItem, targetLevel, targetUncaps, tickets):
             if ltn > tickets.lnk or utn > tickets.unk:
                 return False
         elif r == "S":
-            if ltn > tickets.lsk or utn > tickets.unk:
+            if ltn > tickets.lsk or utn > tickets.usk:
                 return False
         else:
             assert(r == "HE")
