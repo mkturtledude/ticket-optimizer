@@ -1,636 +1,706 @@
 ITEM,TYPE,TOPSHELF BUFF 1,BUFF 2,BUFF 3,BUFF 4,BUFF 5,BUFF 6,L3 UNLOCK 1,L3 UNLOCK 2,L6 UNLOCK 1,L6 UNLOCK 2,L8 UNLOCK,MIDSHELF 1,MIDSHELF 2,MIDSHELF 3,MIDSHELF 4,MIDSHELF 5,MIDSHELF 6,MIDSHELF 7,MIDSHELF 8,MIDSHELF 9,MIDSHELF 10,VERIFIED BY
-BABY MARIO,D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,spinachpants
-BABY PEACH,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-BABY DAISY,D,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,spinachpants
-BABY ROSALINA,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-BABY LUIGI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-KOOPA TROOPA,D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,spinachpants
-SHY GUY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-DRY BONES,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-IGGY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-LARRY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-LEMMY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-LUDWIG,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-MORTON,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-ROY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-WENDY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-MARIO,D,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-PEACH,D,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,spinachpants
-YOSHI,D,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-DAISY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-TOADETTE,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-ROSALINA,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-LUIGI,D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,spinachpants
-TOAD (PIT CREW),D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,spinachpants
-RED YOSHI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-BOWSER,D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,spinachpants
-DONKEY KONG,D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,spinachpants
-DIDDY KONG,D,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,spinachpants
-LAKITU,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-BOWSER JR.,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-WARIO,D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,spinachpants
-WALUIGI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-KING BOO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-BLACK SHY GUY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-RED KOOPA (FREERUNNING),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-BIRDO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-PINK SHY GUY,D,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,spinachpants
-BIRDO (LIGHT BLUE),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-HAMMER BRO,D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,spinachpants
-BOOMERANG BRO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-ICE BRO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-FIRE BRO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-BIRDO (YELLOW),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-MONTY MOLE,D,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,spinachpants
-METAL MARIO,D,-NONE-,,,,,,,,,,,RMX Donut Plains 1,Battle Course 1,,,,,,,,,spinachpants
-PEACHETTE,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-PAULINE,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,spinachpants
-MARIO (MUSICIAN),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PEACH (KIMONO),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MARIO (HAKAMA),D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-ROSALINA (HALLOWEEN),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PEACH (VACATION),D,-NONE-,,,,,,,,,,,RMX Donut Plains 1,Cookie Land,,,,,,,,,
-MARIO (SANTA),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PINK GOLD PEACH,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DAISY (HOLIDAY CHEER),D,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-YOSHI (REINDEER),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PAULINE (PARTY TIME),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MARIO (HAPPI),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-TOAD (PARTY TIME),D,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-PEACH (WINTERTIME),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PENGUIN LUIGI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-ICE MARIO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BABY PEACH (CHERUB),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-ROSALINA (AURORA),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MARIO (CLASSIC),D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-LUIGI (CLASSIC),D,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-BABY ROSALINA (DETECTIVE),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-YOSHI (EGG HUNT),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLACK YOSHI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BUILDER MARIO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BUILDER TOAD,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DAISY (FAIRY),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MARIO (CHEF),D,Cookie Land,RMX Donut Plains 1,,,,,,,,,,RMX Donut Plains 1RT,,,,,,,,,,
-PEACH (WEDDING),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-ROSALINA (SWIMWEAR),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MARIO (SWIMWEAR),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CAPTAIN TOAD,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-TOADETTE (EXPLORER),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DAISY (YUKATA),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MARIO (SNES),D,Battle Course 1,,,,,,,,,,,RMX Donut Plains 1R,,,,,,,,,,
-MARIO (SUNSHINE),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MARIO (HALLOWEEN),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PEACH (HALLOWEEN),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PEACH (EXPLORER),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BUILDER LUIGI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DRY BOWSER,D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-KING BOO (LUIGI'S MANSION),D,RMX Donut Plains 1R,,,,,,,,,,,RMX Donut Plains 1,,,,,,,,,,
-SHY GUY (PASTRY CHEF),D,RMX Donut Plains 1RT,,,,,,,,,,,Cookie Land,,,,,,,,,,
-WALUIGI (BUS DRIVER),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOLD KOOPA (FREERUNNING),D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-WARIO (HIKER),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DRY BONES (GOLD),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-FUNKY KONG,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DIXIE KONG,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DRY BOWSER (GOLD),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-WARIO (COWBOY),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-NABBIT,D,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-BOWSER JR. (PIRATE),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-KING BOB-OMB,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DONKEY KONG JR. (SNES),D,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-SHY GUY (GOLD),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-KING BOO (GOLD),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-TOAD,D,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-LAKITU (PARTY TIME),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-FIRE ROSALINA,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BOWSER (SANTA),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-LUIGI (LEDERHOSEN),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CAT PEACH,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CAT TOAD,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PAULINE (ROSE),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PENGUIN TOAD,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MARIO (RACING),D,Battle Course 1,RMX Donut Plains 1R,RMX Donut Plains 1T,,,,,,,,,Cookie Land,,,,,,,,,,
-WHITE YOSHI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BIRDO (BLACK),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLUE YOSHI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SHY GUY (NINJA),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-KING BOB-OMB (GOLD),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GREEN SHY GUY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BABY MARIO (KOALA),D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-BUILDER TOADETTE,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MARIO (TUXEDO),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-LUIGI (PAINTER),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLUE KOOPA (FREERUNNING),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DAISY (SWIMWEAR),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MARIO (BASEBALL),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PEACH (HAPPI),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PENGUIN MARIO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-KAMEK,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-YOSHI (KANGAROO),D,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-PINK YOSHI,D,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-BIRDO (BLUE),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-TANOOKI MARIO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-TANOOKI ROSALINA,D,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-WALUIGI (VAMPIRE),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-YELLOW TOAD (PIT CREW),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MARIO (SATELLAVIEW),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-LIGHT-BLUE TOAD (PIT CREW),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PENGUIN TOADETTE,D,RMX Donut Plains 1,RMX Donut Plains 1R,,,,,,,,,,RMX Donut Plains 1T,,,,,,,,,,
-CAT ROSALINA,D,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-MEOWSER,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-LUIGI (VACATION),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PURPLE KOOPA (FREERUNNING),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MARIO (GOLF),D,Battle Course 1,,,,,,,,,,,RMX Donut Plains 1,,,,,,,,,,
-LUIGI (GOLF),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CHARGIN' CHUCK,D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-LIGHT-BLUE SHY GUY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MARIO (AVIATOR),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-RED MII RACING SUIT,D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-MARIO MII RACING SUIT,D,Battle Course 1,,,,,,,,,,,RMX Donut Plains 1R,,,,,,,,,,
-PEACH MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-TOAD MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-LUIGI MII RACING SUIT,D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-ROSALINA MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DONKEY KONG MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BRONZE MII RACING SUIT,D,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-SILVER MII RACING SUIT,D,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-GOLD MII RACING SUIT,D,Donut Plains 1RT,,,,,,,,,,,Cookie Land,Battle Course 1,,,,,,,,,
-MARIO (SAMURAI),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PEACH (YUKATA),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PINK SHY GUY (NINJA),D,RMX Donut Plains 1RT,,,,,,,,,,,Cookie Land,,,,,,,,,,
-KING BOO MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-KING BOB-OMB MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-YOSHI (GOLD EGG),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BIRDO (WHITE),D,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-YOSHI MII RACING SUIT,D,-NONE-,,,,,,,,,,,Cookie Land,RMX Donut Plains 1,,,,,,,,,
-BIRDO MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-ROSALINA (VOLENDAM),D,RMX Donut Plains 1T,,,,,,,,,,,RMX Donut Plains 1,Battle Course 1,RMX Donut Plains 1R,,,,,,,,
-DAISY (FARMER),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-NABBIT MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DR. MARIO,D,Cookie Land,,,,,,,,,,,Donut Plains 1RT,,,,,,,,,,
-DR. LUIGI,D,RMX Donut Plains 1RT,,,,,,,,,,,Donut Plains 2RT,Cookie Land,,,,,,,,,
-WARIO MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DR. PEACH,D,RMX Donut Plains 1,RMX Donut Plains 1T,,,,,,,,,,-NONE-,,,,,,,,,,
-DR. BOWSER,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-? BLOCK MII RACING SUIT,D,RMX Donut Plains 1R,,,,,,,,,,,RMX Donut Plains 1RT,Battle Course 1,,,,,,,,,
-CAT MARIO,D,RMX Donut Plains 1,,,,,,,,,,,RMX Donut Plains 1R,RMX Donut Plains 1T,Battle Course 1,,,,,,,,
-CAT LUIGI,D,Cookie Land,RMX Donut Plains 1RT,,,,,,,,,,Donut Plains 1,,,,,,,,,,
-CAT MII RACING SUIT,D,Sunset Wilds RT,,,,,,,,,,,Cookie Land,RMX Donut Plains 1R,,,,,,,,,
-ROSALINA (CHEF),D,Cookie Land,RMX Donut Plains 1RT,RMX Choco Island 1RT,,,,,,,,,Donut Plains 1RT,RMX Donut Plains 1,,,,,,,,,
-PASTRY CHEF MII RACING SUIT,D,Cookie Land,Donut Plains 2RT,RMX Donut Plains 1T,,,,,,,,,RMX Choco Island 1RT,,,,,,,,,,
-DAISY (THAI DRESS),D,RMX Donut Plains 1T,,,,,,,,,,,RMX Choco Island 1RT,,,,,,,,,,
-CHAIN CHOMP MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PETEY PIRANHA,D,Cookie Land,RMX Choco Island 1RT,,,,,,,,,,RMX Donut Plains 1RT,,,,,,,,,,
-PETEY PIRANHA MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DAISY (SAILOR),D,Choco Island 1,Choco Island 1R,Sunset Wilds RT,Cookie Land,,,,,,,,Choco Island 1T,,,,,,,,,,
-TOADETTE (SAILOR),D,RMX Ghost Valley 1RT,Choco Island 1,,,,,,,,,,RMX Ghost Valley 1,Cookie Land,RMX Donut Plains 1RT,,,,,,,,
-DOLPHIN MII RACING SUIT,D,RMX Ghost Valley 1,,,,,,,,,,,RMX Ghost Valley 1T,,,,,,,,,,
-CHEEP CHEEP MII RACING SUIT,D,RMX Donut Plains 1,,,,,,,,,,,RMX Donut Plains 1R,RMX Ghost Valley 1R,,,,,,,,,
-WHITE TANOOKI MARIO,D,RMX Donut Plains 1,RMX Donut Plains 1R,,,,,,,,,,Donut Plains 1,Donut Plains 1R,Cookie Land,RMX Donut Plains 1RT,,,,,,,
-ICE-CREAM MII RACING SUIT,D,Choco Island 1T,Cookie Land,,,,,,,,,,Choco Island 2,Choco Mountain T,,,,,,,,,
-CHARGIN' CHUCK (GOLD),D,RMX Donut Plains 1RT,Sunset Wilds R,Wario Shipyard T,,,,,,,,,Cookie Land,Donut Plains 1RT,Battle Course 1,,,,,,,,
-BOWSER MII RACING SUIT,D,Choco Mountain R,Battle Course 1,,,,,,,,,,Choco Mountain,,,,,,,,,,
-DRY BOWSER MII RACING SUIT,D,Sunset Wilds T,Wario Shipyard T,Battle Course 1,,,,,,,,,RMX Donut Plains 1R,Wario Shipyard,,,,,,,,,
-LUIGI (KNIGHT),D,Wario Shipyard,Wario Shipyard T,Battle Course 1,RMX Donut Plains 1T,,,,,,,,Sunset Wilds,RMX Donut Plains 1RT,,,,,,,,,
-GOOMBA MII RACING SUIT,D,Choco Mountain RT,RMX Donut Plains 1T,,,,,,,,,,Choco Mountain R,RMX Donut Plains 1RT,Battle Course 1,,,,,,,,
-HAMMER BRO MII RACING SUIT,D,Donut Plains 1R,RMX Choco Island 1T,RMX Donut Plains 1RT,,,,,,,,,Donut Plains 1RT,RMX Choco Island 1RT,Battle Course 1,,,,,,,,
-MARIO (KING),D,Choco Mountain R,Donut Plains 2,Donut Plains 2RT,Cookie Land,RMX Donut Plains 1R,,,,,,,Choco Island 2R,Choco Island 1T,Choco Mountain RT,RMX Donut Plains 1RT,Battle Course 1,,,,,,
-CASTLE MII RACING SUIT,D,Donut Plains 1RT,RMX Ghost Valley 1R,,,,,,,,,,Donut Plains 1R,RMX Ghost Valley 1RT,Battle Course 1,,,,,,,,
-WHITE MII RACING SUIT,D,Battle Course 1,Wario Shipyard,,,,,,,,,,Wario Shipyard RT,,,,,,,,,,
-RED TOAD (PIT CREW),D,Donut Plains 1RT,Choco Island 1RT,Battle Course 1,,,,Choco Island 1,,RMX Choco Island 1RT,,,Donut Plains 2RT,RMX Donut Plains 1RT,,,,,,,,,
-LUIGI (CHEF),D,RMX Donut Plains 1RT,Battle Course 1,Donut Plains 2RT,RMX Ghost Valley 1RT,,,Donut Plains 1T,Choco Island 1RT,RMX Choco Island 1RT,Choco Mountain RT,RMX Donut Plains 1T,RMX Donut Plains 1R,Cookie Land,,,,,,,,,
-GREEN MII RACING SUIT,D,Choco Island 2,Choco Island 1R,RMX Donut Plains 1R,Wario Shipyard RT,,,RMX Ghost Valley 1,,Choco Island 1RT,,Wario Shipyard R,Choco Island 1T,Battle Course 1,Cookie Land,,,,,,,,
-PIPE FRAME,K,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-BIRTHDAY GIRL,K,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-MUSHMELLOW,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-KOOPA DASHER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BIDDYBUGGY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLUE BIDDYBUGGY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CHEEP CHARGER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PINK MUSHMELLOW,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BIRTHDAY GIRL ROSALINA,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GREEN KIDDIE KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-RED KIDDIE KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BULLET BLASTER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BULL'S-EYE BANZAI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-LANDSHIP,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PIPE BUGGY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-WARSHIP,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GREEN CHEEP CHARGER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MACH 8,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DAYTRIPPER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-TURBO YOSHI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SODA JET,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SUPER BLOOPER,K,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-GOLD BLOOPER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-ROYALE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CLOUD 9,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-POLTERGUST 4000,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-STREAMLINER,K,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-WHITE ROYALE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-ZUCCHINI,K,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-RED STREAMLINER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-RED TURBO YOSHI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLUE SEVEN,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SUPER 1,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DASHER II,K,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-TEA COUPE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-YELLOW TURBO BIRDO,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-EGG 1,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BIRTHDAY GIRL DAISY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-RED STANDARD 8,K,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-GREEN STANDARD 8,K,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-FLAME FLYER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BARREL TRAIN,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DK JUMBO,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CHROME DK JUMBO,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-KOOPA CLOWN,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DARK CLOWN,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PARA-WING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-TURBO BIRDO,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-LIGHT-BLUE TURBO BIRDO,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BOLT BUGGY,K,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-RAMBI RIDER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-B DASHER,K,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-BLACK B DASHER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-YELLOW TAXI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-QUICKSHAW,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-KABUKI DASHER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CIRCUIT SPECIAL,K,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLACK CIRCUIT,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BUMBLE V,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-QUEEN BEE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-TRICKSTER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GHOST RIDE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MACHARON,K,-NONE-,,,,,,,,,,,Cookie Land,RMX Donut Plains 1RT,,,,,,,,,
-CARROT KART,K,-NONE-,,,,,,,,,,,RMX Donut Plains 1,Cookie Land,,,,,,,,,
-CHEERMELLOW,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-WILD WING,K,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-RADISH RIDER,K,RMX Donut Plains 1R,,,,,,,,,,,Cookie Land,RMX Donut Plains 1RT,,,,,,,,,
-WILDFIRE FLYER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-RIBBON RIDER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DOUBLE-DECKER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SWIFT JACK,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-RED B DASHER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-JINGLE BELLS,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PLATINUM TAXI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GLAM BRUISER,K,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-GILDED PRANCER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-ICE-BLUE POLTERGUST,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-P-WING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-APPLE KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-COMET TAIL,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BRIGHT BUNNY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DOZER DASHER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CLANKY KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-WILD BLACK,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-KARP KART,K,RMX Donut Plains 1,Battle Course 1,,,,,,,,,,RMX Donut Plains 1T,,,,,,,,,,
-PRANCER,K,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-ROSE QUEEN,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GREEN APPLE KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CHOCO MACHARON,K,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-GOLD EGG,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SWEET DAYTRIPPER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-RED TAXI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PINK WING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-HAPPY RIDE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLUE SODA,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CLACKETY KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOLD CLANKY KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-FESTIVAL GIRL,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLACK KABUKI DASHER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-8-BIT PIPE FRAME,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOLD PIPE FRAME,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SURF SAILER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-STAR-SPANGLED FLYER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GREEN CIRCUIT,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SPORTS COUPE,K,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-PUMPKIN KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DARK TRICKSTER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SUNSET CLOUD,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-STEEL DRIVER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BADWAGON,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLUE BADWAGON,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOLD TRAIN,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SNOW SKIMMER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-OFFROADER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BANANA MASTER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-POISON APPLE KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CHEEP SNORKEL,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOLD CHEEP SNORKEL,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOLD CHEEP CHARGER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DARK BUGGY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-KOOPA KING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BROWN OFFROADER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CACT-X,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PIRATE SUSHI RACER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SILVER BULLET BLASTER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-HEAD HONCHO,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DK MAXIMUM,K,-NONE-,,,,,,,,,,,RMX Donut Plains 1,RMX Donut Plains 1R,,,,,,,,,
-SUSHI RACER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GILDED KING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CRAWLY KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLACK PENGUIN SLIDER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-HOLIDAY KING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOLD SNOW SKIMMER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DREAMY EGG,K,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLACK DOZER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CUCUMBER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-FAST FRANK,K,Battle Course 1,RMX Donut Plains 1R,,,,,,,,,,-NONE-,,,,,,,,,,
-IRON CUCUMBER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PARTY-WING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CAT CRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-WILD PINK,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-ROSE TAXI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PENGUIN SLIDER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CACT-ICE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-B DASHER MK. 2,K,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-DECAL STREAMLINER,K,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-ORANGE STREAMLINER,K,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-BLACK TURBO BIRDO,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-WHITE TURBO YOSHI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PURPLE BUNNY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SAKURA QUICKSHAW,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-JADE HOP ROD,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CRIMSON HOP ROD,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-JET CRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLUE ROYALE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-INFERNO FLYER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-RAMBI RUNNER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PINK DOZER,K,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-GRAND BADWAGON,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLUE TURBO YOSHI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PAINTSTER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-LIME TEA COUPE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SUNNY SURF SAILER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CLEANUP HITTER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PINCH HITTER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DARK HOP ROD,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-ICE DOZER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-KAMEK'S ZOOM BROOM,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SILVER KING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GREEN DOUBLE-DECKER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLACK CAT CRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLUE TURBO BIRDO,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-RED B DASHER MK. 2,K,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-PINK B DASHER MK. 2,K,Cookie Land,RMX Donut Plains 1T,,,,,,,,,,RMX Donut Plains 1R,,,,,,,,,,
-CLASSIC B DASHER MK. 2,K,-NONE-,,,,,,,,,,,RMX Donut Plains 1,RMX Donut Plains 1T,,,,,,,,,
-SKY-BLUE B DASHER MK. 2,K,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-METAL B DASHER MK. 2,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CREAM B DASHER MK. 2,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GREEN B DASHER MK. 2,K,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-TANOOKI KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOLD PUMPKIN KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-VAMPIRE FLYER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-RED CRAWLY KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-YELLOW OFFROADER,K,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-CACT-R,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-LUNAR CRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SLEIGH RIDER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CHEERSHIP,K,Cookie Land,,,,,,,,,,,RMX Donut Plains 1RT,,,,,,,,,,
-CANDY CLOWN,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-WHITE SNOW SKIMMER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-FROSTY BELLS,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-FROST WING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GRAY CAT CRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SPORTS COUPE 2022,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-TIGER BRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-ROARING RACER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-JUKEBOX BUGGY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SNEEKER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GREEN LIGHTNING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CUPID'S ARROW,K,RMX Donut Plains 1,,,,,,,,,,,RMX Donut Plains 1R,RMX Donut Plains 1T,,,,,,,,,
-WILD SLUGGER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-COMBO CRUISER,K,Cookie Land,,,,,,,,,,,RMX Donut Plains 1R,,,,,,,,,,
-PROP KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MAGMA BROOM,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-STAR BROOM,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-YELLOW 8-BIT PIPE FRAME,K,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-WARRIOR WAGON,K,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-ARMORED RIDER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SAKURA HOP ROD,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLACK TURBO YOSHI,K,-NONE-,,,,,,,,,,,RMX Donut Plains 1,Battle Course 1,,,,,,,,,
-GOLD BUNNY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-WHITE TURBO BIRDO,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-FLOWER KART,K,-NONE-,,,,,,,,,,,RMX Donut Plains 1,RMX Donut Plains 1T,,,,,,,,,
-DRAGONFLY,K,Cookie Land,,,,,,,,,,,RMX Donut Plains 1RT,,,,,,,,,,
-FIREFLY,K,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-DAIKON ROCKET,K,RMX Donut Plains 1RT,Donut Plains 2RT,,,,,,,,,,RMX Donut Plains 1,,,,,,,,,,
-CAPSULE KART,K,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLUE-GREEN CAPSULE KART,K,RMX Donut Plains 1RT,RMX Donut Plains 1R,,,,,,,,,,Battle Course 1,,,,,,,,,,
-WHITE BRUISER,K,RMX Donut Plains 1T,,,,,,,,,,,RMX Donut Plains 1R,Cookie Land,,,,,,,,,
-COCONUT 1,K,RMX Donut Plains 1T,Donut Plains 1RT,Cookie Land,,,,,,,,,RMX Donut Plains 1RT,,,,,,,,,,
-PINK CAPSULE KART,K,Cookie Land,RMX Donut Plains 1RT,,,,,,,,,,Donut Plains 2RT,,,,,,,,,,
-GREEN-YELLOW CAPSULE KART,K,-NONE-,,,,,,,,,,,RMX Donut Plains 1T,Battle Course 1,,,,,,,,,
-CREAM CAT CRUISER,K,RMX Donut Plains 1,,,,,,,,,,,Cookie Land,RMX Donut Plains 1R,,,,,,,,,
-GREEN CAT CRUISER,K,RMX Donut Plains 1RT,Battle Course 1,,,,,,,,,,RMX Donut Plains 1,RMX Donut Plains 1R,,,,,,,,,
-GOO-GOO BUGGY,K,RMX Donut Plains 1T,,,,,,,,,,,RMX Donut Plains 1R,Battle Course 1,,,,,,,,,
-GOO-GOO PINK,K,Donut Plains 2RT,Cookie Land,,,,,,,,,,RMX Donut Plains 1RT,,,,,,,,,,
-GOLD KIDDIE KART,K,Choco Mountain,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-SWEET RIDE,K,RMX Donut Plains 1RT,Cookie Land,,,,,,,,,,-NONE-,,,,,,,,,,
-WHITE FAST FRANK,K,RMX Donut Plains 1,RMX Donut Plains 1R,,,,,,,,,,RMX Donut Plains 1T,Cookie Land,,,,,,,,,
-TUK-TUK KART,K,Donut Plains 1,RMX Donut Plains 1,,,,,,,,,,Battle Course 1,,,,,,,,,,
-TROPICAL TRUCK,K,RMX Donut Plains 1,,,,,,,,,,,RMX Donut Plains 1RT,,,,,,,,,,
-GOLD ZUCCHINI,K,RMX Choco Island 1RT,Battle Course 1,,,,,,,,,,RMX Donut Plains 1,,,,,,,,,,
-LIGHTNING STREAMLINER,K,Choco Mountain T,Battle Course 1,RMX Donut Plains 1R,,,,,,,,,RMX Ghost Valley 1T,RMX Donut Plains 1T,,,,,,,,,
-PIRANHA PIPES,K,Battle Course 1,Donut Plains 1RT,,,,,,,,,,Donut Plains 1,,,,,,,,,,
-FLOWERY BADWAGON,K,RMX Donut Plains 1R,,,,,,,,,,,RMX Donut Plains 1,Cookie Land,,,,,,,,,
-CORAL JET CRUISER,K,RMX Ghost Valley 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-WATERMELON KART,K,Cookie Land,Sunset Wilds RT,,,,,,,,,,RMX Donut Plains 1RT,,,,,,,,,,
-ICE-CREAM MINIBUS,K,RMX Donut Plains 1,,,,,,,,,,,Choco Island 2R,Cookie Land,,,,,,,,,
-CHOCOLATE BANANA MINIBUS,K,Choco Mountain R,Cookie Land,,,,,,,,,,Choco Island 2R,Choco Island 1R,,,,,,,,,
-STRAWBERRY SOFT SWERVE,K,Choco Island 2R,Cookie Land,,,,,,,,,,RMX Donut Plains 1,,,,,,,,,,
-RED OFFROADER,K,Battle Course 1,Sunset Wilds R,,,,,,,,,,Sunset Wilds T,RMX Choco Island 1RT,,,,,,,,,
-GOO-GOO BLACK,K,Wario Shipyard T,RMX Donut Plains 1T,,,,,,,,,,Wario Shipyard,Battle Course 1,,,,,,,,,
-CACT-B,K,RMX Ghost Valley 1RT,RMX Donut Plains 1T,RMX Donut Plains 1,Cookie Land,,,,,,,,RMX Ghost Valley 1T,,,,,,,,,,
-GOLD BULLET BLASTER,K,RMX Choco Island 1RT,RMX Donut Plains 1RT,,,,,,,,,,Choco Island 2,Battle Course 1,,,,,,,,,
-SHIELDED SPEEDSTER,K,Choco Mountain R,Wario Shipyard R,RMX Donut Plains 1T,,,,,,,,,Choco Mountain T,Donut Plains 2RT,Battle Course 1,,,,,,,,
-GOLD STANDARD,K,Donut Plains 2RT,Battle Course 1,RMX Donut Plains 1R,,,,,,,,,Cookie Land,RMX Donut Plains 1RT,,,,,,,,,
-GOLD DOUBLE-DECKER,K,Donut Plains 1RT,Donut Plains 2,Choco Mountain RT,RMX Donut Plains 1RT,,,,,,,,Donut Plains 1T,Choco Mountain,Battle Course 1,,,,,,,,
-BLACK CARRIAGE,K,Sunset Wilds RT,RMX Ghost Valley 1T,Wario Shipyard RT,Wario Shipyard,,,,,,,,RMX Ghost Valley 1,Cookie Land,RMX Donut Plains 1T,,,,,,,,
-GREEN SPEEDER,K,Battle Course 1,Donut Plains 1,RMX Ghost Valley 1R,RMX Donut Plains 1T,,,Donut Plains 1RT,Donut Plains 2RT,Choco Mountain,RMX Ghost Valley 1T,RMX Donut Plains 1RT,Choco Mountain T,Cookie Land,,,,,,,,,
-FLAMING SPEEDER,K,Choco Island 2RT,Sunset Wilds T,Donut Plains 2R,Cookie Land,Choco Mountain RT,,Choco Island 1,Donut Plains 2,Sunset Wilds R,RMX Choco Island 1RT,Choco Island 1RT,RMX Donut Plains 1,Battle Course 1,,,,,,,,,
-GOLD SWEET RIDE,K,Choco Island 1,Donut Plains 2RT,Cookie Land,RMX Donut Plains 1RT,,,Choco Island 2RT,Donut Plains 1,Donut Plains 1RT,Choco Island 1RT,RMX Donut Plains 1R,Choco Island 2RT,Donut Plains 1,Donut Plains 1RT,Choco Island 1RT,RMX Donut Plains 1,RMX Donut Plains 1R,,,,,
-SUPER GLIDER,G,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-PARACHUTE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PAPER GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DROPLET GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BBIA PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MINION PAPER GLIDER,G,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-PISTON GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PIRANHA PLANT PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PEACH PARASOL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-FLOWER GLIDER,G,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-OILPAPER UMBRELLA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-LIGHTNING OILPAPER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PINK FLOWER GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-8-BIT JUMPING MARIO,G,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-? BLOCK,G,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-PLAID RIBBON,G,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-EGGSHELL GLIDER,G,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-8-BIT JUMPING LUIGI,G,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-BOB-OMB PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SHELL PARACHUTE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-WARIO WING,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-WALUIGI WING,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BANANA PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLUE FLOWER GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOLD GLIDER,G,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-FARE FLIER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PURPLE OILPAPER UMBRELLA,G,-NONE-,,,,,,,,,,,RMX Donut Plains 1,RMX Donut Plains 1R,,,,,,,,,
-FULL FLIGHT,G,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-STRAWBERRY CREPE,G,-NONE-,,,,,,,,,,,RMX Donut Plains 1,Cookie Land,,,,,,,,,
-LE TRICOLORE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-STARCHUTE,G,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-ROYAL PARACHUTE,G,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-GLITTER GLIDER,G,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-SOARING JACK,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GIFT GLIDER,G,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-NEW YEAR'S 2020,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-NEW YEAR'S KITE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-FIREWORKS PARACHUTE,G,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-CRIMSON CRANE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLIZZARD PARASOL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLIZZARD BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SWEETHEART GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-HEART BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-LUMA PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-RAINBOW STARCHUTE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BRIGHT GLIDER,G,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-SAFETY GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DAISY GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PINK GOLD PAPER GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BUTTERFLY SUNSET,G,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-CHOCOLATE DONUT,G,Cookie Land,,,,,,,,,,,RMX Donut Plains 1R,,,,,,,,,,
-GOLD CRANE,G,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-CHOCOLATE BANANA CREPE,G,Cookie Land,RMX Donut Plains 1R,,,,,,,,,,RMX Donut Plains 1T,,,,,,,,,,
-STRAWBERRY DONUT,G,-NONE-,,,,,,,,,,,Cookie Land,RMX Donut Plains 1RT,,,,,,,,,
-SILVER BELLS,G,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-SILVER-AND-GOLD HEARTS,G,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-MANTA GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-TREASURE MAP,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BUTTERFLY WINGS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GREAT SAIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-FESTIVAL WINGS,G,RMX Donut Plains 1R,,,,,,,,,,,RMX Donut Plains 1T,,,,,,,,,,
-8-BIT STAR,G,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-SUPER MARIO KART GLIDER,G,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-STAR-SPANGLED GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SPIDER GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SUNSET BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SWOOPER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BULLET BILL PARACHUTE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CLOUD GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-RAINY BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-WICKED WINGS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOLD SWOOPER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BANANA WINGTIP,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-TROPICAL GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DRAGON WINGS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLOOPER WINGTIP,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-NABBIT OILPAPER UMBRELLA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CHEEP CHEEP MASKS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BABY MARIO HANAFUDA,G,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-YOSHI'S EGG HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PEACH HANAFUDA,G,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-BARREL HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLOOPER HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CAPE MARIO HANAFUDA,G,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-BULLET BILL HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BOO HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PIRANHA PLANT HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOOMBA HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-JUMPING MARIO HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-JOLLY BELLS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SILVER STARCHUTE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BOWSER HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BUTTERFLY PRISM,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PLANET GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-NEW YEAR'S 2021,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DRY BOWSER UMBRELLA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOLD NEW YEAR'S KITE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PENGUIN WINGTIP,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-TOE-BEAN BALLOONS,G,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-CALICO PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLACK GREAT SAIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SILVER MANTA GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-ROSE PARASOL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SNOW CRYSTALS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MUSHROOM GLIDER,G,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-8-BIT FIRE FLOWER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BRIGHT BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-NINJA SCROLL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SURF MASTER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-STARRY GREAT SAIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLACK TOE-BEAN BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-8-BIT BULLET BILL,G,Battle Course 1,,,,,,,,,,,-NONE-,,,,,,,,,,
-GLINTING GLIDER,G,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-FLYING EASEL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SUNNY SURF MASTER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-POLKA-DOT MANTA GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-HOME-FIELD GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOLD HOME-FIELD GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SPRINGTIME CRANE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-YUKATA RIBBON,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-DREAM GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SILVER SURF MASTER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SHIP'S WHEEL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-TANOOKI PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOLD TANOOKI PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOLDEN WINGS,G,RMX Donut Plains 1T,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-VAMPIRE WINGS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-MAGIC PARASOL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-8-BIT SUPER MUSHROOM,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-METEOR BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-PINK GOLD METEORS,G,-NONE-,,,,,,,,,,,RMX Donut Plains 1RT,RMX Donut Plains 1T,,,,,,,,,
-GALAXY GLIDER,G,-NONE-,,,,,,,,,,,RMX Donut Plains 1T,,,,,,,,,,
-CANDLELIGHT FLIGHT,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOLD PENGUIN WINGTIP,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-AURORA BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-NEW YEAR'S 2022,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-BLACK CAT PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-CAT PARAFOIL,G,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-GOLD TOE-BEAN BALLOONS,G,-NONE-,,,,,,,,,,,Cookie Land,RMX Donut Plains 1RT,RMX Donut Plains 1R,,,,,,,,
-GLITTERING PARASOL,G,-NONE-,,,,,,,,,,,RMX Donut Plains 1RT,,,,,,,,,,
-LUIGI PARAFOIL,G,-NONE-,,,,,,,,,,,Battle Course 1,,,,,,,,,,
-WARIO'S MUSTACHE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-WALUIGI'S MUSTACHE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-SKY-HIGH FLYER,G,RMX Donut Plains 1R,,,,,,,,,,,RMX Donut Plains 1,Battle Course 1,,,,,,,,,
-RECORD SETTER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,
-WONDERFUL WINGS,G,RMX Donut Plains 1T,,,,,,,,,,,RMX Donut Plains 1,,,,,,,,,,
-MARIO'S MUSTACHE,G,Battle Course 1,,,,,,,,,,,RMX Donut Plains 1R,,,,,,,,,,
-LUIGI'S MUSTACHE,G,RMX Donut Plains 1RT,,,,,,,,,,,Donut Plains 1RT,Cookie Land,,,,,,,,,
-ORIGAMI GLIDER,G,Battle Course 1,,,,,,,,,,,RMX Donut Plains 1T,,,,,,,,,,
-SAKURA ORIGAMI GLIDER,G,RMX Donut Plains 1R,,,,,,,,,,,Battle Course 1,RMX Donut Plains 1RT,,,,,,,,,
-GOLD EGGSHELL GLIDER,G,RMX Donut Plains 1T,,,,,,,,,,,Donut Plains 1RT,Cookie Land,,,,,,,,,
-GREEN SPROUT,G,-NONE-,,,,,,,,,,,Cookie Land,,,,,,,,,,
-MAGNIFLYING GLASS,G,RMX Donut Plains 1RT,,,,,,,,,,,Cookie Land,,,,,,,,,,
-FLYBRARY BOOK,G,Cookie Land,,,,,,,,,,,-NONE-,,,,,,,,,,
-PINK MAGNIFLYING GLASS,G,Cookie Land,RMX Donut Plains 1R,,,,,,,,,,RMX Donut Plains 1,,,,,,,,,,
-WICKED TOPAZ,G,Choco Mountain,Choco Mountain T,,,,,,,,,,Battle Course 1,,,,,,,,,,
-CREAM TOE-BEAN BALLOONS,G,Donut Plains 2RT,,,,,,,,,,,Cookie Land,Battle Course 1,,,,,,,,,
-GREEN CAT PARAFOIL,G,RMX Donut Plains 1,RMX Donut Plains 1T,,,,,,,,,,Battle Course 1,RMX Donut Plains 1R,,,,,,,,,
-CANDLELIGHT FLIGHT CAKE,G,RMX Donut Plains 1,Cookie Land,,,,,,,,,,RMX Choco Island 1RT,RMX Donut Plains 1RT,,,,,,,,,
-PRETZEL GLIDER,G,Battle Course 1,,,,,,,,,,,RMX Donut Plains 1,,,,,,,,,,
-TULIP CORSAGE,G,Donut Plains 1,RMX Donut Plains 1,RMX Donut Plains 1R,,,,,,,,,RMX Donut Plains 1RT,RMX Donut Plains 1T,,,,,,,,,
-RED AND GOLD UMBRELLA,G,RMX Donut Plains 1,,,,,,,,,,,Cookie Land,RMX Donut Plains 1R,,,,,,,,,
-8-BIT 1-UP MUSHROOM,G,RMX Donut Plains 1,Battle Course 1,,,,,,,,,,RMX Donut Plains 1T,,,,,,,,,,
-PIRANHA PLANT BALLOONS,G,RMX Choco Island 1RT,,,,,,,,,,,Choco Island 1T,Battle Course 1,,,,,,,,,
-SECRET SCROLL,G,Cookie Land,RMX Donut Plains 1T,,,,,,,,,,RMX Donut Plains 1R,,,,,,,,,,
-TROPICAL BALLOONS,G,Sunset Wilds,Cookie Land,RMX Donut Plains 1RT,,,,,,,,,RMX Donut Plains 1R,,,,,,,,,,
-FIRE MANTA GLIDER,G,Sunset Wilds R,Cookie Land,RMX Donut Plains 1T,,,,,,,,,Sunset Wilds RT,RMX Donut Plains 1RT,,,,,,,,,
-MINT & BERRY BALLOONS,G,RMX Choco Island 1RT,RMX Donut Plains 1,,,,,,,,,,Cookie Land,,,,,,,,,,
-VANILLA & CHOCOLATE BALLOONS,G,Choco Island 1T,RMX Choco Island 1RT,RMX Donut Plains 1T,Cookie Land,,,,,,,,RMX Donut Plains 1RT,,,,,,,,,,
-ICY MARIO'S MUSTACHE,G,RMX Ghost Valley 1R,RMX Donut Plains 1RT,,,,,,,,,,RMX Donut Plains 1,Battle Course 1,,,,,,,,,
-FLYING FLAPPERS,G,RMX Ghost Valley 1,,,,,,,,,,,RMX Ghost Valley 1T,Battle Course 1,,,,,,,,,
-LAVA ROCKS,G,Choco Mountain R,,,,,,,,,,,Choco Mountain,,,,,,,,,,
-BLACK STARCHUTE,G,Choco Mountain R,RMX Ghost Valley 1RT,RMX Donut Plains 1RT,Battle Course 1,,,,,,,,Choco Mountain,RMX Ghost Valley 1R,,,,,,,,,
-SILVER LUIGI'S MUSTACHE,G,Wario Shipyard T,Wario Shipyard R,Battle Course 1,RMX Donut Plains 1R,,,,,,,,RMX Donut Plains 1,,,,,,,,,,
-BOO MASKS,G,Sunset Wilds,RMX Ghost Valley 1RT,Battle Course 1,,,,,,,,,Sunset Wilds RT,RMX Ghost Valley 1,RMX Ghost Valley 1R,,,,,,,,
-MARIO'S HAT BALLOON,G,Donut Plains 1R,Choco Island 1R,Battle Course 1,,,,,,,,,Donut Plains 1RT,Choco Island 1RT,RMX Donut Plains 1,,,,,,,,
-LUIGI'S HAT BALLOON,G,Donut Plains 1RT,Wario Shipyard R,Battle Course 1,RMX Donut Plains 1R,,,,,,,,Donut Plains 1,Wario Shipyard T,RMX Donut Plains 1RT,,,,,,,,
-GOLD CLOUD BALLOONS,G,Donut Plains 2RT,RMX Donut Plains 1RT,Sunset Wilds RT,,,,,,,,,RMX Donut Plains 1,Sunset Wilds R,Battle Course 1,,,,,,,,
-WHITE WAVES ORIGAMI GLIDER,G,RMX Ghost Valley 1RT,Wario Shipyard T,Wario Shipyard RT,Battle Course 1,,,,,,,,RMX Ghost Valley 1R,Wario Shipyard R,,,,,,,,,
-CHOCOLATE PRETZEL,G,RMX Choco Island 1,Choco Mountain T,RMX Donut Plains 1,Cookie Land,,,Donut Plains 1R,Choco Mountain R,Donut Plains 2RT,RMX Choco Island 1RT,RMX Donut Plains 1T,Donut Plains 1R,Donut Plains 1RT,Choco Mountain R,Donut Plains 2RT,RMX Choco Island 1RT,Battle Course 1,RMX Donut Plains 1T,,,,
-PARA-PANINI,G,Choco Island 2,Sunset Wilds T,RMX Ghost Valley 1,RMX Donut Plains 1RT,,,Choco Island 2T,Donut Plains 2,Sunset Wilds,RMX Ghost Valley 1RT,RMX Donut Plains 1R,Choco Island 2T,Sunset Wilds,Donut Plains 2,RMX Ghost Valley 1RT,Cookie Land,Battle Course 1,RMX Donut Plains 1R,,,,
+BABY MARIO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+BABY PEACH,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+BABY DAISY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+BABY ROSALINA,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+BABY LUIGI,D,-NONE-,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,Marko
+KOOPA TROOPA,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+SHY GUY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+DRY BONES,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+IGGY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+LARRY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+LEMMY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+LUDWIG,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+MORTON,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+ROY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+WENDY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+MARIO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+PEACH,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+YOSHI,D,-NONE-,,,,,,,,,,,Shroom Ridge R,,,,,,,,,,Marko
+DAISY,D,RMX Choco Island 2RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+TOADETTE,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+ROSALINA,D,-NONE-,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,Marko
+LUIGI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+TOAD (PIT CREW),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+RED YOSHI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+BOWSER,D,-NONE-,,,,,,,,,,,Shroom Ridge RT,,,,,,,,,,Marko
+DONKEY KONG,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+DIDDY KONG,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+LAKITU,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+BOWSER JR.,D,-NONE-,,,,,,,,,,,Shroom Ridge,,,,,,,,,,Marko
+WARIO,D,RMX Choco Island 2RT,,,,,,,,,,,-NONE-,,,,,,,,,,Astreiya
+WALUIGI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+KING BOO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+BLACK SHY GUY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+RED KOOPA (FREERUNNING),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+BIRDO,D,-NONE-,,,,,,,,,,,Shroom Ridge,,,,,,,,,,Marko
+PINK SHY GUY,D,-NONE-,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,Marko
+BIRDO (LIGHT BLUE),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+HAMMER BRO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+BOOMERANG BRO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+ICE BRO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+FIRE BRO,D,-NONE-,,,,,,,,,,,Shroom Ridge T,,,,,,,,,,Marko
+BIRDO (YELLOW),D,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,Marko
+MONTY MOLE,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+METAL MARIO,D,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,Shroom Ridge RT,,,,,,,,,tamara988
+PEACHETTE,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PAULINE,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+MARIO (MUSICIAN),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PEACH (KIMONO),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+MARIO (HAKAMA),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+ROSALINA (HALLOWEEN),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PEACH (VACATION),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+MARIO (SANTA),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PINK GOLD PEACH,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DAISY (HOLIDAY CHEER),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+YOSHI (REINDEER),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PAULINE (PARTY TIME),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+MARIO (HAPPI),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+TOAD (PARTY TIME),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PEACH (WINTERTIME),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PENGUIN LUIGI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+ICE MARIO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BABY PEACH (CHERUB),D,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,tamara988
+ROSALINA (AURORA),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+MARIO (CLASSIC),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+LUIGI (CLASSIC),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+BABY ROSALINA (DETECTIVE),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+YOSHI (EGG HUNT),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+BLACK YOSHI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+BUILDER MARIO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+BUILDER TOAD,D,-NONE-,,,,,,,,,,,Shroom Ridge T,,,,,,,,,,Marko
+DAISY (FAIRY),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,triip
+MARIO (CHEF),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,triip
+PEACH (WEDDING),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,triip
+ROSALINA (SWIMWEAR),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,triip
+MARIO (SWIMWEAR),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,triip
+CAPTAIN TOAD,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,triip
+TOADETTE (EXPLORER),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,triip
+DAISY (YUKATA),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,triip
+MARIO (SNES),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,triip
+MARIO (SUNSHINE),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,triip
+MARIO (HALLOWEEN),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,triip
+PEACH (HALLOWEEN),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,triip
+PEACH (EXPLORER),D,RMX Choco Island 2RT,,,,,,,,,,,-NONE-,,,,,,,,,,triip
+BUILDER LUIGI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,triip
+DRY BOWSER,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+KING BOO (LUIGI'S MANSION),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+SHY GUY (PASTRY CHEF),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+WALUIGI (BUS DRIVER),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+GOLD KOOPA (FREERUNNING),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+WARIO (HIKER),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+DRY BONES (GOLD),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+FUNKY KONG,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+DIXIE KONG,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+DRY BOWSER (GOLD),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+WARIO (COWBOY),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+NABBIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+BOWSER JR. (PIRATE),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+KING BOB-OMB,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+DONKEY KONG JR. (SNES),D,Shroom Ridge T,,,,,,,,,,,Shroom Ridge RT,,,,,,,,,,MKD Ben
+SHY GUY (GOLD),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+KING BOO (GOLD),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,bobomb squad
+TOAD,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+LAKITU (PARTY TIME),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+FIRE ROSALINA,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+BOWSER (SANTA),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+LUIGI (LEDERHOSEN),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+CAT PEACH,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+CAT TOAD,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+PAULINE (ROSE),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+PENGUIN TOAD,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+MARIO (RACING),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+WHITE YOSHI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+BIRDO (BLACK),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+BLUE YOSHI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+SHY GUY (NINJA),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+KING BOB-OMB (GOLD),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,bobomb squad
+GREEN SHY GUY,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+BABY MARIO (KOALA),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+BUILDER TOADETTE,D,Shroom Ridge T,,,,,,,,,,,Shroom Ridge RT,,,,,,,,,,Flo
+MARIO (TUXEDO),D,RMX Choco Island 2RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+LUIGI (PAINTER),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+BLUE KOOPA (FREERUNNING),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+DAISY (SWIMWEAR),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+MARIO (BASEBALL),D,Shroom Ridge R,,,,,,,,,,,Shroom Ridge T,,,,,,,,,,MKD Ben
+PEACH (HAPPI),D,Coconut Mall RT,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+PENGUIN MARIO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+KAMEK,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,bobomb squad
+YOSHI (KANGAROO),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,bobomb squad
+PINK YOSHI,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+BIRDO (BLUE),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+TANOOKI MARIO,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+TANOOKI ROSALINA,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,MKD Ben
+WALUIGI (VAMPIRE),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+YELLOW TOAD (PIT CREW),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+MARIO (SATELLAVIEW),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+LIGHT-BLUE TOAD (PIT CREW),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PENGUIN TOADETTE,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+CAT ROSALINA,D,-NONE-,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,Marko
+MEOWSER,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+LUIGI (VACATION),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PURPLE KOOPA (FREERUNNING),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+MARIO (GOLF),D,Shroom Ridge R,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+LUIGI (GOLF),D,Shroom Ridge,,,,,,,,,,,Shroom Ridge T,,,,,,,,,,Marko
+CHARGIN' CHUCK,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+LIGHT-BLUE SHY GUY,D,-NONE-,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,Marko
+MARIO (AVIATOR),D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+RED MII RACING SUIT,D,-NONE-,,,,,,,,,,,Shroom Ridge RT,Shroom Ridge T,,,,,,,,,Flo
+MARIO MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+PEACH MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+TOAD MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+LUIGI MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+ROSALINA MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+DONKEY KONG MII RACING SUIT,D,Coconut Mall RT,,,,,,,,,,,Shroom Ridge,Shroom Ridge R,,,,,,,,,tamara988
+BRONZE MII RACING SUIT,D,RMX Choco Island 2RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SILVER MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD MII RACING SUIT,D,RMX Choco Island 2RT,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,tamara988
+MARIO (SAMURAI),D,-NONE-,,,,,,,,,,,Shroom Ridge RT,Shroom Ridge T,,,,,,,,,Marko
+PEACH (YUKATA),D,Coconut Mall RT,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+PINK SHY GUY (NINJA),D,-NONE-,,,,,,,,,,,Shroom Ridge T,,,,,,,,,,Marko
+KING BOO MII RACING SUIT,D,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+KING BOB-OMB MII RACING SUIT,D,RMX Choco Island 2RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+YOSHI (GOLD EGG),D,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,Marko
+BIRDO (WHITE),D,Shroom Ridge RT,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+YOSHI MII RACING SUIT,D,Shroom Ridge T,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+BIRDO MII RACING SUIT,D,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,Flo
+ROSALINA (VOLENDAM),D,-NONE-,,,,,,,,,,,Shroom Ridge R,,,,,,,,,,tamara988
+DAISY (FARMER),D,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,Marko
+NABBIT MII RACING SUIT,D,RMX Choco Island 2RT,,,,,,,,,,,Shroom Ridge RT,Shroom Ridge R,,,,,,,,,Flo
+DR. MARIO,D,Coconut Mall RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DR. LUIGI,D,Shroom Ridge,Coconut Mall RT,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,tamara988
+WARIO MII RACING SUIT,D,Coconut Mall RT,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+DR. PEACH,D,Shroom Ridge RT,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+DR. BOWSER,D,RMX Choco Island 2RT,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,Marko
+? BLOCK MII RACING SUIT,D,RMX Choco Island 2RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CAT MARIO,D,Shroom Ridge T,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CAT LUIGI,D,Shroom Ridge,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+CAT MII RACING SUIT,D,Shroom Ridge RT,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+ROSALINA (CHEF),D,-NONE-,,,,,,,,,,,Shroom Ridge T,,,,,,,,,,Marko
+PASTRY CHEF MII RACING SUIT,D,-NONE-,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,Flo
+DAISY (THAI DRESS),D,RMX Choco Island 2RT,RMX Choco Island 2T,,,,,,,,,,RMX Choco Island 2R,Coconut Mall RT,,,,,,,,,tamara988
+CHAIN CHOMP MII RACING SUIT,D,Shroom Ridge T,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+PETEY PIRANHA,D,-NONE-,,,,,,,,,,,Shroom Ridge,,,,,,,,,,Flo
+PETEY PIRANHA MII RACING SUIT,D,-NONE-,,,,,,,,,,,Shroom Ridge,,,,,,,,,,Flo
+DAISY (SAILOR),D,Shroom Ridge RT,,,,,,,,,,,Shroom Ridge,Shroom Ridge T,,,,,,,,,Flo
+TOADETTE (SAILOR),D,Shroom Ridge RT,,,,,,,,,,,-NONE-,,,,,,,,,,Marko
+DOLPHIN MII RACING SUIT,D,Toad Circuit T,,,,,,,,,,,Toad Circuit,Coconut Mall RT,Shroom Ridge T,Shroom Ridge R,,,,,,,Flo
+CHEEP CHEEP MII RACING SUIT,D,Coconut Mall RT,Shroom Ridge R,,,,,,,,,,Shroom Ridge RT,Shroom Ridge T,,,,,,,,,Flo
+WHITE TANOOKI MARIO,D,Shroom Ridge T,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+ICE-CREAM MII RACING SUIT,D,RMX Choco Island 2RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CHARGIN' CHUCK (GOLD),D,Coconut Mall T,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BOWSER MII RACING SUIT,D,-NONE-,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,Flo
+DRY BOWSER MII RACING SUIT,D,RMX Vanilla Lake 1T,,,,,,,,,,,RMX Vanilla Lake 1,RMX Vanilla Lake 1R,,,,,,,,,Flo
+LUIGI (KNIGHT),D,-NONE-,,,,,,,,,,,Shroom Ridge RT,Shroom Ridge T,,,,,,,,,Flo
+GOOMBA MII RACING SUIT,D,RMX Choco Island 2RT,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+HAMMER BRO MII RACING SUIT,D,-NONE-,,,,,,,,,,,Shroom Ridge RT,Shroom Ridge R,,,,,,,,,Flo
+MARIO (KING),D,Shroom Ridge R,,,,,,,,,,,Shroom Ridge T,,,,,,,,,,tamara988
+CASTLE MII RACING SUIT,D,RMX Choco Island 2R,RMX Choco Island 2RT,,,,,,,,,,RMX Choco Island 2T,Luigi Raceway T,Luigi Raceway R,,,,,,,,Flo
+WHITE MII RACING SUIT,D,Shroom Ridge R,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+RED TOAD (PIT CREW),D,Toad Circuit,,,,,,,,,,,Shroom Ridge,Toad Circuit T,Shroom Ridge R,Shroom Ridge RT,,,,,,,Flo
+LUIGI (CHEF),D,Luigi Raceway T,Coconut Mall RT,Shroom Ridge R,,,,,,,,,Coconut Mall,Coconut Mall R,Luigi Raceway R,Shroom Ridge RT,,,,,,,Flo
+GREEN MII RACING SUIT,D,-NONE-,,,,,,,,,,,Luigi Raceway T,Luigi Raceway,,,,,,,,,tamara988
+PETEY PIRANHA (GOLD),D,RMX Choco Island 2T,RMX Choco Island 2R,,,,,,,,,,Coconut Mall R,RMX Choco Island 2RT,Coconut Mall RT,Shroom Ridge R,,,,,,,Flo
+DRY BONES MII RACING SUIT,D,Luigi Raceway R,,,,,,,,,,,Luigi Raceway T,RMX Vanilla Lake 1T,,,,,,,,,Flo
+ORANGE YOSHI,D,RMX Choco Island 2,Luigi Raceway,,,,,,,,,,Luigi Raceway T,RMX Choco Island 2RT,,,,,,,,,Flo
+YELLOW MII RACING SUIT,D,RMX Choco Island 2RT,Shroom Ridge T,,,,,,,,,,RMX Choco Island 2,Shroom Ridge,Shroom Ridge RT,,,,,,,,Flo
+KITSUNE LUIGI,D,Luigi Raceway,Shroom Ridge,,,,,,,,,,Luigi Raceway T,,,,,,,,,,Flo
+MOO MOO MII RACING SUIT,D,Toad Circuit,,,,,,,,,,,Toad Circuit R,Shroom Ridge,,,,,,,,,Flo
+BLUE SHY GUY,D,Toad Circuit,Sky Garden,,,,,,,,,,Toad Circuit R,Sky Garden R,Sky Garden T,,,,,,,,Marko
+ROCKY WRENCH MII RACING SUIT,D,RMX Bowser's Castle 1T,,,,,,,,,,,RMX Bowser's Castle 1,RMX Choco Island 2RT,Shroom Ridge T,,,,,,,,Flo
+LARRY (WINTERTIME),D,RMX Vanilla Lake 1R,Coconut Mall,Coconut Mall R,RMX Bowser's Castle 1T,,,,,,,,RMX Vanilla Lake 1T,RMX Bowser's Castle 1R,Coconut Mall RT,Shroom Ridge T,,,,,,,Flo
+SANTA MII RACING SUIT,D,Coconut Mall,Coconut Mall T,Peach Gardens R,,,,,,,,,Peach Gardens RT,Coconut Mall RT,,,,,,,,,Astreiya
+REINDEER MII RACING SUIT,D,Sky Garden T,DK Mountain R,,,,,,,,,,Sky Garden,DK Mountain,DK Mountain T,RMX Choco Island 2RT,,,,,,,Astreiya
+GREEN TOAD (PIT CREW),D,Toad Circuit,,,,,,,,,,,Toad Circuit R,Shroom Ridge RT,Shroom Ridge T,,,,,,,,tamara988
+BLACK MII RACING SUIT,D,Shroom Ridge RT,,,,,,,,,,,Shroom Ridge,,,,,,,,,,Astreiya
+PINK TOAD (PIT CREW),D,Toad Circuit R,Peach Gardens,,,,,,,,,,Toad Circuit T,Toad Circuit RT,Peach Gardens T,Peach Gardens R,Shroom Ridge,,,,,,tamara988
+TOAD (ASTRONAUT),D,Toad Circuit R,Sky Garden RT,Shroom Ridge,Shroom Ridge T,,,,,,,,Toad Circuit,Sky Garden,Shroom Ridge RT,,,,,,,,Astreiya
+TOADETTE (ASTRONAUT),D,Sky Garden,Peach Gardens R,Peach Gardens T,,,,,,,,,Sky Garden T,Peach Gardens RT,Sky Garden RT,Shroom Ridge T,Shroom Ridge RT,,,,,,Astreiya
+PURPLE MII RACING SUIT,D,Toad Circuit R,Shroom Ridge,,,,,,,,,,Toad Circuit RT,Shroom Ridge RT,,,,,,,,,Astreiya
+BIRDO (ORANGE),D,RMX Choco Island 2,Peach Gardens,,,,,,,,,,RMX Choco Island 2T,RMX Bowser's Castle 1R,RMX Bowser's Castle 1,Peach Gardens R,RMX Choco Island 2RT,Coconut Mall,,,,,tamara988
+ROARING RACER MII RACING SUIT,D,RMX Vanilla Lake 1T,Luigi Raceway T,RMX Vanilla Lake 1,Coconut Mall RT,,,,,,,,Luigi Raceway,Coconut Mall,Coconut Mall R,,,,,,,,Astreiya
+LIGHT-BLUE SHY GUY (EXPLORER),D,RMX Choco Island 2RT,Shroom Ridge RT,,,,,,,,,,Shroom Ridge,RMX Choco Island 2R,Coconut Mall,Shroom Ridge R,,,,,,,Astreiya
+YELLOW SHY GUY (EXPLORER),D,Coconut Mall,DK Mountain,DK Mountain T,RMX Choco Island 2RT,,,,,,,,RMX Choco Island 2R,Coconut Mall R,DK Mountain RT,Coconut Mall RT,RMX Choco Island 2,,,,,,tamara988
+BROWN MII RACING SUIT,D,RMX Choco Island 2RT,,,,,,,,,,,Shroom Ridge R,RMX Choco Island 2,RMX Choco Island 2T,Shroom Ridge RT,,,,,,,Astreiya
+WHITE SHY GUY,D,RMX Choco Island 2,Sky Garden T,Coconut Mall RT,,,,Sky Garden,,Peach Gardens T,,,RMX Choco Island 2R,Sky Garden,Peach Gardens RT,Peach Gardens T,Shroom Ridge R,,,,,,Astreiya
+PARA-BIDDYBUD MII RACING SUIT,D,RMX Choco Island 2T,Coconut Mall T,Shroom Ridge,,,,RMX Choco Island 2R,,Coconut Mall RT,,Shroom Ridge T,RMX Choco Island 2R,Sky Garden T,Coconut Mall RT,Shroom Ridge T,Peach Gardens T,,,,,,Astreiya
+PIPE FRAME,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BIRTHDAY GIRL,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+MUSHMELLOW,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+KOOPA DASHER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BIDDYBUGGY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLUE BIDDYBUGGY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CHEEP CHARGER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PINK MUSHMELLOW,K,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,tamara988
+BIRTHDAY GIRL ROSALINA,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GREEN KIDDIE KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+RED KIDDIE KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BULLET BLASTER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BULL'S-EYE BANZAI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+LANDSHIP,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PIPE BUGGY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+WARSHIP,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GREEN CHEEP CHARGER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+MACH 8,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DAYTRIPPER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+TURBO YOSHI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SODA JET,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SUPER BLOOPER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD BLOOPER,K,RMX Choco Island 2RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+ROYALE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CLOUD 9,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+POLTERGUST 4000,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+STREAMLINER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+WHITE ROYALE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+ZUCCHINI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+RED STREAMLINER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+RED TURBO YOSHI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLUE SEVEN,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SUPER 1,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DASHER II,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+TEA COUPE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+YELLOW TURBO BIRDO,K,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,tamara988
+EGG 1,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BIRTHDAY GIRL DAISY,K,RMX Choco Island 2RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+RED STANDARD 8,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GREEN STANDARD 8,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+FLAME FLYER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BARREL TRAIN,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DK JUMBO,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CHROME DK JUMBO,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+KOOPA CLOWN,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DARK CLOWN,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PARA-WING,K,Coconut Mall RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+TURBO BIRDO,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+LIGHT-BLUE TURBO BIRDO,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BOLT BUGGY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+RAMBI RIDER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+B DASHER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLACK B DASHER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+YELLOW TAXI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+QUICKSHAW,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+KABUKI DASHER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CIRCUIT SPECIAL,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLACK CIRCUIT,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BUMBLE V,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+QUEEN BEE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+TRICKSTER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GHOST RIDE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+MACHARON,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CARROT KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CHEERMELLOW,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+WILD WING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+RADISH RIDER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+WILDFIRE FLYER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+RIBBON RIDER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DOUBLE-DECKER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SWIFT JACK,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+RED B DASHER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+JINGLE BELLS,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PLATINUM TAXI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GLAM BRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GILDED PRANCER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+ICE-BLUE POLTERGUST,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+P-WING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+APPLE KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+COMET TAIL,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BRIGHT BUNNY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DOZER DASHER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CLANKY KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+WILD BLACK,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+KARP KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PRANCER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+ROSE QUEEN,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GREEN APPLE KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CHOCO MACHARON,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD EGG,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SWEET DAYTRIPPER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+RED TAXI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PINK WING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+HAPPY RIDE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLUE SODA,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CLACKETY KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD CLANKY KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+FESTIVAL GIRL,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLACK KABUKI DASHER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+8-BIT PIPE FRAME,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD PIPE FRAME,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SURF SAILER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+STAR-SPANGLED FLYER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GREEN CIRCUIT,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SPORTS COUPE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PUMPKIN KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DARK TRICKSTER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SUNSET CLOUD,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+STEEL DRIVER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BADWAGON,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLUE BADWAGON,K,Shroom Ridge T,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD TRAIN,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SNOW SKIMMER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+OFFROADER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BANANA MASTER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+POISON APPLE KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CHEEP SNORKEL,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD CHEEP SNORKEL,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD CHEEP CHARGER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DARK BUGGY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+KOOPA KING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BROWN OFFROADER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CACT-X,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PIRATE SUSHI RACER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SILVER BULLET BLASTER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+HEAD HONCHO,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DK MAXIMUM,K,RMX Choco Island 2RT,,,,,,,,,,,Shroom Ridge R,Shroom Ridge,,,,,,,,,tamara988
+SUSHI RACER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GILDED KING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CRAWLY KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLACK PENGUIN SLIDER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+HOLIDAY KING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD SNOW SKIMMER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DREAMY EGG,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLACK DOZER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CUCUMBER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+FAST FRANK,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+IRON CUCUMBER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PARTY-WING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CAT CRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+WILD PINK,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+ROSE TAXI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PENGUIN SLIDER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CACT-ICE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+B DASHER MK. 2,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DECAL STREAMLINER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+ORANGE STREAMLINER,K,Shroom Ridge RT,,,,,,,,,,,Shroom Ridge T,,,,,,,,,,tamara988 
+BLACK TURBO BIRDO,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988 
+WHITE TURBO YOSHI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PURPLE BUNNY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SAKURA QUICKSHAW,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+JADE HOP ROD,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CRIMSON HOP ROD,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+JET CRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLUE ROYALE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+INFERNO FLYER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+RAMBI RUNNER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PINK DOZER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GRAND BADWAGON,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLUE TURBO YOSHI,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PAINTSTER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+LIME TEA COUPE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SUNNY SURF SAILER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CLEANUP HITTER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PINCH HITTER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DARK HOP ROD,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+ICE DOZER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+KAMEK'S ZOOM BROOM,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SILVER KING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GREEN DOUBLE-DECKER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLACK CAT CRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLUE TURBO BIRDO,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+RED B DASHER MK. 2,K,Shroom Ridge R,,,,,,,,,,,Shroom Ridge T,Shroom Ridge,,,,,,,,,tamara988
+PINK B DASHER MK. 2,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CLASSIC B DASHER MK. 2,K,-NONE-,,,,,,,,,,,Shroom Ridge R,,,,,,,,,,tamara988
+SKY-BLUE B DASHER MK. 2,K,Shroom Ridge R,,,,,,,,,,,Shroom Ridge T,Shroom Ridge,,,,,,,,,tamara988
+METAL B DASHER MK. 2,K,Shroom Ridge T,,,,,,,,,,,Shroom Ridge RT,,,,,,,,,,tamara988
+CREAM B DASHER MK. 2,K,Shroom Ridge,,,,,,,,,,,Shroom Ridge T,,,,,,,,,,tamara988
+GREEN B DASHER MK. 2,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+TANOOKI KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD PUMPKIN KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+VAMPIRE FLYER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+RED CRAWLY KART,K,RMX Choco Island 2RT,,,,,,,,,,,Shroom Ridge RT,,,,,,,,,,tamara988
+YELLOW OFFROADER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CACT-R,K,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,tamara988
+LUNAR CRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SLEIGH RIDER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CHEERSHIP,K,-NONE-,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,tamara988
+CANDY CLOWN,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+WHITE SNOW SKIMMER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+FROSTY BELLS,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+FROST WING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GRAY CAT CRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SPORTS COUPE 2022,K,Shroom Ridge R,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+TIGER BRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+ROARING RACER,K,Shroom Ridge T,,,,,,,,,,,Shroom Ridge RT,,,,,,,,,,tamara988
+JUKEBOX BUGGY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SNEEKER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GREEN LIGHTNING,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CUPID'S ARROW,K,Coconut Mall RT,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,tamara988
+WILD SLUGGER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+COMBO CRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PROP KART,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+MAGMA BROOM,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+STAR BROOM,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+YELLOW 8-BIT PIPE FRAME,K,-NONE-,,,,,,,,,,,Shroom Ridge RT,Coconut Mall RT,Shroom Ridge T,,,,,,,,tamara988
+WARRIOR WAGON,K,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,Shroom Ridge RT,Shroom Ridge,,,,,,,,tamara988
+ARMORED RIDER,K,Shroom Ridge T,,,,,,,,,,,Shroom Ridge,,,,,,,,,,tamara988
+SAKURA HOP ROD,K,-NONE-,,,,,,,,,,,Shroom Ridge R,Coconut Mall RT,,,,,,,,,tamara988
+BLACK TURBO YOSHI,K,Coconut Mall RT,,,,,,,,,,,Shroom Ridge,Shroom Ridge RT,,,,,,,,,tamara988
+GOLD BUNNY,K,RMX Choco Island 2RT,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,tamara988
+WHITE TURBO BIRDO,K,Shroom Ridge R,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+FLOWER KART,K,Coconut Mall RT,,,,,,,,,,,Shroom Ridge,Shroom Ridge T,,,,,,,,,tamara988
+DRAGONFLY,K,-NONE-,,,,,,,,,,,Shroom Ridge RT,Shroom Ridge T,Shroom Ridge R,,,,,,,,tamara988
+FIREFLY,K,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,Shroom Ridge RT,,,,,,,,,tamara988
+DAIKON ROCKET,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CAPSULE KART,K,Shroom Ridge RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLUE-GREEN CAPSULE KART,K,Shroom Ridge,Coconut Mall RT,,,,,,,,,,Shroom Ridge R,,,,,,,,,,tamara988
+WHITE BRUISER,K,Shroom Ridge RT,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,tamara988
+COCONUT 1,K,Coconut Mall RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PINK CAPSULE KART,K,Shroom Ridge RT,Shroom Ridge T,,,,,,,,,,Shroom Ridge,,,,,,,,,,tamara988
+GREEN-YELLOW CAPSULE KART,K,RMX Choco Island 2RT,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,tamara988
+CREAM CAT CRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GREEN CAT CRUISER,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOO-GOO BUGGY,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOO-GOO PINK,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD KIDDIE KART,K,RMX Choco Island 2RT,,,,,,,,,,,Coconut Mall RT,Shroom Ridge R,,,,,,,,,tamara988
+SWEET RIDE,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+WHITE FAST FRANK,K,-NONE-,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,tamara988
+TUK-TUK KART,K,RMX Choco Island 2T,RMX Choco Island 2RT,Coconut Mall RT,,,,,,,,,RMX Choco Island 2R,,,,,,,,,,tamara988
+TROPICAL TRUCK,K,Coconut Mall RT,,,,,,,,,,,Shroom Ridge R,,,,,,,,,,tamara988
+GOLD ZUCCHINI,K,-NONE-,,,,,,,,,,,RMX Choco Island 2R,,,,,,,,,,tamara988
+LIGHTNING STREAMLINER,K,Shroom Ridge R,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PIRANHA PIPES,K,Coconut Mall RT,,,,,,,,,,,Shroom Ridge RT,Shroom Ridge T,,,,,,,,,tamara988
+FLOWERY BADWAGON,K,Shroom Ridge,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CORAL JET CRUISER,K,Shroom Ridge RT,Shroom Ridge R,,,,,,,,,,Coconut Mall RT,,,,,,,,,,tamara988
+WATERMELON KART,K,-NONE-,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,tamara988
+ICE-CREAM MINIBUS,K,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CHOCOLATE BANANA MINIBUS,K,-NONE-,,,,,,,,,,,Coconut Mall RT,RMX Choco Island 2RT,,,,,,,,,tamara988
+STRAWBERRY SOFT SWERVE,K,Coconut Mall RT,,,,,,,,,,,Shroom Ridge,Shroom Ridge R,,,,,,,,,tamara988
+RED OFFROADER,K,Toad Circuit,,,,,,,,,,,Toad Circuit T,,,,,,,,,,tamara988
+GOO-GOO BLACK,K,Coconut Mall T,Coconut Mall RT,,,,,,,,,,Coconut Mall,Shroom Ridge,,,,,,,,,tamara988
+CACT-B,K,-NONE-,,,,,,,,,,,Shroom Ridge,,,,,,,,,,tamara988
+GOLD BULLET BLASTER,K,RMX Choco Island 2RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SHIELDED SPEEDSTER,K,-NONE-,,,,,,,,,,,Shroom Ridge RT,Shroom Ridge R,,,,,,,,,tamara988
+GOLD STANDARD,K,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,tamara988
+GOLD DOUBLE-DECKER,K,Coconut Mall T,RMX Choco Island 2RT,,,,,,,,,,RMX Choco Island 2,Coconut Mall,Coconut Mall RT,RMX Choco Island 2T,,,,,,,tamara988
+BLACK CARRIAGE,K,Luigi Raceway T,Luigi Raceway R,Shroom Ridge T,,,,,,,,,Luigi Raceway,Shroom Ridge,Shroom Ridge R,,,,,,,,tamara988
+GREEN SPEEDER,K,Toad Circuit R,Luigi Raceway R,Luigi Raceway,,,,,,,,,Toad Circuit,,,,,,,,,,tamara988
+FLAMING SPEEDER,K,-NONE-,,,,,,,,,,,Shroom Ridge R,,,,,,,,,,tamara988
+GOLD SWEET RIDE,K,RMX Choco Island 2R,Coconut Mall T,,,,,,,,,,RMX Choco Island 2,Coconut Mall RT,RMX Choco Island 2RT,,,,,,,,tamara988
+STREETLE,K,Shroom Ridge T,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD TRICKSTER,K,RMX Choco Island 2,,,,,,,,,,,Luigi Raceway R,Luigi Raceway,RMX Choco Island 2RT,,,,,,,,tamara988
+RED VAMPIRE FLYER,K,-NONE-,,,,,,,,,,,Luigi Raceway,,,,,,,,,,tamara988
+ORANGE TURBO YOSHI,K,RMX Choco Island 2T,,,,,,,,,,,RMX Choco Island 2,RMX Choco Island 2RT,Shroom Ridge,Shroom Ridge T,,,,,,,Astreiya
+BLUE SPEEDER,K,Shroom Ridge R,,,,,,,,,,,Shroom Ridge,Shroom Ridge T,,,,,,,,,tamara988
+SWIFT TALON,K,Shroom Ridge,,,,,,,,,,,Shroom Ridge RT,,,,,,,,,,Astreiya
+GOLD EAGLE,K,RMX Choco Island 2,RMX Choco Island 2R,,,,,,,,,,RMX Choco Island 2RT,Shroom Ridge RT,Shroom Ridge R,,,,,,,,tamara988
+BLAZING EAGLE,K,RMX Choco Island 2RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CAMO TANOOKI KART,K,Shroom Ridge RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD RAMBI RIDER,K,RMX Choco Island 2T,RMX Choco Island 2R,,,,,,,,,,RMX Choco Island 2RT,Shroom Ridge,Shroom Ridge T,Shroom Ridge R,,,,,,,tamara988
+MOO MOO OFFROADER,K,Shroom Ridge T,,,,,,,,,,,Shroom Ridge RT,,,,,,,,,,tamara988
+PINK SPEEDER,K,Shroom Ridge RT,,,,,,,,,,,Shroom Ridge R,,,,,,,,,,tamara988
+PINK SNEEKER,K,Shroom Ridge RT,,,,,,,,,,,Shroom Ridge,,,,,,,,,,tamara988
+GOLD BRUISER,K,RMX Choco Island 2,RMX Bowser's Castle 1,RMX Choco Island 2RT,,,,,,,,,RMX Choco Island 2T,Coconut Mall R,RMX Bowser's Castle 1R,Coconut Mall RT,,,,,,,tamara988
+BLACK SNEEKER,K,Luigi Raceway R,Luigi Raceway,,,,,,,,,,Luigi Raceway T,Shroom Ridge,Shroom Ridge R,,,,,,,,tamara988
+PINK TURBO YOSHI,K,Coconut Mall RT,,,,,,,,,,,Peach Gardens,Shroom Ridge T,Shroom Ridge R,Peach Gardens RT,Peach Gardens T,Coconut Mall T,,,,,tamara988
+GOLD JINGLE BELL,K,RMX Choco Island 2T,DK Mountain RT,,,,,,,,,,RMX Choco Island 2R,Coconut Mall R,RMX Bowser's Castle 1R,RMX Bowser's Castle 1,DK Mountain R,DK Mountain T,RMX Choco Island 2RT,Coconut Mall RT,,,tamara988
+HOLIDAY SPEEDER,K,Coconut Mall R,Peach Gardens R,Coconut Mall RT,,,,,,,,,Toad Circuit,Toad Circuit R,Coconut Mall T,Peach Gardens RT,Peach Gardens T,,,,,,tamara988
+WILD GOLD,K,RMX Choco Island 2RT,Toad Circuit T,RMX Choco Island 2R,Coconut Mall T,,,,,,,,RMX Choco Island 2T,Coconut Mall RT,,,,,,,,,tamara988
+PURPLE DOZER,K,RMX Bowser's Castle 1T,Luigi Raceway T,Shroom Ridge T,,,,,,,,,RMX Bowser's Castle 1,Luigi Raceway R,Shroom Ridge RT,,,,,,,,tamara988
+RAINBOW TAXI,K,Toad Circuit,Shroom Ridge,Shroom Ridge RT,,,,,,,,,Toad Circuit R,Toad Circuit RT,Coconut Mall RT,Shroom Ridge T,Shroom Ridge R,,,,,,tamara988
+BLOOPER SHUTTLE,K,Sky Garden,Sky Garden RT,Shroom Ridge,,,,,,,,,Sky Garden T,Shroom Ridge RT,Shroom Ridge T,,,,,,,,tamara988
+GOLD LUNAR CRUISER,K,RMX Choco Island 2,RMX Choco Island 2T,Sky Garden R,Sky Garden T,,,,,,,,RMX Bowser's Castle 1R,RMX Bowser's Castle 1,Sky Garden RT,RMX Choco Island 2RT,RMX Bowser's Castle 1T,,,,,,tamara988
+ORANGE TURBO BIRDO,K,RMX Bowser's Castle 1T,Peach Gardens RT,,,,,,,,,,RMX Bowser's Castle 1R,Peach Gardens T,Shroom Ridge,Shroom Ridge T,,,,,,,Astreiya
+GOLD QUICKSHAW,K,RMX Choco Island 2T,Coconut Mall R,Peach Gardens RT,RMX Choco Island 2RT,,,,,,,,RMX Choco Island 2,Coconut Mall,Coconut Mall T,Peach Gardens R,Peach Gardens T,,,,,,tamara988
+PINEAPPLE 1,K,Coconut Mall T,Coconut Mall RT,Shroom Ridge R,,,,,,,,,Coconut Mall,Shroom Ridge,,,,,,,,,tamara988
+HOT POT HOT ROD,K,Coconut Mall RT,Shroom Ridge R,,,,,,,,,,Coconut Mall T,Peach Gardens T,Peach Gardens R,Shroom Ridge RT,Shroom Ridge T,,,,,,tamara988
+BLUE CRAWLY KART,K,Twilight House,Peach Gardens R,Shroom Ridge T,,,,,,,,,Peach Gardens,Peach Gardens T,Shroom Ridge RT,Shroom Ridge R,,,,,,,Astreiya
+RAINBOW STREETLE,K,Peach Gardens T,Sky Garden RT,Shroom Ridge,Coconut Mall RT,,,Toad Circuit RT,RMX Choco Island 2R,Sky Garden,Peach Gardens R,DK Mountain R,Toad Circuit RT,RMX Choco Island 2R,Sky Garden,Peach Gardens R,DK Mountain R,Shroom Ridge RT,Cookie Land,,,,Astreiya
+GOLD CAPSULE KART,K,RMX Choco Island 2R,RMX Bowser's Castle 1R,RMX Choco Island 2RT,,,,RMX Choco Island 2,Coconut Mall R,RMX Bowser's Castle 1,DK Mountain T,Shroom Ridge T,RMX Choco Island 2,Coconut Mall R,RMX Bowser's Castle 1,DK Mountain T,Coconut Mall RT,Shroom Ridge T,Cookie Land,,,,tamara988
+SUPER GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+PARACHUTE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PAPER GLIDER,G,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,tamara988
+DROPLET GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BBIA PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+MINION PAPER GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PISTON GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PIRANHA PLANT PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PEACH PARASOL,G,Coconut Mall RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+FLOWER GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+OILPAPER UMBRELLA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+LIGHTNING OILPAPER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PINK FLOWER GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+8-BIT JUMPING MARIO,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+? BLOCK,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PLAID RIBBON,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+EGGSHELL GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+8-BIT JUMPING LUIGI,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BOB-OMB PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SHELL PARACHUTE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+WARIO WING,G,RMX Choco Island 2RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+WALUIGI WING,G,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,tamara988
+BANANA PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLUE FLOWER GLIDER,G,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,tamara988
+GOLD GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+FARE FLIER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PURPLE OILPAPER UMBRELLA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+FULL FLIGHT,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+STRAWBERRY CREPE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+LE TRICOLORE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+STARCHUTE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+ROYAL PARACHUTE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GLITTER GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SOARING JACK,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GIFT GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+NEW YEAR'S 2020,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+NEW YEAR'S KITE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+FIREWORKS PARACHUTE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CRIMSON CRANE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLIZZARD PARASOL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLIZZARD BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SWEETHEART GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+HEART BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+LUMA PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+RAINBOW STARCHUTE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BRIGHT GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SAFETY GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DAISY GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PINK GOLD PAPER GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BUTTERFLY SUNSET,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CHOCOLATE DONUT,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD CRANE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CHOCOLATE BANANA CREPE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+STRAWBERRY DONUT,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SILVER BELLS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SILVER-AND-GOLD HEARTS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+MANTA GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+TREASURE MAP,G,RMX Choco Island 2RT,,,,,,,,,,,Shroom Ridge,,,,,,,,,,tamara988
+BUTTERFLY WINGS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GREAT SAIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+FESTIVAL WINGS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+8-BIT STAR,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SUPER MARIO KART GLIDER,G,Shroom Ridge T,Coconut Mall RT,,,,,,,,,,Shroom Ridge RT,,,,,,,,,,tamara988
+STAR-SPANGLED GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SPIDER GLIDER,G,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,tamara988
+SUNSET BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SWOOPER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BULLET BILL PARACHUTE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CLOUD GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+RAINY BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+WICKED WINGS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD SWOOPER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BANANA WINGTIP,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+TROPICAL GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DRAGON WINGS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLOOPER WINGTIP,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+NABBIT OILPAPER UMBRELLA,G,RMX Choco Island 2RT,,,,,,,,,,,Shroom Ridge,,,,,,,,,,tamara988
+CHEEP CHEEP MASKS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BABY MARIO HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+YOSHI'S EGG HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PEACH HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BARREL HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLOOPER HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CAPE MARIO HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BULLET BILL HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BOO HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PIRANHA PLANT HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOOMBA HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+JUMPING MARIO HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+JOLLY BELLS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SILVER STARCHUTE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BOWSER HANAFUDA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BUTTERFLY PRISM,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PLANET GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+NEW YEAR'S 2021,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DRY BOWSER UMBRELLA,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD NEW YEAR'S KITE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PENGUIN WINGTIP,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+TOE-BEAN BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CALICO PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLACK GREAT SAIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SILVER MANTA GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+ROSE PARASOL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SNOW CRYSTALS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,bobomb squad
+MUSHROOM GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+8-BIT FIRE FLOWER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BRIGHT BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+NINJA SCROLL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SURF MASTER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+STARRY GREAT SAIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+BLACK TOE-BEAN BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+8-BIT BULLET BILL,G,RMX Choco Island 2RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GLINTING GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+FLYING EASEL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SUNNY SURF MASTER,G,-NONE-,,,,,,,,,,,Shroom Ridge,,,,,,,,,,tamara988
+POLKA-DOT MANTA GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+HOME-FIELD GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD HOME-FIELD GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SPRINGTIME CRANE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+YUKATA RIBBON,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+DREAM GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SILVER SURF MASTER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+SHIP'S WHEEL,G,Coconut Mall RT,,,,,,,,,,,RMX Choco Island 2RT,Shroom Ridge T,,,,,,,,,tamara988
+TANOOKI PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD TANOOKI PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLDEN WINGS,G,RMX Choco Island 2RT,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,tamara988
+VAMPIRE WINGS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+MAGIC PARASOL,G,Coconut Mall RT,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+8-BIT SUPER MUSHROOM,G,Shroom Ridge,,,,,,,,,,,Shroom Ridge R,,,,,,,,,,tamara988
+METEOR BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+PINK GOLD METEORS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GALAXY GLIDER,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CANDLELIGHT FLIGHT,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD PENGUIN WINGTIP,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+AURORA BALLOONS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+NEW YEAR'S 2022,G,-NONE-,,,,,,,,,,,Shroom Ridge,Coconut Mall RT,,,,,,,,,tamara988
+BLACK CAT PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+CAT PARAFOIL,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GOLD TOE-BEAN BALLOONS,G,-NONE-,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,tamara988
+GLITTERING PARASOL,G,-NONE-,,,,,,,,,,,Shroom Ridge,,,,,,,,,,tamara988
+LUIGI PARAFOIL,G,-NONE-,,,,,,,,,,,Shroom Ridge T,,,,,,,,,,tamara988
+WARIO'S MUSTACHE,G,Shroom Ridge,,,,,,,,,,,Shroom Ridge R,Shroom Ridge RT,,,,,,,,,tamara988
+WALUIGI'S MUSTACHE,G,Shroom Ridge RT,,,,,,,,,,,Shroom Ridge R,,,,,,,,,,tamara988
+SKY-HIGH FLYER,G,-NONE-,,,,,,,,,,,Shroom Ridge RT,,,,,,,,,,tamara988
+RECORD SETTER,G,Shroom Ridge R,,,,,,,,,,,Shroom Ridge RT,,,,,,,,,,tamara988
+WONDERFUL WINGS,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+MARIO'S MUSTACHE,G,Shroom Ridge T,,,,,,,,,,,Shroom Ridge RT,,,,,,,,,,Flo
+LUIGI'S MUSTACHE,G,Shroom Ridge T,,,,,,,,,,,Shroom Ridge,,,,,,,,,,Flo
+ORIGAMI GLIDER,G,Shroom Ridge R,Coconut Mall RT,,,,,,,,,,Shroom Ridge,Shroom Ridge RT,,,,,,,,,tamara988
+SAKURA ORIGAMI GLIDER,G,Shroom Ridge T,,,,,,,,,,,Shroom Ridge RT,,,,,,,,,,Flo
+GOLD EGGSHELL GLIDER,G,RMX Choco Island 2RT,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,Flo
+GREEN SPROUT,G,Shroom Ridge R,,,,,,,,,,,Shroom Ridge T,,,,,,,,,,Flo
+MAGNIFLYING GLASS,G,Coconut Mall RT,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+FLYBRARY BOOK,G,Shroom Ridge R,RMX Choco Island 2RT,,,,,,,,,,Shroom Ridge RT,Shroom Ridge,,,,,,,,,tamara988 - hey flo! the buffs for mag glass and wicked topaz are in the middle of the track list?
+PINK MAGNIFLYING GLASS,G,Shroom Ridge,Shroom Ridge T,,,,,,,,,,Coconut Mall RT,,,,,,,,,,"Flo - hey tamara, good catch! I was trying to be careful but it seems I overlooked the wicked topaz buffs"
+WICKED TOPAZ,G,RMX Choco Island 2RT,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,Flo
+CREAM TOE-BEAN BALLOONS,G,Shroom Ridge,,,,,,,,,,,-NONE-,,,,,,,,,,tamara988
+GREEN CAT PARAFOIL,G,Shroom Ridge RT,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+CANDLELIGHT FLIGHT CAKE,G,-NONE-,,,,,,,,,,,-NONE-,,,,,,,,,,Flo
+PRETZEL GLIDER,G,RMX Choco Island 2T,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,Flo
+TULIP CORSAGE,G,-NONE-,,,,,,,,,,,Toad Circuit,Toad Circuit T,Coconut Mall RT,Shroom Ridge T,Shroom Ridge R,,,,,,Flo
+RED AND GOLD UMBRELLA,G,-NONE-,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,Flo
+8-BIT 1-UP MUSHROOM,G,Shroom Ridge R,,,,,,,,,,,Shroom Ridge RT,Shroom Ridge T,,,,,,,,,Flo
+PIRANHA PLANT BALLOONS,G,RMX Choco Island 2RT,,,,,,,,,,,RMX Choco Island 2T,RMX Choco Island 2R,,,,,,,,,tamara988
+SECRET SCROLL,G,-NONE-,,,,,,,,,,,Coconut Mall RT,,,,,,,,,,Flo
+TROPICAL BALLOONS,G,Shroom Ridge T,,,,,,,,,,,Shroom Ridge,Shroom Ridge R,,,,,,,,,Flo
+FIRE MANTA GLIDER,G,Shroom Ridge,,,,,,,,,,,Shroom Ridge T,,,,,,,,,,Flo
+MINT & BERRY BALLOONS,G,-NONE-,,,,,,,,,,,Shroom Ridge,,,,,,,,,,Flo
+VANILLA & CHOCOLATE BALLOONS,G,-NONE-,,,,,,,,,,,Shroom Ridge T,Shroom Ridge RT,,,,,,,,,tamara988
+ICY MARIO'S MUSTACHE,G,Shroom Ridge T,,,,,,,,,,,Shroom Ridge,Coconut Mall RT,Shroom Ridge R,,,,,,,,Flo
+FLYING FLAPPERS,G,Shroom Ridge R,,,,,,,,,,,Shroom Ridge RT,,,,,,,,,,Flo
+LAVA ROCKS,G,RMX Choco Island 2T,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,Flo
+BLACK STARCHUTE,G,RMX Choco Island 2R,RMX Choco Island 2RT,,,,,,,,,,RMX Choco Island 2T,,,,,,,,,,Flo
+SILVER LUIGI'S MUSTACHE,G,-NONE-,,,,,,,,,,,RMX Choco Island 2T,RMX Vanilla Lake 1,RMX Vanilla Lake 1R,RMX Choco Island 2RT,,,,,,,Flo
+BOO MASKS,G,RMX Vanilla Lake 1,RMX Vanilla Lake 1T,,,,,,,,,,RMX Vanilla Lake 1R,,,,,,,,,,Flo
+MARIO'S HAT BALLOON,G,Coconut Mall T,Shroom Ridge,,,,,,,,,,Coconut Mall RT,Shroom Ridge T,Shroom Ridge R,,,,,,,,Flo
+LUIGI'S HAT BALLOON,G,Shroom Ridge RT,,,,,,,,,,,Shroom Ridge R,,,,,,,,,,Flo
+GOLD CLOUD BALLOONS,G,Shroom Ridge,,,,,,,,,,,RMX Choco Island 2RT,Shroom Ridge T,,,,,,,,,Flo
+WHITE WAVES ORIGAMI GLIDER,G,Shroom Ridge RT,Coconut Mall R,Shroom Ridge T,,,,,,,,,Shroom Ridge,Coconut Mall RT,,,,,,,,,tamara988
+CHOCOLATE PRETZEL,G,Coconut Mall RT,,,,,,,,,,,RMX Choco Island 2RT,,,,,,,,,,Flo
+PARA-PANINI,G,Coconut Mall RT,Shroom Ridge R,,,,,,,,,,Coconut Mall R,Coconut Mall T,Shroom Ridge T,,,,,,,,Flo
+SILVER CANDLELIGHT FLIGHT,G,Luigi Raceway T,Luigi Raceway R,,,,,,,,,,Luigi Raceway,,,,,,,,,,Flo
+AUTUMN LEAVES,G,Toad Circuit T,,,,,,,,,,,Toad Circuit,Shroom Ridge,Shroom Ridge R,,,,,,,,Flo
+CALICO TOE-BEAN BALLOONS,G,Coconut Mall RT,,,,,,,,,,,Coconut Mall R,,,,,,,,,,Flo
+WONDERFUL GARNET,G,Coconut Mall RT,,,,,,,,,,,Sky Garden T,Sky Garden R,Coconut Mall R,Coconut Mall T,,,,,,,Flo
+FESTIVE HOLLY,G,RMX Vanilla Lake 1,RMX Vanilla Lake 1T,Sky Garden,Luigi Raceway,Coconut Mall RT,,,,,,,Sky Garden T,Coconut Mall R,Luigi Raceway R,,,,,,,,Flo
+YELLOW HARD HAT BALLOON,G,DK Mountain T,Shroom Ridge RT,,,,,,,,,,Coconut Mall T,DK Mountain RT,Coconut Mall RT,Shroom Ridge T,DK Mountain R,,,,,,Flo
+FUZZY KITE,G,Luigi Raceway,DK Mountain T,DK Mountain R,,,,,,,,,Luigi Raceway T,DK Mountain,Shroom Ridge T,,,,,,,,Flo
+GOLD HARD HAT BALLOON,G,RMX Choco Island 2T,RMX Bowser's Castle 1T,DK Mountain RT,RMX Choco Island 2RT,,,,,,,,Coconut Mall T,DK Mountain T,Shroom Ridge RT,,,,,,,,Flo
+NEW YEAR'S 2023,G,Coconut Mall RT,Shroom Ridge R,,,,,,,,,,Coconut Mall,Shroom Ridge RT,,,,,,,,,Flo
+GOLD METEORS,G,RMX Choco Island 2R,RMX Bowser's Castle 1T,RMX Choco Island 2RT,DK Mountain R,,,,,,,,RMX Choco Island 2,RMX Bowser's Castle 1,DK Mountain T,,,,,,,,Flo
+RAINBOW FARE FLIER,G,Sky Garden T,Shroom Ridge RT,,,,,,,,,,Sky Garden,Sky Garden RT,Shroom Ridge R,,,,,,,,Flo
+STEALTH GLIDER,G,Coconut Mall R,Shroom Ridge,Shroom Ridge T,,,,,,,,,Coconut Mall,Coconut Mall T,Shroom Ridge R,,,,,,,,Flo
+GOLD UMBRELLA,G,RMX Choco Island 2,RMX Choco Island 2R,Peach Gardens T,,,,,,,,,RMX Bowser's Castle 1T,RMX Bowser's Castle 1,Peach Gardens RT,Peach Gardens R,RMX Choco Island 2RT,,,,,,Flo
+WONDERFUL DIAMOND,G,Shroom Ridge RT,Coconut Mall R,Sky Garden RT,,,,,,,,,Shroom Ridge R,Sky Garden,Sky Garden R,Coconut Mall,Coconut Mall RT,,,,,,bobomb squad
+GOLD CANDLELIGHT FLIGHT,G,RMX Choco Island 2,RMX Choco Island 2T,Coconut Mall T,RMX Bowser's Castle 1R,,,,,,,,Coconut Mall R,RMX Bowser's Castle 1T,RMX Choco Island 2RT,Luigi Raceway T,Luigi Raceway,Peach Gardens T,,,,,Flo
+NABBIT PARACHUTE,G,RMX Choco Island 2,DK Mountain R,Peach Gardens,Coconut Mall RT,Peach Gardens R,,RMX Choco Island 2R,Coconut Mall R,RMX Bowser's Castle 1R,Peach Gardens T,DK Mountain,RMX Choco Island 2R,Coconut Mall R,RMX Bowser's Castle 1R,Peach Gardens T,DK Mountain,RMX Choco Island 2RT,,,,,tamara988

@@ -99,7 +99,7 @@ with open("/home/marco/ticketOptimizer/data/new-cups.csv") as f:
 f = open("temp-3.json", encoding="utf-8")
 data = json.load(f)
 
-with open('data/buffs-new-years.csv') as f:
+with open('data/reich-buffs.csv') as f:
     reader = csv.DictReader(f, delimiter=',')
     for row in reader:
         name = row['ITEM']
