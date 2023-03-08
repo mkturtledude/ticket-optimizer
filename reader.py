@@ -115,8 +115,7 @@ def collectCourses(data, cupsToConsider):
             continue
         cupDriverIds = []
         for driver in cup["Drivers"]:
-            if driver["Name"]: # There are boosted unassigned Mii suit IDs
-                cupDriverIds.append(driver["Id"])
+            cupDriverIds.append(driver["Id"])
         for course in cup["Courses"]:
             internalName = course["Key"]
             sortId = course["SortId"]
