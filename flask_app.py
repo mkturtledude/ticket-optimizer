@@ -128,7 +128,9 @@ def results():
         fileName = user_ip + datetime.datetime.now().strftime('-%H%M%S.csv')
         outputPath = os.path.join(app.root_path, "inventories", fileName)
         with open(outputPath, 'w', encoding='utf-8-sig') as f:
-            f.writelines(lines)
+            for line in lines:
+                line = line.rstrip() + '\n'
+                f.write(line + '\n')
 
     #upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups)
     try:

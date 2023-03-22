@@ -336,6 +336,7 @@ def solve(combinations, originalInventoryIdToItem, tickets):
         #model.writeProblem("top100.lp")
     else:
         # prob.writeLP("pulp.lp")
+        # input("Press enter to continue")
         prob.solve()
 
     # model.writeBestSol("tickets-ffb.sol")

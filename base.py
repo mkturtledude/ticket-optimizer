@@ -108,6 +108,8 @@ class InventoryItem:
         print("\tBase Points: {}".format(self.basePoints))
         print("\tUncaps: {}".format(self.uncaps))
         print("\tPartial Levels: {}".format(self.partialLevels))
+        print("\tLevel cap: {}".format(self.levelCap))
+        print("\tUncap cap: {}".format(self.uncapCap))
 
 
 class Inventory:
