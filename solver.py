@@ -2,7 +2,7 @@ import base, calculator
 import copy
 import unidecode
 
-SCIP = False
+SCIP = True
 
 if SCIP:
     import pyscipopt as scip
@@ -333,6 +333,7 @@ def solve(combinations, originalInventoryIdToItem, tickets):
     if SCIP:
         model.optimize()
         sol = model.getBestSol()
+        #model.writeProblem("top100.lp")
     else:
         # prob.writeLP("pulp.lp")
         prob.solve()
