@@ -2,7 +2,7 @@ import base, calculator
 import copy
 import unidecode
 
-SCIP = False
+SCIP = True
 
 if SCIP:
     import pyscipopt as scip

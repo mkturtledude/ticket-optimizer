@@ -116,20 +116,19 @@ def results():
                 lines.append(line)
         except UnicodeDecodeError:
             return throwError("Couldn't read inventory file. Are you sure it's in CSV format and can be opened with a spreadsheet program?")
-
-        # Save the inventory file for research purposes
-        user_ip = request.remote_addr
-        if user_ip != "127.0.0.1":
-            user_ip = request.headers['X-Real-IP']
-            fileName = user_ip + datetime.datetime.now().strftime('-%H%M%S.csv')
-            outputPath = os.path.join(app.root_path, "inventories", fileName)
-            with open(outputPath, 'w', encoding='utf-8-sig') as f:
-                f.writelines(lines)
     else:
         lines = form.inventoryText.data.splitlines()
         if not lines:
             return throwError("No inventory data was provided")
 
+    # Save the inventory file for research purposes
+    user_ip = request.remote_addr
+    if user_ip != "127.0.0.1":
+        user_ip = request.headers['X-Real-IP']
+        fileName = user_ip + datetime.datetime.now().strftime('-%H%M%S.csv')
+        outputPath = os.path.join(app.root_path, "inventories", fileName)
+        with open(outputPath, 'w', encoding='utf-8-sig') as f:
+            f.writelines(lines)
 
     #upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups)
     try:
