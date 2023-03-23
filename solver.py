@@ -3,7 +3,7 @@ import copy
 import unidecode
 
 
-SCIP = False
+SCIP = True
 
 if SCIP:
     from ortools.linear_solver import pywraplp
