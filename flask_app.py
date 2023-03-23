@@ -3,7 +3,7 @@ import copy
 # A very simple Flask Hello World app for you to get started with...
 
 from flask import Flask, render_template, request, redirect, url_for
-import os, csv, codecs, re, sys, datetime
+import os, csv, codecs, re, sys, datetime, time
 
 
 
@@ -134,7 +134,10 @@ def results():
 
     #upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups)
     try:
+        startTime = time.time()
         upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups)
+        endTime = time.time()
+        print("Runtime: {} seconds".format(endTime - startTime))
     except Exception as e:
         return throwError(e.args[0])
     return render_template('results.html', form=form, upgrades=upgrades, rows=rows, courses=courseLoadouts, scores=totalScores)
