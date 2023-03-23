@@ -305,13 +305,13 @@ def readInventory(inventoryLines, allItems):
             if len(row) >= 6 and row[5].isdigit():
                 itemDict["levelCap"] = int(row[5])
                 if itemDict["levelCap"] > 0 and itemDict["levelCap"] < itemDict["level"]:
-                    raise Exception("The maximum level allowed for {} is {}, which is smaller than the level ({})!".format(itemDict["name"], itemDict["levelCap"], itemDict["level"]))
+                    raise Exception("The maximum level allowed for {} is {}, which is smaller than the current level ({})!".format(itemDict["name"], itemDict["levelCap"], itemDict["level"]))
             else:
                 itemDict["levelCap"] = 8
             if len(row) >= 7 and row[6].isdigit():
                 itemDict["uncapCap"] = int(row[6])
                 if itemDict["uncapCap"] > 0 and itemDict["uncapCap"] < itemDict["uncaps"]:
-                    raise Exception("The maximum uncaps allowed for {} are {}, which is smaller than the uncaps ({})!".format(itemDict["name"], itemDict["uncapCap"], itemDict["uncaps"]))
+                    raise Exception("The maximum uncaps allowed for {} are {}, which is smaller than the current uncaps ({})!".format(itemDict["name"], itemDict["uncapCap"], itemDict["uncaps"]))
             else:
                 itemDict["uncapCap"] = 4
             result[itemDict["name"]] = itemDict
