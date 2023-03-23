@@ -7,6 +7,7 @@
       <h1>Ticket Optimizer</h1>
       <h2>Updated for the Ninja Tour</h2>
 
+
   <a href="/faq">Help/FAQ</a><br>
   <a href="https://www.youtube.com/watch?v=udHHcQWkhqc">Basic Video Tutorial</a>
 
@@ -41,13 +42,41 @@
         {{ form.uhd(size=3, style="border-color:Fuchsia;", type="number", min="0", max="999") }}
         {{ form.uhk(size=3, style="border-color:Fuchsia;", type="number", min="0", max="999") }}
         {{ form.uhg(size=3, style="border-color:Fuchsia;", type="number", min="0", max="999") }}<br><br>
-        <input type="submit" value="Run" />
+        <input type="submit" class="btn btn-success" value="Run" />
          {% for field, errors in form.errors.items() %}
         <small class="form-text text-muted ">
         {{ ', '.join(errors) }}
         </small>
 {% endfor %}
     </form>
+<br><br>
+
+<button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Advanced Usage Tips</button>
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title text-center">Advanced Usage Tips</h4>
+      </div>
+      <div class="modal-body">
+          <ul>
+            <li>You can use the 5th column to enter the partial level progress of an item.
+                For example, for a driver at level 5 + 1/3 you should enter a 1.<br>
+                The easiest way to get this data is to use the MKT Toolbox's sync+export functions.<br>
+                If nothing is entered, the value is assumed to be 0.</li>
+            <li> To limit the investments you're willing to make on an item, you can use the 6th
+            and 7th columns for the level and uncaps, respectively. <br>
+              For example, adding a 7 and a 3 in those columns will prevent the Optimizer from taking an item
+              higher than 7/3.</li>
+          </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <br><br>
     <h4>By aturtledude (Check out my <a href="https://coverageoptimizer.pythonanywhere.com">Coverage Optimizer</a>!)</h4>
     <h4>Thanks to DKR.exe for the action counts and formulas, and to Sam78it for the coverage data.</h4>
