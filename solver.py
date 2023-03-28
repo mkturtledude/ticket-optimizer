@@ -3,13 +3,14 @@ import copy
 import unidecode
 
 
-SCIP = True
+OR_TOOLS = True
 
-if SCIP:
+if OR_TOOLS:
     from ortools.linear_solver import pywraplp
     from ortools.init import pywrapinit
 else:
-    import pulp as plp
+    import gurobipy as gp
+    from gurobipy import GRB
 
 
 '''
@@ -51,10 +52,12 @@ class TicketStash:
 def solve(combinations, originalInventoryIdToItem, tickets):
     ## Create model
     print("Creating and solving model...")
-    if SCIP:
+    if OR_TOOLS:
+        print("Using OR-Tools")
         solver = pywraplp.Solver.CreateSolver('SCIP')
     else:
-        prob = plp.LpProblem("ScoreMaximization", plp.LpMaximize)
+        print("Using Gurobi")
+        m = gp.Model("ScoreMaximization")
 
 
 
@@ -79,12 +82,14 @@ def solve(combinations, originalInventoryIdToItem, tickets):
                 gid = combination[3].gameItem.id
                 gl = combination[3].level
                 gu = combination[3].uncaps
-                if SCIP:
+                if OR_TOOLS:
                     v = solver.BoolVar("y_%s_%s_%s_%s_%s_%s_%s_%s_%s_%s" % (i, did, dl, du, kid, kl, ku, gid, gl, gu))
                     # v = model.addVar(vtype="B",
                     #                  name="y_%s_%s_%s_%s_%s_%s_%s_%s_%s_%s" % (i, did, dl, du, kid, kl, ku, gid, gl, gu))
                 else:
-                    v = plp.LpVariable("y_%s_%s_%s_%s_%s_%s_%s_%s_%s_%s" % (i, did, dl, du, kid, kl, ku, gid, gl, gu), 0, 1, plp.LpInteger)
+                    v = m.addVar(vtype=GRB.BINARY,
+                                     name="y_%s_%s_%s_%s_%s_%s_%s_%s_%s_%s" % (i, did, dl, du, kid, kl, ku, gid, gl, gu))
+                    # v = plp.LpVariable("y_%s_%s_%s_%s_%s_%s_%s_%s_%s_%s" % (i, did, dl, du, kid, kl, ku, gid, gl, gu), 0, 1, plp.LpInteger)
                 # variablesToCombinations[v] = c
                 combinationsToVariables[-1][combination] = v
             allCombinationScores.append(combination[0])
@@ -92,20 +97,22 @@ def solve(combinations, originalInventoryIdToItem, tickets):
             combinationVariablesByCourse[-1].append(v)
             # print("\t[{}/{}/{}] + [{}/{}/{}] + [{}/{}/{}] -> {}".format(c[1].englishName, c[1].level, c[1].basePoints, c[2].englishName, c[2].level, c[2].basePoints, c[3].englishName, c[3].level, c[3].basePoints, c[0]))
 
-    if SCIP:
+    if OR_TOOLS:
         solver.Maximize(solver.Sum(allCombinationScores[i] * allCombinationVariables[i] for i in range(len(allCombinationVariables))))
         # model.setObjective(scip.quicksum(
         #     allCombinationScores[i] * allCombinationVariables[i] for i in range(len(allCombinationVariables))), "maximize")
     else:
-        prob += plp.lpSum(allCombinationScores[i] * allCombinationVariables[i] for i in range(len(allCombinationVariables)))
+        m.setObjective(gp.quicksum(allCombinationScores[i] * allCombinationVariables[i] for i in range(len(allCombinationVariables))), GRB.MAXIMIZE)
+        # prob += plp.lpSum(allCombinationScores[i] * allCombinationVariables[i] for i in range(len(allCombinationVariables)))
 
     # print("Adding constraints OneCombPerCourse")
     for courseCombinations in combinationVariablesByCourse:
-        if SCIP:
+        if OR_TOOLS:
             solver.Add(solver.Sum(v for v in courseCombinations) == 1, name="OneCombPerCourse")
             # model.addCons(scip.quicksum(v for v in courseCombinations) == 1, "OneCombPerCourse")
         else:
-            prob += plp.lpSum(v for v in courseCombinations) == 1
+            m.addConstr(gp.quicksum(v for v in courseCombinations) == 1, "OneCombPerCourse")
+            # prob += plp.lpSum(v for v in courseCombinations) == 1
 
     itemsToVariables = dict()
     # print("Adding x variables and constraints CombOnlyIf")
@@ -127,31 +134,34 @@ def solve(combinations, originalInventoryIdToItem, tickets):
             if d in itemsToVariables:
                 dv = itemsToVariables[d]
             else:
-                if SCIP:
+                if OR_TOOLS:
                     dv = solver.BoolVar("x_%s_%s_%s" % (did, dl, du))
                     # dv = model.addVar(vtype="B", name="x_%s_%s_%s" % (did, dl, du))
                 else:
-                    dv = plp.LpVariable("x_%s_%s_%s" % (did, dl, du), 0, 1, plp.LpInteger)
+                    dv = m.addVar(vtype=GRB.BINARY, name="x_%s_%s_%s" % (did, dl, du))
+                    # dv = plp.LpVariable("x_%s_%s_%s" % (did, dl, du), 0, 1, plp.LpInteger)
                 itemsToVariables[d] = dv
             if k in itemsToVariables:
                 kv = itemsToVariables[k]
             else:
-                if SCIP:
+                if OR_TOOLS:
                     kv = solver.BoolVar("x_%s_%s_%s" % (kid, kl, ku))
                     # kv = model.addVar(vtype="B", name="x_%s_%s_%s" % (kid, kl, ku))
                 else:
-                    kv = plp.LpVariable("x_%s_%s_%s" % (kid, kl, ku), 0, 1, plp.LpInteger)
+                    kv = m.addVar(vtype=GRB.BINARY, name="x_%s_%s_%s" % (kid, kl, ku))
+                    # kv = plp.LpVariable("x_%s_%s_%s" % (kid, kl, ku), 0, 1, plp.LpInteger)
                 itemsToVariables[k] = kv
             if g in itemsToVariables:
                 gv = itemsToVariables[g]
             else:
-                if SCIP:
+                if OR_TOOLS:
                     gv = solver.BoolVar("x_%s_%s_%s" % (gid, gl, gu))
                     # gv = model.addVar(vtype="B", name="x_%s_%s_%s" % (gid, gl, gu))
                 else:
-                    gv = plp.LpVariable("x_%s_%s_%s" % (gid, gl, gu), 0, 1, plp.LpInteger)
+                    gv = m.addVar(vtype=GRB.BINARY, name="x_%s_%s_%s" % (gid, gl, gu))
+                    # gv = plp.LpVariable("x_%s_%s_%s" % (gid, gl, gu), 0, 1, plp.LpInteger)
                 itemsToVariables[g] = gv
-            if SCIP:
+            if OR_TOOLS:
                 solver.Add(combinationVariable <= dv, name="CombOnlyIfDriver")
                 solver.Add(combinationVariable <= kv, name="CombOnlyIfKart")
                 solver.Add(combinationVariable <= gv, name="CombOnlyIfGlider")
@@ -159,9 +169,12 @@ def solve(combinations, originalInventoryIdToItem, tickets):
                 # model.addCons(combinationVariable <= kv, "CombOnlyIfKart")
                 # model.addCons(combinationVariable <= gv, "CombOnlyIfGlider")
             else:
-                prob += combinationVariable <= dv
-                prob += combinationVariable <= kv
-                prob += combinationVariable <= gv
+                m.addConstr(combinationVariable <= dv, "CombOnlyIfDriver")
+                m.addConstr(combinationVariable <= kv, "CombOnlyIfKart")
+                m.addConstr(combinationVariable <= gv, "CombOnlyIfGlider")
+                # prob += combinationVariable <= dv
+                # prob += combinationVariable <= kv
+                # prob += combinationVariable <= gv
 
     itemIdToVariables = dict()
     for item in itemsToVariables:
@@ -172,11 +185,12 @@ def solve(combinations, originalInventoryIdToItem, tickets):
 
     # print("Adding constraints OneStatePerItem")
     for id in itemIdToVariables:
-        if SCIP:
+        if OR_TOOLS:
             solver.Add(solver.Sum(v for v in itemIdToVariables[id]) <= 1, name="OneStatePerItem")
             # model.addCons(scip.quicksum(v for v in itemIdToVariables[id]) <= 1, "OneStatePerItem")
         else:
-            prob += plp.lpSum(v for v in itemIdToVariables[id]) <= 1
+            m.addConstr(gp.quicksum(v for v in itemIdToVariables[id]) <= 1, "OneStatePerItem")
+            # prob += plp.lpSum(v for v in itemIdToVariables[id]) <= 1
 
     normalDriverVariables = []
     normalKartVariables = []
@@ -257,45 +271,84 @@ def solve(combinations, originalInventoryIdToItem, tickets):
                 normalGliderRemainingUncapTickets.append(uncapTicketsNeeded)
 
     # print("Adding ticket constraints")
-    if not SCIP:
-        prob += plp.lpSum(normalDriverRemainingLevelTickets[i] * normalDriverVariables[i] for i in
-                                    range(len(normalDriverVariables))) <= tickets.lnd, "NDlevels"
-        prob += plp.lpSum(normalDriverRemainingUncapTickets[i] * normalDriverVariables[i] for i in
-                                    range(len(normalDriverVariables))) <= tickets.und, "NDuncaps"
-        prob += plp.lpSum(normalKartRemainingLevelTickets[i] * normalKartVariables[i] for i in
-                                    range(len(normalKartVariables))) <= tickets.lnk, "NKlevels"
-        prob += plp.lpSum(normalKartRemainingUncapTickets[i] * normalKartVariables[i] for i in
-                                    range(len(normalKartVariables))) <= tickets.unk, "NKuncaps"
-        prob += plp.lpSum(normalGliderRemainingLevelTickets[i] * normalGliderVariables[i] for i in
-                                    range(len(normalGliderVariables))) <= tickets.lng, "NGlevels"
-        prob += plp.lpSum(normalGliderRemainingUncapTickets[i] * normalGliderVariables[i] for i in
-                                    range(len(normalGliderVariables))) <= tickets.ung, "NGuncaps"
+    if not OR_TOOLS:
+        m.addConstr(gp.quicksum(normalDriverRemainingLevelTickets[i] * normalDriverVariables[i] for i in
+                                    range(len(normalDriverVariables))) <= tickets.lnd, "NDlevels")
+        m.addConstr(gp.quicksum(normalDriverRemainingUncapTickets[i] * normalDriverVariables[i] for i in
+                                    range(len(normalDriverVariables))) <= tickets.und, "NDuncaps")
+        m.addConstr(gp.quicksum(normalKartRemainingLevelTickets[i] * normalKartVariables[i] for i in
+                                    range(len(normalKartVariables))) <= tickets.lnk, "NKlevels")
+        m.addConstr(gp.quicksum(normalKartRemainingUncapTickets[i] * normalKartVariables[i] for i in
+                                    range(len(normalKartVariables))) <= tickets.unk, "NKuncaps")
+        m.addConstr(gp.quicksum(normalGliderRemainingLevelTickets[i] * normalGliderVariables[i] for i in
+                                    range(len(normalGliderVariables))) <= tickets.lng, "NGlevels")
+        m.addConstr(gp.quicksum(normalGliderRemainingUncapTickets[i] * normalGliderVariables[i] for i in
+                                    range(len(normalGliderVariables))) <= tickets.ung, "NGuncaps")
 
-        prob += plp.lpSum(superDriverRemainingLevelTickets[i] * superDriverVariables[i] for i in
-                                    range(len(superDriverVariables))) <= tickets.lsd, "SDlevels"
-        prob += plp.lpSum(superDriverRemainingUncapTickets[i] * superDriverVariables[i] for i in
-                                    range(len(superDriverVariables))) <= tickets.usd, "SDuncaps"
-        prob += plp.lpSum(superKartRemainingLevelTickets[i] * superKartVariables[i] for i in
-                                    range(len(superKartVariables))) <= tickets.lsk, "SKlevels"
-        prob += plp.lpSum(superKartRemainingUncapTickets[i] * superKartVariables[i] for i in
-                                    range(len(superKartVariables))) <= tickets.usk, "SKuncaps"
-        prob += plp.lpSum(superGliderRemainingLevelTickets[i] * superGliderVariables[i] for i in
-                                    range(len(superGliderVariables))) <= tickets.lsg, "SGlevels"
-        prob += plp.lpSum(superGliderRemainingUncapTickets[i] * superGliderVariables[i] for i in
-                                    range(len(superGliderVariables))) <= tickets.usg, "SGuncaps"
+        m.addConstr(gp.quicksum(superDriverRemainingLevelTickets[i] * superDriverVariables[i] for i in
+                                    range(len(superDriverVariables))) <= tickets.lsd, "SDlevels")
+        m.addConstr(gp.quicksum(superDriverRemainingUncapTickets[i] * superDriverVariables[i] for i in
+                                    range(len(superDriverVariables))) <= tickets.usd, "SDuncaps")
+        m.addConstr(gp.quicksum(superKartRemainingLevelTickets[i] * superKartVariables[i] for i in
+                                    range(len(superKartVariables))) <= tickets.lsk, "SKlevels")
+        m.addConstr(gp.quicksum(superKartRemainingUncapTickets[i] * superKartVariables[i] for i in
+                                    range(len(superKartVariables))) <= tickets.usk, "SKuncaps")
+        m.addConstr(gp.quicksum(superGliderRemainingLevelTickets[i] * superGliderVariables[i] for i in
+                                    range(len(superGliderVariables))) <= tickets.lsg, "SGlevels")
+        m.addConstr(gp.quicksum(superGliderRemainingUncapTickets[i] * superGliderVariables[i] for i in
+                                    range(len(superGliderVariables))) <= tickets.usg, "SGuncaps")
 
-        prob += plp.lpSum(highEndDriverRemainingLevelTickets[i] * highEndDriverVariables[i] for i in
-                                    range(len(highEndDriverVariables))) <= tickets.lhd, "HDlevels"
-        prob += plp.lpSum(highEndDriverRemainingUncapTickets[i] * highEndDriverVariables[i] for i in
-                                    range(len(highEndDriverVariables))) <= tickets.uhd, "HDuncaps"
-        prob += plp.lpSum(highEndKartRemainingLevelTickets[i] * highEndKartVariables[i] for i in
-                                    range(len(highEndKartVariables))) <= tickets.lhk, "HKlevels"
-        prob += plp.lpSum(highEndKartRemainingUncapTickets[i] * highEndKartVariables[i] for i in
-                                    range(len(highEndKartVariables))) <= tickets.uhk, "HKuncaps"
-        prob += plp.lpSum(highEndGliderRemainingLevelTickets[i] * highEndGliderVariables[i] for i in
-                                    range(len(highEndGliderVariables))) <= tickets.lhg, "HGlevels"
-        prob += plp.lpSum(highEndGliderRemainingUncapTickets[i] * highEndGliderVariables[i] for i in
-                                    range(len(highEndGliderVariables))) <= tickets.uhg, "HGuncaps"
+        m.addConstr(gp.quicksum(highEndDriverRemainingLevelTickets[i] * highEndDriverVariables[i] for i in
+                                    range(len(highEndDriverVariables))) <= tickets.lhd, "HDlevels")
+        m.addConstr(gp.quicksum(highEndDriverRemainingUncapTickets[i] * highEndDriverVariables[i] for i in
+                                    range(len(highEndDriverVariables))) <= tickets.uhd, "HDuncaps")
+        m.addConstr(gp.quicksum(highEndKartRemainingLevelTickets[i] * highEndKartVariables[i] for i in
+                                    range(len(highEndKartVariables))) <= tickets.lhk, "HKlevels")
+        m.addConstr(gp.quicksum(highEndKartRemainingUncapTickets[i] * highEndKartVariables[i] for i in
+                                    range(len(highEndKartVariables))) <= tickets.uhk, "HKuncaps")
+        m.addConstr(gp.quicksum(highEndGliderRemainingLevelTickets[i] * highEndGliderVariables[i] for i in
+                                    range(len(highEndGliderVariables))) <= tickets.lhg, "HGlevels")
+        m.addConstr(gp.quicksum(highEndGliderRemainingUncapTickets[i] * highEndGliderVariables[i] for i in
+                                    range(len(highEndGliderVariables))) <= tickets.uhg, "HGuncaps")
+
+        # prob += plp.lpSum(normalDriverRemainingLevelTickets[i] * normalDriverVariables[i] for i in
+        #                             range(len(normalDriverVariables))) <= tickets.lnd, "NDlevels"
+        # prob += plp.lpSum(normalDriverRemainingUncapTickets[i] * normalDriverVariables[i] for i in
+        #                             range(len(normalDriverVariables))) <= tickets.und, "NDuncaps"
+        # prob += plp.lpSum(normalKartRemainingLevelTickets[i] * normalKartVariables[i] for i in
+        #                             range(len(normalKartVariables))) <= tickets.lnk, "NKlevels"
+        # prob += plp.lpSum(normalKartRemainingUncapTickets[i] * normalKartVariables[i] for i in
+        #                             range(len(normalKartVariables))) <= tickets.unk, "NKuncaps"
+        # prob += plp.lpSum(normalGliderRemainingLevelTickets[i] * normalGliderVariables[i] for i in
+        #                             range(len(normalGliderVariables))) <= tickets.lng, "NGlevels"
+        # prob += plp.lpSum(normalGliderRemainingUncapTickets[i] * normalGliderVariables[i] for i in
+        #                             range(len(normalGliderVariables))) <= tickets.ung, "NGuncaps"
+        #
+        # prob += plp.lpSum(superDriverRemainingLevelTickets[i] * superDriverVariables[i] for i in
+        #                             range(len(superDriverVariables))) <= tickets.lsd, "SDlevels"
+        # prob += plp.lpSum(superDriverRemainingUncapTickets[i] * superDriverVariables[i] for i in
+        #                             range(len(superDriverVariables))) <= tickets.usd, "SDuncaps"
+        # prob += plp.lpSum(superKartRemainingLevelTickets[i] * superKartVariables[i] for i in
+        #                             range(len(superKartVariables))) <= tickets.lsk, "SKlevels"
+        # prob += plp.lpSum(superKartRemainingUncapTickets[i] * superKartVariables[i] for i in
+        #                             range(len(superKartVariables))) <= tickets.usk, "SKuncaps"
+        # prob += plp.lpSum(superGliderRemainingLevelTickets[i] * superGliderVariables[i] for i in
+        #                             range(len(superGliderVariables))) <= tickets.lsg, "SGlevels"
+        # prob += plp.lpSum(superGliderRemainingUncapTickets[i] * superGliderVariables[i] for i in
+        #                             range(len(superGliderVariables))) <= tickets.usg, "SGuncaps"
+        #
+        # prob += plp.lpSum(highEndDriverRemainingLevelTickets[i] * highEndDriverVariables[i] for i in
+        #                             range(len(highEndDriverVariables))) <= tickets.lhd, "HDlevels"
+        # prob += plp.lpSum(highEndDriverRemainingUncapTickets[i] * highEndDriverVariables[i] for i in
+        #                             range(len(highEndDriverVariables))) <= tickets.uhd, "HDuncaps"
+        # prob += plp.lpSum(highEndKartRemainingLevelTickets[i] * highEndKartVariables[i] for i in
+        #                             range(len(highEndKartVariables))) <= tickets.lhk, "HKlevels"
+        # prob += plp.lpSum(highEndKartRemainingUncapTickets[i] * highEndKartVariables[i] for i in
+        #                             range(len(highEndKartVariables))) <= tickets.uhk, "HKuncaps"
+        # prob += plp.lpSum(highEndGliderRemainingLevelTickets[i] * highEndGliderVariables[i] for i in
+        #                             range(len(highEndGliderVariables))) <= tickets.lhg, "HGlevels"
+        # prob += plp.lpSum(highEndGliderRemainingUncapTickets[i] * highEndGliderVariables[i] for i in
+        #                             range(len(highEndGliderVariables))) <= tickets.uhg, "HGuncaps"
     else:
         solver.Add(solver.Sum(normalDriverRemainingLevelTickets[i] * normalDriverVariables[i] for i in
                                     range(len(normalDriverVariables))) <= tickets.lnd, name="NDlevels")
@@ -375,7 +428,7 @@ def solve(combinations, originalInventoryIdToItem, tickets):
         #                             range(len(highEndGliderVariables))) <= tickets.lhg, "HGlevels")
         # model.addCons(scip.quicksum(highEndGliderRemainingUncapTickets[i] * highEndGliderVariables[i] for i in
         #                             range(len(highEndGliderVariables))) <= tickets.uhg, "HGuncaps")
-    # if SCIP:
+    # if OR_TOOLS:
     #     model.writeProblem("scip.lp")
     # else:
     #     prob.writeLP("pulp.lp")
@@ -384,7 +437,10 @@ def solve(combinations, originalInventoryIdToItem, tickets):
     #         if v.varValue and (abs(v.varValue - 1.0) < 0.001):
     #             print(v.name, "=", v.varValue)
     # model.hideOutput()
-    if SCIP:
+    if OR_TOOLS:
+        lp_str = solver.ExportModelAsLpFormat(False)
+        with open('my_model.lp', 'w') as f:
+            f.write(lp_str)
         status = solver.Solve()
         if status == pywraplp.Solver.OPTIMAL:
             print('Solution:')
@@ -396,20 +452,22 @@ def solve(combinations, originalInventoryIdToItem, tickets):
         # sol = model.getBestSol()
         #model.writeProblem("top100.lp")
     else:
+        m.optimize()
         # prob.writeLP("pulp.lp")
         # input("Press enter to continue")
-        prob.solve()
+        # prob.solve()
 
     # model.writeBestSol("tickets-ffb.sol")
     optimalCombinations = []
     for courseMap in combinationsToVariables:
         for c in courseMap:
             variable = courseMap[c]
-            if SCIP:
+            if OR_TOOLS:
                 isSelected = (abs(variable.solution_value() - 1) < 0.0001)
                 # isSelected = (abs(model.getSolVal(sol, variable) - 1) < 0.0001)
             else:
-                isSelected = (variable.varValue and (abs(variable.varValue - 1.0) < 0.0001))
+                isSelected = (abs(variable.X - 1) < 0.0001)
+                # isSelected = (variable.varValue and (abs(variable.varValue - 1.0) < 0.0001))
             if isSelected:
                 optimalCombinations.append([c[1].gameItem.id, c[1].level, c[1].uncaps, c[2].gameItem.id, c[2].level, c[2].uncaps, c[3].gameItem.id, c[3].level, c[3].uncaps])
 

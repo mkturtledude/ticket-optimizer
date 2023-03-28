@@ -1,8 +1,8 @@
 # This file is a simplified and better documented version of solver.py (which is used by the app, this one isn't)
 # I think it has everything you need, but feel free to check how solver.py is used in the app
 
-# First I had implemented this using SCIP, but the hosting site forced me to use pip, so I had to switch to pulp.
-# I don't think there's a big difference, sometimes I use SCIP locally for debugging
+# First I had implemented this using OR_TOOLS, but the hosting site forced me to use pip, so I had to switch to pulp.
+# I don't think there's a big difference, sometimes I use OR_TOOLS locally for debugging
 SCIP = False
 
 if SCIP:
