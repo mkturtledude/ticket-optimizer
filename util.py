@@ -92,6 +92,7 @@ def getMaxShelves(course, inventory):
 def createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, playerLevel):
     combinationsOnCourses = dict()
     for course in courses:
+        print("Creating combinations on {}".format(course.englishName))
         combinationsOnCourses[course] = set()
         reducedInventory = base.Inventory()
         referenceScore = optWithCurrent[course][0]
@@ -128,6 +129,7 @@ def createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, play
                                                                playerLevel, course):
                     reducedInventory.gliders.add(glider)
 
+        print("The reduced inventory has {} combinations".format(len(reducedInventory.drivers) * len(reducedInventory.karts) * len(reducedInventory.gliders)))
         # For each DKG combination in the reduced inventory, calculate the score and save score+combination in combinationsOnCourses
         for driver in reducedInventory.drivers:
             for kart in reducedInventory.karts:
@@ -236,43 +238,71 @@ def updateInventory(currentInventory, solutionCombinations):
 
 
 def createSolutionCombinations(inventory, courses, tickets, playerLevel):
+    DO_HEURISTIC = True
+
     currentInventory = copy.deepcopy(inventory)
-    currentTickets = copy.deepcopy(tickets)
-    currentTickets.setKartsToZero()
-    currentTickets.setGlidersToZero()
-    originalInventoryIdToItem = createOriginalInventoryIdToItem(currentInventory)
-    totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
-    totalBeforeUpgrades = copy.deepcopy(totalScore)
-    optLoadoutsBeforeUpgrades = copy.deepcopy(optWithCurrent)
-    print("The total score without any upgrades is {}".format(totalScore))
-    expandedInventory = expandInventory(currentInventory, currentTickets)
-    combinationsOnCourses = createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, playerLevel)
-    solutionCombinations = solver.solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, currentTickets)
+    if DO_HEURISTIC:
 
-    currentInventory = updateInventory(currentInventory, solutionCombinations)
-    currentTickets = copy.deepcopy(tickets)
-    currentTickets.setDriversToZero()
-    currentTickets.setGlidersToZero()
-    originalInventoryIdToItem = createOriginalInventoryIdToItem(currentInventory)
-    totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
-    print("The total score after driver upgrades is {}".format(totalScore))
-    expandedInventory = expandInventory(currentInventory, currentTickets)
-    combinationsOnCourses = createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, playerLevel)
-    solutionCombinations = solver.solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, currentTickets)
+        currentTickets = copy.deepcopy(tickets)
+        currentTickets.setKartsToZero()
+        currentTickets.setGlidersToZero()
+        originalInventoryIdToItem = createOriginalInventoryIdToItem(currentInventory)
+        totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
+        totalBeforeUpgrades = copy.deepcopy(totalScore)
+        optLoadoutsBeforeUpgrades = copy.deepcopy(optWithCurrent)
+        print("The total score without any upgrades is {}".format(totalScore))
+        expandedInventory = expandInventory(currentInventory, currentTickets)
+        combinationsOnCourses = createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, playerLevel)
+        solutionCombinations = solver.solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, currentTickets)
+        currentInventory = updateInventory(currentInventory, solutionCombinations)
 
-    currentInventory = updateInventory(currentInventory, solutionCombinations)
-    currentTickets = copy.deepcopy(tickets)
-    currentTickets.setDriversToZero()
-    currentTickets.setKartsToZero()
-    originalInventoryIdToItem = createOriginalInventoryIdToItem(currentInventory)
-    totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
-    print("The total score after driver and kart upgrades is {}".format(totalScore))
-    expandedInventory = expandInventory(currentInventory, currentTickets)
-    combinationsOnCourses = createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, playerLevel)
+        currentTickets = copy.deepcopy(tickets)
+        currentTickets.setDriversToZero()
+        currentTickets.setGlidersToZero()
+        originalInventoryIdToItem = createOriginalInventoryIdToItem(currentInventory)
+        totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
+        print("The total score after driver upgrades is {}".format(totalScore))
+        expandedInventory = expandInventory(currentInventory, currentTickets)
+        combinationsOnCourses = createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, playerLevel)
+        solutionCombinations = solver.solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, currentTickets)
+        currentInventory = updateInventory(currentInventory, solutionCombinations)
 
-    solutionCombinations = solver.solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, currentTickets)
+        currentTickets = copy.deepcopy(tickets)
+        currentTickets.setDriversToZero()
+        currentTickets.setKartsToZero()
+        originalInventoryIdToItem = createOriginalInventoryIdToItem(currentInventory)
+        totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
+        print("The total score after driver and kart upgrades is {}".format(totalScore))
+        expandedInventory = expandInventory(currentInventory, currentTickets)
+        combinationsOnCourses = createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, playerLevel)
+        solutionCombinations = solver.solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, currentTickets)
+        currentInventory = updateInventory(currentInventory, solutionCombinations)
 
-    currentInventory = updateInventory(currentInventory, solutionCombinations)
+    else:
+        currentTickets = copy.deepcopy(tickets)
+        currentTickets.setKartsToZero()
+        currentTickets.setGlidersToZero()
+        originalInventoryIdToItem = createOriginalInventoryIdToItem(currentInventory)
+        totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
+        totalBeforeUpgrades = copy.deepcopy(totalScore)
+        optLoadoutsBeforeUpgrades = copy.deepcopy(optWithCurrent)
+        print("The total score without any upgrades is {}".format(totalScore))
+        expandedInventory = expandInventory(currentInventory, currentTickets)
+        combinationsOnCourses = createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, playerLevel)
+        solutionCombinations = solver.solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, currentTickets)
+        currentInventory = updateInventory(currentInventory, solutionCombinations)
+
+        currentTickets = copy.deepcopy(tickets)
+        currentTickets.setDriversToZero()
+        # currentTickets.setKartsToZero()
+        originalInventoryIdToItem = createOriginalInventoryIdToItem(currentInventory)
+        totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
+        print("The total score after driver+kart upgrades is {}".format(totalScore))
+        expandedInventory = expandInventory(currentInventory, currentTickets)
+        combinationsOnCourses = createCombinationsOnCourses(courses, optWithCurrent, expandedInventory, playerLevel)
+        solutionCombinations = solver.solveProblem(courses, combinationsOnCourses, originalInventoryIdToItem, currentTickets)
+        currentInventory = updateInventory(currentInventory, solutionCombinations)
+
     totalScore, optWithCurrent = calculateOptWithCurrent(courses, currentInventory, playerLevel)
     print("The total score after all upgrades is {}".format(totalScore))
 
