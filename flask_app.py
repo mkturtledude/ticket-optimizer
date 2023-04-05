@@ -42,7 +42,7 @@ def optimize(workDir, inventoryLines, tickets, playerLevel, cups):
 
 class MyForm(FlaskForm):
     inventoryFile = FileField('Inventory file')
-    inventoryText = TextAreaField('Inventory')
+    inventoryText = TextAreaField('Inventory', render_kw={"rows": 5, "cols": 35})
     playerLevel = IntegerField('Player level')
     cups = SelectField('Cups to consider', choices=[('all', 'All'), ('rankedFirst', 'First week ranked'), ('rankedSecond', 'Second week ranked'), ('rankedBoth', 'Both ranked cups')])
     # Ticket counts
