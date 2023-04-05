@@ -3,7 +3,7 @@ import copy
 import unidecode
 
 
-OR_TOOLS = True
+OR_TOOLS = False
 
 if OR_TOOLS:
     from ortools.linear_solver import pywraplp
