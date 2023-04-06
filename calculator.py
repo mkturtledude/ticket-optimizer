@@ -14,9 +14,9 @@ def calculatePositionPoints(level):
 
 def calculateBonusPoints(level, course, driver, kart, glider):
     sum = action(level, course, driver, kart, glider) + kartSkill(course, kart) + gliderSkill(course, driver, glider) + combo(course, driver, glider)
-    # if abs(action(level, course, driver, kart, glider) - 9628) < 1:
+    # if abs(sum - 9811.5) < 1 and abs(action(level, course, driver, kart, glider) - 3116.4999) < 1:
     #     action(level, course, driver, kart, glider)
-    # if abs(sum - 1636) < 1:
+    # if abs(sum - 9811.5) < 1:
     #     print(course.englishName)
     #     print("action: {}".format(action(level,course, driver, kart, glider)))
     #     print("kart skill: {}".format(kartSkill(course, kart)))
@@ -56,12 +56,12 @@ def action(level, course, driver, kart, glider):
     result += coinboxCoins(course, driver) * 5
     result += itemBoxCoins(course, driver) * 5
     result += boomerangActions(driver) * 25
-    result += bananaActions(driver) * 25
-    balloonActions =  8 if course.type == "Battle" else 0
+    result += bananaActions(course, driver) * 25
+    balloonActions =  6 if course.type == "Battle" else 0
     result += 150 * balloonActions
-    remainingActions = totalActions(course, driver) - course.courseActions.miniTurbos - course.courseActions.jumpBoosts - course.courseActions.dashPanels - course.courseActions.glideTime - course.courseActions.courseCoins - itemBoxCoins(course, driver) - coinboxCoins(course, driver) - boomerangActions(driver) - bananaActions(driver) - balloonActions
+    remainingActions = totalActions(course, driver) - course.courseActions.miniTurbos - course.courseActions.jumpBoosts - course.courseActions.dashPanels - course.courseActions.glideTime - course.courseActions.courseCoins - itemBoxCoins(course, driver) - coinboxCoins(course, driver) - boomerangActions(driver) - bananaActions(course,driver) - balloonActions
     if remainingActions > 0:
-        result += remainingActions * 10
+        result += remainingActions * 6
     result *= trackMultiplier(course, kart)
     result *= skillMultiplier(kart)
     if course.type == "Battle":
@@ -122,11 +122,11 @@ def gliderSkill(course, driver, glider):
             return 3 * itemBoxCoins(course, driver)
     elif s == "Banana Plus":
         if r == "N":
-            return 10 * bananaActions(driver)
+            return 10 * bananaActions(course,driver)
         elif r == "S":
-            return 20 * bananaActions(driver)
+            return 20 * bananaActions(course,driver)
         else:
-            return 30 * bananaActions(driver)
+            return 30 * bananaActions(course,driver)
     return 0
 
 def combo(course, driver, glider):
@@ -138,7 +138,7 @@ def lapDependent(course):
     result = 30
     if course.englishName in {"3DS Rainbow Road","3DS Rainbow Road R","3DS Rainbow Road T","3DS Rainbow Road R/T","GCN Baby Park T"}:
         result += 400
-    elif course.englishName in {"GCN Baby Park","GCN Baby Park R"}:
+    elif course.englishName in {"GCN Baby Park","GCN Baby Park R","GCN Baby Park R/T"}:
         result += 800
     else:
         result += 200
@@ -168,12 +168,14 @@ def coinboxCoins(course, driver):
 
 def boomerangActions(driver):
     if driver.skill == "Boomerang Flower":
-        return 15
+        return 8
     return 0
 
-def bananaActions(driver):
+def bananaActions(course, driver):
     if driver.skill == "Giant Banana":
         return 35
+    elif course.type == "Battle":
+        return 6
     return 10
 
 def totalActions(course, driver):
@@ -262,7 +264,8 @@ def calculateScore(driver, kart, glider, playerLevel, course):
     bonusPointsBoost = calculateBonusPointsBoost(course, driver, kart, glider)
     sum = basePoints + posPoints + bonusPoints + bonusPointsBoost
 
-    # if abs(sum - 43448) < 1:
+    # if abs(sum - 23031.5) < 1:
+    #     print("{}, {}, {}, {}".format(driver.englishName, kart.englishName, glider.englishName, course.englishName))
     #     print("total actions: {}".format(totalActions(course, driver)))
     #     print("basePoints: {}".format(basePoints))
     #     print("posPoints: {}".format(posPoints))
