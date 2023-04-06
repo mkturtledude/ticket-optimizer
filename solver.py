@@ -1,6 +1,7 @@
 import base, calculator
 import copy
 import unidecode
+import time
 
 
 OR_TOOLS = False
@@ -452,7 +453,12 @@ def solve(combinations, originalInventoryIdToItem, tickets):
         # sol = model.getBestSol()
         #model.writeProblem("top100.lp")
     else:
+        m.Params.MIPGap = 1e-6
         m.optimize()
+        # fileName = str(time.time()) + ".lp"
+        # print("Saving problem to {}".format(fileName))
+        # m.write(fileName)
+
         # prob.writeLP("pulp.lp")
         # input("Press enter to continue")
         # prob.solve()
