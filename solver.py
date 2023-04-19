@@ -84,8 +84,6 @@ def solve(combinations, originalInventoryIdToItem, tickets):
         print("Using Gurobi")
         model = gp.Model("ScoreMaximization")
 
-
-
     combinationsToVariables = []
     allCombinationScores = []
     allCombinationVariables = []

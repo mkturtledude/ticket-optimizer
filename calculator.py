@@ -39,8 +39,8 @@ def calculateBonusPointsBoost(course, driver, kart, glider):
     return (math.ceil(oColumn) + oColumn) * multiplier
 
 def calculateWellFoughtPoints(level, course, driver, kart, glider):
-    if driver.skill == "Coin Box":
-        return 0
+    # if driver.skill == "Coin Box":
+    #     return 0
     bpbpa = calculateBonusPointsBoostPerAction(course, driver, kart, glider)
     positionPoints = calculatePositionPoints(level)
     actions = totalActions(course, driver)
@@ -188,6 +188,12 @@ def totalActions(course, driver):
         result = course.courseActions.boomerangFlower
     elif driver.skill == "Coin Box":
         result = course.courseActions.coinbox
+
+    if course.type == "Battle":
+        if driver.skill in {"Coin Box", "Boomerang Flower"}:
+            result -= 40
+        else:
+            result -= 20
 
     shelf = getShelf(course, driver)
     if shelf == 2:
