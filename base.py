@@ -81,6 +81,7 @@ class TourCourse:
         self.type = ""
         self.cupDriverIds = cupDriverIds
         self.sortId = sortId # Within the cup
+        self.wellFought = False
         self.topShelf = []
         self.middleShelf = []
         self.courseActions = CourseActions()

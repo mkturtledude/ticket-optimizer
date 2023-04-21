@@ -41,6 +41,22 @@
         {{ form.uhd(size=3, style="border-color:Fuchsia;", type="number", min="0", max="999") }}
         {{ form.uhk(size=3, style="border-color:Fuchsia;", type="number", min="0", max="999") }}
         {{ form.uhg(size=3, style="border-color:Fuchsia;", type="number", min="0", max="999") }}<br><br>
+            <h3>Well-fought settings</h3>
+    <div class="table-responsive">
+    <table>
+        <tr>
+            <td>{{ form.wf1.label }}</td> <td>{{ form.wf1 }}</td>
+        </tr>
+        <tr>
+            <td>{{ form.wf2.label }}</td> <td>{{ form.wf2 }}</td>
+        </tr>
+        <tr>
+            <td>{{ form.wf3.label }}</td> <td>{{ form.wf3 }}</td>
+        </tr>
+        <tr>
+            <td>{{ form.wf4.label }}</td> <td>{{ form.wf4 }}</td>
+        </tr>
+    </table>
         <input type="submit" class="btn btn-success" value="Run" />
          {% for field, errors in form.errors.items() %}
         <small class="form-text text-muted ">

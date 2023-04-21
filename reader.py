@@ -193,20 +193,24 @@ def readItems(courses, firstWeekSpotlights, secondWeekSpotlights, data):
         allItems |= ai
     return allItems
 
-def fillCourseNames(courses, data):
+def fillCourseNames(courses, data, wellFoughtFlags):
+    battleCourseNumber = 0
     for course in courses:
         englishName = data["courses"][course.internalName]["Translations"]["USen"]
         type = data["courses"][course.internalName]["type"]
         course.englishName = englishName
         course.type = type
+        if course.type == "Battle":
+            course.wellFought = wellFoughtFlags[battleCourseNumber]
+            battleCourseNumber += 1
 
 
-def readJson(file, cups):
+def readJson(file, cups, wellFoughtFlags):
     f = open(file, encoding="utf-8")
     data = json.load(f)
     courses = collectCourses(data, cups)
     allItems = readItems(courses, FIRST_WEEK_SPOTLIGHTS, SECOND_WEEK_SPOTLIGHTS, data)
-    fillCourseNames(courses,data)
+    fillCourseNames(courses,data, wellFoughtFlags)
     return courses, allItems
 
 def readActions(file, courses):

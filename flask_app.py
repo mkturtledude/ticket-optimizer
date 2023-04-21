@@ -12,7 +12,7 @@ from flask import session
 from werkzeug.datastructures import MultiDict
 
 from flask_wtf import FlaskForm
-from wtforms import IntegerField, FileField, SelectField, TextAreaField
+from wtforms import IntegerField, FileField, SelectField, TextAreaField, BooleanField
 import base, util, reader
 
 app = Flask(__name__)
@@ -30,10 +30,10 @@ def stringToCups(cupsString):
     else:
         return range(15)
 
-def optimize(workDir, inventoryLines, tickets, playerLevel, cups):
+def optimize(workDir, inventoryLines, tickets, playerLevel, cups, wellFoughtFlags):
     coverageFile = os.path.join(workDir, "data", "alldata.json")
     actionsFile = os.path.join(workDir, "data", "actions.csv")
-    courses, items = reader.readJson(coverageFile, cups)
+    courses, items = reader.readJson(coverageFile, cups, wellFoughtFlags)
     reader.readActions(actionsFile, courses)
     inventory = reader.readInventory(inventoryLines, items)
     upgrades, rows, courseLoadouts, totalScores = util.optimize(inventory, courses, tickets, playerLevel)
@@ -64,7 +64,11 @@ class MyForm(FlaskForm):
     uhd = IntegerField()
     uhk = IntegerField()
     uhg = IntegerField()
-
+    # Well fought flags
+    wf1 = BooleanField('Battle course #1')
+    wf2 = BooleanField('Battle course #2')
+    wf3 = BooleanField('Battle course #3')
+    wf4 = BooleanField('Battle course #4')
 
 @app.route('/faq')
 def faq():
@@ -105,6 +109,8 @@ def results():
     tickets.uhk = form.uhk.data if form.uhk.data else 0
     tickets.uhg = form.uhg.data if form.uhg.data else 0
 
+    wellFoughtFlags = [form.wf1.data, form.wf2.data, form.wf3.data, form.wf4.data]
+
     if not playerLevel or not str(playerLevel).isdigit() or int(playerLevel) < 1 or int(playerLevel) > 400:
         return throwError("Please enter a player level between 1 and 400")
 
@@ -135,7 +141,7 @@ def results():
     #upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups)
     try:
         startTime = time.time()
-        upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups)
+        upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups, wellFoughtFlags)
         endTime = time.time()
         print("Runtime: {} seconds".format(endTime - startTime))
     except Exception as e:
