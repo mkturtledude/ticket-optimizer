@@ -32,9 +32,9 @@ def stringToCups(cupsString):
 
 def optimize(workDir, inventoryLines, tickets, playerLevel, cups, wellFoughtFlags):
     coverageFile = os.path.join(workDir, "data", "alldata.json")
-    actionsFile = os.path.join(workDir, "data", "actions.csv")
+    # actionsFile = os.path.join(workDir, "data", "actions.csv")
     courses, items = reader.readJson(coverageFile, cups, wellFoughtFlags)
-    reader.readActions(actionsFile, courses)
+    reader.readActions(courses)
     inventory = reader.readInventory(inventoryLines, items)
     upgrades, rows, courseLoadouts, totalScores = util.optimize(inventory, courses, tickets, playerLevel)
 

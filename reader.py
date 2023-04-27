@@ -3,8 +3,10 @@
 import csv
 import json
 import os
+import io
 import unidecode
 import re
+import requests
 
 import pandas as pd
 
@@ -213,27 +215,38 @@ def readJson(file, cups, wellFoughtFlags):
     fillCourseNames(courses,data, wellFoughtFlags)
     return courses, allItems
 
-def readActions(file, courses):
-    with open(file) as f:
-        reader = csv.DictReader(f, delimiter=",")
-        for row in reader:
-            name = row["Course"]
-            for course in courses:
-                if course.englishName == name:
-                    course.courseActions.miniTurbos = int(row["Mini-Turbos"])
-                    course.courseActions.normal = int(row["Normal"])
-                    course.courseActions.giantBanana = int(row["Giant Banana"])
-                    course.courseActions.lucky7 = int(row["Lucky 7"])
-                    course.courseActions.boomerangFlower = int(row["Boomerang Flower"])
-                    course.courseActions.coinbox = int(row["Coin Box"])
-                    course.courseActions.itemBoxes = int(row["Item Boxes"])
-                    course.courseActions.miniTurbos = int(row["Mini-Turbos"])
-                    course.courseActions.jumpBoosts = int(row["Jump Boosts"])
-                    course.courseActions.dashPanels = int(row["Dash Panels"])
-                    course.courseActions.glideTime = int(row["Glide Time"])
-                    course.courseActions.courseCoins = int(row["Coins (Course)"])
-                    course.courseActions.itemCoins = int(row["Coins (Items)"])
-                    # course.courseActions.lanterns = int(row["Pumpkins"]) if row["Pumpkins"] else 0
+def readActions(courses):
+    # Google Sheet owned by myself, which copies the data from DKR's master sheet
+    url = f'https://docs.google.com/spreadsheets/d/19xo0WBLORLU8Xz_W2J7H3KnLAjE3__ejVG32xD2Pk0M/gviz/tq?tqx=out:csv&sheet=Sheet1'
+    # fetch the data from the sheet
+    response = requests.get(url)
+
+    # decode the response as CSV
+    csv_data = response.content.decode('utf-8')
+
+    # treat it as a file
+    f = io.StringIO(csv_data)
+    # with open(file) as f: # To read from file = actions.csv
+
+    reader = csv.DictReader(f, delimiter=",")
+    for row in reader:
+        name = row["Course"]
+        for course in courses:
+            if course.englishName == name:
+                course.courseActions.miniTurbos = int(row["Mini-Turbos"])
+                course.courseActions.normal = int(row["Normal"])
+                course.courseActions.giantBanana = int(row["Giant Banana"])
+                course.courseActions.lucky7 = int(row["Lucky 7"])
+                course.courseActions.boomerangFlower = int(row["Boomerang Flower"])
+                course.courseActions.coinbox = int(row["Coin Box"])
+                course.courseActions.itemBoxes = int(row["Item Boxes"])
+                course.courseActions.miniTurbos = int(row["Mini-Turbos"])
+                course.courseActions.jumpBoosts = int(row["Jump Boosts"])
+                course.courseActions.dashPanels = int(row["Dash Panels"])
+                course.courseActions.glideTime = int(row["Glide Time"])
+                course.courseActions.courseCoins = int(row["Coins (Course)"])
+                course.courseActions.itemCoins = int(row["Coins (Items)"])
+                # course.courseActions.lanterns = int(row["Pumpkins"]) if row["Pumpkins"] else 0
 
 def countMiis(allItems, inventoryItems):
     result = 0
