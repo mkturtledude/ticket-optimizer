@@ -233,20 +233,24 @@ def readActions(courses):
         name = row["Course"]
         for course in courses:
             if course.englishName == name:
-                course.courseActions.miniTurbos = int(row["Mini-Turbos"])
-                course.courseActions.normal = int(row["Normal"])
-                course.courseActions.giantBanana = int(row["Giant Banana"])
-                course.courseActions.lucky7 = int(row["Lucky 7"])
-                course.courseActions.boomerangFlower = int(row["Boomerang Flower"])
-                course.courseActions.coinbox = int(row["Coin Box"])
-                course.courseActions.itemBoxes = int(row["Item Boxes"])
-                course.courseActions.miniTurbos = int(row["Mini-Turbos"])
-                course.courseActions.jumpBoosts = int(row["Jump Boosts"])
-                course.courseActions.dashPanels = int(row["Dash Panels"])
-                course.courseActions.glideTime = int(row["Glide Time"])
-                course.courseActions.courseCoins = int(row["Coins (Course)"])
-                course.courseActions.itemCoins = int(row["Coins (Items)"])
-                # course.courseActions.lanterns = int(row["Pumpkins"]) if row["Pumpkins"] else 0
+                try:
+                    course.courseActions.miniTurbos = int(row["Mini-Turbos"])
+                    course.courseActions.normal = int(row["Normal"])
+                    course.courseActions.giantBanana = int(row["Giant Banana"])
+                    course.courseActions.lucky7 = int(row["Lucky 7"])
+                    course.courseActions.boomerangFlower = int(row["Boomerang Flower"])
+                    course.courseActions.coinbox = int(row["Coin Box"])
+                    course.courseActions.itemBoxes = int(row["Item Boxes"])
+                    course.courseActions.miniTurbos = int(row["Mini-Turbos"])
+                    course.courseActions.jumpBoosts = int(row["Jump Boosts"])
+                    course.courseActions.dashPanels = int(row["Dash Panels"])
+                    course.courseActions.glideTime = int(row["Glide Time"])
+                    course.courseActions.courseCoins = int(row["Coins (Course)"])
+                    course.courseActions.itemCoins = int(row["Coins (Items)"])
+                    # course.courseActions.lanterns = int(row["Pumpkins"]) if row["Pumpkins"] else 0
+                except:
+                    raise Exception("Action counts for " + course.englishName + " are incomplete")
+
 
 def countMiis(allItems, inventoryItems):
     result = 0
