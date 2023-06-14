@@ -82,7 +82,7 @@ class MyForm(FlaskForm):
     wf3 = BooleanField('Battle course #3')
     wf4 = BooleanField('Battle course #4')
     # Optional items to add
-    tourItems = MultiCheckboxField('Tour items')
+    # tourItems = MultiCheckboxField('Tour items')
     spotlightShopItems = MultiCheckboxField('Spotlight Shop Items')
 
 @app.route('/faq')
@@ -126,8 +126,8 @@ def results():
 
     wellFoughtFlags = [form.wf1.data, form.wf2.data, form.wf3.data, form.wf4.data]
 
-    form.tourItems.choices = [1, 12, 523]
-    form.spotlightShopItems.choices = [42, 123, 64]
+    # form.tourItems.choices = [1, 12, 523]
+    # form.spotlightShopItems.choices = [42, 123, 64]
 
     if not playerLevel or not str(playerLevel).isdigit() or int(playerLevel) < 1 or int(playerLevel) > 400:
         return throwError("Please enter a player level between 1 and 400")
