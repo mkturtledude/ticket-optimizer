@@ -83,7 +83,7 @@ class MyForm(FlaskForm):
     wf4 = BooleanField('Battle course #4')
     # Optional items to add
     # tourItems = MultiCheckboxField('Tour items')
-    spotlightShopItems = MultiCheckboxField('Spotlight Shop Items')
+    # spotlightShopItems = MultiCheckboxField('Spotlight Shop Items')
 
 @app.route('/faq')
 def faq():

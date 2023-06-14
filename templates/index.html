@@ -54,15 +54,6 @@
             <td>Aim for WF:</td><td>{{ form.wf1 }}</td><td>{{ form.wf2 }}</td><td>{{ form.wf3 }}</td><td>{{ form.wf4 }}</td>
         </tr>
     </table>
-
-<!--    <h3>Optional settings</h3>-->
-<!--    <button class="collapsible-small-green" type="button">Optional items</button>-->
-<!--    <div class="content">-->
-<!--        {{form.tourItems}}-->
-<!--    </div>-->
-<!--    <div class="content">-->
-<!--        {{form.spotlightShopItems}}-->
-<!--    </div>-->
 <!--    <div class="table-responsive">-->
 <!--    <table>-->
 <!--        <tr>-->
@@ -78,7 +69,6 @@
 <!--            <td>{{ form.wf4.label }}</td> <td>{{ form.wf4 }}</td>-->
 <!--        </tr>-->
 <!--    </table>-->
-
         <input type="submit" class="btn btn-success" value="Run" />
          {% for field, errors in form.errors.items() %}
         <small class="form-text text-muted ">
