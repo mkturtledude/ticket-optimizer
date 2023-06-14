@@ -12,8 +12,20 @@ from flask import session
 from werkzeug.datastructures import MultiDict
 
 from flask_wtf import FlaskForm
-from wtforms import IntegerField, FileField, SelectField, TextAreaField, BooleanField
+from wtforms import IntegerField, FileField, SelectField, TextAreaField, BooleanField, SelectMultipleField, widgets
 import base, util, reader
+
+
+class MultiCheckboxField(SelectMultipleField):
+    """
+    A multiple-select, except displays a list of checkboxes.
+
+    Iterating the field will produce subfields, allowing custom rendering of
+    the enclosed checkbox fields.
+    """
+    widget = widgets.ListWidget(prefix_label=False)
+    option_widget = widgets.CheckboxInput()
+
 
 app = Flask(__name__)
 app.secret_key = 'secret'
@@ -69,6 +81,9 @@ class MyForm(FlaskForm):
     wf2 = BooleanField('Battle course #2')
     wf3 = BooleanField('Battle course #3')
     wf4 = BooleanField('Battle course #4')
+    # Optional items to add
+    tourItems = MultiCheckboxField('Tour items')
+    spotlightShopItems = MultiCheckboxField('Spotlight Shop Items')
 
 @app.route('/faq')
 def faq():
@@ -110,6 +125,9 @@ def results():
     tickets.uhg = form.uhg.data if form.uhg.data else 0
 
     wellFoughtFlags = [form.wf1.data, form.wf2.data, form.wf3.data, form.wf4.data]
+
+    form.tourItems.choices = [1, 12, 523]
+    form.spotlightShopItems.choices = [42, 123, 64]
 
     if not playerLevel or not str(playerLevel).isdigit() or int(playerLevel) < 1 or int(playerLevel) > 400:
         return throwError("Please enter a player level between 1 and 400")

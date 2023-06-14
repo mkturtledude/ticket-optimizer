@@ -271,7 +271,7 @@ def calculateScore(driver, kart, glider, playerLevel, course):
     bonusPointsBoost = calculateBonusPointsBoost(course, driver, kart, glider)
     sum = basePoints + posPoints + bonusPoints + bonusPointsBoost
 
-    # if abs(sum - 54038.8) < 1:
+    # if abs(sum - 54075.4) < 1:
     #     print("{}, {}, {}, {}".format(driver.englishName, kart.englishName, glider.englishName, course.englishName))
     #     print("total actions: {}".format(totalActions(course, driver)))
     #     print("basePoints: {}".format(basePoints))
