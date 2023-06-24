@@ -260,18 +260,26 @@ def countMiis(allItems, inventoryItems):
     return result
 
 
-def makeInventory(allItems, inventoryItems):
+def makeInventory(allItems, inventoryItems, simulatedItems):
+    inventoryItemsSet = set()
+    for item in inventoryItems:
+        inventoryItemsSet.add(inventoryItems[item]["name"])
+    for item in simulatedItems:
+        if item not in inventoryItemsSet:
+            inventoryItems[item] = {"name": item, "level": 1, "uncaps": 0, "partialLevels": 0, "levelCap": 8, "uncapCap": 4}
+            print("Added item to inventory:")
+            print(inventoryItems[item])
     result = base.Inventory()
     result.numberOfMiis = countMiis(allItems, inventoryItems)
     for item in inventoryItems:
         name = inventoryItems[item]["name"]
-        type = inventoryItems[item]["type"]
         level = inventoryItems[item]["level"]
         uncaps = inventoryItems[item]["uncaps"]
         progress = inventoryItems[item]["partialLevels"]
         levelCap = inventoryItems[item]["levelCap"]
         uncapCap = inventoryItems[item]["uncapCap"]
         gameItem = allItems[name]
+        type = gameItem.type
         basePoints = base.calculateBasePoints(type, gameItem.rarity, uncaps, gameItem.isMii, result.numberOfMiis)
         invItem = base.InventoryItem(gameItem, level, basePoints, uncaps, progress, levelCap, uncapCap)
         if type == "D":
@@ -283,7 +291,7 @@ def makeInventory(allItems, inventoryItems):
     return result
 
 
-def readInventory(inventoryLines, allItems):
+def readInventory(inventoryLines, allItems, simulatedItems):
     result = {}
     upperToNormal = dict()
     for item in allItems:
@@ -314,7 +322,6 @@ def readInventory(inventoryLines, allItems):
             if upper not in upperToNormal:
                 raise Exception("Row number " + str(lineNumber) + " has an invalid item name:\n" + line)
             itemDict["name"] = upperToNormal[upper]
-            itemDict["type"] = row[1]
             itemDict["level"] = int(row[2])
             itemDict["uncaps"] = int(row[3])
             if itemDict["uncaps"] < 0 or itemDict["uncaps"] > 4:
@@ -337,7 +344,7 @@ def readInventory(inventoryLines, allItems):
                 itemDict["uncapCap"] = 4
             result[itemDict["name"]] = itemDict
 
-    result = makeInventory(allItems, result)
+    result = makeInventory(allItems, result, simulatedItems)
     if not result.drivers:
         raise Exception("Couldn't find any owned drivers in the inventory file! Make sure that the third column contains the levels of your drivers.")
     if not result.karts:

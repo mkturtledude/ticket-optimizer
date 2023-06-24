@@ -42,12 +42,12 @@ def stringToCups(cupsString):
     else:
         return range(15)
 
-def optimize(workDir, inventoryLines, tickets, playerLevel, cups, wellFoughtFlags):
+def optimize(workDir, inventoryLines, tickets, playerLevel, cups, wellFoughtFlags, simulatedItems):
     coverageFile = os.path.join(workDir, "data", "alldata.json")
     # actionsFile = os.path.join(workDir, "data", "actions.csv")
     courses, items = reader.readJson(coverageFile, cups, wellFoughtFlags)
     reader.readActions(courses)
-    inventory = reader.readInventory(inventoryLines, items)
+    inventory = reader.readInventory(inventoryLines, items, simulatedItems)
     upgrades, rows, courseLoadouts, totalScores = util.optimize(inventory, courses, tickets, playerLevel)
 
     return upgrades, rows, courseLoadouts, totalScores
@@ -83,7 +83,7 @@ class MyForm(FlaskForm):
     wf4 = BooleanField('Battle course #4')
     # Optional items to add
     # tourItems = MultiCheckboxField('Tour items')
-    # spotlightShopItems = MultiCheckboxField('Spotlight Shop Items')
+    spotlightShopItems = MultiCheckboxField('Spotlight Shop Items')
 
 @app.route('/faq')
 def faq():
@@ -95,6 +95,12 @@ def throwError(message):
 @app.route('/', methods = ['GET'])
 def home():
     form = MyForm()
+
+    # Read choices from spotlight-shop.csv
+    with open('data/spotlight-shop.csv', newline='', encoding='utf-8-sig') as csvfile:
+        choices = [(row[0], row[0]) for row in csv.reader(csvfile)]
+    form.spotlightShopItems.choices = choices
+
     return render_template('index.html', form=form)
 
 
@@ -126,8 +132,8 @@ def results():
 
     wellFoughtFlags = [form.wf1.data, form.wf2.data, form.wf3.data, form.wf4.data]
 
-    # form.tourItems.choices = [1, 12, 523]
-    # form.spotlightShopItems.choices = [42, 123, 64]
+    simulatedItems = request.form.getlist("spotlightShopItems") # TODO: Add other obtainable items
+    print(simulatedItems)
 
     if not playerLevel or not str(playerLevel).isdigit() or int(playerLevel) < 1 or int(playerLevel) > 400:
         return throwError("Please enter a player level between 1 and 400")
@@ -159,7 +165,7 @@ def results():
     # upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups, wellFoughtFlags)
     try:
         startTime = time.time()
-        upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups, wellFoughtFlags)
+        upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups, wellFoughtFlags, simulatedItems)
         endTime = time.time()
         print("Runtime: {} seconds".format(endTime - startTime))
     except Exception as e:

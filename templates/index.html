@@ -54,21 +54,16 @@
             <td>Aim for WF:</td><td>{{ form.wf1 }}</td><td>{{ form.wf2 }}</td><td>{{ form.wf3 }}</td><td>{{ form.wf4 }}</td>
         </tr>
     </table>
-<!--    <div class="table-responsive">-->
-<!--    <table>-->
-<!--        <tr>-->
-<!--            <td>{{ form.wf1.label }}</td> <td>{{ form.wf1 }}</td>-->
-<!--        </tr>-->
-<!--        <tr>-->
-<!--            <td>{{ form.wf2.label }}</td> <td>{{ form.wf2 }}</td>-->
-<!--        </tr>-->
-<!--        <tr>-->
-<!--            <td>{{ form.wf3.label }}</td> <td>{{ form.wf3 }}</td>-->
-<!--        </tr>-->
-<!--        <tr>-->
-<!--            <td>{{ form.wf4.label }}</td> <td>{{ form.wf4 }}</td>-->
-<!--        </tr>-->
-<!--    </table>-->
+
+    <h3>Simulate items in inventory</h3>
+    <button class="collapsible-small-green" type="button">Spotlight shop</button>
+    <div class="content">
+        <label>
+            <input type="checkbox" id="selectAllItems"> Select All
+        </label>
+        <br>
+        {{form.spotlightShopItems}}
+    </div>
         <input type="submit" class="btn btn-success" value="Run" />
          {% for field, errors in form.errors.items() %}
         <small class="form-text text-muted ">
@@ -107,4 +102,18 @@
 <br><br>
     <h4>By aturtledude (Check out my <a href="https://coverageoptimizer.pythonanywhere.com">Coverage Optimizer</a>!)</h4>
     <h4>Thanks to DKR.exe for the action counts and formulas, and to Sam78it for the coverage data.</h4>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var selectAllCheckbox = document.getElementById('selectAllItems');
+        var checkboxes = document.querySelectorAll('input[name="spotlightShopItems"]');
+
+        selectAllCheckbox.addEventListener('change', function() {
+            checkboxes.forEach(function(checkbox) {
+                checkbox.checked = selectAllCheckbox.checked;
+            });
+        });
+    });
+</script>
+
 {% endblock %}
