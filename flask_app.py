@@ -103,25 +103,25 @@ def throwError(message):
 def home():
     form = MyForm()
 
-    with open('data/obtainable-items/spotlight.csv', newline='', encoding='utf-8-sig') as csvfile:
+    with open(os.path.join(app.root_path, "data/obtainable-items", 'spotlight.csv'), newline='', encoding='utf-8-sig') as csvfile:
         choices = [(row[0], row[0]) for row in csv.reader(csvfile)]
         form.spotlight.choices = choices
-    with open('data/obtainable-items/daily-spotlight-non-gold.csv', newline='', encoding='utf-8-sig') as csvfile:
+    with open(os.path.join(app.root_path, "data/obtainable-items", 'daily-spotlight-non-gold.csv'), newline='', encoding='utf-8-sig') as csvfile:
         choices = [(row[0], row[0]) for row in csv.reader(csvfile)]
         form.dailySpotlightNonGold.choices = choices
-    with open('data/obtainable-items/daily-spotlight-gold.csv', newline='', encoding='utf-8-sig') as csvfile:
+    with open(os.path.join(app.root_path, "data/obtainable-items", 'daily-spotlight-gold.csv'), newline='', encoding='utf-8-sig') as csvfile:
         choices = [(row[0], row[0]) for row in csv.reader(csvfile)]
         form.dailySpotlightGold.choices = choices
-    with open('data/obtainable-items/gold-pass.csv', newline='', encoding='utf-8-sig') as csvfile:
+    with open(os.path.join(app.root_path, "data/obtainable-items", 'gold-pass.csv'), newline='', encoding='utf-8-sig') as csvfile:
         choices = [(row[0], row[0]) for row in csv.reader(csvfile)]
         form.goldPass.choices = choices
-    with open('data/obtainable-items/paywalled.csv', newline='', encoding='utf-8-sig') as csvfile:
+    with open(os.path.join(app.root_path, "data/obtainable-items", 'paywalled.csv'), newline='', encoding='utf-8-sig') as csvfile:
         choices = [(row[0], row[0]) for row in csv.reader(csvfile)]
         form.paywalled.choices = choices
-    with open('data/obtainable-items/mii-shop.csv', newline='', encoding='utf-8-sig') as csvfile:
+    with open(os.path.join(app.root_path, "data/obtainable-items", 'mii-shop.csv'), newline='', encoding='utf-8-sig') as csvfile:
         choices = [(row[0], row[0]) for row in csv.reader(csvfile)]
         form.miiShop.choices = choices
-    with open('data/obtainable-items/other.csv', newline='', encoding='utf-8-sig') as csvfile:
+    with open(os.path.join(app.root_path, "data/obtainable-items", 'other.csv'), newline='', encoding='utf-8-sig') as csvfile:
         choices = [(row[0], row[0]) for row in csv.reader(csvfile)]
         form.other.choices = choices
 
