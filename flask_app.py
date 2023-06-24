@@ -82,8 +82,15 @@ class MyForm(FlaskForm):
     wf3 = BooleanField('Battle course #3')
     wf4 = BooleanField('Battle course #4')
     # Optional items to add
-    # tourItems = MultiCheckboxField('Tour items')
-    spotlightShopItems = MultiCheckboxField('Spotlight Shop Items')
+    spotlight = MultiCheckboxField('Spotlight')
+    dailySpotlightNonGold = MultiCheckboxField('Daily Spotlight (Non Gold)')
+    dailySpotlightGold = MultiCheckboxField('Daily Spotlight (Gold)')
+    goldPass = MultiCheckboxField('Gold Pass')
+    paywalled = MultiCheckboxField('Paywalled (Commemorative, Gold Challenges)')
+    miiShop = MultiCheckboxField('Mii Shop')
+    other = MultiCheckboxField('Other (Ranked, Challenge Cards, Token Shop, etc.)')
+
+
 
 @app.route('/faq')
 def faq():
@@ -96,10 +103,27 @@ def throwError(message):
 def home():
     form = MyForm()
 
-    # Read choices from spotlight-shop.csv
-    with open('data/spotlight-shop.csv', newline='', encoding='utf-8-sig') as csvfile:
+    with open('data/obtainable-items/spotlight.csv', newline='', encoding='utf-8-sig') as csvfile:
         choices = [(row[0], row[0]) for row in csv.reader(csvfile)]
-    form.spotlightShopItems.choices = choices
+        form.spotlight.choices = choices
+    with open('data/obtainable-items/daily-spotlight-non-gold.csv', newline='', encoding='utf-8-sig') as csvfile:
+        choices = [(row[0], row[0]) for row in csv.reader(csvfile)]
+        form.dailySpotlightNonGold.choices = choices
+    with open('data/obtainable-items/daily-spotlight-gold.csv', newline='', encoding='utf-8-sig') as csvfile:
+        choices = [(row[0], row[0]) for row in csv.reader(csvfile)]
+        form.dailySpotlightGold.choices = choices
+    with open('data/obtainable-items/gold-pass.csv', newline='', encoding='utf-8-sig') as csvfile:
+        choices = [(row[0], row[0]) for row in csv.reader(csvfile)]
+        form.goldPass.choices = choices
+    with open('data/obtainable-items/paywalled.csv', newline='', encoding='utf-8-sig') as csvfile:
+        choices = [(row[0], row[0]) for row in csv.reader(csvfile)]
+        form.paywalled.choices = choices
+    with open('data/obtainable-items/mii-shop.csv', newline='', encoding='utf-8-sig') as csvfile:
+        choices = [(row[0], row[0]) for row in csv.reader(csvfile)]
+        form.miiShop.choices = choices
+    with open('data/obtainable-items/other.csv', newline='', encoding='utf-8-sig') as csvfile:
+        choices = [(row[0], row[0]) for row in csv.reader(csvfile)]
+        form.other.choices = choices
 
     return render_template('index.html', form=form)
 
@@ -132,8 +156,13 @@ def results():
 
     wellFoughtFlags = [form.wf1.data, form.wf2.data, form.wf3.data, form.wf4.data]
 
-    simulatedItems = request.form.getlist("spotlightShopItems") # TODO: Add other obtainable items
-    print(simulatedItems)
+    simulatedItems = request.form.getlist("spotlight") # TODO: Add other obtainable items
+    simulatedItems += request.form.getlist("dailySpotlightNonGold")
+    simulatedItems += request.form.getlist("dailySpotlightGold")
+    simulatedItems += request.form.getlist("goldPass")
+    simulatedItems += request.form.getlist("paywalled")
+    simulatedItems += request.form.getlist("miiShop")
+    simulatedItems += request.form.getlist("other")
 
     if not playerLevel or not str(playerLevel).isdigit() or int(playerLevel) < 1 or int(playerLevel) > 400:
         return throwError("Please enter a player level between 1 and 400")

@@ -267,8 +267,6 @@ def makeInventory(allItems, inventoryItems, simulatedItems):
     for item in simulatedItems:
         if item not in inventoryItemsSet:
             inventoryItems[item] = {"name": item, "level": 1, "uncaps": 0, "partialLevels": 0, "levelCap": 8, "uncapCap": 4}
-            print("Added item to inventory:")
-            print(inventoryItems[item])
     result = base.Inventory()
     result.numberOfMiis = countMiis(allItems, inventoryItems)
     for item in inventoryItems:
@@ -360,7 +358,6 @@ def readSolutionFile(file):
         if line[0] == "#" or line[0] == 'o':
             continue
         varAndValue = line.split()
-        print(varAndValue)
         assert(len(varAndValue) >= 2)
         variable = varAndValue[0]
         value = int(varAndValue[1])

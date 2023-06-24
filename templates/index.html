@@ -54,15 +54,70 @@
             <td>Aim for WF:</td><td>{{ form.wf1 }}</td><td>{{ form.wf2 }}</td><td>{{ form.wf3 }}</td><td>{{ form.wf4 }}</td>
         </tr>
     </table>
+    </div>
 
     <h3>Simulate items in inventory</h3>
-    <button class="collapsible-small-green" type="button">Spotlight shop</button>
+        If not in the inventory, selected items will be considered at level 1.
+        <br>
+        <label>
+    <input type="checkbox" id="selectAll"> Select All
+</label>
+<br>
+    <button class="collapsible-small-green" type="button">Spotlight Week 1+2</button>
     <div class="content">
         <label>
-            <input type="checkbox" id="selectAllItems"> Select All
+            <input type="checkbox" id="selectAllSpotlight"> Select All
         </label>
         <br>
-        {{form.spotlightShopItems}}
+        {{form.spotlight}}
+    </div>
+    <button class="collapsible-small-green" type="button">Daily Spotlight (Non-Gold)</button>
+    <div class="content">
+        <label>
+            <input type="checkbox" id="selectAllDailyNonGold"> Select All
+        </label>
+        <br>
+        {{form.dailySpotlightNonGold}}
+    </div>
+    <button class="collapsible-small-green" type="button">Daily Spotlight (Gold)</button>
+    <div class="content">
+        <label>
+            <input type="checkbox" id="selectAllDailyGold"> Select All
+        </label>
+        <br>
+        {{form.dailySpotlightGold}}
+    </div>
+    <button class="collapsible-small-green" type="button">Gold Pass</button>
+    <div class="content">
+        <label>
+            <input type="checkbox" id="selectAllGoldPass"> Select All
+        </label>
+        <br>
+        {{form.goldPass}}
+    </div>
+    <button class="collapsible-small-green" type="button">Paywalled (Commemorative, Gold Challenges)</button>
+    <div class="content">
+        <label>
+            <input type="checkbox" id="selectAllPaywalled"> Select All
+        </label>
+        <br>
+        {{form.paywalled}}
+    </div>
+    <button class="collapsible-small-green" type="button">Mii Shop</button>
+    <div class="content">
+        <label>
+            <input type="checkbox" id="selectAllMiiShop"> Select All
+        </label>
+        <br>
+        {{form.miiShop}}
+    </div>
+    <button class="collapsible-small-green" type="button">Other (Ranked, Challenge Cards, Token Shop, etc.)</button>
+    <div class="content">
+        <label>
+            <input type="checkbox" id="selectAllOther"> Select All
+        </label>
+        <br>
+        {{form.other}}
     </div>
         <input type="submit" class="btn btn-success" value="Run" />
          {% for field, errors in form.errors.items() %}
@@ -102,18 +157,65 @@
 <br><br>
     <h4>By aturtledude (Check out my <a href="https://coverageoptimizer.pythonanywhere.com">Coverage Optimizer</a>!)</h4>
     <h4>Thanks to DKR.exe for the action counts and formulas, and to Sam78it for the coverage data.</h4>
-
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var selectAllCheckbox = document.getElementById('selectAllItems');
-        var checkboxes = document.querySelectorAll('input[name="spotlightShopItems"]');
+    function selectAllCheckboxes(listId, selectAllId) {
+        var selectAllCheckbox = document.getElementById(selectAllId);
+        var checkboxes = document.querySelectorAll('input[name="' + listId + '"]');
+        var excludedCheckboxIds = ['wf1', 'wf2', 'wf3', 'wf4'];
+        var checkboxesToCheck = Array.from(checkboxes).filter(function (checkbox) {
+            return !excludedCheckboxIds.includes(checkbox.id);
+        });
 
         selectAllCheckbox.addEventListener('change', function() {
-            checkboxes.forEach(function(checkbox) {
+            checkboxesToCheck.forEach(function(checkbox) {
                 checkbox.checked = selectAllCheckbox.checked;
+            });
+        });
+
+        checkboxesToCheck.forEach(function(checkbox) {
+            checkbox.addEventListener('change', function() {
+                var allChecked = true;
+                checkboxesToCheck.forEach(function(checkbox) {
+                    if (!checkbox.checked) {
+                        allChecked = false;
+                    }
+                });
+                selectAllCheckbox.checked = allChecked;
+            });
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var lists = [
+            { id: 'spotlight', selectAllId: 'selectAllSpotlight' },
+            { id: 'dailySpotlightNonGold', selectAllId: 'selectAllDailyNonGold' },
+            { id: 'dailySpotlightGold', selectAllId: 'selectAllDailyGold' },
+            { id: 'goldPass', selectAllId: 'selectAllGoldPass' },
+            { id: 'paywalled', selectAllId: 'selectAllPaywalled' },
+            { id: 'miiShop', selectAllId: 'selectAllMiiShop' },
+            { id: 'other', selectAllId: 'selectAllOther' }
+        ];
+
+        lists.forEach(function(list) {
+            selectAllCheckboxes(list.id, list.selectAllId);
+        });
+
+        // Select All checkboxes
+        var selectAllCheckbox = document.getElementById('selectAll');
+        var allCheckboxes = document.querySelectorAll('input[type="checkbox"]');
+        selectAllCheckbox.addEventListener('change', function() {
+            var excludedCheckboxIds = ['wf1', 'wf2', 'wf3', 'wf4'];
+            allCheckboxes.forEach(function(checkbox) {
+                if (!excludedCheckboxIds.includes(checkbox.id)) {
+                    checkbox.checked = selectAllCheckbox.checked;
+                }
             });
         });
     });
 </script>
+
+
+
+
 
 {% endblock %}
