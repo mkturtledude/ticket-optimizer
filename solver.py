@@ -4,7 +4,7 @@ import unidecode
 
 
 # If true, uses OR-Tools with SCIP. If false, uses Gurobi
-OR_TOOLS = False
+OR_TOOLS = True
 
 if OR_TOOLS:
     from ortools.linear_solver import pywraplp
