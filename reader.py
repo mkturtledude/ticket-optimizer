@@ -314,8 +314,12 @@ def readInventory(inventoryLines, allItems, simulatedItems):
                 raise Exception("The second element in row number " + str(lineNumber) + " should be a single letter (D/K/G):   " + line)
             if not row[2].isdigit() or len(row[2]) != 1:
                 raise Exception("The third element in row number " + str(lineNumber) + " should be a single digit, representing the item's level:   " + line)
+            if int(row[2]) not in range(9):
+                raise Exception("The level of item " + row[0] + " was given as " + row[2] + ", but it's supposed to be between 0 and 8")
             if not row[3].isdigit() or len(row[3]) != 1:
                 raise Exception("The fourth element in row number " + str(lineNumber) + " should be a single digit, representing the item's uncaps:   " + line)
+            if int(row[3]) not in range(5):
+                raise Exception("The number of uncaps of item " + row[0] + " was given as " + row[3] + ", but it's supposed to be between 0 and 4")
             upper = unidecode.unidecode(row[0].upper())
             if upper not in upperToNormal:
                 raise Exception("Row number " + str(lineNumber) + " has an invalid item name:\n" + line)
