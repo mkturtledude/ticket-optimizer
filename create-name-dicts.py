@@ -37,7 +37,7 @@ def createItemDicts(data):
             englishName = itemData["Translations"]["USen"]
             namesDict[id] = englishName
 
-    with open("jsons-for-frida-output/item_names.json", "w") as outfile:
+    with open("../frida/mkt/course_item_names/item_names.json", "w") as outfile:
         json.dump(namesDict, outfile, indent=4)
 
 
