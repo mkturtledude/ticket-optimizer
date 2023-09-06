@@ -173,11 +173,17 @@ def boomerangActions(driver):
     return 0
 
 def bananaActions(course, driver):
+    if course.type == "Battle":
+        return 6
     if driver.skill == "Giant Banana":
         return 35
-    elif course.type == "Battle":
-        return 6
-    return 10
+    if driver.skill == "Coin Box":
+        return 2
+    if driver.skill == "Triple Bananas":
+        return 20
+    if driver.skill == "Lucky 7":
+        return 8
+    return 4
 
 def totalActions(course, driver):
     result = course.courseActions.normal
@@ -271,7 +277,7 @@ def calculateScore(driver, kart, glider, playerLevel, course):
     bonusPointsBoost = calculateBonusPointsBoost(course, driver, kart, glider)
     sum = basePoints + posPoints + bonusPoints + bonusPointsBoost
 
-    # if abs(sum - 48467.1) < 1:
+    # if abs(sum - 61670) < 1:
     #     print("{}, {}, {}, {}".format(driver.englishName, kart.englishName, glider.englishName, course.englishName))
     #     print("total actions: {}".format(totalActions(course, driver)))
     #     print("basePoints: {}".format(basePoints))
