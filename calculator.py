@@ -14,9 +14,9 @@ def calculatePositionPoints(level):
 
 def calculateBonusPoints(level, course, driver, kart, glider):
     sum = action(level, course, driver, kart, glider) + kartSkill(course, kart) + gliderSkill(course, driver, glider) + combo(course, driver, glider)
-    # if abs(sum - 9811.5) < 1 and abs(action(level, course, driver, kart, glider) - 3116.4999) < 1:
+    # if abs(sum - 7870.5) < 1 and abs(action(level, course, driver, kart, glider) - 2782.5) < 1:
     #     action(level, course, driver, kart, glider)
-    # if abs(sum - 13458.8) < 1:
+    # if abs(sum - 7870.5) < 1:
     #     print(course.englishName)
     #     print("action: {}".format(action(level,course, driver, kart, glider)))
     #     print("kart skill: {}".format(kartSkill(course, kart)))
@@ -181,7 +181,7 @@ def bananaActions(course, driver):
         return 2
     if driver.skill == "Triple Bananas":
         return 20
-    if driver.skill == "Lucky 7":
+    if driver.skill == "Lucky Seven":
         return 8
     return 4
 
@@ -277,7 +277,7 @@ def calculateScore(driver, kart, glider, playerLevel, course):
     bonusPointsBoost = calculateBonusPointsBoost(course, driver, kart, glider)
     sum = basePoints + posPoints + bonusPoints + bonusPointsBoost
 
-    # if abs(sum - 61670) < 1:
+    # if abs(sum - 25408) < 1:
     #     print("{}, {}, {}, {}".format(driver.englishName, kart.englishName, glider.englishName, course.englishName))
     #     print("total actions: {}".format(totalActions(course, driver)))
     #     print("basePoints: {}".format(basePoints))
