@@ -73,6 +73,8 @@ class CourseActions:
         self.courseCoins = 0
         self.itemCoins = 0
         self.lanterns = 0
+        self.goldMario = 0
+        self.gmCoins = 0
 
 class TourCourse:
     def __init__(self, internalName, cupDriverIds, sortId):

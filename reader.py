@@ -251,6 +251,8 @@ def readActions(courses):
                 except:
                     raise Exception("Action counts for " + course.englishName + " are incomplete")
 
+                course.courseActions.goldMario = int(row["Gold Mario"]) if row["Gold Mario"] else 0
+                course.courseActions.gmCoins = int(row["GM Coins"]) if row["GM Coins"] else 0
 
 def countMiis(allItems, inventoryItems):
     result = 0

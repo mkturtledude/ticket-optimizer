@@ -14,9 +14,9 @@ def calculatePositionPoints(level):
 
 def calculateBonusPoints(level, course, driver, kart, glider):
     sum = action(level, course, driver, kart, glider) + kartSkill(course, kart) + gliderSkill(course, driver, glider) + combo(course, driver, glider)
-    # if abs(sum - 7870.5) < 1 and abs(action(level, course, driver, kart, glider) - 2782.5) < 1:
+    # if abs(sum - 13072.5) < 1 and abs(action(level, course, driver, kart, glider) - 4217.5) < 1:
     #     action(level, course, driver, kart, glider)
-    # if abs(sum - 7870.5) < 1:
+    # if abs(sum - 13072.5) < 1:
     #     print(course.englishName)
     #     print("action: {}".format(action(level,course, driver, kart, glider)))
     #     print("kart skill: {}".format(kartSkill(course, kart)))
@@ -55,6 +55,8 @@ def action(level, course, driver, kart, glider):
     result += course.courseActions.dashPanels * 10
     result += course.courseActions.glideTime * 10
     result += course.courseActions.courseCoins * 5
+    if driver.englishName == "Gold Mario":
+        result += course.courseActions.gmCoins * 5
     result += coinboxCoins(course, driver) * 5
     result += itemBoxCoins(course, driver) * 5
     result += boomerangActions(driver) * 25
@@ -62,6 +64,8 @@ def action(level, course, driver, kart, glider):
     balloonActions =  6 if course.type == "Battle" else 0
     result += 150 * balloonActions
     remainingActions = totalActions(course, driver) - course.courseActions.miniTurbos - course.courseActions.jumpBoosts - course.courseActions.dashPanels - course.courseActions.glideTime - course.courseActions.courseCoins - itemBoxCoins(course, driver) - coinboxCoins(course, driver) - boomerangActions(driver) - bananaActions(course,driver) - balloonActions
+    if driver.englishName == "Gold Mario":
+        remainingActions -= course.courseActions.gmCoins
     if remainingActions > 0:
         result += remainingActions * (15 if course.type == "Battle" else 8)
     result *= trackMultiplier(course, kart)
@@ -207,6 +211,9 @@ def totalActions(course, driver):
         result = course.courseActions.normal - 40
     elif shelf == 1:
         result -= course.courseActions.normal - 50
+
+    if driver.englishName == "Gold Mario":
+        result += course.courseActions.gmCoins
     return result
 
 def getShelf(course, item):
@@ -277,7 +284,7 @@ def calculateScore(driver, kart, glider, playerLevel, course):
     bonusPointsBoost = calculateBonusPointsBoost(course, driver, kart, glider)
     sum = basePoints + posPoints + bonusPoints + bonusPointsBoost
 
-    # if abs(sum - 25408) < 1:
+    # if abs(sum - 11407.5) < 1:
     #     print("{}, {}, {}, {}".format(driver.englishName, kart.englishName, glider.englishName, course.englishName))
     #     print("total actions: {}".format(totalActions(course, driver)))
     #     print("basePoints: {}".format(basePoints))
