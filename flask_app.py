@@ -191,7 +191,7 @@ def results():
                 line = line.rstrip() + '\n'
                 f.write(line + '\n')
 
-    upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups, wellFoughtFlags, simulatedItems)
+    # upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups, wellFoughtFlags, simulatedItems)
     try:
         startTime = time.time()
         upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups, wellFoughtFlags, simulatedItems)
