@@ -23,6 +23,7 @@
         </fieldset>
         <br>
         {{ form.playerLevel.label }} {{ form.playerLevel(size=3, type="number", min="1", max="400") }} <br>
+        {{ form.tour.label(for="tour-selection") }} {{ form.tour(id="tour-selection") }} <br>
         {{ form.cups.label }} {{ form.cups }} <br>
         Level-up tickets:<br>
         {{ form.lnd(size=3, style="border-color:Silver;", type="number", min="0", max="999") }}
@@ -56,6 +57,8 @@
     </table>
     </div>
 
+
+    <div id="inventory-simulation">
     <h3>Simulate items in inventory</h3>
         If not in the inventory, selected items will be considered at level 1.
         <br>
@@ -121,6 +124,8 @@
     </div>
         <br>
         <br>
+
+</div>
         <input type="submit" class="btn btn-success" value="Run" />
          {% for field, errors in form.errors.items() %}
         <small class="form-text text-muted ">
@@ -216,8 +221,34 @@
     });
 </script>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get references to the tour selection and inventory simulation section
+        const tourSelection = document.getElementById('tour-selection');
+        const inventorySimulation = document.getElementById('inventory-simulation');
 
+        // Function to toggle the visibility and disabled state of the inventory simulation
+        function toggleInventorySimulation() {
+            if (tourSelection.value === 'current') {
+                // If "current" is selected, show and enable the inventory simulation
+                inventorySimulation.style.display = 'block';
+                // Enable form elements (if they were disabled)
+                // Example: document.getElementById('inventory-text').disabled = false;
+            } else {
+                // If any other option is selected, hide and disable the inventory simulation
+                inventorySimulation.style.display = 'none';
+                // Disable form elements
+                // Example: document.getElementById('inventory-text').disabled = true;
+            }
+        }
 
+        // Initial call to set the initial state based on the default selection
+        toggleInventorySimulation();
+
+        // Add an event listener to the tour selection field
+        tourSelection.addEventListener('change', toggleInventorySimulation);
+    });
+</script>
 
 
 {% endblock %}

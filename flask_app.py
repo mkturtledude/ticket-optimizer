@@ -15,6 +15,35 @@ from flask_wtf import FlaskForm
 from wtforms import IntegerField, FileField, SelectField, TextAreaField, BooleanField, SelectMultipleField, widgets
 import base, util, reader
 
+pastTours = [
+    ("current", "Current"),
+    ("01-battle.json", "Battle"),
+    ("02-halloween.json", "Halloween"),
+    ("03-autumn.json", "Autumn"),
+    ("04-animal.json", "Animal"),
+    ("05-peach-vs-bowser.json", "Peach vs. Bowser"),
+    ("06-holiday.json", "Holiday"),
+    ("07-new-years.json", "New Year's"),
+    ("08-space.json", "Space"),
+    ("09-winter.json", "Winter"),
+    ("10-exploration.json", "Exploratio"),
+    ("11-doctor.json", "Doctor"),
+    ("12-mario.json", "Mario"),
+    ("13-ninja.json", "Ninja"),
+    ("14-yoshi.json", "Yoshi"),
+    ("15-spring.json", "Spring"),
+    ("16-bowser.json", "Bowser"),
+    ("17-mii.json", "Mii"),
+    ("18-princess.json", "Princess"),
+    ("19-mario-vs-luigi.json", "Mario vs. Luigi"),
+    ("20-night.json", "Night"),
+    ("21-pipe.json", "Pipe"),
+    ("22-sunshine.json", "Sunshine"),
+    ("23-vacation.json", "Vacation"),
+    ("24-summer.json", "Summer"),
+    ("25-sundae.json", "Sundae"),
+    ("26-anniversary.json", "Anniversary")
+]
 
 class MultiCheckboxField(SelectMultipleField):
     """
@@ -42,10 +71,11 @@ def stringToCups(cupsString):
     else:
         return range(15)
 
-def optimize(workDir, inventoryLines, tickets, playerLevel, cups, wellFoughtFlags, simulatedItems):
+def optimize(workDir, inventoryLines, tickets, playerLevel, cups, wellFoughtFlags, simulatedItems, tourFile):
     coverageFile = os.path.join(workDir, "data", "alldata.json")
+    tourPath = os.path.join(workDir, "data", "pastTours", tourFile)
     # actionsFile = os.path.join(workDir, "data", "actions.csv")
-    courses, items = reader.readJson(coverageFile, cups, wellFoughtFlags)
+    courses, items = reader.readJson(coverageFile, cups, wellFoughtFlags, tourPath)
     reader.readActions(courses)
     inventory = reader.readInventory(inventoryLines, items, simulatedItems)
     upgrades, rows, courseLoadouts, totalScores = util.optimize(inventory, courses, tickets, playerLevel)
@@ -56,6 +86,7 @@ class MyForm(FlaskForm):
     inventoryFile = FileField('Inventory file')
     inventoryText = TextAreaField('Inventory', render_kw={"rows": 5, "cols": 35})
     playerLevel = IntegerField('Player level')
+    tour = SelectField("Tour to consider", choices=pastTours)
     cups = SelectField('Cups to consider', choices=[('all', 'All'), ('rankedFirst', 'First week ranked'), ('rankedSecond', 'Second week ranked'), ('rankedBoth', 'Both ranked cups')])
     # Ticket counts
     lnd = IntegerField()
@@ -133,6 +164,7 @@ def results():
     form = MyForm()
     invFile = form.inventoryFile
     playerLevel = form.playerLevel.data
+    tourFile = form.tour.data
     cups = stringToCups(form.cups.data)
     tickets = base.TicketStash()
     tickets.lnd = form.lnd.data if form.lnd.data else 0
@@ -194,7 +226,7 @@ def results():
     # upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups, wellFoughtFlags, simulatedItems)
     try:
         startTime = time.time()
-        upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups, wellFoughtFlags, simulatedItems)
+        upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups, wellFoughtFlags, simulatedItems, tourFile)
         endTime = time.time()
         print("Runtime: {} seconds".format(endTime - startTime))
     except Exception as e:
