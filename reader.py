@@ -211,10 +211,11 @@ def readJson(file, cups, wellFoughtFlags, tour):
     f = open(file, encoding="utf-8")
     data = json.load(f)
 
-    cupsFile = tour
-    f2 = open(cupsFile, encoding="utf-8")
-    data2 = json.load(f2)
-    data["tour"]["Cups"] = data2["tour"]["Cups"]
+    if tour:
+        cupsFile = tour
+        f2 = open(cupsFile, encoding="utf-8")
+        data2 = json.load(f2)
+        data["tour"]["Cups"] = data2["tour"]["Cups"]
 
     courses = collectCourses(data, cups)
     allItems = readItems(courses, FIRST_WEEK_SPOTLIGHTS, SECOND_WEEK_SPOTLIGHTS, data)
