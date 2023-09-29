@@ -107,14 +107,12 @@ def skillIdToString(id):
         print("Unknown skill {}!".format(id))
         exit(0)
 
-def collectCourses(data, cupsToConsider):
+def collectCourses(data):
     courses = []
     cupsData = data["tour"]["Cups"]
     cupNumber = -1
     for cup in cupsData:
         cupNumber += 1
-        if cupsToConsider and (not cupNumber in cupsToConsider):
-            continue
         cupDriverIds = []
         for driver in cup["Drivers"]:
             cupDriverIds.append(driver["Id"])
@@ -203,21 +201,27 @@ def fillCourseNames(courses, data, wellFoughtFlags):
         course.englishName = englishName
         course.type = type
         if course.type == "Battle":
-            course.wellFought = wellFoughtFlags[battleCourseNumber]
+            course.wellFought = wellFoughtFlags[battleCourseNumber] if len(courses) == 45 else False
             battleCourseNumber += 1
 
 
-def readJson(file, cups, wellFoughtFlags, tour):
+def readJson(file, wellFoughtFlags, tour, rankedTours):
     f = open(file, encoding="utf-8")
     data = json.load(f)
-
     if tour:
         cupsFile = tour
         f2 = open(cupsFile, encoding="utf-8")
         data2 = json.load(f2)
         data["tour"]["Cups"] = data2["tour"]["Cups"]
+    elif rankedTours:
+        aggregatedCups = []
+        for tourFile, cupNumber in rankedTours:
+            f2 = open(tourFile, encoding="utf-8")
+            data2 = json.load(f2)
+            aggregatedCups.append(data2["tour"]["Cups"][cupNumber])
+        data["tour"]["Cups"] = aggregatedCups
 
-    courses = collectCourses(data, cups)
+    courses = collectCourses(data)
     allItems = readItems(courses, FIRST_WEEK_SPOTLIGHTS, SECOND_WEEK_SPOTLIGHTS, data)
     fillCourseNames(courses,data, wellFoughtFlags)
     return courses, allItems

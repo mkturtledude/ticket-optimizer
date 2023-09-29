@@ -26,7 +26,7 @@ pastTours = [
     ("07-new-years.json", "New Year's"),
     ("08-space.json", "Space"),
     ("09-winter.json", "Winter"),
-    ("10-exploration.json", "Exploratio"),
+    ("10-exploration.json", "Exploration"),
     ("11-doctor.json", "Doctor"),
     ("12-mario.json", "Mario"),
     ("13-ninja.json", "Ninja"),
@@ -43,6 +43,62 @@ pastTours = [
     ("24-summer.json", "Summer"),
     ("25-sundae.json", "Sundae"),
     ("26-anniversary.json", "Anniversary")
+]
+
+rankedWeeks = [
+    ("current", "Current"),
+    ("01-battle.json1", "Battle 1"),
+    ("01-battle.json2", "Battle 2"),
+    ("02-halloween.json1", "Halloween 1"),
+    ("02-halloween.json2", "Halloween 2"),
+    ("03-autumn.json1", "Autumn 1"),
+    ("03-autumn.json2", "Autumn 2"),
+    ("04-animal.json1", "Animal 1"),
+    ("04-animal.json2", "Animal 2"),
+    ("05-peach-vs-bowser.json1", "Peach vs. Bowser 1"),
+    ("05-peach-vs-bowser.json2", "Peach vs. Bowser 2"),
+    ("06-holiday.json1", "Holiday 1"),
+    ("06-holiday.json2", "Holiday 2"),
+    ("07-new-years.json1", "New Year's 1"),
+    ("07-new-years.json2", "New Year's 2"),
+    ("08-space.json1", "Space 1"),
+    ("08-space.json2", "Space 2"),
+    ("09-winter.json1", "Winter 1"),
+    ("09-winter.json2", "Winter 2"),
+    ("10-exploration.json1", "Exploration 1"),
+    ("10-exploration.json2", "Exploration 2"),
+    ("11-doctor.json1", "Doctor 1"),
+    ("11-doctor.json2", "Doctor 2"),
+    ("12-mario.json1", "Mario 1"),
+    ("12-mario.json2", "Mario 2"),
+    ("13-ninja.json1", "Ninja 1"),
+    ("13-ninja.json2", "Ninja 2"),
+    ("14-yoshi.json1", "Yoshi 1"),
+    ("14-yoshi.json2", "Yoshi 2"),
+    ("15-spring.json1", "Spring 1"),
+    ("15-spring.json2", "Spring 2"),
+    ("16-bowser.json1", "Bowser 1"),
+    ("16-bowser.json2", "Bowser 2"),
+    ("17-mii.json1", "Mii 1"),
+    ("17-mii.json2", "Mii 2"),
+    ("18-princess.json1", "Princess 1"),
+    ("18-princess.json2", "Princess 2"),
+    ("19-mario-vs-luigi.json1", "Mario vs. Luigi 1"),
+    ("19-mario-vs-luigi.json2", "Mario vs. Luigi 2"),
+    ("20-night.json1", "Night 1"),
+    ("20-night.json2", "Night 2"),
+    ("21-pipe.json1", "Pipe 1"),
+    ("21-pipe.json2", "Pipe 2"),
+    ("22-sunshine.json1", "Sunshine 1"),
+    ("22-sunshine.json2", "Sunshine 2"),
+    ("23-vacation.json1", "Vacation 1"),
+    ("23-vacation.json2", "Vacation 2"),
+    ("24-summer.json1", "Summer 1"),
+    ("24-summer.json2", "Summer 2"),
+    ("25-sundae.json1", "Sundae 1"),
+    ("25-sundae.json2", "Sundae 2"),
+    ("26-anniversary.json1", "Anniversary 1"),
+    ("26-anniversary.json2", "Anniversary 2")
 ]
 
 class MultiCheckboxField(SelectMultipleField):
@@ -71,11 +127,14 @@ def stringToCups(cupsString):
     else:
         return range(15)
 
-def optimize(workDir, inventoryLines, tickets, playerLevel, cups, wellFoughtFlags, simulatedItems, tourFile):
+def optimize(workDir, inventoryLines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups):
     coverageFile = os.path.join(workDir, "data", "alldata.json")
-    tourPath = os.path.join(workDir, "data", "pastTours", tourFile) if tourFile != "current" else ""
-    # actionsFile = os.path.join(workDir, "data", "actions.csv")
-    courses, items = reader.readJson(coverageFile, cups, wellFoughtFlags, tourPath)
+    tourPath = os.path.join(workDir, "data", "pastTours", tourFile) if tourFile and tourFile != "current" else ""
+    tourPaths = []
+    for i in range(len(toursAndCups)):
+        path = os.path.join(workDir, "data", "pastTours", toursAndCups[i][0])
+        tourPaths.append([path, toursAndCups[i][1]])
+    courses, items = reader.readJson(coverageFile, wellFoughtFlags, tourPath, tourPaths)
     reader.readActions(courses)
     inventory = reader.readInventory(inventoryLines, items, simulatedItems)
     upgrades, rows, courseLoadouts, totalScores = util.optimize(inventory, courses, tickets, playerLevel)
@@ -86,8 +145,9 @@ class MyForm(FlaskForm):
     inventoryFile = FileField('Inventory file')
     inventoryText = TextAreaField('Inventory', render_kw={"rows": 5, "cols": 35})
     playerLevel = IntegerField('Player level')
+    mode = SelectField("Optimization mode: ", choices=[('ranked', 'Ranked'), ('acr', 'ACR')])
+    weeks = MultiCheckboxField("Ranked weeks to consider: ", choices=rankedWeeks)
     tour = SelectField("Tour to consider", choices=pastTours)
-    cups = SelectField('Cups to consider', choices=[('all', 'All'), ('rankedFirst', 'First week ranked'), ('rankedSecond', 'Second week ranked'), ('rankedBoth', 'Both ranked cups')])
     # Ticket counts
     lnd = IntegerField()
     lnk = IntegerField()
@@ -164,8 +224,18 @@ def results():
     form = MyForm()
     invFile = form.inventoryFile
     playerLevel = form.playerLevel.data
-    tourFile = form.tour.data
-    cups = stringToCups(form.cups.data)
+    tourFile = ""
+    toursAndCups = []
+    mode = form.mode
+    if mode.data == "acr":
+        tourFile = form.tour.data
+    else:
+        weekStrings = request.form.getlist("weeks")
+        for elem in weekStrings:
+            filename = elem[:-1]
+            cupNumber = 0 if elem[-1] == '1' else 2
+            toursAndCups.append([filename, cupNumber])
+
     tickets = base.TicketStash()
     tickets.lnd = form.lnd.data if form.lnd.data else 0
     tickets.lnk = form.lnk.data if form.lnk.data else 0
@@ -223,10 +293,10 @@ def results():
                 line = line.rstrip() + '\n'
                 f.write(line + '\n')
 
-    # upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups, wellFoughtFlags, simulatedItems)
+    # upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups)
     try:
         startTime = time.time()
-        upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, cups, wellFoughtFlags, simulatedItems, tourFile)
+        upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups)
         endTime = time.time()
         print("Runtime: {} seconds".format(endTime - startTime))
     except Exception as e:

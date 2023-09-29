@@ -23,8 +23,14 @@
         </fieldset>
         <br>
         {{ form.playerLevel.label }} {{ form.playerLevel(size=3, type="number", min="1", max="400") }} <br>
-        {{ form.tour.label(for="tour-selection") }} {{ form.tour(id="tour-selection") }} <br>
-        {{ form.cups.label }} {{ form.cups }} <br>
+        {{ form.mode.label(for="mode-selection") }} {{ form.mode(id="mode-selection") }} <br>
+        <div id="ranked-stuff">
+        {{ form.weeks.label }} {{ form.weeks }}
+        </div>
+        <div id="acr-stuff">
+        {{ form.tour.label(for="tour-selection") }} {{ form.tour(id="tour-selection") }}
+        </div>
+        <br>
         Level-up tickets:<br>
         {{ form.lnd(size=3, style="border-color:Silver;", type="number", min="0", max="999") }}
         {{ form.lnk(size=3, style="border-color:Silver;", type="number", min="0", max="999") }}
@@ -46,7 +52,7 @@
         {{ form.uhk(size=3, style="border-color:Fuchsia;", type="number", min="0", max="999") }}
         {{ form.uhg(size=3, style="border-color:Fuchsia;", type="number", min="0", max="999") }}<br><br>
             Battle course settings:<br>
-    <div class="table-responsive">
+    <div class="table-responsive" id="battle-table">
     <table>
         <tr>
             <td>Battle course #</td><td>1</td><td>2</td><td>3</td><td>4</td>
@@ -224,29 +230,39 @@
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Get references to the tour selection and inventory simulation section
+        const modeSelection = document.getElementById('mode-selection');
         const tourSelection = document.getElementById('tour-selection');
         const inventorySimulation = document.getElementById('inventory-simulation');
+        const rankedSelection = document.getElementById('ranked-stuff');
+        const acrSelection = document.getElementById('acr-stuff');
+        const battleTable = document.getElementById('battle-table')
 
         // Function to toggle the visibility and disabled state of the inventory simulation
         function toggleInventorySimulation() {
-            if (tourSelection.value === 'current') {
-                // If "current" is selected, show and enable the inventory simulation
+            if (modeSelection.value == 'acr' && tourSelection.value === 'current') {
                 inventorySimulation.style.display = 'block';
-                // Enable form elements (if they were disabled)
-                // Example: document.getElementById('inventory-text').disabled = false;
             } else {
-                // If any other option is selected, hide and disable the inventory simulation
                 inventorySimulation.style.display = 'none';
-                // Disable form elements
-                // Example: document.getElementById('inventory-text').disabled = true;
+            }
+
+            if (modeSelection.value == 'acr') {
+                acrSelection.style.display = 'block';
+                battleTable.style.display = 'block';
+                rankedSelection.style.display = 'none';
+            } else {
+                acrSelection.style.display = 'none';
+                battleTable.style.display = 'none';
+                rankedSelection.style.display = 'block';
             }
         }
 
         // Initial call to set the initial state based on the default selection
         toggleInventorySimulation();
 
-        // Add an event listener to the tour selection field
+        // Add an event listener to the mode and tour selection fields
+        modeSelection.addEventListener('change', toggleInventorySimulation);
         tourSelection.addEventListener('change', toggleInventorySimulation);
+        battleTable.addEventListener('change', toggleInventorySimulation);
     });
 </script>
 
