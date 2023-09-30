@@ -46,7 +46,7 @@ pastTours = [
 ]
 
 rankedWeeks = [
-    ("current", "Current"),
+    ("current", "Anniversary 2"),
     ("01-battle.json1", "Battle 1"),
     ("01-battle.json2", "Battle 2"),
     ("02-halloween.json1", "Halloween 1"),
@@ -299,7 +299,7 @@ def results():
                 line = line.rstrip() + '\n'
                 f.write(line + '\n')
 
-    upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups)
+    # upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups)
     try:
         startTime = time.time()
         upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups)
