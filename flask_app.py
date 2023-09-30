@@ -132,8 +132,14 @@ def optimize(workDir, inventoryLines, tickets, playerLevel, wellFoughtFlags, sim
     tourPath = os.path.join(workDir, "data", "pastTours", tourFile) if tourFile and tourFile != "current" else ""
     tourPaths = []
     for i in range(len(toursAndCups)):
-        path = os.path.join(workDir, "data", "pastTours", toursAndCups[i][0])
-        tourPaths.append([path, toursAndCups[i][1]])
+        tourFileName = toursAndCups[i][0]
+        cupNumber = toursAndCups[i][1]
+        if tourFileName == "curren":
+            path = os.path.join(workDir, "data", "alldata.json")
+            cupNumber = 2
+        else:
+            path = os.path.join(workDir, "data", "pastTours", tourFileName)
+        tourPaths.append([path, cupNumber])
     courses, items = reader.readJson(coverageFile, wellFoughtFlags, tourPath, tourPaths)
     reader.readActions(courses)
     inventory = reader.readInventory(inventoryLines, items, simulatedItems)
@@ -293,7 +299,7 @@ def results():
                 line = line.rstrip() + '\n'
                 f.write(line + '\n')
 
-    # upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups)
+    upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups)
     try:
         startTime = time.time()
         upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups)
