@@ -8,15 +8,17 @@
       <h2>Frequently Asked Questions</h2>
         <button class="collapsible">What does the Ticket Optimizer do?</button>
         <div class="content">
-      It calculates the optimal way of spending your tickets if your only goal is to maximize your estimate in the
-            <a href="https://docs.google.com/spreadsheets/d/1C2dR5pO1rcKlle62dPRb5MqCbbDDubKeT87A54N6w00/copy">DKR.exe scoresheet</a>.
+      The ACR mode calculates the optimal way of spending your tickets if your only goal is to maximize your estimate in the
+            <a href="https://docs.google.com/spreadsheets/d/1C2dR5pO1rcKlle62dPRb5MqCbbDDubKeT87A54N6w00/copy">DKR.exe scoresheet</a> of a given tour.
       It takes all relevant factors into account (cup boosts, Mii boosts, spotlight boosts).
       However, it doesn't know or care about tracks that are not in the tour, recency of DKG, etc. So you should definitely <b>not</b> use it for
-      planning long-term investments.
+      planning long-term investments.<br>
+
+      The ranked mode calculates the best way to spend your tickets if you only care about a given selection of ranked tracks.
         </div>
         <button class="collapsible">What input do I need?</button>
         <div class="content">
-      Besides filling the fields for player level and ticket amounts (empty ticket fields count as zeroes), you'll need a CSV file containing your inventory.
+      Besides filling the fields for player level and ticket amounts (empty ticket fields count as zeroes), you'll need a table containing your inventory.
       It should look like this:
 
         <div class="table-responsive">
@@ -67,17 +69,19 @@
         </tbody>
         </table>
         </div>
+          You can either copy it into the textbox or upload a CSV file with that content.
+          The recommended way (easiest and most precise) way of obtaining it is by using the <a href="https://www.mkttoolbox.com/wiki/User_Profile#Synchronization">sync</a>
+          and export ("Import Wizard"&rarr;"Bam/Gerbs/reichembach"&rarr;"Export") features of
+          the <a href="https://www.mkttoolbox.com">MKT Toolbox</a>.<br>
+      Alternative ways are:<br>
       <ul>
-      To generate the file:
-      <li>If you use any variant of the B&G trackers
+      <li>
+          If you use any variant of the B&G trackers
           (<a href="https://docs.google.com/spreadsheets/d/1OeF7CSjpMgJz3arb-Xh4_zxsvO6dtMWw-gSvDispIn8/copy">reichembach's</a>,
           <a href="https://docs.google.com/spreadsheets/d/18u6n39YcL_IEl_sRrCelg3px_hxVR9GbBZwkylO6VPQ/copy">Antilev's</a>,
           <a href="https://docs.google.com/spreadsheets/u/0/d/1rZtw2c4B0l30e7jwurNBDGBODqJFZe8wn19K4dkagjo/copy">Ben's</a>), go to the Export/Import tab and copy the 4 columns
       under <b>Output from Old Sheet</b> (not including the header row). Create a new tab in the same document, do a right click on the upper left cell,
       select "Paste special" and then "Values only". Finally, go to "File&rarr;"Download"&rarr;"Comma Separated Values (CSV)".</li>
-      <li>If you use the <a href="https://www.mkttoolbox.com">MKT Toolbox</a> and your inventory is up to date, go to "Import Wizard"&rarr;
-      "Bam/Gerbs/reichembach"&rarr;"Export". Copy the whole table that appears, paste it into a new spreadsheet and save it as CSV,
-      just as in the previous case.</li>
       <li>The <a href="https://tickettime.eu.pythonanywhere.com">Ticket Time</a> app uses exactly the same format.
       It provides a <a href="https://tickettime.eu.pythonanywhere.com/download">blank CSV file</a> that contains all
           items and where you only have to enter your levels.</li>
@@ -111,14 +115,6 @@
       </ol>
       If you find a combination of upgrades that gives you a better score than the tool, please let me know, so I can adjust it.
         </div>
-        <button class="collapsible">Are there more features upcoming?</button>
-        <div class="content">
-      Yes, for example:
-      <ol>
-          <li>If the runtime is not prohibitive, I will allow the option of running the tool also on tracks that aren't in the tour,
-          which should be a good indicator of how to spend tickets for long-term value.</li>
-      </ol>
-        </div>
         <button class="collapsible">What should I know about the runtime?</button>
         <div class="content">
       In general terms, the runtime increases both when the inventory is larger and when there are more tickets available. Something around 30s
@@ -145,14 +141,12 @@
         <button class="collapsible">The scores reported are different from those of the DKR.exe sheet</button>
         <div class="content">
             Differences of a few points are to be expected due to rounding errors. If you notice more significant discrepancies, please let me know.
+            Another common culprit is the Well-Fought settings for battles. The Ticket Optimizer assumes no Well-Fought by default, the DKR sheet has it on by default.
+            You can easily change the settings for that.
         </div>
         <button class="collapsible">Where to report bugs, offer feedback or ask questions?</button>
         <div class="content">
-      You can DM me on Discord (aturtledude#0589) or Reddit (u/aturtledude).
-        </div>
-        <button class="collapsible">How can I contribute?</button>
-        <div class="content">
-            If you have experience with front-end web development and would like to help me improve the UI, that would be highly appreciated!
+      You can DM me on Discord (aturtledude) or Reddit (u/aturtledude).
         </div>
       <br><br>
       <button onclick="goBack()">Go Back</button>
