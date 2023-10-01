@@ -233,6 +233,7 @@ def results():
     tourFile = ""
     toursAndCups = []
     mode = form.mode
+    weekStrings = []
     if mode.data == "acr":
         tourFile = form.tour.data
     else:
@@ -307,7 +308,10 @@ def results():
         print("Runtime: {} seconds".format(endTime - startTime))
     except Exception as e:
         return throwError(e.args[0])
-    return render_template('results.html', form=form, upgrades=upgrades, rows=rows, courses=courseLoadouts, scores=totalScores)
+    coursesList = [(i, course, data) for i, (course, data) in enumerate(courseLoadouts.items())]
+    weekLabels = dict(rankedWeeks)
+    selectedLabels = [weekLabels[key] for key in weekStrings]
+    return render_template('results.html', form=form, upgrades=upgrades, rows=rows, courses=coursesList, scores=totalScores, weeks=selectedLabels)
 
 if __name__ == "__main__":
    app.run(debug=True)

@@ -66,32 +66,36 @@
                 <th>Score</th>
                 <th>Improvement</th>
             </tr>
-        {% for c in courses %}
+            {% for i, c, data in courses %}
+            {% if weeks and i % 3 == 0 %}
+                <tr><th align="left" colspan="12" bgcolor="#FFB6C1">{{ weeks[i//3] }}</th></tr>
+            {% endif %}
             <tr><td align="left" bgcolor="#a4e2ff">{{c.englishName}}</td></tr>
             <tr>
                 <td align="left">Before</td>
-            {% for element in courses[c][0] %}
+            {% for element in data[0] %}
             <td align="left">{{element}}</td>
             {% endfor %}
             </tr>
             <tr>
                 <td align="left">After</td>
-            {% for i in range(courses[c][1]|length - 1) %}
-                {% if i in range(3) and (courses[c][1][0:3] != courses[c][0][0:3]) %}
-                    <td align="left" bgcolor="#ffdea8">{{courses[c][1][i]}}</td>
-                {% elif i in range(3,6) and (courses[c][1][3:6] != courses[c][0][3:6]) %}
-                    <td align="left" bgcolor="#fff1d9">{{courses[c][1][i]}}</td>
-                {% elif i in range(6,9) and (courses[c][1][6:9] != courses[c][0][6:9]) %}
-                    <td align="left" bgcolor="#ffdea8">{{courses[c][1][i]}}</td>
+            {% for i in range(data[1]|length - 1) %}
+                {% if i in range(3) and (data[1][0:3] != data[0][0:3]) %}
+                    <td align="left" bgcolor="#ffdea8">{{data[1][i]}}</td>
+                {% elif i in range(3,6) and (data[1][3:6] != data[0][3:6]) %}
+                    <td align="left" bgcolor="#fff1d9">{{data[1][i]}}</td>
+                {% elif i in range(6,9) and (data[1][6:9] != data[0][6:9]) %}
+                    <td align="left" bgcolor="#ffdea8">{{data[1][i]}}</td>
                 {% else %}
-                    <td align="left">{{courses[c][1][i]}}</td>
+                    <td align="left">{{data[1][i]}}</td>
                 {% endif %}
             {% endfor %}
-                <td align="left" bgcolor="#9aff79">{{courses[c][1][-1]}}</td>
+                <td align="left" bgcolor="#9aff79">{{data[1][-1]}}</td>
             </tr>
         {% endfor %}
         </table>
         </div>
+
         </div>
       {% endif %}
     {% if rows %}
