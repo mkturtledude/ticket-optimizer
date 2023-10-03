@@ -25,6 +25,11 @@
         {{ form.playerLevel.label }} {{ form.playerLevel(size=3, type="number", min="1", max="400") }} <br>
         {{ form.mode.label(for="mode-selection") }} {{ form.mode(id="mode-selection") }} <br>
         <div id="ranked-stuff">
+
+        <br>
+        <label>
+            <input type="checkbox" id="selectAllWeeks"> Select All
+        </label> <br>
         {{ form.weeks.label }} {{ form.weeks }}
         </div>
         <div id="acr-stuff">
@@ -206,7 +211,8 @@
             { id: 'goldPass', selectAllId: 'selectAllGoldPass' },
             { id: 'paywalled', selectAllId: 'selectAllPaywalled' },
             { id: 'miiShop', selectAllId: 'selectAllMiiShop' },
-            { id: 'other', selectAllId: 'selectAllOther' }
+            { id: 'other', selectAllId: 'selectAllOther' },
+            { id: 'weeks', selectAllId: 'selectAllWeeks'}
         ];
 
         lists.forEach(function(list) {
