@@ -139,7 +139,9 @@ def optimize(workDir, inventoryLines, tickets, playerLevel, wellFoughtFlags, sim
             path = os.path.join(workDir, "data", "pastTours", tourFileName)
         tourPaths.append([path, cupNumber])
     courses, items = reader.readJson(coverageFile, wellFoughtFlags, tourPath, tourPaths)
-    reader.readActions(courses)
+    # if tourFile in {"current", "02-halloween.json", }
+    considerPumpkins = False
+    reader.readActions(courses, considerPumpkins)
     inventory = reader.readInventory(inventoryLines, items, simulatedItems)
     upgrades, rows, courseLoadouts, totalScores = util.optimize(inventory, courses, tickets, playerLevel)
 

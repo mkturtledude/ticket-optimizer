@@ -226,7 +226,7 @@ def readJson(file, wellFoughtFlags, tour, rankedTours):
     fillCourseNames(courses,data, wellFoughtFlags)
     return courses, allItems
 
-def readActions(courses):
+def readActions(courses, considerPumpkins):
     # Google Sheet owned by myself, which copies the data from DKR's master sheet
     url = f'https://docs.google.com/spreadsheets/d/19xo0WBLORLU8Xz_W2J7H3KnLAjE3__ejVG32xD2Pk0M/gviz/tq?tqx=out:csv&sheet=Sheet1'
     # fetch the data from the sheet
@@ -261,7 +261,8 @@ def readActions(courses):
                 except:
                     raise Exception("Action counts for " + course.englishName + " are incomplete")
 
-                course.courseActions.lanterns = int(row["Pumpkins/Eggs"]) if row["Pumpkins/Eggs"] else 0
+                if considerPumpkins:
+                    course.courseActions.lanterns = int(row["Pumpkins/Eggs"]) if row["Pumpkins/Eggs"] else 0
                 course.courseActions.goldMario = int(row["Gold Mario"]) if row["Gold Mario"] else 0
                 course.courseActions.gmCoins = int(row["GM Coins"]) if row["GM Coins"] else 0
 
