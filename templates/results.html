@@ -79,18 +79,18 @@
             </tr>
             <tr>
                 <td align="left">After</td>
-            {% for i in range(data[1]|length - 1) %}
-                {% if i in range(3) and (data[1][0:3] != data[0][0:3]) %}
-                    <td align="left" bgcolor="#ffdea8">{{data[1][i]}}</td>
-                {% elif i in range(3,6) and (data[1][3:6] != data[0][3:6]) %}
-                    <td align="left" bgcolor="#fff1d9">{{data[1][i]}}</td>
-                {% elif i in range(6,9) and (data[1][6:9] != data[0][6:9]) %}
-                    <td align="left" bgcolor="#ffdea8">{{data[1][i]}}</td>
+            {% for i in range(data[-1]|length - 1) %}
+                {% if i in range(3) and (data[-1][0:3] != data[0][0:3]) %}
+                    <td align="left" bgcolor="#ffdea8">{{data[-1][i]}}</td>
+                {% elif i in range(3,6) and (data[-1][3:6] != data[0][3:6]) %}
+                    <td align="left" bgcolor="#fff1d9">{{data[-1][i]}}</td>
+                {% elif i in range(6,9) and (data[-1][6:9] != data[0][6:9]) %}
+                    <td align="left" bgcolor="#ffdea8">{{data[-1][i]}}</td>
                 {% else %}
-                    <td align="left">{{data[1][i]}}</td>
+                    <td align="left">{{data[-1][i]}}</td>
                 {% endif %}
             {% endfor %}
-                <td align="left" bgcolor="#9aff79">{{data[1][-1]}}</td>
+                <td align="left" bgcolor="#9aff79">{{data[-1][-1]}}</td>
             </tr>
         {% endfor %}
         </table>

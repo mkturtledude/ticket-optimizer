@@ -258,10 +258,10 @@ def readActions(courses):
                     course.courseActions.glideTime = int(row["Glide Time"])
                     course.courseActions.courseCoins = int(row["Coins (Course)"])
                     course.courseActions.itemCoins = int(row["Coins (Items)"])
-                    # course.courseActions.lanterns = int(row["Pumpkins"]) if row["Pumpkins"] else 0
                 except:
                     raise Exception("Action counts for " + course.englishName + " are incomplete")
 
+                course.courseActions.lanterns = int(row["Pumpkins/Eggs"]) if row["Pumpkins/Eggs"] else 0
                 course.courseActions.goldMario = int(row["Gold Mario"]) if row["Gold Mario"] else 0
                 course.courseActions.gmCoins = int(row["GM Coins"]) if row["GM Coins"] else 0
 

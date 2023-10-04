@@ -16,8 +16,7 @@ from wtforms import IntegerField, FileField, SelectField, TextAreaField, Boolean
 import base, util, reader
 
 pastTours = [
-    ("current", "Current"),
-    ("01-battle.json", "Battle"),
+    ("current", "Battle"),
     ("02-halloween.json", "Halloween"),
     ("03-autumn.json", "Autumn"),
     ("04-animal.json", "Animal"),
@@ -46,7 +45,6 @@ pastTours = [
 ]
 
 rankedWeeks = [
-    ("current", "Anniversary 2"),
     ("01-battle.json1", "Battle 1"),
     ("01-battle.json2", "Battle 2"),
     ("02-halloween.json1", "Halloween 1"),

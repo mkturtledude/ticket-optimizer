@@ -214,6 +214,9 @@ def totalActions(course, driver):
 
     if driver.englishName == "Gold Mario":
         result += course.courseActions.gmCoins
+
+    # TODO: Comment out when there aren't lanterns/eggs/pumpkins, etc
+    result += course.courseActions.lanterns
     return result
 
 def getShelf(course, item):
