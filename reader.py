@@ -226,7 +226,7 @@ def readJson(file, wellFoughtFlags, tour, rankedTours):
     fillCourseNames(courses,data, wellFoughtFlags)
     return courses, allItems
 
-def readActions(courses, considerPumpkins):
+def readActions(courses, considerPumpkins, boomerangHandicap):
     # Google Sheet owned by myself, which copies the data from DKR's master sheet
     url = f'https://docs.google.com/spreadsheets/d/19xo0WBLORLU8Xz_W2J7H3KnLAjE3__ejVG32xD2Pk0M/gviz/tq?tqx=out:csv&sheet=Sheet1'
     # fetch the data from the sheet
@@ -260,6 +260,14 @@ def readActions(courses, considerPumpkins):
                     course.courseActions.itemCoins = int(row["Coins (Items)"])
                 except:
                     raise Exception("Action counts for " + course.englishName + " are incomplete")
+
+                if boomerangHandicap < 100:
+                    course.courseActions.boomerangFlower = int(course.courseActions.boomerangFlower * (boomerangHandicap / 100.0))
+                    print("Set boomerang actions for {} to {}.".format(name, str(course.courseActions.boomerangFlower)))
+                    if course.courseActions.boomerangFlower < course.courseActions.normal:
+                        course.courseActions.boomerangFlower = course.courseActions.normal
+                        print("\tReduced to {}".format(course.courseActions.boomerangFlower))
+
 
                 if considerPumpkins:
                     course.courseActions.lanterns = int(row["Pumpkins/Eggs"]) if row["Pumpkins/Eggs"] else 0

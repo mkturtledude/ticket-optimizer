@@ -125,7 +125,7 @@ def stringToCups(cupsString):
     else:
         return range(15)
 
-def optimize(workDir, inventoryLines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups):
+def optimize(workDir, inventoryLines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups, boomerangHandicap):
     coverageFile = os.path.join(workDir, "data", "alldata.json")
     tourPath = os.path.join(workDir, "data", "pastTours", tourFile) if tourFile and tourFile != "current" else ""
     tourPaths = []
@@ -141,7 +141,7 @@ def optimize(workDir, inventoryLines, tickets, playerLevel, wellFoughtFlags, sim
     courses, items = reader.readJson(coverageFile, wellFoughtFlags, tourPath, tourPaths)
     # if tourFile in {"current", "02-halloween.json", }
     considerPumpkins = False
-    reader.readActions(courses, considerPumpkins)
+    reader.readActions(courses, considerPumpkins, boomerangHandicap)
     inventory = reader.readInventory(inventoryLines, items, simulatedItems)
     upgrades, rows, courseLoadouts, totalScores = util.optimize(inventory, courses, tickets, playerLevel)
 
@@ -186,6 +186,7 @@ class MyForm(FlaskForm):
     paywalled = MultiCheckboxField('Paywalled (Commemorative, Gold Challenges)')
     miiShop = MultiCheckboxField('Mii Shop')
     other = MultiCheckboxField('Other (Ranked, Challenge Cards, Token Shop, etc.)')
+    boomerangHandicap = IntegerField('Boomerang handicap (default 100)')
 
 
 
@@ -300,10 +301,14 @@ def results():
                 line = line.rstrip() + '\n'
                 f.write(line + '\n')
 
+    boomerangHandicap = form.boomerangHandicap.data
+    if not boomerangHandicap or not str(boomerangHandicap).isdigit() or int(boomerangHandicap) < 1 or int(boomerangHandicap) > 100:
+        boomerangHandicap = 100
+
     # upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups)
     try:
         startTime = time.time()
-        upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups)
+        upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups, boomerangHandicap)
         endTime = time.time()
         print("Runtime: {} seconds".format(endTime - startTime))
     except Exception as e:
