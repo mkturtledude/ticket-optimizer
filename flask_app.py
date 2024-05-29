@@ -16,8 +16,7 @@ from wtforms import IntegerField, FileField, SelectField, TextAreaField, Boolean
 import base, util, reader
 
 pastTours = [
-    ("current", "Mii"),
-    ("18-princess.json", "Princess"),
+    ("current", "Princess"),
     ("19-mario-vs-luigi.json", "Mario vs. Luigi"),
     ("20-night.json", "Night"),
     ("21-pipe.json", "Pipe"),
@@ -42,11 +41,10 @@ pastTours = [
     ("14-yoshi.json", "Yoshi"),
     ("15-spring.json", "Spring"),
     ("16-bowser.json", "Bowser"),
+    ("17-mii.json", "Mii"),
 ]
 
 rankedWeeks = [
-    ("17-mii.json1", "Mii 1"),
-    ("17-mii.json2", "Mii 2"),
     ("18-princess.json1", "Princess 1"),
     ("18-princess.json2", "Princess 2"),
     ("19-mario-vs-luigi.json1", "Mario vs. Luigi 1"),
@@ -97,6 +95,8 @@ rankedWeeks = [
     ("15-spring.json2", "Spring 2"),
     ("16-bowser.json1", "Bowser 1"),
     ("16-bowser.json2", "Bowser 2"),
+    ("17-mii.json1", "Mii 1"),
+    ("17-mii.json2", "Mii 2"),
 ]
 
 class MultiCheckboxField(SelectMultipleField):
