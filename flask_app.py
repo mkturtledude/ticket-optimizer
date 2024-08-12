@@ -39,7 +39,7 @@ pastTours = [
     ("17-mii.json", "Mii"),
     ("18-princess.json", "Princess"),
     ("19-mario-vs-luigi.json", "Mario vs. Luigi"),
-    ("20-night", "Night"),
+    ("20-night.json", "Night"),
     ("21-pipe.json", "Pipe"),
     ("22-sunshine.json", "Sunshine"),
 ]
