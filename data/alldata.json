@@ -1,173 +1,173 @@
 {
     "tour": {
-        "Id": 139,
-        "Key": "season_113",
-        "OpenedAt": "8/7/2024 6:00:00 AM",
-        "ClosedAt": "8/21/2024 5:59:59 AM",
+        "Id": 140,
+        "Key": "season_114",
+        "OpenedAt": "8/21/2024 6:00:00 AM",
+        "ClosedAt": "9/4/2024 5:59:59 AM",
         "Cups": [
             {
                 "SortId": 0,
-                "Key": "season_cup_011",
+                "Key": "season_cup_043",
                 "IsRankingTarget": true,
                 "Drivers": [
                     {
-                        "Id": 22,
-                        "Key": "item00022",
-                        "Name": "Rosetta"
+                        "Id": 54,
+                        "Key": "item00054",
+                        "Name": "RosettaFire"
                     }
                 ],
                 "Courses": [
                     {
                         "SortId": 0,
-                        "Key": "New_Gmob_Bathroom",
+                        "Key": "New_Gmob_Madrid1",
                         "BannedScore": 100000,
-                        "RankingNormalizeScore": 42000,
+                        "RankingNormalizeScore": 36100,
                         "Driver": {
-                            "Id": 155,
-                            "Key": "item00155",
-                            "Name": "RosettaSwimwear"
+                            "Id": 48,
+                            "Key": "item00048",
+                            "Name": "MarioSuit"
                         },
                         "ScoreRewards": [
-                            1700,
-                            2500,
-                            2900,
-                            3400,
-                            3800
+                            1000,
+                            1600,
+                            1800,
+                            2100,
+                            2300
                         ],
                         "Icons": {
-                            "BG": "Gmob_Bathroom_BG",
-                            "Main": "Gmob_Bathroom_main_RosettaSwimwear00",
-                            "Sub": "Gmob_Bathroom_sub"
+                            "BG": "Gmob_Madrid1_BG",
+                            "Main": "Gmob_Madrid1_main_MarioSuit00",
+                            "Sub": "Gmob_Madrid1_sub"
                         }
                     },
                     {
                         "SortId": 1,
-                        "Key": "New_Gmob_Paris1RX",
+                        "Key": "Classic_Gwii_MoonviewHighwayX",
                         "BannedScore": 100000,
-                        "RankingNormalizeScore": 38900,
+                        "RankingNormalizeScore": 46100,
                         "Driver": {
-                            "Id": 46,
-                            "Key": "item00046",
-                            "Name": "PeachSummer"
+                            "Id": 124,
+                            "Key": "item00124",
+                            "Name": "KinopicoSailor"
                         },
                         "ScoreRewards": [
-                            800,
                             1200,
-                            1400,
-                            1600,
-                            1800
+                            1800,
+                            2100,
+                            2400,
+                            2700
                         ],
                         "Icons": {
-                            "BG": "Gmob_Paris1_BG",
-                            "Main": "Gmob_Paris1RX_main_PeachSummer00",
-                            "Sub": "Gmob_Paris1RX_sub"
+                            "BG": "Gwii_MoonviewHighway_BG",
+                            "Main": "Gwii_MoonviewHighwayX_main_KinopicoSailor00",
+                            "Sub": "Gwii_MoonviewHighwayX_sub"
                         }
                     },
                     {
                         "SortId": 2,
-                        "Key": "New_Gmob_Athens2RX",
+                        "Key": "New_Gmob_LosAngeles3",
                         "BannedScore": 100000,
-                        "RankingNormalizeScore": 42000,
+                        "RankingNormalizeScore": 35800,
                         "Driver": {
-                            "Id": 207,
-                            "Key": "item00207",
-                            "Name": "Pochi"
+                            "Id": 125,
+                            "Key": "item00125",
+                            "Name": "MarioBatter"
                         },
                         "ScoreRewards": [
+                            1000,
+                            1400,
                             1700,
-                            2600,
-                            3000,
-                            3400,
-                            3900
+                            1900,
+                            2200
                         ],
                         "Icons": {
-                            "BG": "Gmob_Athens2_BG",
-                            "Main": "Gmob_Athens2RX_main_Pochi00",
-                            "Sub": "Gmob_Athens2RX_sub"
+                            "BG": "Gmob_LosAngeles3_BG",
+                            "Main": "Gmob_LosAngeles3_main_MarioBatter00",
+                            "Sub": "Gmob_LosAngeles3_sub"
                         }
                     }
                 ],
                 "BonusCourse": {
-                    "EventId": 2245,
-                    "MessageTitleLabel": "event-2245",
-                    "MessageDetailLabel": "event-2245-detail",
+                    "EventId": 2253,
+                    "MessageTitleLabel": "event-2253",
+                    "MessageDetailLabel": "event-2253-detail",
                     "Rule": "TimeAttack",
-                    "CourseName": "New_Gmob_Bathroom",
+                    "CourseName": "New_Gmob_OceanRuins3",
                     "IsMirror": false,
                     "IsTeamMode": false,
                     "LapNum": 2,
                     "CC": 150,
                     "KartConfigs": [
                         {
-                            "DriverKey": 67,
+                            "DriverKey": 1,
                             "MachineKey": 70048,
                             "WingKey": 30001
                         }
                     ],
                     "Criteria": [
-                        102,
-                        110,
+                        95,
+                        105,
                         115
                     ],
                     "Translations": {
                         "CNzh": {
-                            "event-2245": "计时赛",
-                            "event-2245-detail": "争取创造最佳时间！"
+                            "event-2253": "计时赛",
+                            "event-2253-detail": "争取创造最佳时间！"
                         },
                         "EUde": {
-                            "event-2245": "Zeitfahren",
-                            "event-2245-detail": "Hol dir die Bestzeit!"
+                            "event-2253": "Zeitfahren",
+                            "event-2253-detail": "Hol dir die Bestzeit!"
                         },
                         "EUes": {
-                            "event-2245": "Contrarreloj",
-                            "event-2245-detail": "¡Intenta lograr tu mejor marca!"
+                            "event-2253": "Contrarreloj",
+                            "event-2253-detail": "¡Intenta lograr tu mejor marca!"
                         },
                         "EUfr": {
-                            "event-2245": "Contre-la-montre",
-                            "event-2245-detail": "Pulvérisez votre record !"
+                            "event-2253": "Contre-la-montre",
+                            "event-2253-detail": "Pulvérisez votre record !"
                         },
                         "EUit": {
-                            "event-2245": "Prove a tempo",
-                            "event-2245-detail": "Punta al tempo migliore!"
+                            "event-2253": "Prove a tempo",
+                            "event-2253-detail": "Punta al tempo migliore!"
                         },
                         "JPja": {
-                            "event-2245": "タイムアタック",
-                            "event-2245-detail": "ベストタイムをめざそう！"
+                            "event-2253": "タイムアタック",
+                            "event-2253-detail": "ベストタイムをめざそう！"
                         },
                         "KRko": {
-                            "event-2245": "타임 어택",
-                            "event-2245-detail": "베스트 타임을 노리자!"
+                            "event-2253": "타임 어택",
+                            "event-2253-detail": "베스트 타임을 노리자!"
                         },
                         "TWzh": {
-                            "event-2245": "計時賽",
-                            "event-2245-detail": "爭取創造最佳時間吧！"
+                            "event-2253": "計時賽",
+                            "event-2253-detail": "爭取創造最佳時間吧！"
                         },
                         "USen": {
-                            "event-2245": "Time Trial",
-                            "event-2245-detail": "Go for your best time!"
+                            "event-2253": "Time Trial",
+                            "event-2253-detail": "Go for your best time!"
                         },
                         "USes": {
-                            "event-2245": "Contrarreloj",
-                            "event-2245-detail": "¡Intenta lograr tu mejor marca!"
+                            "event-2253": "Contrarreloj",
+                            "event-2253-detail": "¡Intenta lograr tu mejor marca!"
                         },
                         "USpt": {
-                            "event-2245": "Contrarrelógio",
-                            "event-2245-detail": "Tente melhorar seu tempo!"
+                            "event-2253": "Contrarrelógio",
+                            "event-2253-detail": "Tente melhorar seu tempo!"
                         }
                     }
                 },
                 "Translations": {
-                    "CNzh": "罗莎塔杯",
-                    "EUde": "Rosalina-Cup",
-                    "EUes": "Copa Estela",
-                    "EUfr": "Coupe Harmonie",
-                    "EUit": "Trofeo Rosalinda",
-                    "JPja": "ロゼッタカップ",
-                    "KRko": "로젤리나 컵",
-                    "TWzh": "羅潔塔盃",
-                    "USen": "Rosalina Cup",
-                    "USes": "Copa Rosalina",
-                    "USpt": "Copa Rosalina"
+                    "CNzh": "火焰罗莎塔杯",
+                    "EUde": "Feuer-Rosalina-Cup",
+                    "EUes": "Copa Estela de Fuego",
+                    "EUfr": "Coupe Harmonie de feu",
+                    "EUit": "Trofeo Rosalinda fuoco",
+                    "JPja": "ファイアロゼッタカップ",
+                    "KRko": "파이어로젤리나 컵",
+                    "TWzh": "火焰羅潔塔盃",
+                    "USen": "Fire Rosalina Cup",
+                    "USes": "Copa Rosalina de Fuego",
+                    "USpt": "Copa Rosalina de fogo"
                 }
             },
             {
@@ -504,36 +504,13 @@
                 "Courses": [
                     {
                         "SortId": 0,
-                        "Key": "Classic_Ggc_BabyPark",
+                        "Key": "New_Gmob_Paris3X",
                         "BannedScore": 100000,
                         "RankingNormalizeScore": 10000,
                         "Driver": {
-                            "Id": 254,
-                            "Key": "item00254",
-                            "Name": "MiiDaisy"
-                        },
-                        "ScoreRewards": [
-                            1600,
-                            2500,
-                            2900,
-                            3400,
-                            4000
-                        ],
-                        "Icons": {
-                            "BG": "Ggc_BabyPark_BG",
-                            "Main": "Ggc_BabyPark_main_MiiDaisy00",
-                            "Sub": "Ggc_BabyPark_sub"
-                        }
-                    },
-                    {
-                        "SortId": 1,
-                        "Key": "Classic_Ggc_MushroomBridgeX",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 147,
-                            "Key": "item00147",
-                            "Name": "DaisySailor"
+                            "Id": 272,
+                            "Key": "item00272",
+                            "Name": "Mii_Orange"
                         },
                         "ScoreRewards": [
                             1400,
@@ -543,101 +520,124 @@
                             3400
                         ],
                         "Icons": {
-                            "BG": "Ggc_MushroomBridge_BG",
-                            "Main": "Ggc_MushroomBridgeX_main_DaisySailor00",
-                            "Sub": "Ggc_MushroomBridgeX_sub"
+                            "BG": "Gmob_Paris3_BG",
+                            "Main": "Gmob_Paris3X_main_Mii_Orange00",
+                            "Sub": "Gmob_Paris3X_sub"
+                        }
+                    },
+                    {
+                        "SortId": 1,
+                        "Key": "New_Gmob_Tokyo1R",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 180,
+                            "Key": "item00180",
+                            "Name": "PeachYukata"
+                        },
+                        "ScoreRewards": [
+                            800,
+                            1300,
+                            1500,
+                            1700,
+                            2100
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_Tokyo1_BG",
+                            "Main": "Gmob_Tokyo1R_main_PeachYukata00",
+                            "Sub": "Gmob_Tokyo1R_sub"
                         }
                     },
                     {
                         "SortId": 2,
-                        "Key": "New_Gmob_Paris1",
+                        "Key": "New_Gmob_OceanRuins3",
                         "BannedScore": 100000,
                         "RankingNormalizeScore": 10000,
                         "Driver": {
-                            "Id": 28,
-                            "Key": "item00028",
-                            "Name": "CatPeach"
+                            "Id": 276,
+                            "Key": "item00276",
+                            "Name": "MiiMorton"
                         },
                         "ScoreRewards": [
-                            1000,
-                            1500,
-                            1800,
-                            2000,
-                            2400
+                            1200,
+                            1900,
+                            2200,
+                            2600,
+                            3000
                         ],
                         "Icons": {
-                            "BG": "Gmob_Paris1_BG",
-                            "Main": "Gmob_Paris1_main_CatPeach00",
-                            "Sub": "Gmob_Paris1_sub"
+                            "BG": "Gmob_OceanRuins3_BG",
+                            "Main": "Gmob_OceanRuins3_main_MiiMorton00",
+                            "Sub": "Gmob_OceanRuins3_sub"
                         }
                     }
                 ],
                 "BonusCourse": {
-                    "EventId": 2009,
-                    "MessageTitleLabel": "event-2009",
-                    "MessageDetailLabel": "event-2009-detail",
-                    "Rule": "CountJumpAction",
-                    "CourseName": "New_Gmob_Bangkok1",
+                    "EventId": 2121,
+                    "MessageTitleLabel": "event-2121",
+                    "MessageDetailLabel": "event-2121-detail",
+                    "Rule": "GatePass",
+                    "CourseName": "New_Gmob_Madrid1",
                     "IsMirror": false,
                     "IsTeamMode": false,
                     "LapNum": 1,
                     "CC": 50,
                     "KartConfigs": [
                         {
-                            "DriverKey": 30,
+                            "DriverKey": 32,
                             "MachineKey": 70048,
                             "WingKey": 30001
                         }
                     ],
                     "Criteria": [
-                        22,
-                        15,
-                        10
+                        40,
+                        35,
+                        30
                     ],
                     "Translations": {
                         "CNzh": {
-                            "event-2009": "完成跳跃动作",
-                            "event-2009-detail": "做出跳跃动作吧！"
+                            "event-2121": "通过圆环",
+                            "event-2121-detail": "穿过圆环吧！"
                         },
                         "EUde": {
-                            "event-2009": "Sprungturbo-Springen",
-                            "event-2009-detail": "Springturbos!"
+                            "event-2121": "Tore-Tingelei",
+                            "event-2121-detail": "Durchfahre Tore!"
                         },
                         "EUes": {
-                            "event-2009": "Saltos acelerados",
-                            "event-2009-detail": "¡Haz saltos con acelerón!"
+                            "event-2121": "Ruta de aros",
+                            "event-2121-detail": "¡Atraviesa aros!"
                         },
                         "EUfr": {
-                            "event-2009": "Course acrobatique",
-                            "event-2009-detail": "Course acrobatique"
+                            "event-2121": "Anneaux à gogo",
+                            "event-2121-detail": "Traversez des anneaux !"
                         },
                         "EUit": {
-                            "event-2009": "Salti turbo",
-                            "event-2009-detail": "Fai dei salti turbo."
+                            "event-2121": "Corsa ad anelli",
+                            "event-2121-detail": "Attraversa anelli."
                         },
                         "JPja": {
-                            "event-2009": "きめろジャンプアクション",
-                            "event-2009-detail": "ジャンプアクションを きめよう！"
+                            "event-2121": "くぐってリング",
+                            "event-2121-detail": "リングをくぐろう！"
                         },
                         "KRko": {
-                            "event-2009": "펼쳐라, 점프 액션",
-                            "event-2009-detail": "점프 액션을 성공시켜 보자!"
+                            "event-2121": "통과해라, 링",
+                            "event-2121-detail": "링을 통과하자!"
                         },
                         "TWzh": {
-                            "event-2009": "完成跳躍動作",
-                            "event-2009-detail": "做出跳躍動作！"
+                            "event-2121": "通過圓環",
+                            "event-2121-detail": "通過圓環！"
                         },
                         "USen": {
-                            "event-2009": "Do Jump Boosts",
-                            "event-2009-detail": "Do Jump Boosts!"
+                            "event-2121": "Ring Race",
+                            "event-2121-detail": "Pass through rings!"
                         },
                         "USes": {
-                            "event-2009": "Saltos acelerados",
-                            "event-2009-detail": "¡Haz saltos con acelerón!"
+                            "event-2121": "Ruta de aros",
+                            "event-2121-detail": "¡Atraviesa los aros!"
                         },
                         "USpt": {
-                            "event-2009": "Saltos impulsionados",
-                            "event-2009-detail": "Dê saltos impulsionados!"
+                            "event-2121": "Rota dos anéis",
+                            "event-2121-detail": "Atravesse anéis!"
                         }
                     }
                 },
@@ -657,213 +657,213 @@
             },
             {
                 "SortId": 2,
-                "Key": "season_cup_008",
+                "Key": "season_cup_028",
                 "IsRankingTarget": false,
                 "Drivers": [
                     {
-                        "Id": 11,
-                        "Key": "item00011",
-                        "Name": "Daisy"
+                        "Id": 16,
+                        "Key": "item00016",
+                        "Name": "Kinopico"
                     }
                 ],
                 "Courses": [
                     {
                         "SortId": 0,
-                        "Key": "New_Gmob_Bangkok2RX",
+                        "Key": "New_Gmob_Berlin1R",
                         "BannedScore": 100000,
-                        "RankingNormalizeScore": 43200,
+                        "RankingNormalizeScore": 34200,
                         "Driver": {
-                            "Id": 256,
-                            "Key": "item00256",
-                            "Name": "KinopioAthens"
+                            "Id": 84,
+                            "Key": "item00084",
+                            "Name": "Bull"
                         },
                         "ScoreRewards": [
-                            1500,
-                            2500,
-                            2800,
-                            3300,
-                            4100
+                            1100,
+                            1800,
+                            2100,
+                            2400,
+                            3000
                         ],
                         "Icons": {
-                            "BG": "Gmob_Bangkok2_BG",
-                            "Main": "Gmob_Bangkok2RX_main_KinopioAthens00",
-                            "Sub": "Gmob_Bangkok2RX_sub"
+                            "BG": "Gmob_Berlin1_BG",
+                            "Main": "Gmob_Berlin1R_main_Bull00",
+                            "Sub": "Gmob_Berlin1R_sub"
                         }
                     },
                     {
                         "SortId": 1,
-                        "Key": "Classic_Gagb_PeachCircuitRX",
+                        "Key": "Battle_Bmob_Paris1",
                         "BannedScore": 100000,
-                        "RankingNormalizeScore": 36200,
+                        "RankingNormalizeScore": 40000,
                         "Driver": {
-                            "Id": 133,
-                            "Key": "item00133",
-                            "Name": "LuigiDoctor"
+                            "Id": 42,
+                            "Key": "item00042",
+                            "Name": "PeachExplorer"
                         },
                         "ScoreRewards": [
-                            1200,
-                            1900,
-                            2100,
+                            1600,
                             2500,
-                            3100
+                            2900,
+                            3400,
+                            4100
                         ],
                         "Icons": {
-                            "BG": "Gagb_PeachCircuit_BG",
-                            "Main": "Gagb_PeachCircuitRX_main_LuigiDoctor00",
-                            "Sub": "Gagb_PeachCircuitRX_sub"
+                            "BG": "Bmob_Paris1_BG",
+                            "Main": "Bmob_Paris1_main_PeachExplorer00",
+                            "Sub": "Bmob_Paris1_sub"
                         }
                     },
                     {
                         "SortId": 2,
-                        "Key": "New_Gmob_BathroomR",
+                        "Key": "New_Gmob_Madrid2",
                         "BannedScore": 100000,
-                        "RankingNormalizeScore": 42900,
+                        "RankingNormalizeScore": 40300,
                         "Driver": {
-                            "Id": 151,
-                            "Key": "item00151",
-                            "Name": "DaisySwimwear"
+                            "Id": 219,
+                            "Key": "item00219",
+                            "Name": "LuigiGolf"
                         },
                         "ScoreRewards": [
-                            2100,
-                            3300,
-                            3800,
-                            4400,
-                            5400
+                            1600,
+                            2600,
+                            3000,
+                            3500,
+                            4300
                         ],
                         "Icons": {
-                            "BG": "Gmob_Bathroom_BG",
-                            "Main": "Gmob_BathroomR_main_DaisySwimwear00",
-                            "Sub": "Gmob_BathroomR_sub"
+                            "BG": "Gmob_Madrid2_BG",
+                            "Main": "Gmob_Madrid2_main_LuigiGolf00",
+                            "Sub": "Gmob_Madrid2_sub"
                         }
                     }
                 ],
                 "BonusCourse": {
-                    "EventId": 1093,
-                    "MessageTitleLabel": "event-1093",
-                    "MessageDetailLabel": "event-1093-detail",
+                    "EventId": 1361,
+                    "MessageTitleLabel": "event-1361",
+                    "MessageDetailLabel": "event-1361-detail",
                     "Rule": "ItemBoxChase",
-                    "CourseName": "New_Gmob_Paris2",
+                    "CourseName": "New_Gmob_LosAngeles3",
                     "IsMirror": false,
                     "IsTeamMode": false,
                     "LapNum": 1,
                     "CC": 50,
                     "KartConfigs": [
                         {
-                            "DriverKey": 7,
+                            "DriverKey": 9,
                             "MachineKey": 70048,
                             "WingKey": 30001
                         }
                     ],
                     "Criteria": [
-                        24,
-                        18,
+                        20,
+                        15,
                         10
                     ],
                     "Translations": {
                         "CNzh": {
-                            "event-1093": "破坏道具箱",
-                            "event-1093-detail": "破坏道具箱吧！"
+                            "event-1361": "破坏道具箱",
+                            "event-1361-detail": "破坏道具箱吧！"
                         },
                         "EUde": {
-                            "event-1093": "Itembox-Bruch",
-                            "event-1093-detail": "Brich Itemboxen!"
+                            "event-1361": "Itembox-Bruch",
+                            "event-1361-detail": "Brich Itemboxen!"
                         },
                         "EUes": {
-                            "event-1093": "Festival de cajas",
-                            "event-1093-detail": "¡Abre cajas de objetos!"
+                            "event-1361": "Festival de cajas",
+                            "event-1361-detail": "¡Abre cajas de objetos!"
                         },
                         "EUfr": {
-                            "event-1093": "Chasse aux boîtes",
-                            "event-1093-detail": "Chasse aux boîtes"
+                            "event-1361": "Chasse aux boîtes",
+                            "event-1361-detail": "Chasse aux boîtes"
                         },
                         "EUit": {
-                            "event-1093": "Scorpacciata di cubi",
-                            "event-1093-detail": "Apri cubi oggetto."
+                            "event-1361": "Scorpacciata di cubi",
+                            "event-1361-detail": "Apri cubi oggetto."
                         },
                         "JPja": {
-                            "event-1093": "こわせアイテムボックス",
-                            "event-1093-detail": "アイテムボックスを こわそう！"
+                            "event-1361": "こわせアイテムボックス",
+                            "event-1361-detail": "アイテムボックスを こわそう！"
                         },
                         "KRko": {
-                            "event-1093": "부숴라, 아이템박스",
-                            "event-1093-detail": "아이템박스를 부수자!"
+                            "event-1361": "부숴라, 아이템박스",
+                            "event-1361-detail": "아이템박스를 부수자!"
                         },
                         "TWzh": {
-                            "event-1093": "破壞道具箱",
-                            "event-1093-detail": "破壞道具箱！"
+                            "event-1361": "破壞道具箱",
+                            "event-1361-detail": "破壞道具箱！"
                         },
                         "USen": {
-                            "event-1093": "Break Item Boxes",
-                            "event-1093-detail": "Break item boxes!"
+                            "event-1361": "Break Item Boxes",
+                            "event-1361-detail": "Break item boxes!"
                         },
                         "USes": {
-                            "event-1093": "Festival de cajas",
-                            "event-1093-detail": "¡Abre las cajas!"
+                            "event-1361": "Festival de cajas",
+                            "event-1361-detail": "¡Abre las cajas!"
                         },
                         "USpt": {
-                            "event-1093": "Festival de caixas",
-                            "event-1093-detail": "Abra caixas de itens!"
+                            "event-1361": "Festival de caixas",
+                            "event-1361-detail": "Abra caixas de itens!"
                         }
                     }
                 },
                 "Translations": {
-                    "CNzh": "菊花公主杯",
-                    "EUde": "Daisy-Cup",
-                    "EUes": "Copa Daisy",
-                    "EUfr": "Coupe Daisy",
-                    "EUit": "Trofeo Daisy",
-                    "JPja": "デイジーカップ",
-                    "KRko": "데이지 컵",
-                    "TWzh": "黛西公主盃",
-                    "USen": "Daisy Cup",
-                    "USes": "Copa Daisy",
-                    "USpt": "Copa Daisy"
+                    "CNzh": "奇诺比珂杯",
+                    "EUde": "Toadette-Cup",
+                    "EUes": "Copa Toadette",
+                    "EUfr": "Coupe Toadette",
+                    "EUit": "Trofeo Toadette",
+                    "JPja": "キノピコカップ",
+                    "KRko": "키노피코 컵",
+                    "TWzh": "奇諾比珂盃",
+                    "USen": "Toadette Cup",
+                    "USes": "Copa Toadette",
+                    "USpt": "Copa Toadette"
                 }
             },
             {
                 "SortId": 3,
-                "Key": "season_cup_013",
+                "Key": "season_cup_039",
                 "IsRankingTarget": false,
                 "Drivers": [
                     {
-                        "Id": 13,
-                        "Key": "item00013",
-                        "Name": "Jugem"
+                        "Id": 45,
+                        "Key": "item00045",
+                        "Name": "Totten"
                     }
                 ],
                 "Courses": [
                     {
                         "SortId": 0,
-                        "Key": "Battle_Bgc_CookieLand",
+                        "Key": "Classic_Gwii_MoonviewHighway",
                         "BannedScore": 100000,
                         "RankingNormalizeScore": 20000,
                         "Driver": {
-                            "Id": 45,
-                            "Key": "item00045",
-                            "Name": "Totten"
+                            "Id": 174,
+                            "Key": "item00174",
+                            "Name": "KinopioSpaceSuit"
                         },
                         "ScoreRewards": [
-                            1700,
-                            2900,
-                            3300,
-                            3900,
-                            4900
+                            1300,
+                            2100,
+                            2400,
+                            2800,
+                            3600
                         ],
                         "Icons": {
-                            "BG": "Bgc_CookieLand_BG",
-                            "Main": "Bgc_CookieLand_main_Totten00",
-                            "Sub": "Bgc_CookieLand_sub"
+                            "BG": "Gwii_MoonviewHighway_BG",
+                            "Main": "Gwii_MoonviewHighway_main_KinopioSpaceSuit00",
+                            "Sub": "Gwii_MoonviewHighway_sub"
                         }
                     },
                     {
                         "SortId": 1,
-                        "Key": "New_Gmob_Athens1R",
+                        "Key": "New_Gmob_Berlin2X",
                         "BannedScore": 100000,
                         "RankingNormalizeScore": 14000,
                         "Driver": {
-                            "Id": 236,
-                            "Key": "item00236",
-                            "Name": "MiiGabon"
+                            "Id": 104,
+                            "Key": "item00104",
+                            "Name": "Catherine_Black"
                         },
                         "ScoreRewards": [
                             1700,
@@ -873,1013 +873,120 @@
                             4800
                         ],
                         "Icons": {
-                            "BG": "Gmob_Athens1_BG",
-                            "Main": "Gmob_Athens1R_main_MiiGabon00",
-                            "Sub": "Gmob_Athens1R_sub"
+                            "BG": "Gmob_Berlin2_BG",
+                            "Main": "Gmob_Berlin2X_main_Catherine_Black00",
+                            "Sub": "Gmob_Berlin2X_sub"
                         }
                     },
                     {
                         "SortId": 2,
-                        "Key": "New_Gmob_Paris1X",
+                        "Key": "New_Gmob_Tokyo2",
                         "BannedScore": 100000,
                         "RankingNormalizeScore": 18000,
                         "Driver": {
-                            "Id": 13,
-                            "Key": "item00013",
-                            "Name": "Jugem"
+                            "Id": 45,
+                            "Key": "item00045",
+                            "Name": "Totten"
                         },
                         "ScoreRewards": [
                             1100,
-                            1700,
-                            2000,
-                            2400,
-                            3000
-                        ],
-                        "Icons": {
-                            "BG": "Gmob_Paris1_BG",
-                            "Main": "Gmob_Paris1X_main_Jugem00",
-                            "Sub": "Gmob_Paris1X_sub"
-                        }
-                    }
-                ],
-                "BonusCourse": {
-                    "EventId": 2227,
-                    "MessageTitleLabel": "event-2227",
-                    "MessageDetailLabel": "event-2227-detail",
-                    "Rule": "MarkPoint",
-                    "CourseName": "New_Gmob_Bathroom",
-                    "IsMirror": false,
-                    "IsTeamMode": false,
-                    "LapNum": 0,
-                    "CC": 50,
-                    "KartConfigs": [
-                        {
-                            "DriverKey": 24,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        }
-                    ],
-                    "Criteria": [
-                        550,
-                        400,
-                        300
-                    ],
-                    "Translations": {
-                        "CNzh": {
-                            "event-2227": "先瞄准再滑翔",
-                            "event-2227-detail": "瞄准目标滑翔！"
-                        },
-                        "EUde": {
-                            "event-2227": "Präzises Gleiten",
-                            "event-2227-detail": "Gleite durch die Ziele!"
-                        },
-                        "EUes": {
-                            "event-2227": "¡Planeo con precisión!",
-                            "event-2227-detail": "¡Planea por los objetivos!"
-                        },
-                        "EUfr": {
-                            "event-2227": "Visez les cibles !",
-                            "event-2227-detail": "Planez à travers les cibles !"
-                        },
-                        "EUit": {
-                            "event-2227": "Planata di precisione",
-                            "event-2227-detail": "Plana nei bersagli!"
-                        },
-                        "JPja": {
-                            "event-2227": "ねらってグライド",
-                            "event-2227-detail": "マトをねらって グライドしよう！"
-                        },
-                        "KRko": {
-                            "event-2227": "노려서 활공하라",
-                            "event-2227-detail": "표적을 노려서 활공하자!"
-                        },
-                        "TWzh": {
-                            "event-2227": "瞄準後再滑翔",
-                            "event-2227-detail": "瞄準目標後再滑翔吧！"
-                        },
-                        "USen": {
-                            "event-2227": "Precision Gliding",
-                            "event-2227-detail": "Glide through the targets!"
-                        },
-                        "USes": {
-                            "event-2227": "¡Planeo con precisión!",
-                            "event-2227-detail": "¡Planea por los objetivos!"
-                        },
-                        "USpt": {
-                            "event-2227": "Plane ao alvo!",
-                            "event-2227-detail": "Atravesse os alvos!"
-                        }
-                    }
-                },
-                "Translations": {
-                    "CNzh": "球盖姆杯",
-                    "EUde": "Lakitu-Cup",
-                    "EUes": "Copa Lakitu",
-                    "EUfr": "Coupe Lakitu",
-                    "EUit": "Trofeo Lakitu",
-                    "JPja": "ジュゲムカップ",
-                    "KRko": "김수한무 컵",
-                    "TWzh": "球蓋姆盃",
-                    "USen": "Lakitu Cup",
-                    "USes": "Copa Lakitu",
-                    "USpt": "Copa Lakitu"
-                }
-            },
-            {
-                "SortId": 4,
-                "Key": "season_cup_004",
-                "IsRankingTarget": false,
-                "Drivers": [
-                    {
-                        "Id": 3,
-                        "Key": "item00003",
-                        "Name": "Koopa"
-                    }
-                ],
-                "Courses": [
-                    {
-                        "SortId": 0,
-                        "Key": "New_Gmob_Bangkok1",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 20000,
-                        "Driver": {
-                            "Id": 3,
-                            "Key": "item00003",
-                            "Name": "Koopa"
-                        },
-                        "ScoreRewards": [
-                            1700,
-                            2900,
-                            3300,
-                            3900,
-                            5200
-                        ],
-                        "Icons": {
-                            "BG": "Gmob_Bangkok1_BG",
-                            "Main": "Gmob_Bangkok1_main_Koopa00",
-                            "Sub": "Gmob_Bangkok1_sub"
-                        }
-                    },
-                    {
-                        "SortId": 1,
-                        "Key": "Classic_Ggc_MushroomBridge",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 19000,
-                        "Driver": {
-                            "Id": 174,
-                            "Key": "item00174",
-                            "Name": "KinopioSpaceSuit"
-                        },
-                        "ScoreRewards": [
-                            1300,
-                            2300,
-                            2600,
-                            3100,
-                            4100
-                        ],
-                        "Icons": {
-                            "BG": "Ggc_MushroomBridge_BG",
-                            "Main": "Ggc_MushroomBridge_main_KinopioSpaceSuit00",
-                            "Sub": "Ggc_MushroomBridge_sub"
-                        }
-                    },
-                    {
-                        "SortId": 2,
-                        "Key": "Classic_Gagb_BowserCastle4R",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 16000,
-                        "Driver": {
-                            "Id": 219,
-                            "Key": "item00219",
-                            "Name": "LuigiGolf"
-                        },
-                        "ScoreRewards": [
-                            1400,
-                            2400,
-                            2800,
-                            3300,
-                            4400
-                        ],
-                        "Icons": {
-                            "BG": "Gagb_BowserCastle4_BG",
-                            "Main": "Gagb_BowserCastle4R_main_LuigiGolf00",
-                            "Sub": "Gagb_BowserCastle4R_sub"
-                        }
-                    }
-                ],
-                "BonusCourse": {
-                    "EventId": 2242,
-                    "MessageTitleLabel": "event-2242",
-                    "MessageDetailLabel": "event-2242-detail",
-                    "Rule": "TimeAttack",
-                    "CourseName": "New_Gmob_Athens2R",
-                    "IsMirror": false,
-                    "IsTeamMode": false,
-                    "LapNum": 2,
-                    "CC": 150,
-                    "KartConfigs": [
-                        {
-                            "DriverKey": 70,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        }
-                    ],
-                    "Criteria": [
-                        96,
-                        103,
-                        108
-                    ],
-                    "Translations": {
-                        "CNzh": {
-                            "event-2242": "计时赛",
-                            "event-2242-detail": "争取创造最佳时间！"
-                        },
-                        "EUde": {
-                            "event-2242": "Zeitfahren",
-                            "event-2242-detail": "Hol dir die Bestzeit!"
-                        },
-                        "EUes": {
-                            "event-2242": "Contrarreloj",
-                            "event-2242-detail": "¡Intenta lograr tu mejor marca!"
-                        },
-                        "EUfr": {
-                            "event-2242": "Contre-la-montre",
-                            "event-2242-detail": "Pulvérisez votre record !"
-                        },
-                        "EUit": {
-                            "event-2242": "Prove a tempo",
-                            "event-2242-detail": "Punta al tempo migliore!"
-                        },
-                        "JPja": {
-                            "event-2242": "タイムアタック",
-                            "event-2242-detail": "ベストタイムをめざそう！"
-                        },
-                        "KRko": {
-                            "event-2242": "타임 어택",
-                            "event-2242-detail": "베스트 타임을 노리자!"
-                        },
-                        "TWzh": {
-                            "event-2242": "計時賽",
-                            "event-2242-detail": "爭取創造最佳時間吧！"
-                        },
-                        "USen": {
-                            "event-2242": "Time Trial",
-                            "event-2242-detail": "Go for your best time!"
-                        },
-                        "USes": {
-                            "event-2242": "Contrarreloj",
-                            "event-2242-detail": "¡Intenta lograr tu mejor marca!"
-                        },
-                        "USpt": {
-                            "event-2242": "Contrarrelógio",
-                            "event-2242-detail": "Tente melhorar seu tempo!"
-                        }
-                    }
-                },
-                "Translations": {
-                    "CNzh": "酷霸王杯",
-                    "EUde": "Bowser-Cup",
-                    "EUes": "Copa Bowser",
-                    "EUfr": "Coupe Bowser",
-                    "EUit": "Trofeo Bowser",
-                    "JPja": "クッパカップ",
-                    "KRko": "쿠파 컵",
-                    "TWzh": "庫巴盃",
-                    "USen": "Bowser Cup",
-                    "USes": "Copa Bowser",
-                    "USpt": "Copa Bowser"
-                }
-            },
-            {
-                "SortId": 5,
-                "Key": "season_cup_034",
-                "IsRankingTarget": false,
-                "Drivers": [
-                    {
-                        "Id": 17,
-                        "Key": "item00017",
-                        "Name": "KoopaJr"
-                    }
-                ],
-                "Courses": [
-                    {
-                        "SortId": 0,
-                        "Key": "Classic_Gagb_PeachCircuit",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 247,
-                            "Key": "item00247",
-                            "Name": "MiiKinopico"
-                        },
-                        "ScoreRewards": [
-                            1100,
-                            1900,
-                            2200,
-                            2600,
-                            3500
-                        ],
-                        "Icons": {
-                            "BG": "Gagb_PeachCircuit_BG",
-                            "Main": "Gagb_PeachCircuit_main_MiiKinopico00",
-                            "Sub": "Gagb_PeachCircuit_sub"
-                        }
-                    },
-                    {
-                        "SortId": 1,
-                        "Key": "Classic_Ggc_BabyParkR",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 17,
-                            "Key": "item00017",
-                            "Name": "KoopaJr"
-                        },
-                        "ScoreRewards": [
+                            1800,
                             2100,
-                            3700,
-                            4200,
-                            5000,
-                            6800
+                            2400,
+                            3100
                         ],
                         "Icons": {
-                            "BG": "Ggc_BabyPark_BG",
-                            "Main": "Ggc_BabyParkR_main_KoopaJr00",
-                            "Sub": "Ggc_BabyParkR_sub"
-                        }
-                    },
-                    {
-                        "SortId": 2,
-                        "Key": "New_Gmob_Bangkok2",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 148,
-                            "Key": "item00148",
-                            "Name": "KinopicoPenguin"
-                        },
-                        "ScoreRewards": [
-                            1600,
-                            2900,
-                            3300,
-                            3900,
-                            5300
-                        ],
-                        "Icons": {
-                            "BG": "Gmob_Bangkok2_BG",
-                            "Main": "Gmob_Bangkok2_main_KinopicoPenguin00",
-                            "Sub": "Gmob_Bangkok2_sub"
+                            "BG": "Gmob_Tokyo2_BG",
+                            "Main": "Gmob_Tokyo2_main_Totten00",
+                            "Sub": "Gmob_Tokyo2_sub"
                         }
                     }
                 ],
                 "BonusCourse": {
-                    "EventId": 2086,
-                    "MessageTitleLabel": "event-2086",
-                    "MessageDetailLabel": "event-2086-detail",
-                    "Rule": "OneHundredRace",
-                    "CourseName": "New_Gmob_Bangkok1",
-                    "IsMirror": false,
-                    "IsTeamMode": false,
-                    "LapNum": 5,
-                    "CC": 150,
-                    "KartConfigs": [
-                        {
-                            "DriverKey": 5,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 9,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 62,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 63,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 66,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 67,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 68,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 119,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        }
-                    ],
-                    "Criteria": [
-                        1,
-                        40,
-                        80
-                    ],
-                    "Translations": {
-                        "CNzh": {
-                            "event-2086": "大逆转比赛100",
-                            "event-2086-detail": "争取第1名！"
-                        },
-                        "EUde": {
-                            "event-2086": "Rückwärts-Rennen vs. 100",
-                            "event-2086-detail": "Hol dir den 1. Platz!"
-                        },
-                        "EUes": {
-                            "event-2086": "Carrerón inverso vs. 100",
-                            "event-2086-detail": "¡A por el primer puesto!"
-                        },
-                        "EUfr": {
-                            "event-2086": "Course sens inverse vs 100",
-                            "event-2086-detail": "Visez la 1re place !"
-                        },
-                        "EUit": {
-                            "event-2086": "Corsa contromano VS 100",
-                            "event-2086-detail": "Punta al 1º posto!"
-                        },
-                        "JPja": {
-                            "event-2086": "大逆転レース100",
-                            "event-2086-detail": "１位をめざせ！"
-                        },
-                        "KRko": {
-                            "event-2086": "대역전 레이스 100",
-                            "event-2086-detail": "1위를 노리자!"
-                        },
-                        "TWzh": {
-                            "event-2086": "大逆轉比賽100",
-                            "event-2086-detail": "目標第１名！"
-                        },
-                        "USen": {
-                            "event-2086": "Big Reverse Race vs. 100",
-                            "event-2086-detail": "Aim for 1st place!"
-                        },
-                        "USes": {
-                            "event-2086": "Carrerón inverso vs. 100",
-                            "event-2086-detail": "¡Ve por el primer puesto!"
-                        },
-                        "USpt": {
-                            "event-2086": "Corrida reversa contra 100",
-                            "event-2086-detail": "Tente chegar em primeiro!"
-                        }
-                    }
-                },
-                "Translations": {
-                    "CNzh": "酷霸王Jr.杯",
-                    "EUde": "Bowser-Jr.-Cup",
-                    "EUes": "Copa Bowsy",
-                    "EUfr": "Coupe Bowser Jr.",
-                    "EUit": "Trofeo Bowser Junior",
-                    "JPja": "クッパJr.カップ",
-                    "KRko": "쿠파주니어 컵",
-                    "TWzh": "庫巴Jr.盃",
-                    "USen": "Bowser Jr. Cup",
-                    "USes": "Copa Bowser Jr.",
-                    "USpt": "Copa Bowser Jr."
-                }
-            },
-            {
-                "SortId": 6,
-                "Key": "season_cup_020",
-                "IsRankingTarget": false,
-                "Drivers": [
-                    {
-                        "Id": 31,
-                        "Key": "item00031",
-                        "Name": "Larry"
-                    }
-                ],
-                "Courses": [
-                    {
-                        "SortId": 0,
-                        "Key": "New_Gmob_Paris1R",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 31,
-                            "Key": "item00031",
-                            "Name": "Larry"
-                        },
-                        "ScoreRewards": [
-                            1400,
-                            2500,
-                            2800,
-                            3400,
-                            4700
-                        ],
-                        "Icons": {
-                            "BG": "Gmob_Paris1_BG",
-                            "Main": "Gmob_Paris1R_main_Larry00",
-                            "Sub": "Gmob_Paris1R_sub"
-                        }
-                    },
-                    {
-                        "SortId": 1,
-                        "Key": "New_Gmob_BathroomRX",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 83,
-                            "Key": "item00083",
-                            "Name": "RosettaCat"
-                        },
-                        "ScoreRewards": [
-                            2200,
-                            4000,
-                            4600,
-                            5500,
-                            7700
-                        ],
-                        "Icons": {
-                            "BG": "Gmob_Bathroom_BG",
-                            "Main": "Gmob_BathroomRX_main_RosettaCat00",
-                            "Sub": "Gmob_BathroomRX_sub"
-                        }
-                    },
-                    {
-                        "SortId": 2,
-                        "Key": "New_Gmob_Athens2X",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 176,
-                            "Key": "item00176",
-                            "Name": "MarioCat"
-                        },
-                        "ScoreRewards": [
-                            2200,
-                            4000,
-                            4500,
-                            5400,
-                            7500
-                        ],
-                        "Icons": {
-                            "BG": "Gmob_Athens2_BG",
-                            "Main": "Gmob_Athens2X_main_MarioCat00",
-                            "Sub": "Gmob_Athens2X_sub"
-                        }
-                    }
-                ],
-                "BonusCourse": {
-                    "EventId": 872,
-                    "MessageTitleLabel": "event-872",
-                    "MessageDetailLabel": "event-872-detail",
-                    "Rule": "CountBeatKuribo",
-                    "CourseName": "New_Gmob_Paris2",
+                    "EventId": 1188,
+                    "MessageTitleLabel": "event-1188",
+                    "MessageDetailLabel": "event-1188-detail",
+                    "Rule": "DontCrash",
+                    "CourseName": "New_Gmob_Tokyo1",
                     "IsMirror": false,
                     "IsTeamMode": false,
                     "LapNum": 1,
                     "CC": 50,
                     "KartConfigs": [
                         {
-                            "DriverKey": 27,
+                            "DriverKey": 23,
                             "MachineKey": 70048,
                             "WingKey": 30001
                         }
                     ],
                     "Criteria": [
-                        25,
-                        15,
-                        8
-                    ],
-                    "Translations": {
-                        "CNzh": {
-                            "event-872": "打倒栗宝宝",
-                            "event-872-detail": "打倒栗宝宝吧！"
-                        },
-                        "EUde": {
-                            "event-872": "Gumba-Umfahrung",
-                            "event-872-detail": "Erledige Gumbas!"
-                        },
-                        "EUes": {
-                            "event-872": "¡Duro con los Goombas!",
-                            "event-872-detail": "¡Elimina Goombas!"
-                        },
-                        "EUfr": {
-                            "event-872": "À bas les Goombas !",
-                            "event-872-detail": "Éliminez les Goombas !"
-                        },
-                        "EUit": {
-                            "event-872": "Sistema i Goomba!",
-                            "event-872-detail": "Colpisci i Goomba."
-                        },
-                        "JPja": {
-                            "event-872": "たおせクリボー",
-                            "event-872-detail": "クリボーをやっつけよう！"
-                        },
-                        "KRko": {
-                            "event-872": "쓰러뜨려라, 굼바",
-                            "event-872-detail": "굼바를 쓰러뜨리자!"
-                        },
-                        "TWzh": {
-                            "event-872": "打倒栗寶寶",
-                            "event-872-detail": "打倒栗寶寶！"
-                        },
-                        "USen": {
-                            "event-872": "Goomba Takedown",
-                            "event-872-detail": "Take down Goombas!"
-                        },
-                        "USes": {
-                            "event-872": "Elimina los goombas",
-                            "event-872-detail": "¡Elimina a los goombas!"
-                        },
-                        "USpt": {
-                            "event-872": "Derrote os Goombas",
-                            "event-872-detail": "Elimine os Goombas!"
-                        }
-                    }
-                },
-                "Translations": {
-                    "CNzh": "拉里杯",
-                    "EUde": "Larry-Cup",
-                    "EUes": "Copa Larry",
-                    "EUfr": "Coupe Larry",
-                    "EUit": "Trofeo Larry",
-                    "JPja": "ラリーカップ",
-                    "KRko": "래리 컵",
-                    "TWzh": "拉里盃",
-                    "USen": "Larry Cup",
-                    "USes": "Copa Larry",
-                    "USpt": "Copa Larry"
-                }
-            },
-            {
-                "SortId": 7,
-                "Key": "season_cup_052",
-                "IsRankingTarget": false,
-                "Drivers": [
-                    {
-                        "Id": 207,
-                        "Key": "item00207",
-                        "Name": "Pochi"
-                    }
-                ],
-                "Courses": [
-                    {
-                        "SortId": 0,
-                        "Key": "New_Gmob_Athens1",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 185,
-                            "Key": "item00185",
-                            "Name": "DaisyBangkok"
-                        },
-                        "ScoreRewards": [
-                            1700,
-                            3200,
-                            3700,
-                            4400,
-                            6300
-                        ],
-                        "Icons": {
-                            "BG": "Gmob_Athens1_BG",
-                            "Main": "Gmob_Athens1_main_DaisyBangkok00",
-                            "Sub": "Gmob_Athens1_sub"
-                        }
-                    },
-                    {
-                        "SortId": 1,
-                        "Key": "Classic_Gagb_PeachCircuitR",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 207,
-                            "Key": "item00207",
-                            "Name": "Pochi"
-                        },
-                        "ScoreRewards": [
-                            1200,
-                            2300,
-                            2600,
-                            3100,
-                            4500
-                        ],
-                        "Icons": {
-                            "BG": "Gagb_PeachCircuit_BG",
-                            "Main": "Gagb_PeachCircuitR_main_Pochi00",
-                            "Sub": "Gagb_PeachCircuitR_sub"
-                        }
-                    },
-                    {
-                        "SortId": 2,
-                        "Key": "New_Gmob_Bangkok1X",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 49,
-                            "Key": "item00049",
-                            "Name": "KinopioBrigade"
-                        },
-                        "ScoreRewards": [
-                            2100,
-                            3900,
-                            4400,
-                            5300,
-                            7600
-                        ],
-                        "Icons": {
-                            "BG": "Gmob_Bangkok1_BG",
-                            "Main": "Gmob_Bangkok1X_main_KinopioBrigade00",
-                            "Sub": "Gmob_Bangkok1X_sub"
-                        }
-                    }
-                ],
-                "BonusCourse": {
-                    "EventId": 1585,
-                    "MessageTitleLabel": "event-1585",
-                    "MessageDetailLabel": "event-1585-detail",
-                    "Rule": "GatePass",
-                    "CourseName": "Classic_Ggc_BabyPark",
-                    "IsMirror": false,
-                    "IsTeamMode": false,
-                    "LapNum": 2,
-                    "CC": 50,
-                    "KartConfigs": [
-                        {
-                            "DriverKey": 26,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        }
-                    ],
-                    "Criteria": [
-                        19,
-                        12,
-                        8
-                    ],
-                    "Translations": {
-                        "CNzh": {
-                            "event-1585": "通过圆环",
-                            "event-1585-detail": "穿过圆环吧！"
-                        },
-                        "EUde": {
-                            "event-1585": "Tore-Tingelei",
-                            "event-1585-detail": "Durchfahre Tore!"
-                        },
-                        "EUes": {
-                            "event-1585": "Ruta de aros",
-                            "event-1585-detail": "¡Atraviesa aros!"
-                        },
-                        "EUfr": {
-                            "event-1585": "Anneaux à gogo",
-                            "event-1585-detail": "Traversez des anneaux !"
-                        },
-                        "EUit": {
-                            "event-1585": "Corsa ad anelli",
-                            "event-1585-detail": "Attraversa anelli."
-                        },
-                        "JPja": {
-                            "event-1585": "くぐってリング",
-                            "event-1585-detail": "リングをくぐろう！"
-                        },
-                        "KRko": {
-                            "event-1585": "통과해라, 링",
-                            "event-1585-detail": "링을 통과하자!"
-                        },
-                        "TWzh": {
-                            "event-1585": "通過圓環",
-                            "event-1585-detail": "通過圓環！"
-                        },
-                        "USen": {
-                            "event-1585": "Ring Race",
-                            "event-1585-detail": "Pass through rings!"
-                        },
-                        "USes": {
-                            "event-1585": "Ruta de aros",
-                            "event-1585-detail": "¡Atraviesa los aros!"
-                        },
-                        "USpt": {
-                            "event-1585": "Rota dos anéis",
-                            "event-1585-detail": "Atravesse anéis!"
-                        }
-                    }
-                },
-                "Translations": {
-                    "CNzh": "波奇杯",
-                    "EUde": "Schnuffel-Cup",
-                    "EUes": "Copa Poochy",
-                    "EUfr": "Coupe Poochy",
-                    "EUit": "Trofeo Poochy",
-                    "JPja": "ポチカップ",
-                    "KRko": "포치 컵",
-                    "TWzh": "波奇盃",
-                    "USen": "Poochy Cup",
-                    "USes": "Copa Poochy",
-                    "USpt": "Copa Poochy"
-                }
-            },
-            {
-                "SortId": 8,
-                "Key": "season_cup_002",
-                "IsRankingTarget": false,
-                "Drivers": [
-                    {
-                        "Id": 7,
-                        "Key": "item00007",
-                        "Name": "Peach"
-                    }
-                ],
-                "Courses": [
-                    {
-                        "SortId": 0,
-                        "Key": "Classic_Ggc_MushroomBridgeR",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 256,
-                            "Key": "item00256",
-                            "Name": "KinopioAthens"
-                        },
-                        "ScoreRewards": [
-                            1300,
-                            2500,
-                            2800,
-                            3400,
-                            5000
-                        ],
-                        "Icons": {
-                            "BG": "Ggc_MushroomBridge_BG",
-                            "Main": "Ggc_MushroomBridgeR_main_KinopioAthens00",
-                            "Sub": "Ggc_MushroomBridgeR_sub"
-                        }
-                    },
-                    {
-                        "SortId": 1,
-                        "Key": "New_Gmob_Bangkok2X",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 147,
-                            "Key": "item00147",
-                            "Name": "DaisySailor"
-                        },
-                        "ScoreRewards": [
-                            1900,
-                            3500,
-                            4000,
-                            4800,
-                            7100
-                        ],
-                        "Icons": {
-                            "BG": "Gmob_Bangkok2_BG",
-                            "Main": "Gmob_Bangkok2X_main_DaisySailor00",
-                            "Sub": "Gmob_Bangkok2X_sub"
-                        }
-                    },
-                    {
-                        "SortId": 2,
-                        "Key": "New_Gmob_Paris2",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 7,
-                            "Key": "item00007",
-                            "Name": "Peach"
-                        },
-                        "ScoreRewards": [
-                            1300,
-                            2400,
-                            2800,
-                            3300,
-                            4900
-                        ],
-                        "Icons": {
-                            "BG": "Gmob_Paris2_BG",
-                            "Main": "Gmob_Paris2_main_Peach00",
-                            "Sub": "Gmob_Paris2_sub"
-                        }
-                    }
-                ],
-                "BonusCourse": {
-                    "EventId": 2207,
-                    "MessageTitleLabel": "event-2207",
-                    "MessageDetailLabel": "event-2207-detail",
-                    "Rule": "RaceReversal",
-                    "CourseName": "Classic_Gagb_PeachCircuit",
-                    "IsMirror": false,
-                    "IsTeamMode": false,
-                    "LapNum": 2,
-                    "CC": 50,
-                    "KartConfigs": [
-                        {
-                            "DriverKey": 5,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 6,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 2,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 3,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 1,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 4,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 9,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 7,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        }
-                    ],
-                    "Criteria": [
+                        3,
+                        2,
                         1
                     ],
                     "Translations": {
                         "CNzh": {
-                            "event-2207": "大逆转比赛",
-                            "event-2207-detail": "争取第1名！"
+                            "event-1188": "不要失控",
+                            "event-1188-detail": "不失控并通过终点"
                         },
                         "EUde": {
-                            "event-2207": "Riesen-Rückwärts-Rennen",
-                            "event-2207-detail": "Hol dir den Sieg!"
+                            "event-1188": "Die große Unfallfreiheit",
+                            "event-1188-detail": "Bleib unfallfrei!"
                         },
                         "EUes": {
-                            "event-2207": "Carrerón inverso",
-                            "event-2207-detail": "¡Logra el primer puesto!"
+                            "event-1188": "¡Conducción segura!",
+                            "event-1188-detail": "¡Evita los accidentes!"
                         },
                         "EUfr": {
-                            "event-2207": "Grande course en sens inverse",
-                            "event-2207-detail": "Visez la 1re place !"
+                            "event-1188": "Parcours sans faute",
+                            "event-1188-detail": "Évitez les accidents !"
                         },
                         "EUit": {
-                            "event-2207": "Grande corsa contromano",
-                            "event-2207-detail": "Punta al 1º posto!"
+                            "event-1188": "Guida sicura",
+                            "event-1188-detail": "Non andare a sbattere!"
                         },
                         "JPja": {
-                            "event-2207": "大逆転レース",
-                            "event-2207-detail": "１位をめざせ！"
+                            "event-1188": "クラッシュするな",
+                            "event-1188-detail": "クラッシュせずにゴールしよう"
                         },
                         "KRko": {
-                            "event-2207": "대역전 레이스",
-                            "event-2207-detail": "1위를 노리자!"
+                            "event-1188": "충돌을 피하자",
+                            "event-1188-detail": "충돌하지 않고 골인하자"
                         },
                         "TWzh": {
-                            "event-2207": "大逆轉比賽",
-                            "event-2207-detail": "目標第１名！"
+                            "event-1188": "不要失控",
+                            "event-1188-detail": "不失控並通過終點"
                         },
                         "USen": {
-                            "event-2207": "Big Reverse Race",
-                            "event-2207-detail": "Aim for 1st!"
+                            "event-1188": "Steer Clear of Obstacles",
+                            "event-1188-detail": "Don't crash!"
                         },
                         "USes": {
-                            "event-2207": "Carrerón inverso",
-                            "event-2207-detail": "¡Logra el primer puesto!"
+                            "event-1188": "Evita los obstáculos",
+                            "event-1188-detail": "¡No choques!"
                         },
                         "USpt": {
-                            "event-2207": "Corrida reversa",
-                            "event-2207-detail": "Tente chegar em primeiro!"
+                            "event-1188": "Evite os obstáculos",
+                            "event-1188-detail": "Evite colisões!"
                         }
                     }
                 },
                 "Translations": {
-                    "CNzh": "桃花公主杯",
-                    "EUde": "Peach-Cup",
-                    "EUes": "Copa Peach",
-                    "EUfr": "Coupe Peach",
-                    "EUit": "Trofeo Peach",
-                    "JPja": "ピーチカップ",
-                    "KRko": "피치 컵",
-                    "TWzh": "碧姬公主盃",
-                    "USen": "Peach Cup",
-                    "USes": "Copa Peach",
-                    "USpt": "Copa Peach"
+                    "CNzh": "偷天兔杯",
+                    "EUde": "Mopsie-Cup",
+                    "EUes": "Copa Caco Gazapo",
+                    "EUfr": "Coupe Carottin",
+                    "EUit": "Trofeo Ruboniglio",
+                    "JPja": "トッテンカップ",
+                    "KRko": "톳텐 컵",
+                    "TWzh": "偷天兔盃",
+                    "USen": "Nabbit Cup",
+                    "USes": "Copa Caco Gazapo",
+                    "USpt": "Copa Ledrão"
                 }
             },
             {
-                "SortId": 9,
+                "SortId": 4,
                 "Key": "season_cup_047",
                 "IsRankingTarget": false,
                 "Drivers": [
@@ -1892,140 +999,140 @@
                 "Courses": [
                     {
                         "SortId": 0,
-                        "Key": "Classic_Ggc_BabyParkX",
+                        "Key": "New_Gmob_Paris3",
                         "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
+                        "RankingNormalizeScore": 20000,
+                        "Driver": {
+                            "Id": 86,
+                            "Key": "item00086",
+                            "Name": "KinopioCat"
+                        },
+                        "ScoreRewards": [
+                            1700,
+                            3000,
+                            3400,
+                            4000,
+                            5300
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_Paris3_BG",
+                            "Main": "Gmob_Paris3_main_KinopioCat00",
+                            "Sub": "Gmob_Paris3_sub"
+                        }
+                    },
+                    {
+                        "SortId": 1,
+                        "Key": "New_Gmob_Madrid1RX",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 19000,
                         "Driver": {
                             "Id": 212,
                             "Key": "item00212",
                             "Name": "LuigiCat"
                         },
                         "ScoreRewards": [
-                            2100,
-                            4100,
-                            4600,
-                            5600,
-                            8400
+                            1700,
+                            2800,
+                            3200,
+                            3800,
+                            5000
                         ],
                         "Icons": {
-                            "BG": "Ggc_BabyPark_BG",
-                            "Main": "Ggc_BabyParkX_main_LuigiCat00",
-                            "Sub": "Ggc_BabyParkX_sub"
+                            "BG": "Gmob_Madrid1_BG",
+                            "Main": "Gmob_Madrid1RX_main_LuigiCat00",
+                            "Sub": "Gmob_Madrid1RX_sub"
                         }
                     },
                     {
-                        "SortId": 1,
-                        "Key": "New_Gmob_Athens2R",
+                        "SortId": 2,
+                        "Key": "New_Gmob_Berlin1",
                         "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
+                        "RankingNormalizeScore": 16000,
                         "Driver": {
                             "Id": 58,
                             "Key": "item00058",
                             "Name": "BrosBoomerang"
                         },
                         "ScoreRewards": [
-                            1900,
-                            3700,
-                            4100,
-                            5000,
-                            7500
+                            1400,
+                            2400,
+                            2700,
+                            3200,
+                            4200
                         ],
                         "Icons": {
-                            "BG": "Gmob_Athens2_BG",
-                            "Main": "Gmob_Athens2R_main_BrosBoomerang00",
-                            "Sub": "Gmob_Athens2R_sub"
-                        }
-                    },
-                    {
-                        "SortId": 2,
-                        "Key": "Battle_Bds_TwilightHouse",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 56,
-                            "Key": "item00056",
-                            "Name": "Kameck"
-                        },
-                        "ScoreRewards": [
-                            1700,
-                            3400,
-                            3800,
-                            4700,
-                            7000
-                        ],
-                        "Icons": {
-                            "BG": "Bds_TwilightHouse_BG",
-                            "Main": "Bds_TwilightHouse_main_Kameck00",
-                            "Sub": "Bds_TwilightHouse_sub"
+                            "BG": "Gmob_Berlin1_BG",
+                            "Main": "Gmob_Berlin1_main_BrosBoomerang00",
+                            "Sub": "Gmob_Berlin1_sub"
                         }
                     }
                 ],
                 "BonusCourse": {
-                    "EventId": 2239,
-                    "MessageTitleLabel": "event-2239",
-                    "MessageDetailLabel": "event-2239-detail",
+                    "EventId": 1751,
+                    "MessageTitleLabel": "event-1751",
+                    "MessageDetailLabel": "event-1751-detail",
                     "Rule": "TimeAttack",
-                    "CourseName": "New_Gmob_Athens1",
+                    "CourseName": "New_Gmob_Berlin2",
                     "IsMirror": false,
                     "IsTeamMode": false,
                     "LapNum": 2,
                     "CC": 150,
                     "KartConfigs": [
                         {
-                            "DriverKey": 58,
+                            "DriverKey": 4,
                             "MachineKey": 70048,
                             "WingKey": 30001
                         }
                     ],
                     "Criteria": [
-                        95,
+                        96,
                         102,
-                        108
+                        112
                     ],
                     "Translations": {
                         "CNzh": {
-                            "event-2239": "计时赛",
-                            "event-2239-detail": "争取创造最佳时间！"
+                            "event-1751": "计时赛",
+                            "event-1751-detail": "争取创造最佳时间！"
                         },
                         "EUde": {
-                            "event-2239": "Zeitfahren",
-                            "event-2239-detail": "Hol dir die Bestzeit!"
+                            "event-1751": "Zeitfahren",
+                            "event-1751-detail": "Hol dir die Bestzeit!"
                         },
                         "EUes": {
-                            "event-2239": "Contrarreloj",
-                            "event-2239-detail": "¡Intenta lograr tu mejor marca!"
+                            "event-1751": "Contrarreloj",
+                            "event-1751-detail": "¡Intenta lograr tu mejor marca!"
                         },
                         "EUfr": {
-                            "event-2239": "Contre-la-montre",
-                            "event-2239-detail": "Pulvérisez votre record !"
+                            "event-1751": "Contre-la-montre",
+                            "event-1751-detail": "Pulvérisez votre record !"
                         },
                         "EUit": {
-                            "event-2239": "Prove a tempo",
-                            "event-2239-detail": "Punta al tempo migliore!"
+                            "event-1751": "Prove a tempo",
+                            "event-1751-detail": "Punta al tempo migliore!"
                         },
                         "JPja": {
-                            "event-2239": "タイムアタック",
-                            "event-2239-detail": "ベストタイムをめざそう！"
+                            "event-1751": "タイムアタック",
+                            "event-1751-detail": "ベストタイムをめざそう！"
                         },
                         "KRko": {
-                            "event-2239": "타임 어택",
-                            "event-2239-detail": "베스트 타임을 노리자!"
+                            "event-1751": "타임 어택",
+                            "event-1751-detail": "베스트 타임을 노리자!"
                         },
                         "TWzh": {
-                            "event-2239": "計時賽",
-                            "event-2239-detail": "爭取創造最佳時間吧！"
+                            "event-1751": "計時賽",
+                            "event-1751-detail": "爭取創造最佳時間吧！"
                         },
                         "USen": {
-                            "event-2239": "Time Trial",
-                            "event-2239-detail": "Go for your best time!"
+                            "event-1751": "Time Trial",
+                            "event-1751-detail": "Go for your best time!"
                         },
                         "USes": {
-                            "event-2239": "Contrarreloj",
-                            "event-2239-detail": "¡Intenta lograr tu mejor marca!"
+                            "event-1751": "Contrarreloj",
+                            "event-1751-detail": "¡Intenta lograr tu mejor marca!"
                         },
                         "USpt": {
-                            "event-2239": "Contrarrelógio",
-                            "event-2239-detail": "Tente melhorar seu tempo!"
+                            "event-1751": "Contrarrelógio",
+                            "event-1751-detail": "Tente melhorar seu tempo!"
                         }
                     }
                 },
@@ -2044,100 +1151,463 @@
                 }
             },
             {
-                "SortId": 10,
-                "Key": "season_cup_040",
+                "SortId": 5,
+                "Key": "season_cup_013",
                 "IsRankingTarget": false,
                 "Drivers": [
                     {
-                        "Id": 50,
-                        "Key": "item00050",
-                        "Name": "DiddyKong"
+                        "Id": 13,
+                        "Key": "item00013",
+                        "Name": "Jugem"
                     }
                 ],
                 "Courses": [
                     {
                         "SortId": 0,
-                        "Key": "New_Gmob_BathroomX",
+                        "Key": "New_Gmob_Tokyo1",
                         "BannedScore": 100000,
                         "RankingNormalizeScore": 10000,
                         "Driver": {
-                            "Id": 124,
-                            "Key": "item00124",
-                            "Name": "KinopicoSailor"
+                            "Id": 13,
+                            "Key": "item00013",
+                            "Name": "Jugem"
                         },
                         "ScoreRewards": [
-                            2200,
-                            4500,
-                            5000,
-                            6200,
-                            9400
+                            1400,
+                            2400,
+                            2700,
+                            3200,
+                            4400
                         ],
                         "Icons": {
-                            "BG": "Gmob_Bathroom_BG",
-                            "Main": "Gmob_BathroomX_main_KinopicoSailor00",
-                            "Sub": "Gmob_BathroomX_sub"
+                            "BG": "Gmob_Tokyo1_BG",
+                            "Main": "Gmob_Tokyo1_main_Jugem00",
+                            "Sub": "Gmob_Tokyo1_sub"
                         }
                     },
                     {
                         "SortId": 1,
-                        "Key": "New_Gmob_Bangkok2R",
+                        "Key": "New_Gmob_OceanRuins3R",
                         "BannedScore": 100000,
                         "RankingNormalizeScore": 10000,
                         "Driver": {
-                            "Id": 50,
-                            "Key": "item00050",
-                            "Name": "DiddyKong"
+                            "Id": 204,
+                            "Key": "item00204",
+                            "Name": "BossPakkun"
                         },
                         "ScoreRewards": [
-                            1800,
-                            3700,
-                            4100,
-                            5100,
-                            7700
+                            1400,
+                            2500,
+                            2800,
+                            3300,
+                            4500
                         ],
                         "Icons": {
-                            "BG": "Gmob_Bangkok2_BG",
-                            "Main": "Gmob_Bangkok2R_main_DiddyKong00",
-                            "Sub": "Gmob_Bangkok2R_sub"
+                            "BG": "Gmob_OceanRuins3_BG",
+                            "Main": "Gmob_OceanRuins3R_main_BossPakkun00",
+                            "Sub": "Gmob_OceanRuins3R_sub"
                         }
                     },
                     {
                         "SortId": 2,
-                        "Key": "Classic_Gagb_PeachCircuitX",
+                        "Key": "Classic_Gwii_MoonviewHighwayR",
                         "BannedScore": 100000,
                         "RankingNormalizeScore": 10000,
                         "Driver": {
-                            "Id": 148,
-                            "Key": "item00148",
-                            "Name": "KinopicoPenguin"
+                            "Id": 261,
+                            "Key": "item00261",
+                            "Name": "MiiWendy"
                         },
                         "ScoreRewards": [
-                            1500,
-                            3000,
-                            3400,
-                            4100,
-                            6300
+                            1300,
+                            2300,
+                            2600,
+                            3100,
+                            4300
                         ],
                         "Icons": {
-                            "BG": "Gagb_PeachCircuit_BG",
-                            "Main": "Gagb_PeachCircuitX_main_KinopicoPenguin00",
-                            "Sub": "Gagb_PeachCircuitX_sub"
+                            "BG": "Gwii_MoonviewHighway_BG",
+                            "Main": "Gwii_MoonviewHighwayR_main_MiiWendy00",
+                            "Sub": "Gwii_MoonviewHighwayR_sub"
                         }
                     }
                 ],
                 "BonusCourse": {
-                    "EventId": 1584,
-                    "MessageTitleLabel": "event-1584",
-                    "MessageDetailLabel": "event-1584-detail",
-                    "Rule": "CountStampEnemy",
-                    "CourseName": "Classic_Ggc_BabyPark",
+                    "EventId": 2120,
+                    "MessageTitleLabel": "event-2120",
+                    "MessageDetailLabel": "event-2120-detail",
+                    "Rule": "CountBeatKuribo",
+                    "CourseName": "New_Gmob_Madrid1",
+                    "IsMirror": false,
+                    "IsTeamMode": false,
+                    "LapNum": 1,
+                    "CC": 75,
+                    "KartConfigs": [
+                        {
+                            "DriverKey": 93,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        }
+                    ],
+                    "Criteria": [
+                        30,
+                        25,
+                        20
+                    ],
+                    "Translations": {
+                        "CNzh": {
+                            "event-2120": "打倒栗宝宝",
+                            "event-2120-detail": "打倒栗宝宝吧！"
+                        },
+                        "EUde": {
+                            "event-2120": "Gumba-Umfahrung",
+                            "event-2120-detail": "Erledige Gumbas!"
+                        },
+                        "EUes": {
+                            "event-2120": "¡Duro con los Goombas!",
+                            "event-2120-detail": "¡Elimina Goombas!"
+                        },
+                        "EUfr": {
+                            "event-2120": "À bas les Goombas !",
+                            "event-2120-detail": "Éliminez les Goombas !"
+                        },
+                        "EUit": {
+                            "event-2120": "Sistema i Goomba!",
+                            "event-2120-detail": "Colpisci i Goomba."
+                        },
+                        "JPja": {
+                            "event-2120": "たおせクリボー",
+                            "event-2120-detail": "クリボーをやっつけよう！"
+                        },
+                        "KRko": {
+                            "event-2120": "쓰러뜨려라, 굼바",
+                            "event-2120-detail": "굼바를 쓰러뜨리자!"
+                        },
+                        "TWzh": {
+                            "event-2120": "打倒栗寶寶",
+                            "event-2120-detail": "打倒栗寶寶！"
+                        },
+                        "USen": {
+                            "event-2120": "Goomba Takedown",
+                            "event-2120-detail": "Take down Goombas!"
+                        },
+                        "USes": {
+                            "event-2120": "Elimina los goombas",
+                            "event-2120-detail": "¡Elimina a los goombas!"
+                        },
+                        "USpt": {
+                            "event-2120": "Derrote os Goombas",
+                            "event-2120-detail": "Elimine os Goombas!"
+                        }
+                    }
+                },
+                "Translations": {
+                    "CNzh": "球盖姆杯",
+                    "EUde": "Lakitu-Cup",
+                    "EUes": "Copa Lakitu",
+                    "EUfr": "Coupe Lakitu",
+                    "EUit": "Trofeo Lakitu",
+                    "JPja": "ジュゲムカップ",
+                    "KRko": "김수한무 컵",
+                    "TWzh": "球蓋姆盃",
+                    "USen": "Lakitu Cup",
+                    "USes": "Copa Lakitu",
+                    "USpt": "Copa Lakitu"
+                }
+            },
+            {
+                "SortId": 6,
+                "Key": "season_cup_042",
+                "IsRankingTarget": false,
+                "Drivers": [
+                    {
+                        "Id": 52,
+                        "Key": "item00052",
+                        "Name": "BombKing"
+                    }
+                ],
+                "Courses": [
+                    {
+                        "SortId": 0,
+                        "Key": "Battle_Bagb_BattleCourse1",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 216,
+                            "Key": "item00216",
+                            "Name": "MarioGolf"
+                        },
+                        "ScoreRewards": [
+                            1800,
+                            3200,
+                            3600,
+                            4300,
+                            6000
+                        ],
+                        "Icons": {
+                            "BG": "Bagb_BattleCourse1_BG",
+                            "Main": "Bagb_BattleCourse1_main_MarioGolf00",
+                            "Sub": "Bagb_BattleCourse1_sub"
+                        }
+                    },
+                    {
+                        "SortId": 1,
+                        "Key": "New_Gmob_Berlin2",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 52,
+                            "Key": "item00052",
+                            "Name": "BombKing"
+                        },
+                        "ScoreRewards": [
+                            1800,
+                            3300,
+                            3800,
+                            4500,
+                            6300
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_Berlin2_BG",
+                            "Main": "Gmob_Berlin2_main_BombKing00",
+                            "Sub": "Gmob_Berlin2_sub"
+                        }
+                    },
+                    {
+                        "SortId": 2,
+                        "Key": "New_Gmob_Madrid2X",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 146,
+                            "Key": "item00146",
+                            "Name": "LuigiCook"
+                        },
+                        "ScoreRewards": [
+                            1800,
+                            3200,
+                            3600,
+                            4300,
+                            6000
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_Madrid2_BG",
+                            "Main": "Gmob_Madrid2X_main_LuigiCook00",
+                            "Sub": "Gmob_Madrid2X_sub"
+                        }
+                    }
+                ],
+                "BonusCourse": {
+                    "EventId": 948,
+                    "MessageTitleLabel": "event-948",
+                    "MessageDetailLabel": "event-948-detail",
+                    "Rule": "RaceReversal",
+                    "CourseName": "New_Gmob_Paris3",
                     "IsMirror": false,
                     "IsTeamMode": false,
                     "LapNum": 2,
                     "CC": 50,
                     "KartConfigs": [
                         {
-                            "DriverKey": 17,
+                            "DriverKey": 5,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        },
+                        {
+                            "DriverKey": 6,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        },
+                        {
+                            "DriverKey": 4,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        },
+                        {
+                            "DriverKey": 2,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        },
+                        {
+                            "DriverKey": 7,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        },
+                        {
+                            "DriverKey": 3,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        },
+                        {
+                            "DriverKey": 1,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        },
+                        {
+                            "DriverKey": 9,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        }
+                    ],
+                    "Criteria": [
+                        1
+                    ],
+                    "Translations": {
+                        "CNzh": {
+                            "event-948": "大逆转比赛",
+                            "event-948-detail": "争取第1名！"
+                        },
+                        "EUde": {
+                            "event-948": "Riesen-Rückwärts-Rennen",
+                            "event-948-detail": "Hol dir den Sieg!"
+                        },
+                        "EUes": {
+                            "event-948": "Carrerón inverso",
+                            "event-948-detail": "¡Logra el primer puesto!"
+                        },
+                        "EUfr": {
+                            "event-948": "Grande course en sens inverse",
+                            "event-948-detail": "Visez la 1re place !"
+                        },
+                        "EUit": {
+                            "event-948": "Grande corsa contromano",
+                            "event-948-detail": "Punta al 1º posto!"
+                        },
+                        "JPja": {
+                            "event-948": "大逆転レース",
+                            "event-948-detail": "１位をめざせ！"
+                        },
+                        "KRko": {
+                            "event-948": "대역전 레이스",
+                            "event-948-detail": "1위를 노리자!"
+                        },
+                        "TWzh": {
+                            "event-948": "大逆轉比賽",
+                            "event-948-detail": "目標第１名！"
+                        },
+                        "USen": {
+                            "event-948": "Big Reverse Race",
+                            "event-948-detail": "Aim for 1st!"
+                        },
+                        "USes": {
+                            "event-948": "Carrerón inverso",
+                            "event-948-detail": "¡Logra el primer puesto!"
+                        },
+                        "USpt": {
+                            "event-948": "Corrida reversa",
+                            "event-948-detail": "Tente chegar em primeiro!"
+                        }
+                    }
+                },
+                "Translations": {
+                    "CNzh": "炸弹王杯",
+                    "EUde": "König-Bob-omb-Cup",
+                    "EUes": "Copa Rey Bob-omb",
+                    "EUfr": "Coupe Roi Bob-omb",
+                    "EUit": "Trofeo Re Bob-omba",
+                    "JPja": "ボムキングカップ",
+                    "KRko": "킹폭탄 컵",
+                    "TWzh": "炸彈王盃",
+                    "USen": "King Bob-omb Cup",
+                    "USes": "Copa Rey Bob-omba",
+                    "USpt": "Copa Rei Bob-bomba"
+                }
+            },
+            {
+                "SortId": 7,
+                "Key": "season_cup_026",
+                "IsRankingTarget": false,
+                "Drivers": [
+                    {
+                        "Id": 33,
+                        "Key": "item00033",
+                        "Name": "Ludwig"
+                    }
+                ],
+                "Courses": [
+                    {
+                        "SortId": 0,
+                        "Key": "New_Gmob_LosAngeles3R",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 68,
+                            "Key": "item00068",
+                            "Name": "Yoshi_White"
+                        },
+                        "ScoreRewards": [
+                            1400,
+                            2600,
+                            2900,
+                            3500,
+                            5000
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_LosAngeles3_BG",
+                            "Main": "Gmob_LosAngeles3R_main_Yoshi_White00",
+                            "Sub": "Gmob_LosAngeles3R_sub"
+                        }
+                    },
+                    {
+                        "SortId": 1,
+                        "Key": "New_Gmob_Tokyo2X",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 33,
+                            "Key": "item00033",
+                            "Name": "Ludwig"
+                        },
+                        "ScoreRewards": [
+                            1100,
+                            2100,
+                            2400,
+                            2800,
+                            4000
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_Tokyo2_BG",
+                            "Main": "Gmob_Tokyo2X_main_Ludwig00",
+                            "Sub": "Gmob_Tokyo2X_sub"
+                        }
+                    },
+                    {
+                        "SortId": 2,
+                        "Key": "New_Gmob_Paris3RX",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 46,
+                            "Key": "item00046",
+                            "Name": "PeachSummer"
+                        },
+                        "ScoreRewards": [
+                            1900,
+                            3600,
+                            4000,
+                            4800,
+                            6900
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_Paris3_BG",
+                            "Main": "Gmob_Paris3RX_main_PeachSummer00",
+                            "Sub": "Gmob_Paris3RX_sub"
+                        }
+                    }
+                ],
+                "BonusCourse": {
+                    "EventId": 1530,
+                    "MessageTitleLabel": "event-1530",
+                    "MessageDetailLabel": "event-1530-detail",
+                    "Rule": "CountStampEnemy",
+                    "CourseName": "New_Gmob_Berlin2",
+                    "IsMirror": false,
+                    "IsTeamMode": false,
+                    "LapNum": 1,
+                    "CC": 75,
+                    "KartConfigs": [
+                        {
+                            "DriverKey": 52,
                             "MachineKey": 70048,
                             "WingKey": 30001
                         },
@@ -2148,132 +1618,109 @@
                         }
                     ],
                     "Criteria": [
-                        10,
-                        8,
-                        6
+                        11,
+                        7,
+                        4
                     ],
                     "Translations": {
                         "CNzh": {
-                            "event-1584": "踩扁小碎碎龟",
-                            "event-1584-detail": "踩扁碎碎龟吧！"
+                            "event-1530": "踩扁小碎碎龟",
+                            "event-1530-detail": "踩扁碎碎龟吧！"
                         },
                         "EUde": {
-                            "event-1584": "Klein-Knochentrocken-Walzer",
-                            "event-1584-detail": "Erledige Knochentrocken!"
+                            "event-1530": "Klein-Knochentrocken-Walzer",
+                            "event-1530-detail": "Erledige Knochentrocken!"
                         },
                         "EUes": {
-                            "event-1584": "¡Arrolla a los Peque Huesitos!",
-                            "event-1584-detail": "¡Arrolla a Huesitos!"
+                            "event-1530": "¡Arrolla a los Peque Huesitos!",
+                            "event-1530-detail": "¡Arrolla a Huesitos!"
                         },
                         "EUfr": {
-                            "event-1584": "À bas les Petits Skelerex !",
-                            "event-1584-detail": "Écrasez des Skelerex !"
+                            "event-1530": "À bas les Petits Skelerex !",
+                            "event-1530-detail": "Écrasez des Skelerex !"
                         },
                         "EUit": {
-                            "event-1584": "Schiaccia Piccolo Tartosso",
-                            "event-1584-detail": "Schiaccia Tartosso."
+                            "event-1530": "Schiaccia Piccolo Tartosso",
+                            "event-1530-detail": "Schiaccia Tartosso."
                         },
                         "JPja": {
-                            "event-1584": "ふんづけろ ちびカロン",
-                            "event-1584-detail": "カロンをふみつぶそう！"
+                            "event-1530": "ふんづけろ ちびカロン",
+                            "event-1530-detail": "カロンをふみつぶそう！"
                         },
                         "KRko": {
-                            "event-1584": "밟아라, 꼬마와르르",
-                            "event-1584-detail": "와르르를 밟아라!"
+                            "event-1530": "밟아라, 꼬마와르르",
+                            "event-1530-detail": "와르르를 밟아라!"
                         },
                         "TWzh": {
-                            "event-1584": "踩扁小碎碎龜",
-                            "event-1584-detail": "踩扁碎碎龜！"
+                            "event-1530": "踩扁小碎碎龜",
+                            "event-1530-detail": "踩扁碎碎龜！"
                         },
                         "USen": {
-                            "event-1584": "Smash Small Dry Bones",
-                            "event-1584-detail": "Smash Dry Bones!"
+                            "event-1530": "Smash Small Dry Bones",
+                            "event-1530-detail": "Smash Dry Bones!"
                         },
                         "USes": {
-                            "event-1584": "¡Derrota a peque huesitos!",
-                            "event-1584-detail": "¡Arrolla a Huesitos!"
+                            "event-1530": "¡Derrota a peque huesitos!",
+                            "event-1530-detail": "¡Arrolla a Huesitos!"
                         },
                         "USpt": {
-                            "event-1584": "Esmague os Quebra-ossos!",
-                            "event-1584-detail": "Esmague Quebra-ossos!"
+                            "event-1530": "Esmague os Quebra-ossos!",
+                            "event-1530-detail": "Esmague Quebra-ossos!"
                         }
                     }
                 },
                 "Translations": {
-                    "CNzh": "迪迪刚杯",
-                    "EUde": "Diddy-Kong-Cup",
-                    "EUes": "Copa Diddy Kong",
-                    "EUfr": "Coupe Diddy Kong",
-                    "EUit": "Trofeo Diddy Kong",
-                    "JPja": "ディディーコングカップ",
-                    "KRko": "디디콩 컵",
-                    "TWzh": "狄狄剛盃",
-                    "USen": "Diddy Kong Cup",
-                    "USes": "Copa Diddy Kong",
-                    "USpt": "Copa Diddy Kong"
+                    "CNzh": "洛德威格杯",
+                    "EUde": "Ludwig-Cup",
+                    "EUes": "Copa Ludwig",
+                    "EUfr": "Coupe Ludwig",
+                    "EUit": "Trofeo Ludwig",
+                    "JPja": "ルドウィッグカップ",
+                    "KRko": "루드윅 컵",
+                    "TWzh": "洛德威格盃",
+                    "USen": "Ludwig Cup",
+                    "USes": "Copa Ludwig",
+                    "USpt": "Copa Ludwig"
                 }
             },
             {
-                "SortId": 11,
-                "Key": "season_cup_016",
+                "SortId": 8,
+                "Key": "season_cup_050",
                 "IsRankingTarget": false,
                 "Drivers": [
                     {
-                        "Id": 24,
-                        "Key": "item00024",
-                        "Name": "BbLuigi"
+                        "Id": 84,
+                        "Key": "item00084",
+                        "Name": "Bull"
                     }
                 ],
                 "Courses": [
                     {
                         "SortId": 0,
-                        "Key": "New_Gmob_Bangkok1R",
+                        "Key": "New_Gmob_Madrid1R",
                         "BannedScore": 100000,
                         "RankingNormalizeScore": 10000,
                         "Driver": {
-                            "Id": 126,
-                            "Key": "item00126",
-                            "Name": "HeyhoCook"
+                            "Id": 189,
+                            "Key": "item00189",
+                            "Name": "PaulineHeart"
                         },
                         "ScoreRewards": [
                             1500,
-                            3200,
-                            3500,
-                            4400,
-                            6800
+                            2900,
+                            3300,
+                            4000,
+                            5800
                         ],
                         "Icons": {
-                            "BG": "Gmob_Bangkok1_BG",
-                            "Main": "Gmob_Bangkok1R_main_HeyhoCook00",
-                            "Sub": "Gmob_Bangkok1R_sub"
+                            "BG": "Gmob_Madrid1_BG",
+                            "Main": "Gmob_Madrid1R_main_PaulineHeart00",
+                            "Sub": "Gmob_Madrid1R_sub"
                         }
                     },
                     {
                         "SortId": 1,
-                        "Key": "New_Gmob_Paris2R",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 24,
-                            "Key": "item00024",
-                            "Name": "BbLuigi"
-                        },
-                        "ScoreRewards": [
-                            1200,
-                            2500,
-                            2800,
-                            3400,
-                            5400
-                        ],
-                        "Icons": {
-                            "BG": "Gmob_Paris2_BG",
-                            "Main": "Gmob_Paris2R_main_BbLuigi00",
-                            "Sub": "Gmob_Paris2R_sub"
-                        }
-                    },
-                    {
-                        "SortId": 2,
-                        "Key": "New_Gmob_Athens1X",
+                        "Key": "New_Gmob_OceanRuins3RX",
                         "BannedScore": 100000,
                         "RankingNormalizeScore": 10000,
                         "Driver": {
@@ -2282,117 +1729,329 @@
                             "Name": "HeyhoExplorer"
                         },
                         "ScoreRewards": [
-                            2400,
-                            4900,
-                            5500,
-                            6700,
-                            10500
+                            1700,
+                            3300,
+                            3700,
+                            4500,
+                            6600
                         ],
                         "Icons": {
-                            "BG": "Gmob_Athens1_BG",
-                            "Main": "Gmob_Athens1X_main_HeyhoExplorer00",
-                            "Sub": "Gmob_Athens1X_sub"
+                            "BG": "Gmob_OceanRuins3_BG",
+                            "Main": "Gmob_OceanRuins3RX_main_HeyhoExplorer00",
+                            "Sub": "Gmob_OceanRuins3RX_sub"
+                        }
+                    },
+                    {
+                        "SortId": 2,
+                        "Key": "New_Gmob_Berlin1X",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 84,
+                            "Key": "item00084",
+                            "Name": "Bull"
+                        },
+                        "ScoreRewards": [
+                            1800,
+                            3400,
+                            3900,
+                            4700,
+                            6900
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_Berlin1_BG",
+                            "Main": "Gmob_Berlin1X_main_Bull00",
+                            "Sub": "Gmob_Berlin1X_sub"
                         }
                     }
                 ],
                 "BonusCourse": {
-                    "EventId": 885,
-                    "MessageTitleLabel": "event-885",
-                    "MessageDetailLabel": "event-885-detail",
-                    "Rule": "DontCrash",
-                    "CourseName": "New_Gmob_Paris1",
+                    "EventId": 1362,
+                    "MessageTitleLabel": "event-1362",
+                    "MessageDetailLabel": "event-1362-detail",
+                    "Rule": "CountJumpAction",
+                    "CourseName": "New_Gmob_LosAngeles3",
                     "IsMirror": false,
                     "IsTeamMode": false,
                     "LapNum": 1,
-                    "CC": 50,
+                    "CC": 75,
                     "KartConfigs": [
                         {
-                            "DriverKey": 25,
+                            "DriverKey": 26,
                             "MachineKey": 70048,
                             "WingKey": 30001
                         }
                     ],
                     "Criteria": [
-                        3,
-                        2,
-                        1
+                        18,
+                        14,
+                        10
                     ],
                     "Translations": {
                         "CNzh": {
-                            "event-885": "不要失控",
-                            "event-885-detail": "不失控并通过终点"
+                            "event-1362": "完成跳跃动作",
+                            "event-1362-detail": "做出跳跃动作吧！"
                         },
                         "EUde": {
-                            "event-885": "Die große Unfallfreiheit",
-                            "event-885-detail": "Bleib unfallfrei!"
+                            "event-1362": "Sprungturbo-Springen",
+                            "event-1362-detail": "Springturbos!"
                         },
                         "EUes": {
-                            "event-885": "¡Conducción segura!",
-                            "event-885-detail": "¡Evita los accidentes!"
+                            "event-1362": "Saltos acelerados",
+                            "event-1362-detail": "¡Haz saltos con acelerón!"
                         },
                         "EUfr": {
-                            "event-885": "Parcours sans faute",
-                            "event-885-detail": "Évitez les accidents !"
+                            "event-1362": "Course acrobatique",
+                            "event-1362-detail": "Course acrobatique"
                         },
                         "EUit": {
-                            "event-885": "Guida sicura",
-                            "event-885-detail": "Non andare a sbattere!"
+                            "event-1362": "Salti turbo",
+                            "event-1362-detail": "Fai dei salti turbo."
                         },
                         "JPja": {
-                            "event-885": "クラッシュするな",
-                            "event-885-detail": "クラッシュせずにゴールしよう"
+                            "event-1362": "きめろジャンプアクション",
+                            "event-1362-detail": "ジャンプアクションを きめよう！"
                         },
                         "KRko": {
-                            "event-885": "충돌을 피하자",
-                            "event-885-detail": "충돌하지 않고 골인하자"
+                            "event-1362": "펼쳐라, 점프 액션",
+                            "event-1362-detail": "점프 액션을 성공시켜 보자!"
                         },
                         "TWzh": {
-                            "event-885": "不要失控",
-                            "event-885-detail": "不失控並通過終點"
+                            "event-1362": "完成跳躍動作",
+                            "event-1362-detail": "做出跳躍動作！"
                         },
                         "USen": {
-                            "event-885": "Steer Clear of Obstacles",
-                            "event-885-detail": "Don't crash!"
+                            "event-1362": "Do Jump Boosts",
+                            "event-1362-detail": "Do Jump Boosts!"
                         },
                         "USes": {
-                            "event-885": "Evita los obstáculos",
-                            "event-885-detail": "¡No choques!"
+                            "event-1362": "Saltos acelerados",
+                            "event-1362-detail": "¡Haz saltos con acelerón!"
                         },
                         "USpt": {
-                            "event-885": "Evite os obstáculos",
-                            "event-885-detail": "Evite colisões!"
+                            "event-1362": "Saltos impulsionados",
+                            "event-1362-detail": "Dê saltos impulsionados!"
                         }
                     }
                 },
                 "Translations": {
-                    "CNzh": "路易吉宝宝杯",
-                    "EUde": "Baby-Luigi-Cup",
-                    "EUes": "Copa Bebé Luigi",
-                    "EUfr": "Coupe Bébé Luigi",
-                    "EUit": "Trofeo Baby Luigi",
-                    "JPja": "ベビィルイージカップ",
-                    "KRko": "베이비루이지 컵",
-                    "TWzh": "路易吉寶寶盃",
-                    "USen": "Baby Luigi Cup",
-                    "USes": "Copa Bebé Luigi",
-                    "USpt": "Copa Bebê Luigi"
+                    "CNzh": "布鲁杯",
+                    "EUde": "Football-Chuck-Cup",
+                    "EUes": "Copa Placapum",
+                    "EUfr": "Coupe Bill Dozer",
+                    "EUit": "Trofeo Plakkoopa",
+                    "JPja": "ブルカップ",
+                    "KRko": "불 컵",
+                    "TWzh": "布魯盃",
+                    "USen": "Chargin' Chuck Cup",
+                    "USes": "Copa Placapum",
+                    "USpt": "Copa Toni Trombada"
                 }
             },
             {
-                "SortId": 12,
-                "Key": "season_cup_037",
+                "SortId": 9,
+                "Key": "season_cup_054",
                 "IsRankingTarget": false,
                 "Drivers": [
                     {
-                        "Id": 41,
-                        "Key": "item00041",
-                        "Name": "Pauline"
+                        "Id": 127,
+                        "Key": "item00127",
+                        "Name": "DixieKong"
                     }
                 ],
                 "Courses": [
                     {
                         "SortId": 0,
-                        "Key": "New_Gmob_Paris2RX",
+                        "Key": "Classic_Gwii_MoonviewHighwayRX",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 141,
+                            "Key": "item00141",
+                            "Name": "MarioPilot"
+                        },
+                        "ScoreRewards": [
+                            1800,
+                            3500,
+                            4000,
+                            4800,
+                            7200
+                        ],
+                        "Icons": {
+                            "BG": "Gwii_MoonviewHighway_BG",
+                            "Main": "Gwii_MoonviewHighwayRX_main_MarioPilot00",
+                            "Sub": "Gwii_MoonviewHighwayRX_sub"
+                        }
+                    },
+                    {
+                        "SortId": 1,
+                        "Key": "New_Gmob_Paris3R",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 157,
+                            "Key": "item00157",
+                            "Name": "PeachDoctor"
+                        },
+                        "ScoreRewards": [
+                            1700,
+                            3400,
+                            3800,
+                            4600,
+                            6900
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_Paris3_BG",
+                            "Main": "Gmob_Paris3R_main_PeachDoctor00",
+                            "Sub": "Gmob_Paris3R_sub"
+                        }
+                    },
+                    {
+                        "SortId": 2,
+                        "Key": "New_Gmob_Tokyo1RX",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 127,
+                            "Key": "item00127",
+                            "Name": "DixieKong"
+                        },
+                        "ScoreRewards": [
+                            1000,
+                            1900,
+                            2100,
+                            2600,
+                            3800
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_Tokyo1_BG",
+                            "Main": "Gmob_Tokyo1RX_main_DixieKong00",
+                            "Sub": "Gmob_Tokyo1RX_sub"
+                        }
+                    }
+                ],
+                "BonusCourse": {
+                    "EventId": 1356,
+                    "MessageTitleLabel": "event-1356",
+                    "MessageDetailLabel": "event-1356-detail",
+                    "Rule": "BossKoopa",
+                    "CourseName": "New_Gmob_Tokyo2",
+                    "IsMirror": false,
+                    "IsTeamMode": false,
+                    "LapNum": 2,
+                    "CC": 100,
+                    "KartConfigs": [
+                        {
+                            "DriverKey": 5,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        },
+                        {
+                            "DriverKey": 1,
+                            "MachineKey": 70094,
+                            "WingKey": 30001
+                        }
+                    ],
+                    "Criteria": [],
+                    "Translations": {
+                        "CNzh": {
+                            "event-1356": "VS巨大森喜刚",
+                            "event-1356-detail": "争取第1名！"
+                        },
+                        "EUde": {
+                            "event-1356": "Vs. Mega-Donkey-Kong",
+                            "event-1356-detail": "Hol dir den Sieg!"
+                        },
+                        "EUes": {
+                            "event-1356": "¡Contra Mega Donkey Kong!",
+                            "event-1356-detail": "¡Logra el primer puesto!"
+                        },
+                        "EUfr": {
+                            "event-1356": "À bas Méga Donkey Kong !",
+                            "event-1356-detail": "Visez la 1re place !"
+                        },
+                        "EUit": {
+                            "event-1356": "VS Mega Donkey Kong",
+                            "event-1356-detail": "Punta al 1º posto!"
+                        },
+                        "JPja": {
+                            "event-1356": "VS巨大ドンキーコング",
+                            "event-1356-detail": "１位をめざせ！"
+                        },
+                        "KRko": {
+                            "event-1356": "VS 거대동키콩",
+                            "event-1356-detail": "1위를 노리자!"
+                        },
+                        "TWzh": {
+                            "event-1356": "VS巨大森喜剛",
+                            "event-1356-detail": "目標第１名！"
+                        },
+                        "USen": {
+                            "event-1356": "Vs. Mega Donkey Kong",
+                            "event-1356-detail": "Aim for 1st!"
+                        },
+                        "USes": {
+                            "event-1356": "¡Contra mega Donkey Kong!",
+                            "event-1356-detail": "¡Logra el primer puesto!"
+                        },
+                        "USpt": {
+                            "event-1356": "Contra mega Donkey Kong!",
+                            "event-1356-detail": "Tente chegar em primeiro!"
+                        }
+                    }
+                },
+                "Translations": {
+                    "CNzh": "蒂克斯刚杯",
+                    "EUde": "Dixie-Kong-Cup",
+                    "EUes": "Copa Dixie Kong",
+                    "EUfr": "Coupe Dixie Kong",
+                    "EUit": "Trofeo Dixie Kong",
+                    "JPja": "ディクシーコングカップ",
+                    "KRko": "딕시콩 컵",
+                    "TWzh": "蒂克斯剛盃",
+                    "USen": "Dixie Kong Cup",
+                    "USes": "Copa Dixie Kong",
+                    "USpt": "Copa Dixie Kong"
+                }
+            },
+            {
+                "SortId": 10,
+                "Key": "season_cup_008",
+                "IsRankingTarget": false,
+                "Drivers": [
+                    {
+                        "Id": 11,
+                        "Key": "item00011",
+                        "Name": "Daisy"
+                    }
+                ],
+                "Courses": [
+                    {
+                        "SortId": 0,
+                        "Key": "New_Gmob_Berlin2R",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 77,
+                            "Key": "item00077",
+                            "Name": "LuigiPainter"
+                        },
+                        "ScoreRewards": [
+                            1900,
+                            3700,
+                            4200,
+                            5100,
+                            7800
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_Berlin2_BG",
+                            "Main": "Gmob_Berlin2R_main_LuigiPainter00",
+                            "Sub": "Gmob_Berlin2R_sub"
+                        }
+                    },
+                    {
+                        "SortId": 1,
+                        "Key": "New_Gmob_Madrid2R",
                         "BannedScore": 100000,
                         "RankingNormalizeScore": 10000,
                         "Driver": {
@@ -2401,315 +2060,292 @@
                             "Name": "Pauline"
                         },
                         "ScoreRewards": [
-                            1100,
-                            2200,
-                            2500,
-                            3100,
-                            4900
-                        ],
-                        "Icons": {
-                            "BG": "Gmob_Paris2_BG",
-                            "Main": "Gmob_Paris2RX_main_Pauline00",
-                            "Sub": "Gmob_Paris2RX_sub"
-                        }
-                    },
-                    {
-                        "SortId": 1,
-                        "Key": "Classic_Gagb_BowserCastle4",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 264,
-                            "Key": "item00264",
-                            "Name": "MiiIggy"
-                        },
-                        "ScoreRewards": [
-                            1700,
+                            1800,
                             3500,
-                            3900,
+                            4000,
                             4800,
-                            7600
+                            7400
                         ],
                         "Icons": {
-                            "BG": "Gagb_BowserCastle4_BG",
-                            "Main": "Gagb_BowserCastle4_main_MiiIggy00",
-                            "Sub": "Gagb_BowserCastle4_sub"
+                            "BG": "Gmob_Madrid2_BG",
+                            "Main": "Gmob_Madrid2R_main_Pauline00",
+                            "Sub": "Gmob_Madrid2R_sub"
                         }
                     },
                     {
                         "SortId": 2,
-                        "Key": "Classic_Ggc_MushroomBridgeRX",
+                        "Key": "Battle_Bmob_Paris1",
                         "BannedScore": 100000,
                         "RankingNormalizeScore": 10000,
                         "Driver": {
-                            "Id": 154,
-                            "Key": "item00154",
-                            "Name": "RosettaCook"
+                            "Id": 11,
+                            "Key": "item00011",
+                            "Name": "Daisy"
                         },
                         "ScoreRewards": [
-                            1900,
-                            3900,
-                            4400,
-                            5500,
-                            8600
+                            1800,
+                            3600,
+                            4000,
+                            5000,
+                            7600
                         ],
                         "Icons": {
-                            "BG": "Ggc_MushroomBridge_BG",
-                            "Main": "Ggc_MushroomBridgeRX_main_RosettaCook00",
-                            "Sub": "Ggc_MushroomBridgeRX_sub"
+                            "BG": "Bmob_Paris1_BG",
+                            "Main": "Bmob_Paris1_main_Daisy00",
+                            "Sub": "Bmob_Paris1_sub"
                         }
                     }
                 ],
                 "BonusCourse": {
-                    "EventId": 2228,
-                    "MessageTitleLabel": "event-2228",
-                    "MessageDetailLabel": "event-2228-detail",
-                    "Rule": "CountJumpAction",
-                    "CourseName": "New_Gmob_Bathroom",
+                    "EventId": 2127,
+                    "MessageTitleLabel": "event-2127",
+                    "MessageDetailLabel": "event-2127-detail",
+                    "Rule": "TimeAttack",
+                    "CourseName": "New_Gmob_Madrid1",
+                    "IsMirror": false,
+                    "IsTeamMode": false,
+                    "LapNum": 2,
+                    "CC": 150,
+                    "KartConfigs": [
+                        {
+                            "DriverKey": 59,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        }
+                    ],
+                    "Criteria": [
+                        93,
+                        99,
+                        105
+                    ],
+                    "Translations": {
+                        "CNzh": {
+                            "event-2127": "计时赛",
+                            "event-2127-detail": "争取创造最佳时间！"
+                        },
+                        "EUde": {
+                            "event-2127": "Zeitfahren",
+                            "event-2127-detail": "Hol dir die Bestzeit!"
+                        },
+                        "EUes": {
+                            "event-2127": "Contrarreloj",
+                            "event-2127-detail": "¡Intenta lograr tu mejor marca!"
+                        },
+                        "EUfr": {
+                            "event-2127": "Contre-la-montre",
+                            "event-2127-detail": "Pulvérisez votre record !"
+                        },
+                        "EUit": {
+                            "event-2127": "Prove a tempo",
+                            "event-2127-detail": "Punta al tempo migliore!"
+                        },
+                        "JPja": {
+                            "event-2127": "タイムアタック",
+                            "event-2127-detail": "ベストタイムをめざそう！"
+                        },
+                        "KRko": {
+                            "event-2127": "타임 어택",
+                            "event-2127-detail": "베스트 타임을 노리자!"
+                        },
+                        "TWzh": {
+                            "event-2127": "計時賽",
+                            "event-2127-detail": "爭取創造最佳時間吧！"
+                        },
+                        "USen": {
+                            "event-2127": "Time Trial",
+                            "event-2127-detail": "Go for your best time!"
+                        },
+                        "USes": {
+                            "event-2127": "Contrarreloj",
+                            "event-2127-detail": "¡Intenta lograr tu mejor marca!"
+                        },
+                        "USpt": {
+                            "event-2127": "Contrarrelógio",
+                            "event-2127-detail": "Tente melhorar seu tempo!"
+                        }
+                    }
+                },
+                "Translations": {
+                    "CNzh": "菊花公主杯",
+                    "EUde": "Daisy-Cup",
+                    "EUes": "Copa Daisy",
+                    "EUfr": "Coupe Daisy",
+                    "EUit": "Trofeo Daisy",
+                    "JPja": "デイジーカップ",
+                    "KRko": "데이지 컵",
+                    "TWzh": "黛西公主盃",
+                    "USen": "Daisy Cup",
+                    "USes": "Copa Daisy",
+                    "USpt": "Copa Daisy"
+                }
+            },
+            {
+                "SortId": 11,
+                "Key": "season_cup_045",
+                "IsRankingTarget": false,
+                "Drivers": [
+                    {
+                        "Id": 56,
+                        "Key": "item00056",
+                        "Name": "Kameck"
+                    }
+                ],
+                "Courses": [
+                    {
+                        "SortId": 0,
+                        "Key": "New_Gmob_Tokyo2R",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 196,
+                            "Key": "item00196",
+                            "Name": "MiiKinopio"
+                        },
+                        "ScoreRewards": [
+                            1100,
+                            2200,
+                            2500,
+                            3100,
+                            4700
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_Tokyo2_BG",
+                            "Main": "Gmob_Tokyo2R_main_MiiKinopio00",
+                            "Sub": "Gmob_Tokyo2R_sub"
+                        }
+                    },
+                    {
+                        "SortId": 1,
+                        "Key": "New_Gmob_LosAngeles3X",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 56,
+                            "Key": "item00056",
+                            "Name": "Kameck"
+                        },
+                        "ScoreRewards": [
+                            1700,
+                            3600,
+                            4000,
+                            4900,
+                            7600
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_LosAngeles3_BG",
+                            "Main": "Gmob_LosAngeles3X_main_Kameck00",
+                            "Sub": "Gmob_LosAngeles3X_sub"
+                        }
+                    },
+                    {
+                        "SortId": 2,
+                        "Key": "New_Gmob_OceanRuins3X",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 216,
+                            "Key": "item00216",
+                            "Name": "MarioGolf"
+                        },
+                        "ScoreRewards": [
+                            1800,
+                            3600,
+                            4000,
+                            5000,
+                            7700
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_OceanRuins3_BG",
+                            "Main": "Gmob_OceanRuins3X_main_MarioGolf00",
+                            "Sub": "Gmob_OceanRuins3X_sub"
+                        }
+                    }
+                ],
+                "BonusCourse": {
+                    "EventId": 854,
+                    "MessageTitleLabel": "event-854",
+                    "MessageDetailLabel": "event-854-detail",
+                    "Rule": "GatePass",
+                    "CourseName": "New_Gmob_Paris3",
                     "IsMirror": false,
                     "IsTeamMode": false,
                     "LapNum": 1,
                     "CC": 50,
                     "KartConfigs": [
                         {
-                            "DriverKey": 92,
+                            "DriverKey": 7,
                             "MachineKey": 70048,
                             "WingKey": 30001
                         }
                     ],
                     "Criteria": [
-                        35,
-                        30,
-                        25
+                        34,
+                        25,
+                        15
                     ],
                     "Translations": {
                         "CNzh": {
-                            "event-2228": "完成跳跃动作",
-                            "event-2228-detail": "做出跳跃动作吧！"
+                            "event-854": "通过圆环",
+                            "event-854-detail": "穿过圆环吧！"
                         },
                         "EUde": {
-                            "event-2228": "Sprungturbo-Springen",
-                            "event-2228-detail": "Springturbos!"
+                            "event-854": "Tore-Tingelei",
+                            "event-854-detail": "Durchfahre Tore!"
                         },
                         "EUes": {
-                            "event-2228": "Saltos acelerados",
-                            "event-2228-detail": "¡Haz saltos con acelerón!"
+                            "event-854": "Ruta de aros",
+                            "event-854-detail": "¡Atraviesa aros!"
                         },
                         "EUfr": {
-                            "event-2228": "Course acrobatique",
-                            "event-2228-detail": "Course acrobatique"
+                            "event-854": "Anneaux à gogo",
+                            "event-854-detail": "Traversez des anneaux !"
                         },
                         "EUit": {
-                            "event-2228": "Salti turbo",
-                            "event-2228-detail": "Fai dei salti turbo."
+                            "event-854": "Corsa ad anelli",
+                            "event-854-detail": "Attraversa anelli."
                         },
                         "JPja": {
-                            "event-2228": "きめろジャンプアクション",
-                            "event-2228-detail": "ジャンプアクションを きめよう！"
+                            "event-854": "くぐってリング",
+                            "event-854-detail": "リングをくぐろう！"
                         },
                         "KRko": {
-                            "event-2228": "펼쳐라, 점프 액션",
-                            "event-2228-detail": "점프 액션을 성공시켜 보자!"
+                            "event-854": "통과해라, 링",
+                            "event-854-detail": "링을 통과하자!"
                         },
                         "TWzh": {
-                            "event-2228": "完成跳躍動作",
-                            "event-2228-detail": "做出跳躍動作！"
+                            "event-854": "通過圓環",
+                            "event-854-detail": "通過圓環！"
                         },
                         "USen": {
-                            "event-2228": "Do Jump Boosts",
-                            "event-2228-detail": "Do Jump Boosts!"
+                            "event-854": "Ring Race",
+                            "event-854-detail": "Pass through rings!"
                         },
                         "USes": {
-                            "event-2228": "Saltos acelerados",
-                            "event-2228-detail": "¡Haz saltos con acelerón!"
+                            "event-854": "Ruta de aros",
+                            "event-854-detail": "¡Atraviesa los aros!"
                         },
                         "USpt": {
-                            "event-2228": "Saltos impulsionados",
-                            "event-2228-detail": "Dê saltos impulsionados!"
+                            "event-854": "Rota dos anéis",
+                            "event-854-detail": "Atravesse anéis!"
                         }
                     }
                 },
                 "Translations": {
-                    "CNzh": "宝琳杯",
-                    "EUde": "Pauline-Cup",
-                    "EUes": "Copa Pauline",
-                    "EUfr": "Coupe Pauline",
-                    "EUit": "Trofeo Pauline",
-                    "JPja": "ポリーンカップ",
-                    "KRko": "폴린 컵",
-                    "TWzh": "波琳盃",
-                    "USen": "Pauline Cup",
-                    "USes": "Copa Pauline",
-                    "USpt": "Copa Pauline"
+                    "CNzh": "卡美克杯",
+                    "EUde": "Kamek-Cup",
+                    "EUes": "Copa Kamek",
+                    "EUfr": "Coupe Kamek",
+                    "EUit": "Trofeo Kamek",
+                    "JPja": "カメックカップ",
+                    "KRko": "마귀 컵",
+                    "TWzh": "卡美克盃",
+                    "USen": "Kamek Cup",
+                    "USes": "Copa Kamek",
+                    "USpt": "Copa Kamek"
                 }
             },
             {
-                "SortId": 13,
-                "Key": "season_cup_003",
-                "IsRankingTarget": false,
-                "Drivers": [
-                    {
-                        "Id": 9,
-                        "Key": "item00009",
-                        "Name": "Yoshi"
-                    }
-                ],
-                "Courses": [
-                    {
-                        "SortId": 0,
-                        "Key": "New_Gmob_Athens2",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 185,
-                            "Key": "item00185",
-                            "Name": "DaisyBangkok"
-                        },
-                        "ScoreRewards": [
-                            2100,
-                            4600,
-                            5100,
-                            6400,
-                            10200
-                        ],
-                        "Icons": {
-                            "BG": "Gmob_Athens2_BG",
-                            "Main": "Gmob_Athens2_main_DaisyBangkok00",
-                            "Sub": "Gmob_Athens2_sub"
-                        }
-                    },
-                    {
-                        "SortId": 1,
-                        "Key": "New_Gmob_Bangkok1RX",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 9,
-                            "Key": "item00009",
-                            "Name": "Yoshi"
-                        },
-                        "ScoreRewards": [
-                            1800,
-                            3900,
-                            4300,
-                            5400,
-                            8600
-                        ],
-                        "Icons": {
-                            "BG": "Gmob_Bangkok1_BG",
-                            "Main": "Gmob_Bangkok1RX_main_Yoshi00",
-                            "Sub": "Gmob_Bangkok1RX_sub"
-                        }
-                    },
-                    {
-                        "SortId": 2,
-                        "Key": "New_Gmob_BathroomRX",
-                        "BannedScore": 100000,
-                        "RankingNormalizeScore": 10000,
-                        "Driver": {
-                            "Id": 83,
-                            "Key": "item00083",
-                            "Name": "RosettaCat"
-                        },
-                        "ScoreRewards": [
-                            2300,
-                            5000,
-                            5600,
-                            6900,
-                            11100
-                        ],
-                        "Icons": {
-                            "BG": "Gmob_Bathroom_BG",
-                            "Main": "Gmob_BathroomRX_main_RosettaCat00",
-                            "Sub": "Gmob_BathroomRX_sub"
-                        }
-                    }
-                ],
-                "BonusCourse": {
-                    "EventId": 2096,
-                    "MessageTitleLabel": "event-2096",
-                    "MessageDetailLabel": "event-2096-detail",
-                    "Rule": "ComboAttack",
-                    "CourseName": "New_Gmob_Bangkok2X",
-                    "IsMirror": false,
-                    "IsTeamMode": false,
-                    "LapNum": 1,
-                    "CC": 150,
-                    "KartConfigs": [
-                        {
-                            "DriverKey": 6,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        }
-                    ],
-                    "Criteria": [
-                        20,
-                        15,
-                        10
-                    ],
-                    "Translations": {
-                        "CNzh": {
-                            "event-2096": "连击赛",
-                            "event-2096-detail": "争取使出连击！"
-                        },
-                        "EUde": {
-                            "event-2096": "Serienmarathon",
-                            "event-2096-detail": "Halte die Serie am Laufen!"
-                        },
-                        "EUes": {
-                            "event-2096": "Combomanía",
-                            "event-2096-detail": "¡Prolonga el combo!"
-                        },
-                        "EUfr": {
-                            "event-2096": "Défi combo",
-                            "event-2096-detail": "N'interrompez pas votre combo !"
-                        },
-                        "EUit": {
-                            "event-2096": "Combo dopo combo",
-                            "event-2096-detail": "Non spezzare la combo!"
-                        },
-                        "JPja": {
-                            "event-2096": "コンボアタック",
-                            "event-2096-detail": "コンボをつなげよう！"
-                        },
-                        "KRko": {
-                            "event-2096": "콤보 어택",
-                            "event-2096-detail": "콤보를 연결하자!"
-                        },
-                        "TWzh": {
-                            "event-2096": "連段賽",
-                            "event-2096-detail": "使出連段吧！"
-                        },
-                        "USen": {
-                            "event-2096": "Combo Attack",
-                            "event-2096-detail": "Keep the combo going!"
-                        },
-                        "USes": {
-                            "event-2096": "Combomanía",
-                            "event-2096-detail": "¡Mantén el combo!"
-                        },
-                        "USpt": {
-                            "event-2096": "Combomania",
-                            "event-2096-detail": "Dê continuidade ao combo!"
-                        }
-                    }
-                },
-                "Translations": {
-                    "CNzh": "耀西杯",
-                    "EUde": "Yoshi-Cup",
-                    "EUes": "Copa Yoshi",
-                    "EUfr": "Coupe Yoshi",
-                    "EUit": "Trofeo Yoshi",
-                    "JPja": "ヨッシーカップ",
-                    "KRko": "요시 컵",
-                    "TWzh": "耀西盃",
-                    "USen": "Yoshi Cup",
-                    "USes": "Copa Yoshi",
-                    "USpt": "Copa Yoshi"
-                }
-            },
-            {
-                "SortId": 14,
+                "SortId": 12,
                 "Key": "season_cup_017",
                 "IsRankingTarget": false,
                 "Drivers": [
@@ -2722,156 +2358,140 @@
                 "Courses": [
                     {
                         "SortId": 0,
-                        "Key": "New_Gmob_Paris2X",
+                        "Key": "New_Gmob_Berlin1RX",
                         "BannedScore": 100000,
                         "RankingNormalizeScore": 10000,
                         "Driver": {
-                            "Id": 77,
-                            "Key": "item00077",
-                            "Name": "LuigiPainter"
+                            "Id": 207,
+                            "Key": "item00207",
+                            "Name": "Pochi"
                         },
                         "ScoreRewards": [
-                            1100,
-                            2400,
-                            2700,
-                            3400,
-                            5500
+                            1700,
+                            3500,
+                            3900,
+                            4900,
+                            7700
                         ],
                         "Icons": {
-                            "BG": "Gmob_Paris2_BG",
-                            "Main": "Gmob_Paris2X_main_LuigiPainter00",
-                            "Sub": "Gmob_Paris2X_sub"
+                            "BG": "Gmob_Berlin1_BG",
+                            "Main": "Gmob_Berlin1RX_main_Pochi00",
+                            "Sub": "Gmob_Berlin1RX_sub"
                         }
                     },
                     {
                         "SortId": 1,
-                        "Key": "New_Gmob_Athens1RX",
+                        "Key": "New_Gmob_Tokyo1X",
                         "BannedScore": 100000,
                         "RankingNormalizeScore": 10000,
                         "Driver": {
-                            "Id": 250,
-                            "Key": "item00250",
-                            "Name": "MiiFishBone"
+                            "Id": 26,
+                            "Key": "item00026",
+                            "Name": "BbPeach"
                         },
                         "ScoreRewards": [
-                            2400,
-                            5300,
-                            5900,
-                            7300,
-                            12000
+                            1300,
+                            2700,
+                            3000,
+                            3700,
+                            5900
                         ],
                         "Icons": {
-                            "BG": "Gmob_Athens1_BG",
-                            "Main": "Gmob_Athens1RX_main_MiiFishBone00",
-                            "Sub": "Gmob_Athens1RX_sub"
+                            "BG": "Gmob_Tokyo1_BG",
+                            "Main": "Gmob_Tokyo1X_main_BbPeach00",
+                            "Sub": "Gmob_Tokyo1X_sub"
                         }
                     },
                     {
                         "SortId": 2,
-                        "Key": "Classic_Ggc_BabyParkRX",
+                        "Key": "New_Gmob_Madrid1RX",
                         "BannedScore": 100000,
                         "RankingNormalizeScore": 10000,
                         "Driver": {
-                            "Id": 135,
-                            "Key": "item00135",
-                            "Name": "KinopicoBuilder"
+                            "Id": 133,
+                            "Key": "item00133",
+                            "Name": "LuigiDoctor"
                         },
                         "ScoreRewards": [
-                            1900,
-                            4300,
-                            4800,
-                            5900,
-                            9700
+                            1800,
+                            3700,
+                            4200,
+                            5200,
+                            8200
                         ],
                         "Icons": {
-                            "BG": "Ggc_BabyPark_BG",
-                            "Main": "Ggc_BabyParkRX_main_KinopicoBuilder00",
-                            "Sub": "Ggc_BabyParkRX_sub"
+                            "BG": "Gmob_Madrid1_BG",
+                            "Main": "Gmob_Madrid1RX_main_LuigiDoctor00",
+                            "Sub": "Gmob_Madrid1RX_sub"
                         }
                     }
                 ],
                 "BonusCourse": {
-                    "EventId": 900,
-                    "MessageTitleLabel": "event-900",
-                    "MessageDetailLabel": "event-900-detail",
-                    "Rule": "BossKoopa",
-                    "CourseName": "New_Gmob_Paris1",
+                    "EventId": 1041,
+                    "MessageTitleLabel": "event-1041",
+                    "MessageDetailLabel": "event-1041-detail",
+                    "Rule": "DontCrash",
+                    "CourseName": "New_Gmob_Tokyo2",
                     "IsMirror": false,
                     "IsTeamMode": false,
-                    "LapNum": 2,
+                    "LapNum": 1,
                     "CC": 50,
                     "KartConfigs": [
                         {
-                            "DriverKey": 5,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 3,
-                            "MachineKey": 70035,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 5,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 5,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
-                        },
-                        {
-                            "DriverKey": 5,
-                            "MachineKey": 70048,
-                            "WingKey": 30001
+                            "DriverKey": 44,
+                            "MachineKey": 70030,
+                            "WingKey": 30074
                         }
                     ],
-                    "Criteria": [],
+                    "Criteria": [
+                        3,
+                        2,
+                        1
+                    ],
                     "Translations": {
                         "CNzh": {
-                            "event-900": "VS巨大酷霸王",
-                            "event-900-detail": "争取第1名！"
+                            "event-1041": "不要失控",
+                            "event-1041-detail": "不失控并通过终点"
                         },
                         "EUde": {
-                            "event-900": "Vs. Mega-Bowser",
-                            "event-900-detail": "Hol dir den Sieg!"
+                            "event-1041": "Die große Unfallfreiheit",
+                            "event-1041-detail": "Bleib unfallfrei!"
                         },
                         "EUes": {
-                            "event-900": "¡Contra Mega Bowser!",
-                            "event-900-detail": "¡Logra el primer puesto!"
+                            "event-1041": "¡Conducción segura!",
+                            "event-1041-detail": "¡Evita los accidentes!"
                         },
                         "EUfr": {
-                            "event-900": "À bas Méga Bowser !",
-                            "event-900-detail": "Visez la 1re place !"
+                            "event-1041": "Parcours sans faute",
+                            "event-1041-detail": "Évitez les accidents !"
                         },
                         "EUit": {
-                            "event-900": "VS Mega Bowser",
-                            "event-900-detail": "Punta al 1º posto!"
+                            "event-1041": "Guida sicura",
+                            "event-1041-detail": "Non andare a sbattere!"
                         },
                         "JPja": {
-                            "event-900": "VS巨大クッパ",
-                            "event-900-detail": "１位をめざせ！"
+                            "event-1041": "クラッシュするな",
+                            "event-1041-detail": "クラッシュせずにゴールしよう"
                         },
                         "KRko": {
-                            "event-900": "VS 거대쿠파",
-                            "event-900-detail": "1위를 노리자!"
+                            "event-1041": "충돌을 피하자",
+                            "event-1041-detail": "충돌하지 않고 골인하자"
                         },
                         "TWzh": {
-                            "event-900": "VS巨大庫巴",
-                            "event-900-detail": "目標第１名！"
+                            "event-1041": "不要失控",
+                            "event-1041-detail": "不失控並通過終點"
                         },
                         "USen": {
-                            "event-900": "Vs. Mega Bowser",
-                            "event-900-detail": "Aim for 1st!"
+                            "event-1041": "Steer Clear of Obstacles",
+                            "event-1041-detail": "Don't crash!"
                         },
                         "USes": {
-                            "event-900": "¡Contra mega Bowser!",
-                            "event-900-detail": "¡Logra el primer puesto!"
+                            "event-1041": "Evita los obstáculos",
+                            "event-1041-detail": "¡No choques!"
                         },
                         "USpt": {
-                            "event-900": "Contra mega Bowser!",
-                            "event-900-detail": "Tente chegar em primeiro!"
+                            "event-1041": "Evite os obstáculos",
+                            "event-1041-detail": "Evite colisões!"
                         }
                     }
                 },
@@ -2888,20 +2508,385 @@
                     "USes": "Copa Bebé Peach",
                     "USpt": "Copa Bebê Peach"
                 }
+            },
+            {
+                "SortId": 13,
+                "Key": "season_cup_027",
+                "IsRankingTarget": false,
+                "Drivers": [
+                    {
+                        "Id": 19,
+                        "Key": "item00019",
+                        "Name": "MetalPeach"
+                    }
+                ],
+                "Courses": [
+                    {
+                        "SortId": 0,
+                        "Key": "New_Gmob_LosAngeles3RX",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 48,
+                            "Key": "item00048",
+                            "Name": "MarioSuit"
+                        },
+                        "ScoreRewards": [
+                            1700,
+                            3700,
+                            4200,
+                            5200,
+                            8300
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_LosAngeles3_BG",
+                            "Main": "Gmob_LosAngeles3RX_main_MarioSuit00",
+                            "Sub": "Gmob_LosAngeles3RX_sub"
+                        }
+                    },
+                    {
+                        "SortId": 1,
+                        "Key": "New_Gmob_Madrid1X",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 148,
+                            "Key": "item00148",
+                            "Name": "KinopicoPenguin"
+                        },
+                        "ScoreRewards": [
+                            1800,
+                            3800,
+                            4200,
+                            5200,
+                            8400
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_Madrid1_BG",
+                            "Main": "Gmob_Madrid1X_main_KinopicoPenguin00",
+                            "Sub": "Gmob_Madrid1X_sub"
+                        }
+                    },
+                    {
+                        "SortId": 2,
+                        "Key": "New_Gmob_Berlin2RX",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 19,
+                            "Key": "item00019",
+                            "Name": "MetalPeach"
+                        },
+                        "ScoreRewards": [
+                            1700,
+                            3700,
+                            4200,
+                            5200,
+                            8300
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_Berlin2_BG",
+                            "Main": "Gmob_Berlin2RX_main_MetalPeach00",
+                            "Sub": "Gmob_Berlin2RX_sub"
+                        }
+                    }
+                ],
+                "BonusCourse": {
+                    "EventId": 1676,
+                    "MessageTitleLabel": "event-1676",
+                    "MessageDetailLabel": "event-1676-detail",
+                    "Rule": "ComboAttack",
+                    "CourseName": "New_Gmob_Tokyo1X",
+                    "IsMirror": false,
+                    "IsTeamMode": false,
+                    "LapNum": 1,
+                    "CC": 150,
+                    "KartConfigs": [
+                        {
+                            "DriverKey": 5,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        }
+                    ],
+                    "Criteria": [
+                        20,
+                        15,
+                        10
+                    ],
+                    "Translations": {
+                        "CNzh": {
+                            "event-1676": "连击赛",
+                            "event-1676-detail": "争取使出连击！"
+                        },
+                        "EUde": {
+                            "event-1676": "Serienmarathon",
+                            "event-1676-detail": "Halte die Serie am Laufen!"
+                        },
+                        "EUes": {
+                            "event-1676": "Combomanía",
+                            "event-1676-detail": "¡Prolonga el combo!"
+                        },
+                        "EUfr": {
+                            "event-1676": "Défi combo",
+                            "event-1676-detail": "N'interrompez pas votre combo !"
+                        },
+                        "EUit": {
+                            "event-1676": "Combo dopo combo",
+                            "event-1676-detail": "Non spezzare la combo!"
+                        },
+                        "JPja": {
+                            "event-1676": "コンボアタック",
+                            "event-1676-detail": "コンボをつなげよう！"
+                        },
+                        "KRko": {
+                            "event-1676": "콤보 어택",
+                            "event-1676-detail": "콤보를 연결하자!"
+                        },
+                        "TWzh": {
+                            "event-1676": "連段賽",
+                            "event-1676-detail": "使出連段吧！"
+                        },
+                        "USen": {
+                            "event-1676": "Combo Attack",
+                            "event-1676-detail": "Keep the combo going!"
+                        },
+                        "USes": {
+                            "event-1676": "Combomanía",
+                            "event-1676-detail": "¡Mantén el combo!"
+                        },
+                        "USpt": {
+                            "event-1676": "Combomania",
+                            "event-1676-detail": "Dê continuidade ao combo!"
+                        }
+                    }
+                },
+                "Translations": {
+                    "CNzh": "粉金色桃花公主杯",
+                    "EUde": "Rosagold-Peach-Cup",
+                    "EUes": "Copa Peach de Oro Rosa",
+                    "EUfr": "Coupe Peach d'or rose",
+                    "EUit": "Trofeo Peach oro rosa",
+                    "JPja": "ピンクゴールドピーチカップ",
+                    "KRko": "핑크골드피치 컵",
+                    "TWzh": "粉金色碧姬公主盃",
+                    "USen": "Pink Gold Peach Cup",
+                    "USes": "Copa Peach de Oro Rosa",
+                    "USpt": "Copa Peach de Ouro Rosa"
+                }
+            },
+            {
+                "SortId": 14,
+                "Key": "season_cup_023",
+                "IsRankingTarget": false,
+                "Drivers": [
+                    {
+                        "Id": 30,
+                        "Key": "item00030",
+                        "Name": "Iggy"
+                    }
+                ],
+                "Courses": [
+                    {
+                        "SortId": 0,
+                        "Key": "New_Gmob_Madrid2RX",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 211,
+                            "Key": "item00211",
+                            "Name": "LuigiFox"
+                        },
+                        "ScoreRewards": [
+                            1600,
+                            3600,
+                            4000,
+                            5000,
+                            8200
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_Madrid2_BG",
+                            "Main": "Gmob_Madrid2RX_main_LuigiFox00",
+                            "Sub": "Gmob_Madrid2RX_sub"
+                        }
+                    },
+                    {
+                        "SortId": 1,
+                        "Key": "Battle_Bagb_BattleCourse1",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 178,
+                            "Key": "item00178",
+                            "Name": "DotDKJr"
+                        },
+                        "ScoreRewards": [
+                            1800,
+                            4000,
+                            4500,
+                            5600,
+                            9200
+                        ],
+                        "Icons": {
+                            "BG": "Bagb_BattleCourse1_BG",
+                            "Main": "Bagb_BattleCourse1_main_DotDKJr00",
+                            "Sub": "Bagb_BattleCourse1_sub"
+                        }
+                    },
+                    {
+                        "SortId": 2,
+                        "Key": "New_Gmob_Tokyo2RX",
+                        "BannedScore": 100000,
+                        "RankingNormalizeScore": 10000,
+                        "Driver": {
+                            "Id": 30,
+                            "Key": "item00030",
+                            "Name": "Iggy"
+                        },
+                        "ScoreRewards": [
+                            1200,
+                            2600,
+                            2900,
+                            3600,
+                            5900
+                        ],
+                        "Icons": {
+                            "BG": "Gmob_Tokyo2_BG",
+                            "Main": "Gmob_Tokyo2RX_main_Iggy00",
+                            "Sub": "Gmob_Tokyo2RX_sub"
+                        }
+                    }
+                ],
+                "BonusCourse": {
+                    "EventId": 2159,
+                    "MessageTitleLabel": "event-2159",
+                    "MessageDetailLabel": "event-2159-detail",
+                    "Rule": "OneHundredRace",
+                    "CourseName": "Classic_Gwii_MoonviewHighway",
+                    "IsMirror": false,
+                    "IsTeamMode": false,
+                    "LapNum": 5,
+                    "CC": 150,
+                    "KartConfigs": [
+                        {
+                            "DriverKey": 41,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        },
+                        {
+                            "DriverKey": 10,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        },
+                        {
+                            "DriverKey": 70,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        },
+                        {
+                            "DriverKey": 71,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        },
+                        {
+                            "DriverKey": 72,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        },
+                        {
+                            "DriverKey": 76,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        },
+                        {
+                            "DriverKey": 61,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        },
+                        {
+                            "DriverKey": 74,
+                            "MachineKey": 70048,
+                            "WingKey": 30001
+                        }
+                    ],
+                    "Criteria": [
+                        1,
+                        40,
+                        80
+                    ],
+                    "Translations": {
+                        "CNzh": {
+                            "event-2159": "大逆转比赛100",
+                            "event-2159-detail": "争取第1名！"
+                        },
+                        "EUde": {
+                            "event-2159": "Rückwärts-Rennen vs. 100",
+                            "event-2159-detail": "Hol dir den 1. Platz!"
+                        },
+                        "EUes": {
+                            "event-2159": "Carrerón inverso vs. 100",
+                            "event-2159-detail": "¡A por el primer puesto!"
+                        },
+                        "EUfr": {
+                            "event-2159": "Course sens inverse vs 100",
+                            "event-2159-detail": "Visez la 1re place !"
+                        },
+                        "EUit": {
+                            "event-2159": "Corsa contromano VS 100",
+                            "event-2159-detail": "Punta al 1º posto!"
+                        },
+                        "JPja": {
+                            "event-2159": "大逆転レース100",
+                            "event-2159-detail": "１位をめざせ！"
+                        },
+                        "KRko": {
+                            "event-2159": "대역전 레이스 100",
+                            "event-2159-detail": "1위를 노리자!"
+                        },
+                        "TWzh": {
+                            "event-2159": "大逆轉比賽100",
+                            "event-2159-detail": "目標第１名！"
+                        },
+                        "USen": {
+                            "event-2159": "Big Reverse Race vs. 100",
+                            "event-2159-detail": "Aim for 1st place!"
+                        },
+                        "USes": {
+                            "event-2159": "Carrerón inverso vs. 100",
+                            "event-2159-detail": "¡Ve por el primer puesto!"
+                        },
+                        "USpt": {
+                            "event-2159": "Corrida reversa contra 100",
+                            "event-2159-detail": "Tente chegar em primeiro!"
+                        }
+                    }
+                },
+                "Translations": {
+                    "CNzh": "伊吉杯",
+                    "EUde": "Iggy-Cup",
+                    "EUes": "Copa Iggy",
+                    "EUfr": "Coupe Iggy",
+                    "EUit": "Trofeo Iggy",
+                    "JPja": "イギーカップ",
+                    "KRko": "이기 컵",
+                    "TWzh": "伊吉盃",
+                    "USen": "Iggy Cup",
+                    "USes": "Copa Iggy",
+                    "USpt": "Copa Iggy"
+                }
             }
         ],
         "Translations": {
-            "CNzh": "度假巡回赛",
-            "EUde": "Urlaubs-Tour-Saison",
-            "EUes": "Temporada de vacaciones",
-            "EUfr": "Saison des vacances",
-            "EUit": "Tour in vacanza",
-            "JPja": "バカンスツアー",
-            "KRko": "바캉스 투어",
-            "TWzh": "度假巡迴賽",
-            "USen": "Vacation Tour",
-            "USes": "Temporada de vacaciones",
-            "USpt": "Temporada de Férias"
+            "CNzh": "夏季巡回赛",
+            "EUde": "Tour-Saison Sommer",
+            "EUes": "Temporada de verano",
+            "EUfr": "Saison de l'été",
+            "EUit": "Tour estivo",
+            "JPja": "サマーツアー",
+            "KRko": "서머 투어",
+            "TWzh": "夏季巡迴賽",
+            "USen": "Summer Tour",
+            "USes": "Temporada de verano",
+            "USpt": "Temporada de verão"
         }
     },
     "drivers": [
@@ -33502,6 +33487,10 @@
                 {
                     "Key": "Classic_Ggc_DaisyCruiserRX",
                     "PromotionLevel": 0
+                },
+                {
+                    "Key": "New_Gmob_Madrid1",
+                    "PromotionLevel": 0
                 }
             ],
             "CourseMoreGoodAtDetail": [
@@ -33563,7 +33552,9 @@
                 "New_Gmob_DokanR",
                 "Classic_Gsfc_KoopaTroopaBeach2X",
                 "New_Gmob_Sydney1R",
-                "Classic_Ggc_DaisyCruiserX"
+                "Classic_Ggc_DaisyCruiserX",
+                "New_Gmob_Paris3R",
+                "New_Gmob_Madrid2R"
             ],
             "TagIds": [
                 3,
@@ -41818,6 +41809,14 @@
                 {
                     "Key": "New_Gmob_IceBuildingRX",
                     "PromotionLevel": 0
+                },
+                {
+                    "Key": "New_Gmob_Madrid2",
+                    "PromotionLevel": 0
+                },
+                {
+                    "Key": "New_Gmob_Madrid2R",
+                    "PromotionLevel": 0
                 }
             ],
             "CourseMoreGoodAtDetail": [
@@ -41880,7 +41879,9 @@
                 "New_Gmob_Sydney2X",
                 "Classic_Gagb_LakeSidePark",
                 "Classic_Gagb_LakeSideParkRX",
-                "New_Gmob_IceBuilding"
+                "New_Gmob_IceBuilding",
+                "New_Gmob_Paris3RX",
+                "New_Gmob_Madrid2X"
             ],
             "TagIds": [
                 24
@@ -103748,7 +103749,9 @@
                 "Classic_Gwii_MoonviewHighwayR",
                 "New_Gmob_Dokan",
                 "Classic_Ggc_DaisyCruiser",
-                "New_Gmob_Bathroom"
+                "New_Gmob_Bathroom",
+                "New_Gmob_Madrid2",
+                "New_Gmob_Madrid1X"
             ],
             "TagIds": [],
             "Translations": {
@@ -103927,6 +103930,10 @@
                 {
                     "Key": "New_Gmob_Sydney2R",
                     "PromotionLevel": 0
+                },
+                {
+                    "Key": "New_Gmob_Madrid2",
+                    "PromotionLevel": 0
                 }
             ],
             "CourseMoreGoodAtDetail": [
@@ -103965,7 +103972,9 @@
                 "Classic_Gwii_DaisyCircuitR",
                 "Classic_Gn64_MarioRacewayR",
                 "New_Gmob_NewYork2R",
-                "New_Gmob_Sydney2"
+                "New_Gmob_Sydney2",
+                "New_Gmob_Paris3RX",
+                "New_Gmob_Madrid2RX"
             ],
             "TagIds": [],
             "Translations": {
@@ -104164,6 +104173,10 @@
                 {
                     "Key": "Classic_Gagb_LakeSideParkR",
                     "PromotionLevel": 0
+                },
+                {
+                    "Key": "New_Gmob_Paris3R",
+                    "PromotionLevel": 0
                 }
             ],
             "CourseMoreGoodAtDetail": [
@@ -104229,7 +104242,9 @@
                 "Classic_Ggc_DaisyCruiserR",
                 "Classic_Gagb_LakeSideParkX",
                 "Classic_Gagb_LakeSideParkRX",
-                "New_Gmob_BathroomX"
+                "New_Gmob_BathroomX",
+                "New_Gmob_Paris3RX",
+                "New_Gmob_Madrid2X"
             ],
             "TagIds": [],
             "Translations": {
@@ -104448,6 +104463,10 @@
                 {
                     "Key": "New_Gmob_Sydney1R",
                     "PromotionLevel": 0
+                },
+                {
+                    "Key": "New_Gmob_Madrid2X",
+                    "PromotionLevel": 0
                 }
             ],
             "CourseMoreGoodAtDetail": [
@@ -104503,7 +104522,8 @@
                 "Classic_Gsfc_KoopaTroopaBeach2",
                 "New_Gmob_Sydney2",
                 "Classic_Gsfc_KoopaTroopaBeach2RX",
-                "New_Gmob_BathroomRX"
+                "New_Gmob_BathroomRX",
+                "New_Gmob_Paris3R"
             ],
             "TagIds": [],
             "Translations": {
@@ -104726,6 +104746,10 @@
                 {
                     "Key": "New_Gmob_Sydney2X",
                     "PromotionLevel": 0
+                },
+                {
+                    "Key": "New_Gmob_Paris3R",
+                    "PromotionLevel": 0
                 }
             ],
             "CourseMoreGoodAtDetail": [
@@ -104785,7 +104809,9 @@
                 "New_Gmob_DokanRX",
                 "New_Gmob_DokanR",
                 "New_Gmob_Sydney1R",
-                "New_Gmob_Sydney1RX"
+                "New_Gmob_Sydney1RX",
+                "New_Gmob_Madrid2",
+                "New_Gmob_Madrid2X"
             ],
             "TagIds": [],
             "Translations": {
@@ -105000,6 +105026,14 @@
                 {
                     "Key": "New_Gmob_BathroomRX",
                     "PromotionLevel": 0
+                },
+                {
+                    "Key": "New_Gmob_Madrid1",
+                    "PromotionLevel": 0
+                },
+                {
+                    "Key": "New_Gmob_Madrid2",
+                    "PromotionLevel": 0
                 }
             ],
             "CourseMoreGoodAtDetail": [
@@ -105049,7 +105083,8 @@
                 "New_Gmob_DokanX",
                 "New_Gmob_Sydney1R",
                 "Classic_Ggc_DaisyCruiserX",
-                "New_Gmob_BathroomR"
+                "New_Gmob_BathroomR",
+                "New_Gmob_Paris3R"
             ],
             "TagIds": [],
             "Translations": {
@@ -118566,7 +118601,8 @@
                 "New_Gmob_Rome1",
                 "Classic_Gwii_MoonviewHighwayRX",
                 "Classic_Gagb_LakeSideParkX",
-                "New_Gmob_BathroomR"
+                "New_Gmob_BathroomR",
+                "New_Gmob_Madrid1X"
             ],
             "TagIds": [],
             "Translations": {
@@ -156163,7 +156199,9 @@
                 "Classic_Gwii_MoonviewHighway",
                 "New_Gmob_DokanR",
                 "Classic_Gsfc_KoopaTroopaBeach2",
-                "New_Gmob_BathroomR"
+                "New_Gmob_BathroomR",
+                "New_Gmob_Paris3RX",
+                "New_Gmob_Madrid2R"
             ],
             "TagIds": [],
             "Translations": {
@@ -156371,6 +156409,10 @@
                 {
                     "Key": "New_Gmob_BathroomRX",
                     "PromotionLevel": 0
+                },
+                {
+                    "Key": "New_Gmob_Madrid2",
+                    "PromotionLevel": 0
                 }
             ],
             "CourseMoreGoodAtDetail": [
@@ -156418,7 +156460,8 @@
                 "New_Gmob_DokanRX",
                 "Classic_Gagb_LakeSidePark",
                 "Classic_Gagb_LakeSideParkX",
-                "New_Gmob_Bathroom"
+                "New_Gmob_Bathroom",
+                "New_Gmob_Madrid2R"
             ],
             "TagIds": [],
             "Translations": {
@@ -156642,6 +156685,10 @@
                 {
                     "Key": "Classic_Gsfc_KoopaTroopaBeach2RX",
                     "PromotionLevel": 0
+                },
+                {
+                    "Key": "New_Gmob_Madrid2RX",
+                    "PromotionLevel": 0
                 }
             ],
             "CourseMoreGoodAtDetail": [
@@ -156682,7 +156729,9 @@
                 "Classic_Ggc_WaluigiStadiumRX",
                 "New_Gmob_Rome1X",
                 "Classic_Gsfc_KoopaTroopaBeach2X",
-                "New_Gmob_Sydney2X"
+                "New_Gmob_Sydney2X",
+                "New_Gmob_Paris3R",
+                "New_Gmob_Madrid1X"
             ],
             "TagIds": [],
             "Translations": {
@@ -156910,6 +156959,10 @@
                 {
                     "Key": "Classic_Ggc_DaisyCruiserR",
                     "PromotionLevel": 0
+                },
+                {
+                    "Key": "New_Gmob_Madrid2",
+                    "PromotionLevel": 0
                 }
             ],
             "CourseMoreGoodAtDetail": [
@@ -156970,7 +157023,9 @@
                 "New_Gmob_DokanRX",
                 "Classic_Gsfc_KoopaTroopaBeach2R",
                 "New_Gmob_Sydney1RX",
-                "Classic_Ggc_DaisyCruiserRX"
+                "Classic_Ggc_DaisyCruiserRX",
+                "New_Gmob_Madrid1RX",
+                "New_Gmob_Madrid2RX"
             ],
             "TagIds": [],
             "Translations": {
@@ -157170,6 +157225,10 @@
                 {
                     "Key": "Classic_Gagb_LakeSideParkRX",
                     "PromotionLevel": 0
+                },
+                {
+                    "Key": "New_Gmob_Paris3R",
+                    "PromotionLevel": 0
                 }
             ],
             "CourseMoreGoodAtDetail": [
@@ -157228,7 +157287,8 @@
                 "New_Gmob_Sydney2R",
                 "Classic_Ggc_DaisyCruiserR",
                 "Classic_Gagb_LakeSidePark",
-                "New_Gmob_BathroomX"
+                "New_Gmob_BathroomX",
+                "New_Gmob_Madrid1RX"
             ],
             "TagIds": [],
             "Translations": {
@@ -157452,6 +157512,10 @@
                 {
                     "Key": "Classic_Gsfc_KoopaTroopaBeach2",
                     "PromotionLevel": 0
+                },
+                {
+                    "Key": "New_Gmob_Paris3RX",
+                    "PromotionLevel": 0
                 }
             ],
             "CourseMoreGoodAtDetail": [
@@ -157500,7 +157564,8 @@
                 "New_Gmob_Rome1RX",
                 "New_Gmob_DokanR",
                 "New_Gmob_Sydney2",
-                "Classic_Gsfc_KoopaTroopaBeach2RX"
+                "Classic_Gsfc_KoopaTroopaBeach2RX",
+                "New_Gmob_Paris3R"
             ],
             "TagIds": [],
             "Translations": {
@@ -175258,6 +175323,24 @@
             "SortId": 990000323,
             "DataVersionId": 22800,
             "Key": "Tpb00113_1000"
+        },
+        {
+            "Id": "52330",
+            "SortId": 990000324,
+            "DataVersionId": 22900,
+            "Key": "Tpb00114_10"
+        },
+        {
+            "Id": "52331",
+            "SortId": 990000325,
+            "DataVersionId": 22900,
+            "Key": "Tpb00114_100"
+        },
+        {
+            "Id": "52332",
+            "SortId": 990000326,
+            "DataVersionId": 22900,
+            "Key": "Tpb00114_1000"
         }
     ],
     "courses": {
