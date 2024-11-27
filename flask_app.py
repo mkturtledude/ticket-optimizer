@@ -16,9 +16,6 @@ from wtforms import IntegerField, FileField, SelectField, TextAreaField, Boolean
 import base, util, reader
 
 pastTours = [
-    ("02-halloween.json", "Halloween"),
-    ("03-autumn.json", "Autumn"),
-    ("04-animal.json", "Animal"),
     ("05-peach-vs-bowser.json", "Peach vs. Bowser"),
     ("06-holiday.json", "Holiday"),
     ("07-new-years.json", "New Year's"),
@@ -42,15 +39,12 @@ pastTours = [
     ("25-sundae.json", "Sundae"),
     ("26-anniversary.json", "Anniversary"),
     ("current", "Battle"),
+    ("02-halloween.json", "Halloween"),
+    ("03-autumn.json", "Autumn"),
+    ("04-animal.json", "Animal"),
 ]
 
 rankedWeeks = [
-    ("02-halloween.json1", "Halloween 1"),
-    ("02-halloween.json2", "Halloween 2"),
-    ("03-autumn.json1", "Autumn 1"),
-    ("03-autumn.json2", "Autumn 2"),
-    ("04-animal.json1", "Animal 1"),
-    ("04-animal.json2", "Animal 2"),
     ("05-peach-vs-bowser.json1", "Peach vs. Bowser 1"),
     ("05-peach-vs-bowser.json2", "Peach vs. Bowser 2"),
     ("06-holiday.json1", "Holiday 1"),
@@ -97,6 +91,12 @@ rankedWeeks = [
     ("26-anniversary.json2", "Anniversary 2"),
     ("01-battle.json1", "Battle 1"),
     ("01-battle.json2", "Battle 2"),
+    ("02-halloween.json1", "Halloween 1"),
+    ("02-halloween.json2", "Halloween 2"),
+    ("03-autumn.json1", "Autumn 1"),
+    ("03-autumn.json2", "Autumn 2"),
+    ("04-animal.json1", "Animal 1"),
+    ("04-animal.json2", "Animal 2"),
 ]
 
 class MultiCheckboxField(SelectMultipleField):
