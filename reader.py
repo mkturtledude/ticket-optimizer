@@ -226,7 +226,9 @@ def readJson(file, wellFoughtFlags, tour, rankedTours):
     fillCourseNames(courses,data, wellFoughtFlags)
     return courses, allItems
 
-def readActions(courses, considerPumpkins, boomerangHandicap):
+
+
+def readActions(courses, considerPumpkins, handicaps):
     # Google Sheet owned by myself, which copies the data from DKR's master sheet
     url = f'https://docs.google.com/spreadsheets/d/19xo0WBLORLU8Xz_W2J7H3KnLAjE3__ejVG32xD2Pk0M/gviz/tq?tqx=out:csv&sheet=Sheet1'
     # fetch the data from the sheet
@@ -258,15 +260,72 @@ def readActions(courses, considerPumpkins, boomerangHandicap):
                     course.courseActions.glideTime = int(row["Glide Time"])
                     course.courseActions.courseCoins = int(row["Coins (Course)"])
                     course.courseActions.itemCoins = int(row["Coins (Items)"])
+                    course.courseActions.tripleBananas = course.courseActions.normal
+                    course.courseActions.bowserShell = course.courseActions.normal
+                    course.courseActions.tripleMushrooms = course.courseActions.normal
+                    course.courseActions.mushroomCannon = course.courseActions.normal
                 except:
                     raise Exception("Action counts for " + course.englishName + " are incomplete")
 
-                if boomerangHandicap < 100:
-                    course.courseActions.boomerangFlower = int(course.courseActions.boomerangFlower * (boomerangHandicap / 100.0))
+                if handicaps.coin != 100:
+                    course.courseActions.normal = int(course.courseActions.normal * (handicaps.coin / 100.0))
+                    print("Set coin actions for {} to {}.".format(name, str(course.courseActions.normal)))
+
+                if handicaps.boomerang != 100:
+                    course.courseActions.boomerangFlower = int(course.courseActions.boomerangFlower * (handicaps.boomerang / 100.0))
                     print("Set boomerang actions for {} to {}.".format(name, str(course.courseActions.boomerangFlower)))
                     if course.courseActions.boomerangFlower < course.courseActions.normal:
                         course.courseActions.boomerangFlower = course.courseActions.normal
                         print("\tReduced to {}".format(course.courseActions.boomerangFlower))
+
+                if handicaps.coinBox != 100:
+                    course.courseActions.coinbox = int(course.courseActions.coinbox * (handicaps.coinBox / 100.0))
+                    print("Set coinbox actions for {} to {}.".format(name, str(course.courseActions.coinbox)))
+                    if course.courseActions.coinbox < course.courseActions.normal:
+                        course.courseActions.coinbox = course.courseActions.normal
+                        print("\tReduced to {}".format(course.courseActions.coinbox))
+
+                if handicaps.giantBanana != 100:
+                    course.courseActions.giantBanana = int(course.courseActions.giantBanana * (handicaps.giantBanana / 100.0))
+                    print("Set giant banana actions for {} to {}.".format(name, str(course.courseActions.giantBanana)))
+                    if course.courseActions.giantBanana < course.courseActions.normal:
+                        course.courseActions.giantBanana = course.courseActions.normal
+                        print("\tReduced to {}".format(course.courseActions.giantBanana))
+
+                if handicaps.luckySeven != 100:
+                    course.courseActions.lucky7 = int(course.courseActions.lucky7 * (handicaps.luckySeven / 100.0))
+                    print("Set lucky 7 actions for {} to {}.".format(name, str(course.courseActions.lucky7)))
+                    if course.courseActions.lucky7 < course.courseActions.normal:
+                        course.courseActions.lucky7 = course.courseActions.normal
+                        print("\tReduced to {}".format(course.courseActions.lucky7))
+
+                if handicaps.tripleBananas != 100:
+                    course.courseActions.tripleBananas = int(course.courseActions.tripleBananas * (handicaps.tripleBananas / 100.0))
+                    print("Set triple bananas actions for {} to {}.".format(name, str(course.courseActions.tripleBananas)))
+                    if course.courseActions.tripleBananas < course.courseActions.normal:
+                        course.courseActions.tripleBananas = course.courseActions.normal
+                        print("\tReduced to {}".format(course.courseActions.tripleBananas))
+
+                if handicaps.bowserShell != 100:
+                    course.courseActions.bowserShell = int(course.courseActions.bowserShell * (handicaps.bowserShell / 100.0))
+                    print("Set bowser shell actions for {} to {}.".format(name, str(course.courseActions.bowserShell)))
+                    if course.courseActions.bowserShell < course.courseActions.normal:
+                        course.courseActions.bowserShell = course.courseActions.normal
+                        print("\tReduced to {}".format(course.courseActions.bowserShell))
+
+                if handicaps.tripleMushrooms != 100:
+                    course.courseActions.tripleMushrooms = int(course.courseActions.tripleMushrooms * (handicaps.tripleMushrooms / 100.0))
+                    print("Set triple mushrooms actions for {} to {}.".format(name, str(course.courseActions.tripleMushrooms)))
+                    if course.courseActions.tripleMushrooms < course.courseActions.normal:
+                        course.courseActions.tripleMushrooms = course.courseActions.normal
+                        print("\tReduced to {}".format(course.courseActions.tripleMushrooms))
+
+                if handicaps.mushroomCannon != 100:
+                    course.courseActions.mushroomCannon = int(course.courseActions.mushroomCannon * (handicaps.mushroomCannon / 100.0))
+                    print("Set mushroom cannon actions for {} to {}.".format(name, str(course.courseActions.mushroomCannon)))
+                    if course.courseActions.mushroomCannon < course.courseActions.normal:
+                        course.courseActions.mushroomCannon = course.courseActions.normal
+                        print("\tReduced to {}".format(course.courseActions.mushroomCannon))
 
 
                 if considerPumpkins:

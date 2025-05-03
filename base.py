@@ -75,6 +75,51 @@ class CourseActions:
         self.lanterns = 0
         self.goldMario = 0
         self.gmCoins = 0
+        self.tripleBananas = 0
+        self.bowserShell = 0
+        self.tripleMushrooms = 0
+        self.mushroomCannon = 0
+
+
+class ActionHandicaps:
+    def __init__(self, form):
+        self.boomerang = form.boomerangHandicap.data
+        self.coinBox = form.coinboxHandicap.data
+        self.giantBanana = form.giantBananaHandicap.data
+        self.luckySeven = form.luckySevenHandicap.data
+        self.tripleBananas = form.tripleBananasHandicap.data
+        self.bowserShell = form.bowserShellHandicap.data
+        self.tripleMushrooms = form.tripleMushroomsHandicap.data
+        self.mushroomCannon = form.mushroomCannonHandicap.data
+        self.coin = form.coinHandicap.data
+
+        if not self.boomerang or not str(self.boomerang).isdigit() or int(self.boomerang) < 1 or int(
+                self.boomerang) > 150:
+            self.boomerang = 100
+        if not self.coinBox or not str(self.coinBox).isdigit() or int(self.coinBox) < 1 or int(
+                self.coinBox) > 150:
+            self.coinBox = 100
+        if not self.giantBanana or not str(self.giantBanana).isdigit() or int(self.giantBanana) < 1 or int(
+                self.giantBanana) > 150:
+            self.giantBanana = 100
+        if not self.luckySeven or not str(self.luckySeven).isdigit() or int(self.luckySeven) < 1 or int(
+                self.luckySeven) > 150:
+            self.luckySeven = 100
+        if not self.tripleBananas or not str(self.tripleBananas).isdigit() or int(self.tripleBananas) < 1 or int(
+                self.tripleBananas) > 150:
+            self.tripleBananas = 100
+        if not self.bowserShell or not str(self.bowserShell).isdigit() or int(self.bowserShell) < 1 or int(
+                self.bowserShell) > 150:
+            self.bowserShell = 100
+        if not self.tripleMushrooms or not str(self.tripleMushrooms).isdigit() or int(self.tripleMushrooms) < 1 or int(
+                self.tripleMushrooms) > 150:
+            self.tripleMushrooms = 100
+        if not self.mushroomCannon or not str(self.mushroomCannon).isdigit() or int(self.mushroomCannon) < 1 or int(
+                self.mushroomCannon) > 150:
+            self.mushroomCannon = 100
+        if not self.coin or not str(self.coin).isdigit() or int(self.coin) < 1 or int(
+                self.coin) > 150:
+            self.coin = 100
 
 class TourCourse:
     def __init__(self, internalName, cupDriverIds, sortId):

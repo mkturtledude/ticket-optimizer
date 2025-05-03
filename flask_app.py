@@ -16,17 +16,6 @@ from wtforms import IntegerField, FileField, SelectField, TextAreaField, Boolean
 import base, util, reader
 
 pastTours = [
-    ("05-peach-vs-bowser.json", "Peach vs. Bowser"),
-    ("06-holiday.json", "Holiday"),
-    ("07-new-years.json", "New Year's"),
-    ("08-space.json", "Space"),
-    ("09-winter.json", "Winter"),
-    ("10-exploration.json", "Exploration"),
-    ("11-doctor.json", "Doctor"),
-    ("12-mario.json", "Mario"),
-    ("13-ninja.json", "Ninja"),
-    ("14-yoshi.json", "Yoshi"),
-    ("15-spring.json", "Spring"),
     ("16-bowser.json", "Bowser"),
     ("17-mii.json", "Mii"),
     ("18-princess.json", "Princess"),
@@ -42,31 +31,20 @@ pastTours = [
     ("02-halloween.json", "Halloween"),
     ("03-autumn.json", "Autumn"),
     ("04-animal.json", "Animal"),
+    ("05-peach-vs-bowser.json", "Peach vs. Bowser"),
+    ("06-holiday.json", "Holiday"),
+    ("07-new-years.json", "New Year's"),
+    ("08-space.json", "Space"),
+    ("09-winter.json", "Winter"),
+    ("10-exploration.json", "Exploration"),
+    ("11-doctor.json", "Doctor"),
+    ("12-mario.json", "Mario"),
+    ("13-ninja.json", "Ninja"),
+    ("14-yoshi.json", "Yoshi"),
+    ("15-spring.json", "Spring"),
 ]
 
 rankedWeeks = [
-    ("05-peach-vs-bowser.json1", "Peach vs. Bowser 1"),
-    ("05-peach-vs-bowser.json2", "Peach vs. Bowser 2"),
-    ("06-holiday.json1", "Holiday 1"),
-    ("06-holiday.json2", "Holiday 2"),
-    ("07-new-years.json1", "New Year's 1"),
-    ("07-new-years.json2", "New Year's 2"),
-    ("08-space.json1", "Space 1"),
-    ("08-space.json2", "Space 2"),
-    ("09-winter.json1", "Winter 1"),
-    ("09-winter.json2", "Winter 2"),
-    ("10-exploration.json1", "Exploration 1"),
-    ("10-exploration.json2", "Exploration 2"),
-    ("11-doctor.json1", "Doctor 1"),
-    ("11-doctor.json2", "Doctor 2"),
-    ("12-mario.json1", "Mario 1"),
-    ("12-mario.json2", "Mario 2"),
-    ("13-ninja.json1", "Ninja 1"),
-    ("13-ninja.json2", "Ninja 2"),
-    ("14-yoshi.json1", "Yoshi 1"),
-    ("14-yoshi.json2", "Yoshi 2"),
-    ("15-spring.json1", "Spring 1"),
-    ("15-spring.json2", "Spring 2"),
     ("16-bowser.json1", "Bowser 1"),
     ("16-bowser.json2", "Bowser 2"),
     ("17-mii.json1", "Mii 1"),
@@ -97,6 +75,28 @@ rankedWeeks = [
     ("03-autumn.json2", "Autumn 2"),
     ("04-animal.json1", "Animal 1"),
     ("04-animal.json2", "Animal 2"),
+    ("05-peach-vs-bowser.json1", "Peach vs. Bowser 1"),
+    ("05-peach-vs-bowser.json2", "Peach vs. Bowser 2"),
+    ("06-holiday.json1", "Holiday 1"),
+    ("06-holiday.json2", "Holiday 2"),
+    ("07-new-years.json1", "New Year's 1"),
+    ("07-new-years.json2", "New Year's 2"),
+    ("08-space.json1", "Space 1"),
+    ("08-space.json2", "Space 2"),
+    ("09-winter.json1", "Winter 1"),
+    ("09-winter.json2", "Winter 2"),
+    ("10-exploration.json1", "Exploration 1"),
+    ("10-exploration.json2", "Exploration 2"),
+    ("11-doctor.json1", "Doctor 1"),
+    ("11-doctor.json2", "Doctor 2"),
+    ("12-mario.json1", "Mario 1"),
+    ("12-mario.json2", "Mario 2"),
+    ("13-ninja.json1", "Ninja 1"),
+    ("13-ninja.json2", "Ninja 2"),
+    ("14-yoshi.json1", "Yoshi 1"),
+    ("14-yoshi.json2", "Yoshi 2"),
+    ("15-spring.json1", "Spring 1"),
+    ("15-spring.json2", "Spring 2"),
 ]
 
 class MultiCheckboxField(SelectMultipleField):
@@ -125,7 +125,8 @@ def stringToCups(cupsString):
     else:
         return range(15)
 
-def optimize(workDir, inventoryLines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups, boomerangHandicap):
+
+def optimize(workDir, inventoryLines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups, handicaps):
     coverageFile = os.path.join(workDir, "data", "alldata.json")
     tourPath = os.path.join(workDir, "data", "pastTours", tourFile) if tourFile and tourFile != "current" else ""
     tourPaths = []
@@ -141,7 +142,7 @@ def optimize(workDir, inventoryLines, tickets, playerLevel, wellFoughtFlags, sim
     courses, items = reader.readJson(coverageFile, wellFoughtFlags, tourPath, tourPaths)
     # if tourFile in {"current", "02-halloween.json", }
     considerPumpkins = False
-    reader.readActions(courses, considerPumpkins, boomerangHandicap)
+    reader.readActions(courses, considerPumpkins, handicaps)
     inventory = reader.readInventory(inventoryLines, items, simulatedItems)
     upgrades, rows, courseLoadouts, totalScores = util.optimize(inventory, courses, tickets, playerLevel)
 
@@ -186,7 +187,15 @@ class MyForm(FlaskForm):
     paywalled = MultiCheckboxField('Paywalled (Commemorative, Gold Challenges)')
     miiShop = MultiCheckboxField('Mii Shop')
     other = MultiCheckboxField('Other (Ranked, Challenge Cards, Token Shop, etc.)')
-    boomerangHandicap = IntegerField('Boomerang handicap (default 100)')
+    boomerangHandicap = IntegerField('Boomerang')
+    coinboxHandicap = IntegerField('Coinbox')
+    giantBananaHandicap = IntegerField('Giant Banana')
+    luckySevenHandicap = IntegerField('Lucky Seven')
+    tripleBananasHandicap = IntegerField('Triple Bananas')
+    bowserShellHandicap = IntegerField('Bowser\'s Shell')
+    tripleMushroomsHandicap = IntegerField('Triple Mushrooms')
+    mushroomCannonHandicap = IntegerField('Mushroom Cannon')
+    coinHandicap = IntegerField('Coin (i.e. every other skill)')
 
 
 
@@ -301,14 +310,12 @@ def results():
                 line = line.rstrip() + '\n'
                 f.write(line + '\n')
 
-    boomerangHandicap = form.boomerangHandicap.data
-    if not boomerangHandicap or not str(boomerangHandicap).isdigit() or int(boomerangHandicap) < 1 or int(boomerangHandicap) > 100:
-        boomerangHandicap = 100
+    handicaps = base.ActionHandicaps(form)
 
     # upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups)
     try:
         startTime = time.time()
-        upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups, boomerangHandicap)
+        upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups, handicaps)
         endTime = time.time()
         print("Runtime: {} seconds".format(endTime - startTime))
     except Exception as e:

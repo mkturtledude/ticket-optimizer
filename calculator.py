@@ -199,6 +199,14 @@ def totalActions(course, driver):
         result = course.courseActions.boomerangFlower
     elif driver.skill == "Coin Box":
         result = course.courseActions.coinbox
+    elif driver.skill == "Triple Bananas":
+        result = course.courseActions.tripleBananas
+    elif driver.skill == "Bowser's Shell":
+        result = course.courseActions.bowserShell
+    elif driver.skill == "Mushroom Cannon":
+        result = course.courseActions.mushroomCannon
+    elif driver.skill == "Triple Mushroom":
+        result = course.courseActions.tripleMushrooms
 
     if course.type == "Battle" and course.wellFought:
         if driver.skill in {"Coin Box", "Boomerang Flower"}:

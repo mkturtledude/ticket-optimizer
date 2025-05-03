@@ -65,7 +65,32 @@
     </table>
     </div>
         <br>
-        {{ form.boomerangHandicap.label }} {{ form.boomerangHandicap(size=3, type="number", min="1", max="100") }} <br>
+        <h5>Skill-specific action target correction (default 100)</h5>
+        Default: 100<br>
+        If after the correction the action count for a course is lower than for the Coin skill, it will be reset to that.
+        <br>
+        <!--
+        {{ form.boomerangHandicap.label }} {{ form.boomerangHandicap(size=3, type="number", min="1", max="150") }} <br>
+        {{ form.coinboxHandicap.label }} {{ form.coinboxHandicap(size=3, type="number", min="1", max="150") }} <br>
+        {{ form.giantBananaHandicap.label }} {{ form.giantBananaHandicap(size=3, type="number", min="1", max="150") }} <br>
+        {{ form.luckySevenHandicap.label }} {{ form.luckySevenHandicap(size=3, type="number", min="1", max="150") }} <br>
+        {{ form.tripleBananasHandicap.label }} {{ form.tripleBananasHandicap(size=3, type="number", min="1", max="150") }} <br>
+        {{ form.bowserShellHandicap.label }} {{ form.bowserShellHandicap(size=3, type="number", min="1", max="150") }} <br>
+        {{ form.tripleMushroomsHandicap.label }} {{ form.tripleMushroomsHandicap(size=3, type="number", min="1", max="150") }} <br>
+        {{ form.mushroomCannonHandicap.label }} {{ form.mushroomCannonHandicap(size=3, type="number", min="1", max="150") }} <br>
+        {{ form.coinHandicap.label }} {{ form.coinHandicap(size=3, type="number", min="1", max="150") }} <br> -->
+        <table>
+          <tr><td>{{ form.boomerangHandicap.label }}</td><td>{{ form.boomerangHandicap(size=3, type="number", min="1", max="150") }}</td></tr>
+          <tr><td>{{ form.coinboxHandicap.label }}</td><td>{{ form.coinboxHandicap(size=3, type="number", min="1", max="150") }}</td></tr>
+          <tr><td>{{ form.giantBananaHandicap.label }}</td><td>{{ form.giantBananaHandicap(size=3, type="number", min="1", max="150") }}</td></tr>
+          <tr><td>{{ form.luckySevenHandicap.label }}</td><td>{{ form.luckySevenHandicap(size=3, type="number", min="1", max="150") }}</td></tr>
+          <tr><td>{{ form.tripleBananasHandicap.label }}</td><td>{{ form.tripleBananasHandicap(size=3, type="number", min="1", max="150") }}</td></tr>
+          <tr><td>{{ form.bowserShellHandicap.label }}</td><td>{{ form.bowserShellHandicap(size=3, type="number", min="1", max="150") }}</td></tr>
+          <tr><td>{{ form.tripleMushroomsHandicap.label }}</td><td>{{ form.tripleMushroomsHandicap(size=3, type="number", min="1", max="150") }}</td></tr>
+          <tr><td>{{ form.mushroomCannonHandicap.label }}</td><td>{{ form.mushroomCannonHandicap(size=3, type="number", min="1", max="150") }}</td></tr>
+          <tr><td>{{ form.coinHandicap.label }}</td><td>{{ form.coinHandicap(size=3, type="number", min="1", max="150") }}</td></tr>
+        </table>
+
 
 
     <div id="inventory-simulation">
