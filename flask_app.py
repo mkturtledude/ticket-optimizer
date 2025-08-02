@@ -27,7 +27,7 @@ pastTours = [
     ("24-summer.json", "Summer"),
     ("25-sundae.json", "Sundae"),
     ("26-anniversary.json", "Anniversary"),
-    ("current", "Battle"),
+    ("01-battle.json", "Battle"),
     ("02-halloween.json", "Halloween"),
     ("03-autumn.json", "Autumn"),
     ("04-animal.json", "Animal"),
