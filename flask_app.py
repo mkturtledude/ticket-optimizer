@@ -300,15 +300,15 @@ def results():
             return throwError("No inventory data was provided")
 
     # Save the inventory file for research purposes
-    user_ip = request.remote_addr
-    if user_ip != "127.0.0.1":
-        user_ip = request.headers['X-Real-IP']
-        fileName = user_ip + datetime.datetime.now().strftime('-%H%M%S.csv')
-        outputPath = os.path.join(app.root_path, "inventories", fileName)
-        with open(outputPath, 'w', encoding='utf-8-sig') as f:
-            for line in lines:
-                line = line.rstrip() + '\n'
-                f.write(line + '\n')
+    # user_ip = request.remote_addr
+    # if user_ip != "127.0.0.1":
+    #     user_ip = request.headers['X-Real-IP']
+    #     fileName = user_ip + datetime.datetime.now().strftime('-%H%M%S.csv')
+    #     outputPath = os.path.join(app.root_path, "inventories", fileName)
+    #     with open(outputPath, 'w', encoding='utf-8-sig') as f:
+    #         for line in lines:
+    #             line = line.rstrip() + '\n'
+    #             f.write(line + '\n')
 
     handicaps = base.ActionHandicaps(form)
 
