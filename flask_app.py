@@ -312,7 +312,7 @@ def results():
 
     handicaps = base.ActionHandicaps(form)
 
-    # upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups)
+    #upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups, handicaps)
     try:
         startTime = time.time()
         upgrades, rows, courseLoadouts, totalScores = optimize(app.root_path, lines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups, handicaps)

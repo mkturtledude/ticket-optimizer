@@ -1,42 +1,72 @@
 import base, calculator
 import copy
 import unidecode
+from enum import Enum
 
+# Define our solver options
+class SolverChoice(Enum):
+    OR_TOOLS_SCIP = 1
+    GUROBI = 2
+    OR_TOOLS_HIGHS = 3
 
-# If true, uses OR-Tools with SCIP. If false, uses Gurobi
-OR_TOOLS = False
+# CHANGE THIS TO SWITCH SOLVERS
+SOLVER_TYPE = SolverChoice.OR_TOOLS_SCIP
 
-if OR_TOOLS:
+if SOLVER_TYPE == SolverChoice.OR_TOOLS_SCIP:
     from ortools.linear_solver import pywraplp
-else:
+elif SOLVER_TYPE == SolverChoice.GUROBI:
     import gurobipy as gp
     from gurobipy import GRB
-
-
-## The following functions provide an interface for the two possible solvers
-def maximize(model, objectiveFunction):
-    if OR_TOOLS:
-        model.Maximize(model.Sum(objectiveFunction))
-    else:
-        model.setObjective(gp.quicksum(objectiveFunction), GRB.MAXIMIZE)
+elif SOLVER_TYPE == SolverChoice.OR_TOOLS_HIGHS:
+    from ortools.math_opt.python import mathopt
 
 def addVariable(model, variableName):
-    if OR_TOOLS:
+    if SOLVER_TYPE == SolverChoice.OR_TOOLS_SCIP:
         return model.BoolVar(variableName)
-    else:
+    elif SOLVER_TYPE == SolverChoice.GUROBI:
         return model.addVar(vtype=GRB.BINARY, name=variableName)
+    elif SOLVER_TYPE == SolverChoice.OR_TOOLS_HIGHS:
+        # MathOpt's equivalent to BoolVar
+        return model.add_binary_variable(name=variableName)
+
+
+def maximize(model, objectiveFunction):
+    if SOLVER_TYPE == SolverChoice.OR_TOOLS_SCIP:
+        model.Maximize(model.Sum(objectiveFunction))
+    elif SOLVER_TYPE == SolverChoice.GUROBI:
+        model.setObjective(gp.quicksum(objectiveFunction), GRB.MAXIMIZE)
+    elif SOLVER_TYPE == SolverChoice.OR_TOOLS_HIGHS:
+        # Use the standard sum() function
+        # Convert to list to ensure MathOpt processes the linear expression correctly
+        model.maximize(sum([x for x in objectiveFunction]))
+
 
 def addConstraint(model, lhsElements, rhs, constraintName):
-    if OR_TOOLS:
+    if SOLVER_TYPE == SolverChoice.OR_TOOLS_SCIP:
         model.Add(model.Sum(lhsElements) <= rhs, name=constraintName)
-    else:
+    elif SOLVER_TYPE == SolverChoice.GUROBI:
         model.addConstr(gp.quicksum(lhsElements) <= rhs, constraintName)
+    elif SOLVER_TYPE == SolverChoice.OR_TOOLS_HIGHS:
+        lhs_list = list(lhsElements)
+        if not lhs_list: return
 
-def getVariableValue(variable):
-    if OR_TOOLS:
+        lhs_sum = sum(lhs_list)
+
+        # Check for constant constraints that cause 'bool' errors
+        if isinstance(lhs_sum, (int, float)) and isinstance(rhs, (int, float)):
+            return
+
+            # IMPORTANT: Use unique names or empty strings for MathOpt
+        model.add_linear_constraint(lhs_sum <= rhs, name="")
+
+def getVariableValue(result, variable):
+    if SOLVER_TYPE == SolverChoice.OR_TOOLS_SCIP:
         return variable.solution_value()
-    else:
+    elif SOLVER_TYPE == SolverChoice.GUROBI:
         return variable.X
+    elif SOLVER_TYPE == SolverChoice.OR_TOOLS_HIGHS:
+        # MathOpt stores values in the result object, not the variable
+        return result.variable_values()[variable]
 
 '''
 combinations: list<set<tuple<score, item, item, item>>>
@@ -77,12 +107,17 @@ class TicketStash:
 def solve(combinations, originalInventoryIdToItem, tickets):
     ## Create model
     print("Creating and solving model...")
-    if OR_TOOLS:
-        print("Using OR-Tools")
+
+    # Initialize the correct model type
+    if SOLVER_TYPE == SolverChoice.OR_TOOLS_SCIP:
+        print("Using OR-Tools (SCIP)")
         model = pywraplp.Solver.CreateSolver('SCIP')
-    else:
+    elif SOLVER_TYPE == SolverChoice.GUROBI:
         print("Using Gurobi")
         model = gp.Model("ScoreMaximization")
+    elif SOLVER_TYPE == SolverChoice.OR_TOOLS_HIGHS:
+        print("Using OR-Tools (HiGHS via MathOpt)")
+        model = mathopt.Model(name="ScoreMaximization")
 
     combinationsToVariables = []
     allCombinationScores = []
@@ -280,30 +315,49 @@ def solve(combinations, originalInventoryIdToItem, tickets):
     addConstraint(model, (highEndGliderRemainingUncapTickets[i] * highEndGliderVariables[i] for i in
                                 range(len(highEndGliderVariables))), tickets.uhg, "HGuncaps")
 
-
-    if OR_TOOLS:
-        # lp_str = model.ExportModelAsLpFormat(False)
-        # with open('my_model.lp', 'w') as f:
-        #     f.write(lp_str)
-        status = model.Solve()
-        if status == pywraplp.Solver.OPTIMAL:
-            print('Solution:')
-            print('Objective value =', model.Objective().Value())
-        else:
-            print('The problem does not have an optimal solution.')
+    # Final Solve Step
+    if SOLVER_TYPE == SolverChoice.OR_TOOLS_HIGHS:
+        # MathOpt requires a separate solve() call
+        params = mathopt.SolveParameters(enable_output=True)
+        try:
+            result = mathopt.solve(model, mathopt.SolverType.HIGHS, params=params)
+        except Exception as e:
+            print("\n" + "=" * 50)
+            print("DETAILED LINUX ERROR LOG:")
+            # On Linux, this often contains the specific C++ status message
+            print(f"Error Type: {type(e)}")
+            print(f"Message: {str(e)}")
+            print("=" * 50)
+            raise
+        # To keep the rest of your script working, you'll need to pass 'result'
+        # to getVariableValue instead of just the variable.
     else:
-        model.Params.MIPGap = 1e-6
-        model.optimize()
-        # fileName = str(time.time()) + ".lp"
-        # print("Saving problem to {}".format(fileName))
-        # m.write(fileName)
+        model.Solve() if SOLVER_TYPE == SolverChoice.OR_TOOLS_SCIP else model.optimize()
+        result = None  # result isn't needed for legacy solvers
+
+    # if OR_TOOLS:
+    #     # lp_str = model.ExportModelAsLpFormat(False)
+    #     # with open('my_model.lp', 'w') as f:
+    #     #     f.write(lp_str)
+    #     status = model.Solve()
+    #     if status == pywraplp.Solver.OPTIMAL:
+    #         print('Solution:')
+    #         print('Objective value =', model.Objective().Value())
+    #     else:
+    #         print('The problem does not have an optimal solution.')
+    # else:
+    #     model.Params.MIPGap = 1e-6
+    #     model.optimize()
+    #     # fileName = str(time.time()) + ".lp"
+    #     # print("Saving problem to {}".format(fileName))
+    #     # m.write(fileName)
 
 
     optimalCombinations = []
     for courseMap in combinationsToVariables:
         for c in courseMap:
             variable = courseMap[c]
-            isSelected = (abs(getVariableValue(variable) - 1) < 0.0001)
+            isSelected = (abs(getVariableValue(result, variable) - 1) < 0.0001)
             if isSelected:
                 optimalCombinations.append([c[1].gameItem.id, c[1].level, c[1].uncaps, c[2].gameItem.id, c[2].level, c[2].uncaps, c[3].gameItem.id, c[3].level, c[3].uncaps])
 
