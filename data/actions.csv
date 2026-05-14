@@ -1,457 +1,547 @@
-Course,Normal,Giant Banana,Lucky 7,Boomerang Flower,Coin Box,Coin Box?,Tour Buff?,CB to BB?,WR,WR Holder,Item Boxes,Mini-Turbos,Jump Boosts,Dash Panels,Glide Time,Coins (Course),Coins (Items)
-3DS Bowser's Castle,195,205,215,235,235,Y,,,274,PIEN,6,38,20,8,8,32,16
-3DS Bowser's Castle R,180,190,200,220,220,Y,,,268,KM,6,40,22,2,3,34,16
-3DS Bowser's Castle T,180,190,200,220,220,Y,,,252,Danny,6,32,38,6,4,28,16
-3DS Bowser's Castle R/T,200,210,220,240,240,Y,,,275,MasaPooh,6,22,50,4,6,34,16
-3DS Cheep Cheep Lagoon,130,140,150,160,165,,,,152,TheRealLatios,5,8,21,4,0,16,8
-3DS Cheep Cheep Lagoon R,145,155,165,175,180,Y,,,217,KM,5,8,21,5,0,34,12
-3DS Cheep Cheep Lagoon T,135,145,155,165,170,Y,,,209,Danny,5,8,31,8,0,23,12
-3DS Cheep Cheep Lagoon R/T,120,130,140,170,155,Y,,,208,ugu,4,8,30,6,0,22,8
-3DS Daisy Hills,165,175,185,205,205,,,,223,Tanuke,6,16,19,10,8,28,12
-3DS Daisy Hills R,175,185,195,215,215,,,,229,ugu,6,18,25,9,6,34,12
-3DS Daisy Hills T,195,205,215,235,235,Y,,,288,RepleteLight,6,16,41,18,8,33,16
-3DS Daisy Hills R/T,175,185,195,215,215,Y,,,263,Harry Copper,6,14,38,14,0,20,16
-3DS Mario Circuit,180,190,200,220,220,Y,,,272,ugu,6,22,15,0,6,50,16
-3DS Mario Circuit R,175,185,195,215,215,Y,,,287,heriawsity,8,20,13,2,2,41,24
-3DS Mario Circuit T,190,200,210,230,230,Y,,,262,PIEN,8,22,28,14,4,28,24
-3DS Mario Circuit R/T,180,190,200,220,220,Y,,,267,Okayandia,8,20,37,14,0,12,24
-3DS Neo Bowser City,165,175,185,205,205,Y,,,244,Autodrift,6,26,3,0,5,43,16
-3DS Neo Bowser City R,165,175,185,205,205,Y,,,269,Parisettachan,6,26,4,0,0,50,16
-3DS Neo Bowser City T,195,205,215,235,235,Y,,,259,Ethan Yang,6,26,33,12,0,40,16
-3DS Neo Bowser City R/T,180,190,200,220,220,Y,,,272,miya,6,26,29,12,0,38,16
-3DS Piranha Plant Slide,200,210,220,240,240,Y,,,278,hiro,9,28,30,8,4,32,28
-3DS Piranha Plant Slide R,170,180,190,210,210,Y,,,246,scrub,6,20,30,3,2,24,16
-3DS Piranha Plant Slide T,215,225,235,255,255,,,,284,Captain Evan,8,18,50,6,6,44,20
-3DS Piranha Plant Slide R/T,200,210,220,240,240,Y,,,266,Gadam64,8,28,39,5,0,28,24
-3DS Rainbow Road,225,235,245,265,265,Y,,,333,Crazi,7,22,32,23,21,33,20
-3DS Rainbow Road R,205,215,225,235,240,Y,,,300,Shadows,5,22,26,21,14,33,12
-3DS Rainbow Road T,225,235,245,265,265,Y,,,296,hiro,7,22,44,34,11,18,20
-3DS Rainbow Road R/T,220,230,240,260,260,Y,,,321,heriawsity,7,22,45,20,12,31,20
-3DS Rock Rock Mountain,200,210,220,240,240,Y,,,270,hiro,6,20,13,12,25,40,16
-3DS Rock Rock Mountain R,180,190,200,220,220,Y,,,249,Silgod,6,22,22,8,0,33,16
-3DS Rock Rock Mountain T,210,220,230,250,250,Y,,,282,Crugga,6,20,35,14,20,38,16
-3DS Rosalina's Ice World,175,185,195,215,215,,,,225,Tsubasa,8,34,6,8,0,20,20
-3DS Rosalina's Ice World R,180,190,200,220,220,,,,270,heriawsity,6,30,10,10,8,38,12
-3DS Rosalina's Ice World T,190,200,210,230,230,Y,,,258,stic,6,28,38,16,0,28,16
-3DS Rosalina's Ice World R/T,180,190,200,220,235,Y,,,256,Kannagi_re,6,25,30,14,4,30,16
-3DS Shy Guy Bazaar,185,195,205,225,225,Y,,,268,Sloth,6,24,20,10,8,36,16
-3DS Shy Guy Bazaar R,190,200,210,230,230,Y,,,264,RepleteLight,6,24,16,8,12,41,16
-3DS Shy Guy Bazaar T,210,220,230,250,250,Y,,,280,TheRealLatios,8,22,44,12,6,40,24
-3DS Shy Guy Bazaar R/T,160,170,180,200,200,Y,,,230,Mikan,6,22,26,10,0,16,16
-3DS Toad Circuit,145,155,165,185,185,Y,,,216,petemob,6,18,2,2,4,33,16
-3DS Toad Circuit R,145,155,165,185,185,Y,,,230,Delta,6,18,1,12,0,22,16
-3DS Toad Circuit T,180,190,200,220,220,,,,253,MisterB,6,16,45,2,3,33,12
-3DS Toad Circuit R/T,155,165,175,195,195,Y,,,230,zephiel810,6,16,35,9,0,12,16
-3DS Wario Shipyard,170,180,190,210,210,,,,253,scrub,6,26,16,18,4,18,12
-3DS Wario Shipyard R,175,185,195,215,215,Y,,,254,hiro,6,26,14,6,10,24,16
-3DS Wario Shipyard T,170,180,190,210,210,Y,,,272,RexPlayz,6,24,44,6,0,22,16
-3DS Wario Shipyard R/T,180,190,200,220,220,Y,,,250,sand,6,28,34,12,6,20,16
-Amsterdam Drift,175,185,195,215,215,,,,224,Hiro,6,32,16,4,10,30,12
-Amsterdam Drift R,175,185,195,215,215,Y,,,241,Napp,6,28,22,2,6,32,16
-Amsterdam Drift T,170,180,190,210,210,,,,226,mariogi,6,28,32,2,10,16,12
-Amsterdam Drift R/T,175,185,195,215,215,Y,,,230,J4th7th,6,22,36,8,4,24,16
-Amsterdam Drift 2,145,155,165,185,185,Y,,,225,PIEN,6,24,10,0,0,30,16
-Amsterdam Drift 2R,140,150,160,180,180,Y,,,216,Shy Guy Kart,6,26,10,0,0,26,16
-Amsterdam Drift 2T,145,155,165,185,185,Y,,,207,TheRealLatios,6,18,26,2,0,20,16
-Amsterdam Drift 2R/T,155,165,175,195,195,Y,,,213,Iva_n,6,16,22,0,10,28,16
-Amsterdam Drift 3,150,160,170,190,190,Y,,,223,Just-Mike,6,30,8,2,0,24,16
-Amsterdam Drift 3R,150,160,170,190,190,Y,,,216,Luc,6,32,4,0,0,28,16
-Amsterdam Drift 3T,155,165,175,195,195,,,,187,hiro,6,22,25,4,4,18,12
-Amsterdam Drift 3R/T,170,180,190,210,210,,,,206,Ljcameron,6,20,34,4,0,28,12
-Athens Dash,160,170,180,200,200,Y,,,234,Danny,6,26,22,4,4,28,16
-Athens Dash R,155,165,175,195,195,Y,,,,,6,26,16,2,2,32,16
-Athens Dash T,185,195,205,225,225,,,,,,6,24,32,12,4,32,12
-Athens Dash R/T,185,195,205,225,215,Y,,,,,6,28,44,6,2,28,16
-Athens Dash 2,185,195,205,225,215,Y,,,221,Napp,6,28,30,7,8,34,16
-Athens Dash 2R,165,175,185,205,205,,,,,,6,26,24,6,4,26,12
-Athens Dash 2T,175,185,195,215,215,Y,,,240,Danny,6,26,38,2,6,24,16
-Athens Dash 2R/T,160,170,180,190,195,Y,,,,,4,14,46,2,4,34,8
-Bangkok Rush,170,180,190,210,210,Y,,,226,seventere,6,24,22,0,0,40,16
-Bangkok Rush R,170,180,190,210,210,Y,,,241,OG★MattYT,6,26,10,0,10,40,16
-Bangkok Rush T,190,200,210,230,230,Y,,,248,seventere,6,20,44,0,6,38,16
-Bangkok Rush R/T,170,180,190,210,210,Y,,,234,scrub,6,24,36,2,0,22,16
-Bangkok Rush 2,155,165,175,195,195,,,,189,ER★pinbot,6,30,22,0,0,24,12
-Bangkok Rush 2R,180,190,200,220,220,Y,,,263,heriawsity,6,32,16,0,6,40,16
-Bangkok Rush 2T,185,195,205,225,225,,,,205,Ljcameron,6,32,46,4,0,24,12
-Bangkok Rush 2R/T,180,190,200,220,220,Y,,,251,Crunchycheez,6,30,38,0,5,24,16
-Bangkok Rush 3,160,170,180,200,200,Y,,,261,seventere,6,16,14,0,10,36,16
-Bangkok Rush 3R,140,150,160,180,180,,,,206,ER Ivan,6,28,2,0,4,26,12
-Bangkok Rush 3T,170,180,190,210,210,Y,,,232,seventere,6,18,30,2,4,30,16
-Bangkok Rush 3R/T,185,195,205,225,225,Y,,,266,ER Ivan,8,26,36,8,0,24,24
-Berlin Byways,150,160,170,190,190,,,,191,heriawsity,6,40,6,3,0,22,12
-Berlin Byways R,150,160,170,190,190,Y,,,222,Luc,6,40,4,5,0,18,16
-Berlin Byways T,180,190,200,220,220,Y,,,213,Isai,6,32,36,2,2,26,16
-Berlin Byways R/T,175,185,195,215,215,Y,,,209,ToxTurtle101,6,20,32,4,0,30,16
-Berlin Byways 2,170,180,190,210,210,Y,,,250,cool guy,8,24,12,0,10,26,24
-Berlin Byways 2R,160,170,180,200,200,Y,,,234,stic,6,28,12,0,8,34,16
-Berlin Byways 2T,180,190,200,220,220,Y,,,257,Tylerrrr,8,20,30,1,2,30,24
-Berlin Byways 2R/T,175,185,195,215,215,Y,,,235,Swarls,6,26,32,0,0,32,16
-Berlin Byways 3,145,155,165,185,185,,,,190,heriawsity,6,32,3,0,0,26,12
-Berlin Byways 3R,155,165,175,195,195,Y,,,249,hiro,6,34,0,2,0,32,16
-Berlin Byways 3T,165,175,185,205,205,,,,225,lacavuigi,6,20,33,4,4,27,12
-DS Airship Fortress,170,180,190,210,210,Y,,,228,Rapha,6,38,10,4,4,22,16
-DS Airship Fortress R,170,180,190,210,210,Y,,,233,Danny,6,38,12,0,2,26,16
-DS Airship Fortress T,215,225,235,255,255,Y,,,341,Leo,8,34,45,8,0,26,24
-DS Airship Fortress R/T,210,220,230,250,250,Y,,,262,miya,8,40,48,8,4,20,24
-DS DK Pass,185,195,205,225,225,,,,230,惡魔Z,8,26,10,0,6,44,20
-DS DK Pass R,195,205,215,235,235,Y,,,287,prodbydemo,8,24,8,2,6,54,24
-DS DK Pass T,230,240,250,270,270,Y,,,337,Rapha,8,33,48,0,6,40,24
-DS DK Pass R/T,230,240,250,270,270,Y,,,302,seventere,7,18,44,6,8,64,20
-DS Luigi's Mansion,150,160,170,190,190,Y,,,226,Sucha,6,18,9,2,0,26,16
-DS Luigi's Mansion R,160,170,180,200,200,,,,256,Harry Copper,8,22,4,2,0,32,20
-DS Luigi's Mansion T,170,180,190,210,210,Y,,,244,seventere,6,16,33,14,0,30,16
-DS Luigi's Mansion R/T,170,180,190,210,210,,,,227,heriawsity,8,14,28,6,0,26,20
-DS Mario Circuit,150,160,170,190,190,,Y,,189,hsilva,6,40,2,0,0,20,16
-DS Mario Circuit R,150,160,170,190,190,,,,214,PIEN,6,28,8,0,0,32,12
-DS Mario Circuit T,175,185,195,215,215,Y,,,229,いきゅう,6,24,30,0,6,26,16
-DS Mario Circuit R/T,175,185,195,215,215,Y,,,240,Ed Havok,6,20,36,0,4,26,16
-DS Peach Gardens,155,165,175,195,195,,,,225,scrub,6,40,12,6,0,18,12
-DS Peach Gardens R,175,185,195,215,215,Y,,,232,seventere,6,40,12,6,8,26,16
-DS Peach Gardens T,180,190,200,220,220,Y,,,273,X211,6,32,36,2,0,26,16
-DS Peach Gardens R/T,180,190,200,220,220,,,,256,Daisuke,6,26,36,2,0,32,12
-DS Shroom Ridge,150,160,170,190,190,,,,225,prodbydemo,9,34,0,0,0,20,24
-DS Shroom Ridge R,160,170,180,200,200,Y,,,228,Nicky V,9,30,4,0,11,19,28
-DS Shroom Ridge T,185,195,205,225,225,,,,272,sand,9,24,32,2,4,27,24
-DS Shroom Ridge R/T,175,185,195,215,215,,,,216,seventere,7,16,38,0,7,26,16
-DS Twilight House,150,150,180,200,220,Y,,,,,15,55,15,0,0,30,0
-DS Waluigi Pinball,175,185,195,215,215,Y,,,294,stic,6,26,8,10,6,40,16
-DS Waluigi Pinball R,215,225,235,255,255,Y,,,298,Iva_n,6,26,8,26,6,66,16
-DS Waluigi Pinball T,215,225,235,255,255,Y,,,298,tsubasa,6,26,35,19,6,46,16
-DS Waluigi Pinball R/T,220,230,240,260,260,Y,,,293,tsubasa,6,26,30,20,6,51,16
-GBA Battle Course 1,150,150,180,200,220,,Y,,,,15,55,15,0,0,30,0
-GBA Boo Lake,155,165,175,195,195,Y,,,216,Rapha,6,24,16,0,0,30,16
-GBA Boo Lake R,145,155,165,185,185,,,,217,ER Ivan,6,26,16,0,0,22,12
-GBA Boo Lake T,155,165,175,195,195,,,,247,tsubasa,6,20,38,2,0,24,12
-GBA Boo Lake R/T,165,175,185,205,205,Y,,,218,yuzuyu,6,18,26,2,6,28,16
-GBA Bowser's Castle 1,125,135,145,155,160,Y,,,187,Autodrift,4,20,8,8,0,22,8
-GBA Bowser's Castle 1R,130,140,150,160,165,Y,,,202,miya,4,18,10,8,0,29,8
-GBA Bowser's Castle 1T,150,160,170,180,185,Y,,,225,nii,4,15,27,8,0,37,8
-GBA Bowser's Castle 1R/T,160,170,180,195,195,Y,,,238,MKD☆J€d1☆₩Ɇ,4,12,22,20,0,46,8
-GBA Bowser's Castle 2,180,190,200,220,220,Y,,,266,N3vermind,6,22,22,26,0,32,16
-GBA Bowser's Castle 2R,180,190,200,220,220,Y,,,269,X211,6,22,22,26,0,24,16
-GBA Bowser's Castle 2T,215,225,235,255,255,Y,,,292,Kenta,6,22,59,28,0,24,16
-GBA Bowser's Castle 2R/T,200,210,220,240,240,Y,,,,,6,20,50,24,0,24,16
-GBA Bowser's Castle 3,185,195,205,225,225,Y,,,291,Hikarun,8,32,22,10,0,26,24
-GBA Bowser's Castle 3R,180,190,200,220,220,Y,,,293,zinma,8,30,22,10,0,26,24
-GBA Bowser's Castle 3T,215,225,235,255,255,Y,,,265,Autodrift,8,20,56,20,2,20,24
-GBA Bowser's Castle 3R/T,200,210,220,240,240,,,,274,Tsubasa,8,16,64,10,0,16,20
-GBA Cheep-Cheep Island,140,150,160,180,180,,,,230,ER Draco655,6,28,4,2,0,24,12
-GBA Cheep-Cheep Island R,155,165,175,195,195,Y,,,231,Alpha69,6,30,4,2,0,28,16
-GBA Cheep-Cheep Island T,180,190,200,220,220,Y,,,278,Acquiesce,6,28,45,4,0,28,16
-GBA Cheep-Cheep Island R/T,185,195,205,225,225,Y,,,246,101,6,28,32,2,0,38,16
-GBA Riverside Park,120,130,140,150,155,Y,,,178,Delta,4,28,4,2,0,22,8
-GBA Riverside Park R,125,135,145,155,160,,,,192,naoto,4,24,4,2,2,24,4
-GBA Riverside Park T,150,160,170,180,185,Y,,,209,Sebøssᵀᴹ,4,20,28,0,4,32,8
-GBA Riverside Park R/T,175,185,195,215,215,Y,,,231,seventere,6,26,24,0,2,38,16
-GBA Sky Garden,150,160,170,190,190,,,,230,WootMoo,6,28,8,0,6,24,12
-GBA Sky Garden R,150,160,170,190,190,,,,247,POKAI,6,26,10,2,4,24,12
-GBA Sky Garden T,165,175,185,205,205,,,,221,ER★pinbot,6,28,24,4,0,26,12
-GBA Sky Garden R/T,165,175,185,205,205,Y,,,248,hyperino,6,17,31,2,7,28,16
-GBA Snow Land,150,160,170,190,190,Y,,,200,Crunchycheez,6,32,4,4,0,22,16
-GBA Snow Land R,145,155,165,185,185,Y,,,204,seventere,6,28,4,2,0,22,16
-GBA Snow Land T,170,180,190,210,210,Y,,,226,Luc,6,20,34,0,0,26,16
-GBA Snow Land R/T,175,185,195,215,205,Y,,,209,Crunchycheez,6,22,23,2,8,32,16
-GBA Sunset Wilds,150,160,170,190,190,Y,,,245,Nikey,6,34,4,6,0,20,16
-GBA Sunset Wilds R,145,155,165,185,185,Y,,,237,Iva_n,6,34,4,6,0,20,16
-GBA Sunset Wilds T,195,205,215,235,235,Y,,,254,hiro,6,20,40,8,8,30,16
-GBA Sunset Wilds R/T,180,190,200,220,205,Y,,,246,prodbydemo,6,22,50,2,0,18,16
-GBA Yoshi Desert,165,175,185,205,205,Y,,,228,Couch,6,26,26,0,0,28,16
-GBA Yoshi Desert R,155,165,175,195,195,Y,,,220,Nicky V,6,26,18,0,0,28,16
-GBA Yoshi Desert T,160,170,180,200,200,,,,216,Nino,6,22,26,2,0,26,12
-GBA Yoshi Desert R/T,175,185,195,215,215,Y,,,239,t0asʇ,6,22,34,0,0,32,16
-GCN Baby Park,140,150,160,180,180,Y,,,209,Tylerrr,6,30,0,0,0,35,16
-GCN Baby Park R,135,145,155,165,170,Y,,,210,RSK,5,25,5,10,0,30,12
-GCN Baby Park T,165,175,185,205,205,,,,235,Alpha69,6,12,33,3,12,33,12
-GCN Baby Park R/T,155,165,175,185,190,Y,,,201,Danny,5,25,24,5,0,40,12
-GCN Cookie Land,150,150,180,200,220,Y,,,,,15,55,15,0,0,30,0
-GCN Daisy Cruiser,150,160,170,190,190,Y,,,209,hiro,6,26,12,4,0,26,16
-GCN Daisy Cruiser R,150,160,170,190,190,Y,,,201,shoronpo,6,24,10,2,4,26,16
-GCN Daisy Cruiser T,155,165,175,195,195,,,,200,heriawsity,6,18,30,4,0,20,12
-GCN Dino Dino Jungle,160,170,180,200,200,Y,,,248,PIEN,6,32,22,0,6,16,16
-GCN Dino Dino Jungle R,180,190,200,220,220,Y,,,256,Iva_n,6,18,22,6,6,46,16
-GCN Dino Dino Jungle T,185,195,205,225,225,Y,,,256,Kong,6,18,44,3,6,30,16
-GCN Dino Dino Jungle R/T,170,180,190,210,210,Y,,,259,Hikarun,6,18,45,4,0,38,16
-GCN DK Mountain,165,175,185,205,205,Y,,,235,Danny,6,38,14,0,4,24,16
-GCN DK Mountain R,150,160,170,190,190,Y,,,213,BurntSausages,6,42,14,0,4,8,16
-GCN DK Mountain T,185,195,205,225,225,,,,214,TheRealLatios,6,26,38,8,10,22,12
-GCN DK Mountain R/T,185,195,205,225,225,,,,282,naoto,6,24,42,4,10,26,12
-GCN Yoshi Circuit,170,180,190,210,210,,,,239,miya,6,42,3,0,0,44,12
-GCN Yoshi Circuit R,175,185,195,215,215,Y,,,247,scrub,8,42,7,6,4,22,24
-GCN Yoshi Circuit T,180,190,200,220,220,,,,235,Rakker85,8,26,18,0,6,38,20
-GCN Yoshi Circuit R/T,205,215,225,245,245,Y,,,278,masapooh,8,44,26,2,0,40,24
-London Loop,160,170,180,200,200,Y,,,223,heriawsity,6,38,4,0,0,30,16
-London Loop R,180,190,200,220,220,,,,202,Captain Evan,8,40,3,0,0,38,20
-London Loop T,185,195,205,225,225,,,,259,heriawsity,6,32,30,2,0,42,12
-London Loop R/T,195,205,215,235,235,,,,220,scrub,8,30,36,0,0,42,20
-London Loop 2,160,170,180,200,200,Y,,,201,heriawsity,6,36,6,0,0,34,16
-London Loop 2R,150,160,170,190,190,Y,,,218,Luc,6,36,6,0,0,26,16
-London Loop 2T,160,170,180,200,200,Y,,,221,Mikan,6,24,28,4,0,18,16
-London Loop 2R/T,155,165,175,195,195,Y,,,203,heriawsity,6,20,25,4,4,22,16
-London Loop 3,155,165,175,195,195,Y,,,206,DKR.exe,6,32,2,0,2,26,16
-London Loop 3R,160,170,180,200,200,Y,,,236,EcuaChef,6,28,4,4,8,26,16
-London Loop 3T,175,185,195,215,215,Y,,,266,tsubasa,6,20,32,10,2,18,16
-London Loop 3R/T,160,170,180,190,195,,,,191,Tanuke,4,26,28,4,14,30,4
-Los Angeles Laps,155,165,175,195,195,Y,,,236,Luc,6,34,8,4,0,28,16
-Los Angeles Laps R,140,150,160,180,180,,,,202,Shadows,6,30,6,2,0,28,12
-Los Angeles Laps T,160,170,180,200,200,Y,,,251,Hyperino,6,20,32,2,6,24,16
-Los Angeles Laps R/T,160,170,180,200,200,,,,235,RepleteLight,6,24,30,8,8,22,12
-Los Angeles Laps 2,140,150,160,180,180,Y,,,206,kahayata,6,34,1,0,3,22,16
-Los Angeles Laps 2R,135,145,155,175,175,Y,,,222,iso,6,34,0,0,0,20,16
-Los Angeles Laps 2T,160,170,180,200,200,Y,,,204,Luc,6,24,26,0,0,26,16
-Los Angeles Laps 2R/T,165,175,185,205,205,Y,,,221,Marc,6,28,24,4,0,16,16
-Los Angeles Laps 3,160,170,180,200,200,,,,229,Swarls,6,28,4,0,6,34,12
-Los Angeles Laps 3R,160,170,180,200,200,Y,,,224,miya,6,26,6,0,8,26,16
-Los Angeles Laps 3T,170,180,190,210,210,Y,,,224,Swarls,6,24,30,4,0,24,16
-Los Angeles Laps 3R/T,170,180,190,210,210,Y,,,240,zain,6,20,31,0,10,28,16
-Merry Mountain,165,175,185,205,205,Y,,,242,Jnm723,6,30,12,6,0,34,16
-Merry Mountain R,150,160,170,190,190,Y,,,215,Miya,6,24,13,6,0,20,16
-Merry Mountain T,165,175,185,205,205,Y,,,217,seventere,6,16,28,10,6,27,16
-Merry Mountain R/T,170,180,190,210,210,,,,258,Mario57,6,30,26,8,0,30,12
-N64 Choco Mountain,170,180,190,210,210,Y,,,264,kaikai,6,26,17,0,4,34,16
-N64 Choco Mountain R,170,180,190,210,210,Y,,,237,heriawsity,6,26,15,0,4,34,16
-N64 Choco Mountain T,175,185,195,215,215,Y,,,240,Zephiel810,6,20,40,6,0,26,16
-N64 Choco Mountain R/T,175,185,195,215,215,Y,,,258,heriawsity,6,26,40,2,0,26,16
-N64 Frappe Snowland,151,161,171,191,191,Y,,,236,N3vermind,6,26,5,0,0,34,16
-N64 Frappe Snowland R,140,150,160,180,180,Y,,,239,miya,6,24,3,2,0,24,16
-N64 Frappe Snowland T,180,190,200,220,220,,,,266,heriawsity,6,18,40,10,8,24,12
-N64 Frappe Snowland R/T,180,190,200,220,220,Y,,,226,prodbydemo,6,22,39,2,0,32,16
-N64 Kalimari Desert,145,155,165,185,185,Y,,,238,ugu,6,16,8,0,0,30,16
-N64 Kalimari Desert R,165,175,185,205,205,Y,,,263,seventere,6,16,7,0,6,46,16
-N64 Kalimari Desert T,180,190,200,220,220,Y,,,233,heriawsity,6,16,41,0,0,32,16
-N64 Kalimari Desert R/T,160,170,180,200,200,Y,,,254,GoldToad,6,12,29,6,0,25,16
-N64 Kalimari Desert 2,125,135,145,155,160,Y,,,189,Crazi,5,22,6,1,0,25,12
-N64 Kalimari Desert 2R,125,135,145,155,160,Y,,,227,ugu,5,22,6,2,0,24,12
-N64 Kalimari Desert 2T,135,145,155,165,170,Y,,,211,Danny,5,18,20,1,0,32,12
-N64 Kalimari Desert 2R/T,135,145,155,165,170,Y,,,208,barbicon,5,21,22,0,0,20,12
-N64 Koopa Troopa Beach,185,195,205,225,225,Y,,,248,ecliptix,8,22,14,8,10,40,24
-N64 Koopa Troopa Beach R,160,170,180,200,200,Y,,,266,heriawsity,6,18,10,6,6,36,16
-N64 Koopa Troopa Beach T,180,190,200,220,200,Y,,,236,Danny,8,22,24,14,8,31,24
-N64 Koopa Troopa Beach R/T,155,165,175,195,195,Y,,,236,Baseball Club,6,16,22,8,8,18,16
-N64 Luigi Raceway,165,175,185,205,205,,,,229,heriawsity,7,28,10,12,0,32,16
-N64 Luigi Raceway R,170,180,190,210,210,Y,,,252,Cool guy,7,28,10,12,0,32,20
-N64 Luigi Raceway T,180,190,200,220,220,Y,,,243,heriawsity,6,22,26,10,0,36,16
-N64 Luigi Raceway R/T,160,170,180,200,200,,,,233,Carlos85,6,18,20,8,8,22,12
-N64 Royal Raceway,170,180,190,210,210,Y,,,236,miya,6,34,4,6,6,34,16
-N64 Royal Raceway R,165,175,185,205,205,Y,,,254,koo,8,34,8,6,0,26,24
-N64 Royal Raceway T,180,190,200,220,220,Y,,,242,Shadows,6,26,32,14,0,26,16
-N64 Royal Raceway R/T,180,190,200,220,220,,,,237,heriawsity,6,32,24,8,4,34,12
-N64 Yoshi Valley,170,180,190,210,210,Y,,,247,hiro,7,38,16,0,1,24,20
-N64 Yoshi Valley R,175,185,195,215,215,Y,,,248,RepleteLight,6,40,14,0,0,34,16
-N64 Yoshi Valley T,200,210,220,240,240,,,,275,stic,6,23,55,0,4,36,12
-N64 Yoshi Valley R/T,205,215,225,245,245,,,,315,DrkAndNight,8,36,34,6,8,32,20
-New York Minute,130,140,150,170,170,,,,,,6,22,4,0,0,22,12
-New York Minute R,140,150,160,180,180,,,,166,Zack,6,20,2,0,0,32,12
-New York Minute T,160,170,180,200,185,Y,,,210,Crazi,6,22,22,8,0,24,16
-New York Minute R/T,160,170,180,200,185,Y,,,218,KazuP,6,16,24,8,0,32,16
-New York Minute 2,150,160,170,190,190,Y,,,201,stic,6,24,4,0,4,34,16
-New York Minute 2R,150,160,170,190,190,Y,,,,,6,22,4,0,4,30,16
-New York Minute 2T,155,165,175,195,185,Y,,,196,Anke,6,22,22,4,0,24,16
-New York Minute 2R/T,160,170,180,200,200,Y,,,202,Crazi,6,20,24,4,0,28,16
-New York Minute 3,125,135,145,165,165,Y,,,206,Crazi,6,22,6,0,0,26,16
-New York Minute 3R,130,140,150,170,170,,,,189,miya,6,22,6,0,0,26,12
-New York Minute 3T,145,155,165,185,185,,,,196,Swarls,6,22,22,2,0,20,12
-New York Minute 3R/T,150,160,170,190,190,Y,,,206,Jhanc,6,20,22,2,0,30,16
-New York Minute 4,110,120,125,140,145,,Y,,150,Lengoss,4,20,7,3,1,20,8
-New York Minute 4R,110,120,130,140,145,,,,202,heriawsity,4,20,8,3,0,20,4
-New York Minute 4T,115,125,135,145,150,Y,,,159,heriawsity,4,16,20,1,2,20,8
-New York Minute 4R/T,115,125,135,145,150,,,,178,Crazi,4,18,20,4,1,21,4
-New York Minute B,150,150,180,200,220,Y,,,,,15,0,0,0,0,0,0
-Ninja Hideaway,180,190,200,220,220,Y,,,250,riverboat,6,22,30,0,10,43,16
-Ninja Hideaway R,180,190,200,220,220,Y,,,253,Anke,6,20,25,0,8,38,16
-Ninja Hideaway T,185,195,205,225,225,Y,,,262,RexPlayz,6,20,38,0,4,44,16
-Ninja Hideaway R/T,180,190,200,220,220,,,,252,M3FR★Vincent,6,28,40,0,0,38,12
-Paris Promenade,130,140,150,160,165,Y,,,188,Zack,4,24,2,0,6,32,8
-Paris Promenade R,150,160,170,190,190,Y,,,223,stic,6,20,8,0,6,34,16
-Paris Promenade T,130,140,150,160,165,,,,140,DKR.exe,4,14,24,4,2,18,4
-Paris Promenade R/T,140,150,160,180,180,Y,,,,,6,18,18,4,0,26,16
-Paris Promenade 2,130,140,150,170,170,,,,153,EcuaChef,6,18,5,0,0,22,12
-Paris Promenade 2R,145,155,165,185,185,Y,,,201,Delta,6,20,5,0,0,31,16
-Paris Promenade 2T,160,170,175,200,185,Y,,,227,Nathalie,6,16,26,2,0,28,16
-Paris Promenade 2R/T,145,155,165,185,185,,,,165,EcuaChef,6,16,26,6,0,12,12
-Paris Promenade 3,160,170,180,200,200,,,,204,heriawsity,6,34,6,0,0,44,12
-Paris Promenade 3R,150,160,170,190,190,Y,,,216,Luc,6,20,10,0,5,30,16
-Paris Promenade 3T,165,175,185,205,205,Y,,,249,heriawsity,6,22,26,6,5,22,16
-Paris Promenade 3R/T,160,170,180,200,200,Y,,,,,6,16,28,6,5,18,16
-Paris Promenade B,150,150,180,200,220,Y,,,,,15,55,50,0,0,30,0
-Piranha Plant Cove,155,165,175,195,195,,,,224,Armod,6,20,25,4,0,24,12
-Piranha Plant Cove R,150,160,170,190,190,,,,209,Autodrift,6,18,26,0,0,22,12
-Piranha Plant Cove T,175,185,195,215,215,Y,,,228,Crunchycheez,6,12,42,0,8,26,16
-Piranha Plant Cove R/T,170,180,190,210,210,,,,221,Crazi,6,16,46,0,0,26,12
-Piranha Plant Cove 2,175,185,195,215,215,,,,251,MissingNo,7,24,26,0,8,30,16
-Piranha Plant Cove 2R,160,170,180,200,200,,,,244,prodbydemo,7,10,20,4,8,30,16
-Piranha Plant Cove 2T,185,195,205,225,225,Y,,,233,Autodrift,6,16,52,0,3,28,16
-Piranha Plant Cove 2R/T,170,180,190,200,205,,,,228,Hasan A.,5,22,48,0,0,40,8
-RMX Bowser's Castle 1,150,160,170,190,190,Y,,,226,ᴿᶜLumi,6,27,7,4,0,23,16
-RMX Bowser's Castle 1R,155,165,175,195,195,Y,,,241,zephiel810,6,26,8,4,4,24,16
-RMX Bowser's Castle 1T,170,180,190,210,210,Y,,,249,RepleteLight,6,24,30,4,0,24,16
-RMX Choco Island 1,150,160,170,180,185,Y,,,211,Ed havok,4,18,33,0,0,34,8
-RMX Choco Island 1R,140,150,150,170,175,,,,177,Swarls,4,18,24,2,0,32,4
-RMX Choco Island 1T,160,175,180,190,195,,,,224,zephiel810,4,24,30,10,0,32,4
-RMX Choco Island 1R/T,160,170,180,190,195,Y,,,198,Wootmoo,4,24,24,4,4,26,8
-RMX Choco Island 2,150,160,170,190,190,Y,,,230,heriawsity,8,20,16,2,0,18,24
-RMX Choco Island 2R,160,170,180,200,200,Y,,,218,heriawsity,6,20,16,4,6,28,16
-RMX Choco Island 2T,170,180,190,210,200,Y,,,233,Anthony D,6,20,34,6,0,24,16
-RMX Choco Island 2R/T,160,170,180,200,190,Y,,,231,mikuri,6,16,30,2,0,24,16
-RMX Donut Plains 1,140,150,160,180,180,,,,174,ER Nathalie,6,20,12,0,6,20,12
-RMX Donut Plains 1R,150,160,170,190,190,Y,,,215,Danny,6,20,20,2,0,20,16
-RMX Donut Plains 1T,175,185,195,215,215,Y,,,231,PIEN,6,14,44,0,6,26,16
-RMX Donut Plains 1R/T,175,185,195,215,215,Y,,,214,ER MarqW,6,18,44,6,0,20,16
-RMX Ghost Valley 1,160,170,180,200,200,Y,,,223,Crunchycheez,6,34,26,0,0,22,16
-RMX Ghost Valley 1R,160,170,180,200,200,Y,,,241,RexPlayz,6,34,26,0,0,22,16
-RMX Ghost Valley 1T,165,175,185,205,205,Y,,,242,ER GODMODE,6,22,36,4,0,24,16
-RMX Ghost Valley 1R/T,170,180,190,210,210,,Y,,231,Joshxzss,6,14,40,0,8,28,16
-RMX Mario Circuit 1,175,185,195,215,215,,,,215,Com Truise,8,24,24,4,0,31,20
-RMX Mario Circuit 1R,170,180,190,210,210,Y,,,232,Crazi,6,24,28,4,0,26,16
-RMX Mario Circuit 1T,190,200,210,230,230,Y,,,258,Swarls,6,22,44,8,0,30,16
-RMX Mario Circuit 1R/T,190,200,210,230,230,Y,,,285,Dom Hongisto,7,20,32,4,18,28,20
-RMX Rainbow Road 1,180,190,200,220,220,Y,,,254,ER Ivan,6,18,20,6,22,30,16
-RMX Rainbow Road 1R,170,180,190,210,210,Y,,,249,Zephiel810,6,18,16,4,20,24,16
-RMX Rainbow Road 1T,185,195,205,225,225,,,,239,Alpha69,6,18,46,4,0,32,12
-RMX Rainbow Road 1R/T,165,175,185,195,200,Y,,,249,seventere,4,20,40,2,6,36,8
-RMX Rainbow Road 2,180,190,200,220,220,Y,,,278,Autodrift,6,20,34,4,6,28,16
-RMX Rainbow Road 2R,170,180,190,210,210,Y,,,247,Isai,6,22,30,4,6,34,16
-RMX Rainbow Road 2T,180,190,200,220,220,Y,,,268,Swarls,6,20,52,6,6,23,16
-RMX Rainbow Road 2R/T,200,210,220,240,240,Y,,,267,Danny,6,18,58,10,2,35,16
-RMX Vanilla Lake 1,160,170,180,200,200,Y,,,251,RepleteLight,6,18,24,0,6,30,16
-RMX Vanilla Lake 1R,160,170,180,200,200,Y,,,231,seventere,6,18,20,0,6,30,16
-RMX Vanilla Lake 1T,175,185,195,215,215,,,,216,hiro,6,15,36,8,6,30,12
-Singapore Speedway,150,160,170,190,190,Y,,,222,Jonboy88,6,20,6,4,14,24,16
-Singapore Speedway R,145,155,165,185,185,,,,216,ER Rachid,6,18,14,0,4,24,12
-Singapore Speedway T,165,175,185,205,205,,,,239,Iva_n,6,14,26,6,12,24,12
-Singapore Speedway R/T,170,180,190,210,210,,,,219,Shadows,6,20,22,8,6,34,12
-Singapore Speedway 2,160,170,180,200,200,Y,,,240,KazuP,6,28,22,2,6,24,16
-Singapore Speedway 2R,160,170,180,200,200,Y,,,252,miya,6,22,20,2,6,26,16
-Singapore Speedway 2T,180,190,200,220,220,Y,,,246,Dallitos,6,14,32,2,20,32,16
-Singapore Speedway 2R/T,180,190,200,220,220,Y,,,258,PIEN,6,24,38,4,4,30,16
-Singapore Speedway 3,150,160,170,190,190,,,,220,ER Crugga,6,26,12,4,0,28,12
-Singapore Speedway 3R,145,155,165,185,185,Y,,,226,seventere,6,28,8,6,0,20,16
-Singapore Speedway 3T,175,185,195,215,215,,,,215,Crunchycheez,6,22,30,2,12,28,12
-Singapore Speedway 3R/T,170,180,190,210,210,,,,208,kong,6,20,36,6,0,30,12
-Sky-High Sundae,170,180,190,210,210,,,,220,Porsche,6,26,36,0,6,24,12
-Sky-High Sundae R,180,190,200,220,210,Y,,,232,PIEN,6,16,34,0,16,30,16
-Sky-High Sundae T,190,200,210,230,210,Y,,,249,swarls,6,16,41,2,7,36,16
-Sky-High Sundae R/T,160,170,180,190,200,,,N,216,aron,6,14,40,3,2,20,12
-SNES Choco Island 1,130,140,150,160,165,Y,,,197,Iva_n,4,14,29,0,0,28,8
-SNES Choco Island 1R,135,145,155,165,170,Y,,,208,okayandia,4,14,28,0,0,33,8
-SNES Choco Island 1T,135,145,155,165,170,Y,,,183,Miya,4,14,36,10,0,16,8
-SNES Choco Island 1R/T,130,140,150,160,165,Y,,,181,Robert1202,4,12,32,2,0,24,8
-SNES Choco Island 2,140,150,160,180,180,Y,,,219,heriawsity,6,18,24,0,4,36,16
-SNES Choco Island 2R,140,150,160,170,175,,,,173,hiro,5,12,24,0,4,40,8
-SNES Choco Island 2T,140,150,160,170,175,Y,,,206,Crazi,5,12,36,1,2,16,12
-SNES Choco Island 2R/T,130,140,150,170,170,Y,,,181,heriawsity,6,10,20,2,0,20,16
-SNES Donut Plains 1,120,130,140,150,155,Y,,,194,heriawsity,4,24,0,0,0,24,8
-SNES Donut Plains 1R,120,130,140,150,155,Y,,,140,Zephiel810,4,24,0,0,0,24,8
-SNES Donut Plains 1T,130,140,150,160,165,Y,,,166,Rapha,4,18,26,2,0,22,8
-SNES Donut Plains 1R/T,120,130,140,150,155,Y,,,161,miya,4,16,8,2,6,22,8
-SNES Donut Plains 2,140,150,160,180,180,Y,,,229,zephiel810,6,25,12,0,0,24,16
-SNES Donut Plains 2R,140,150,160,180,180,Y,,,224,scrub,6,25,10,0,0,22,16
-SNES Donut Plains 2T,150,160,170,175,190,,,,212,Zephiel810,6,18,30,2,0,24,12
-SNES Donut Plains 2R/T,160,170,170,200,200,Y,,,242,RexPlayz,6,18,32,8,0,26,16
-SNES Donut Plains 3,130,140,150,170,170,,,,151,りαηîеlТГ,6,20,12,0,0,18,12
-SNES Donut Plains 3R,120,130,140,160,160,Y,,,182,Delta,6,12,10,0,2,14,16
-SNES Donut Plains 3T,150,160,170,190,190,Y,,,208,Isai,6,18,26,0,0,22,16
-SNES Donut Plains 3R/T,150,160,170,190,190,,,,182,0117kake,6,14,26,0,0,26,12
-SNES Ghost Valley 1,120,130,140,150,155,Y,,,184,pyro,4,14,7,0,0,26,8
-SNES Ghost Valley 1R,120,130,140,150,155,Y,,,186,Swarls,4,14,3,0,0,32,8
-SNES Ghost Valley 1T,135,145,155,165,170,Y,,,174,Hyperino,4,14,30,0,0,24,8
-SNES Ghost Valley 1R/T,125,135,145,155,160,Y,,,174,kaikai,4,10,22,4,4,18,8
-SNES Ghost Valley 2,130,140,150,160,165,,,,213,Yoshi oeuf poulet mayo 🤡,4,18,4,2,4,36,4
-SNES Ghost Valley 2R,130,140,150,160,165,Y,,,187,heriawsity,4,22,4,2,4,32,8
-SNES Ghost Valley 2T,160,170,180,190,195,Y,,,224,Tanuke,4,10,28,10,8,34,8
-SNES Ghost Valley 2R/T,135,145,170,165,170,Y,,,196,JP,4,10,24,2,6,44,8
-SNES Koopa Troopa Beach 2,120,130,140,160,160,Y,,,231,hiro,6,20,0,0,0,16,16
-SNES Koopa Troopa Beach 2R,135,145,155,175,175,Y,,,203,Melody,8,20,2,2,0,26,24
-SNES Koopa Troopa Beach 2T,155,165,175,195,195,Y,,,211,Miya,6,20,14,2,0,26,16
-SNES Mario Circuit 1,115,125,135,145,150,Y,,,171,Omer,4,18,0,0,0,42,8
-SNES Mario Circuit 1R,105,115,125,135,140,Y,,,182,PIEN,4,12,3,0,0,30,8
-SNES Mario Circuit 1T,115,125,135,145,150,Y,,,156,Zephiel810,4,12,20,0,0,30,8
-SNES Mario Circuit 1R/T,130,140,150,160,165,Y,,,184,hiro,4,10,21,4,6,38,8
-SNES Mario Circuit 2,125,135,145,155,160,Y,,,192,TheRealLatios,4,20,5,2,8,36,8
-SNES Mario Circuit 2R,135,145,155,175,175,Y,,,201,heriawsity,6,18,3,0,2,32,16
-SNES Mario Circuit 2T,145,155,165,185,185,,,,205,kun,6,18,24,4,0,24,12
-SNES Mario Circuit 2R/T,155,165,175,195,195,Y,,,206,heriawsity,6,18,29,2,0,26,16
-SNES Mario Circuit 3,150,160,170,190,190,Y,,,234,seventere,6,26,0,2,0,42,16
-SNES Mario Circuit 3R,145,155,165,185,185,Y,,,222,heriawsity,6,26,0,2,0,40,16
-SNES Mario Circuit 3T,160,170,180,200,200,Y,,,222,seventere,6,26,22,2,0,32,16
-SNES Mario Circuit 3R/T,175,185,195,215,200,Y,,,226,Misterix,8,24,36,10,0,19,24
-SNES Rainbow Road,150,160,170,190,190,Y,,,255,RepleteLight,6,16,20,0,0,37,16
-SNES Rainbow Road R,160,170,180,200,200,Y,,,242,mashiron,7,16,18,0,4,48,20
-SNES Rainbow Road T,160,170,180,200,200,Y,,,242,zinma,6,16,44,0,0,35,16
-SNES Rainbow Road R/T,170,180,190,210,210,Y,,,231,heriawsity,6,16,32,0,20,22,16
-SNES Vanilla Lake 1,110,120,130,140,145,Y,,,177,GrievousKronos,4,12,0,0,0,32,8
-SNES Vanilla Lake 1R,110,120,130,140,145,Y,,,194,heriawsity,5,12,2,0,0,28,12
-SNES Vanilla Lake 1T,130,140,150,170,170,Y,,,214,RepleteLight,6,14,20,0,0,28,16
-SNES Vanilla Lake 1R/T,105,115,125,135,140,Y,,,157,Mikakinkun,5,10,12,4,6,22,12
-SNES Vanilla Lake 2,105,115,125,135,140,,,,149,hiro,4,10,6,0,0,26,4
-SNES Vanilla Lake 2R,115,125,135,145,150,Y,,,164,睡蓮菩薩,4,14,12,0,0,26,8
-SNES Vanilla Lake 2T,115,125,135,145,150,Y,,,159,惡魔Z,4,8,22,6,0,26,8
-Sydney Sprint,145,155,165,185,185,Y,,,198,DKR.exe,6,22,6,0,4,26,16
-Sydney Sprint R,140,150,160,180,180,Y,,,,,6,16,6,0,4,28,16
-Sydney Sprint T,185,195,205,225,225,Y,,,,,6,16,40,10,2,32,16
-Sydney Sprint R/T,170,180,190,210,210,Y,,,219,heriawsity,6,14,32,6,6,26,16
-Sydney Sprint 2,155,165,175,195,195,Y,,,253,RepleteLight,6,30,4,0,6,26,16
-Sydney Sprint 2R,150,160,170,190,190,Y,,,233,Delta,6,28,4,0,6,22,16
-Sydney Sprint 2T,170,180,190,210,210,Y,,,259,HauntedMike,6,20,26,0,12,32,16
-Sydney Sprint 2R/T,160,170,180,200,200,Y,,,174,General Meow,6,12,38,8,12,26,16
-Sydney Sprint 3,160,170,180,200,200,Y,,,228,heriawsity,6,44,5,2,0,26,16
-Sydney Sprint 3R,155,165,175,195,195,Y,,,249,Robert1202,6,40,2,0,0,32,16
-Sydney Sprint 3T,195,205,215,235,235,Y,,,279,miya,6,32,36,4,0,38,16
-Tokyo Blur,115,125,135,155,155,Y,,,196,heriawsity,6,20,0,0,0,24,16
-Tokyo Blur R,115,125,135,145,150,Y,,,173,Shadows,4,24,0,0,0,28,8
-Tokyo Blur T,140,150,160,170,175,,,,147,Ursi,4,22,32,0,0,28,4
-Tokyo Blur R/T,120,130,140,150,155,Y,,,196,Da Bear,4,23,16,2,0,30,8
-Tokyo Blur 2,120,130,140,160,160,Y,,,205,Lengoss,6,20,1,0,0,30,16
-Tokyo Blur 2R,120,130,140,160,160,Y,,,195,ER Ivan,6,20,1,0,0,30,16
-Tokyo Blur 2R/T,120,130,140,160,160,Y,,,180,seventere,6,16,21,2,3,8,16
-Tokyo Blur 2T,130,140,150,170,170,Y,,,206,TheRealLatios,6,14,24,0,0,28,16
-Tokyo Blur 3,155,165,175,195,195,,,,187,KazuP,6,20,2,0,0,42,12
-Tokyo Blur 3R,155,165,175,195,195,Y,,,258,heriawsity,8,24,2,0,0,36,24
-Tokyo Blur 4,110,120,130,140,145,,,,142,autodrift,5,22,1,0,0,28,8
-Tokyo Blur 4R,120,130,140,150,155,Y,,,204,ER Ivan,5,18,1,0,0,28,12
-Tokyo Blur 4R/T,110,120,130,140,145,,,,145,Alpha69,4,20,13,2,0,16,4
-Tokyo Blur 3T,180,190,200,220,220,Y,,,242,JP,6,28,40,2,0,26,16
-Tokyo Blur 3R/T,180,190,200,220,220,,,,264,seventere,6,24,24,13,18,18,12
-Tokyo Blur 4T,120,130,140,150,155,,,,188,heriawsity,4,30,23,0,0,22,4
-Vancouver Velocity,160,170,180,200,200,Y,,,251,seventere,6,26,14,0,6,32,16
-Vancouver Velocity R,180,190,200,220,220,Y,,,243,Jhanc,6,40,18,2,6,30,16
-Vancouver Velocity T,170,180,190,210,210,,,,206,TheRealLatios,6,32,20,16,5,16,12
-Vancouver Velocity R/T,190,200,210,230,220,Y,,,248,seventere,6,36,36,6,6,26,16
-Vancouver Velocity 2,170,180,190,210,210,,,,174,Zack,6,34,10,0,6,28,12
-Vancouver Velocity 2R,170,180,190,210,210,,,,252,Draco655,6,32,10,2,8,26,12
-Vancouver Velocity 2T,200,210,220,240,240,,,,274,Ljcameron,8,30,44,2,8,24,20
-Vancouver Velocity 2R/T,195,205,215,235,235,,,,219,Luc,6,30,34,8,8,24,12
-Vancouver Velocity 3,155,165,175,195,195,,,,221,PIEN,6,36,4,0,0,38,12
-Vancouver Velocity 3R,145,155,165,185,185,Y,,,220,usfolml,6,34,6,0,0,18,16
-Vancouver Velocity 3T,175,185,195,215,215,Y,,,215,seventere,6,24,36,4,0,24,16
-Vancouver Velocity 3R/T,190,200,210,230,230,,,,256,がガロエ,6,26,40,2,0,40,12
-Wii Coconut Mall,170,180,190,210,210,Y,,,246,seventere,6,30,26,10,2,18,16
-Wii Coconut Mall R,165,175,185,205,205,Y,,,280,minamiyoto,6,26,20,8,0,26,16
-Wii Coconut Mall T,200,210,220,240,240,Y,,,272,Nyuul,6,22,56,6,3,32,16
-Wii Coconut Mall R/T,185,195,205,225,225,,,,214,mukakinkun,6,19,47,10,0,24,12
-Wii DK Summit,180,190,200,220,220,Y,,,253,hiro,6,30,20,10,6,32,16
-Wii DK Summit R,185,195,205,225,225,Y,,,250,Jason436,6,30,18,6,6,37,16
-Wii DK Summit T,190,200,210,230,230,,,,270,CrunchyCheez,6,24,38,10,6,26,12
-Wii DK Summit R/T,210,220,230,250,250,Y,,,277,zinma,6,24,46,10,6,36,16
-Wii Dry Dry Ruins,160,170,180,200,200,,,,196,Mikan,6,32,25,4,0,21,12
-Wii Dry Dry Ruins R,160,170,180,200,200,Y,,,243,Crappy,6,32,26,2,0,22,16
-Wii Dry Dry Ruins T,160,170,180,200,200,Y,,,231,Shoronpo,6,13,38,1,8,20,16
-Wii Dry Dry Ruins R/T,145,155,165,175,180,,,,191,tsubasa,4,18,35,2,8,30,4
-Wii Koopa Cape,200,210,220,240,240,Y,,,264,NoJokesInc.,6,36,30,6,6,36,16
-Wii Koopa Cape R,190,200,210,230,230,Y,,,266,Alpha69,6,38,28,2,4,32,16
-Wii Koopa Cape T,205,215,225,245,245,Y,,,281,JayHo6,6,32,40,6,6,36,16
-Wii Koopa Cape R/T,215,225,235,255,245,Y,,,286,Rapha,6,20,44,8,14,44,16
-Wii Maple Treeway,180,190,200,220,230,Y,,,258,heriawsity,6,28,14,6,14,30,16
-Wii Maple Treeway R,170,180,190,210,230,Y,,,277,heriawsity,6,25,20,2,8,24,16
-Wii Maple Treeway T,200,210,220,240,230,Y,,,277,stic,6,22,50,0,16,24,16
-Wii Maple Treeway R/T,200,210,220,240,240,Y,,,280,いきゅう,6,30,46,12,0,20,16
-Wii Mushroom Gorge,180,190,200,220,220,Y,,,239,heriawsity,6,26,16,10,8,34,16
-Wii Mushroom Gorge R,170,180,190,210,210,Y,,,240,hiro,6,22,12,8,10,26,16
-Wii Mushroom Gorge T,190,200,210,230,230,Y,,,242,kame,6,16,56,8,0,30,16
-Wii Rainbow Road,145,155,165,175,180,Y,,,234,いきゅう,4,22,8,18,14,20,8
-Wii Rainbow Road R,140,150,160,170,175,,,,203,ER Rakker85,4,23,16,14,11,20,4
-Wii Rainbow Road T,135,135,145,160,155,Y,,,191,りαηîеlТГ,3,18,20,12,14,22,4
-Wii Rainbow Road R/T,165,175,185,195,200,Y,,,238,hiro,4,22,30,15,15,20,8
-Yoshi's Island,155,165,175,195,195,,,,,,6,24,12,0,20,18,12
-Yoshi's Island R,160,170,180,200,200,,,,,,6,34,12,0,10,24,12
-Yoshi's Island T,180,190,200,220,220,Y,,,,,6,28,37,0,4,26,16
-Yoshi's Island R/T,175,185,195,215,215,,,,,,6,24,31,2,11,29,12
+"Course","Normal","Giant Banana","Lucky 7","Boomerang Flower","Coin Box","Coin Box?","Tour Buff?","Mid CB?","WR","WR Holder","Item Boxes","Mini-Turbos","Jump Boosts","Dash Panels","Glide Time","Coins (Course)","Coins (Items)","Gold Mario","GM Coins","Pumpkins/Eggs"
+"3DS Bowser's Castle","190","200","210","230","230","Y","","","289","Jayroo","6","38","20","8","8","32","16","200","10",""
+"3DS Bowser's Castle R","185","195","205","225","225","Y","","","287","1ᵘᵖ▪Dann","6","40","22","2","3","34","16","190","5",""
+"3DS Bowser's Castle T","190","195","200","215","210","Y","","","252","Danny","6","32","38","6","4","28","16","205","15",""
+"3DS Bowser's Castle R/T","200","210","220","240","240","Y","","","283","DrkAndNight","6","22","50","4","6","34","16","215","15",""
+"3DS Cheep Cheep Lagoon","125","135","140","155","160","","","","180","Luc","5","20","23","4","0","16","8","140","15",""
+"3DS Cheep Cheep Lagoon R","145","155","160","175","180","Y","","","231","BurntSausage","5","20","21","5","0","34","12","155","10",""
+"3DS Cheep Cheep Lagoon T","145","155","160","225","180","Y","","","270","Mikan","5","14","31","8","0","23","12","165","20",""
+"3DS Cheep Cheep Lagoon R/T","140","150","155","180","175","Y","","","240","RepleteLight","4","18","30","6","0","22","8","150","10",""
+"3DS Daisy Hills","170","180","190","200","200","","","","238","いきゅう","6","28","16","18","6","30","12","175","5",""
+"3DS Daisy Hills R","180","190","200","205","205","","","","244","heriawsity","6","18","29","9","6","40","12","190","10",""
+"3DS Daisy Hills T","195","205","215","235","235","Y","","","288","RepleteLight","6","16","40","18","8","33","16","215","20",""
+"3DS Daisy Hills R/T","170","180","190","210","210","Y","","","265","scrub","6","14","38","14","0","20","16","190","20",""
+"3DS Mario Circuit","180","190","200","220","220","Y","","","275","RepleteLight","6","22","15","0","6","50","16","190","10",""
+"3DS Mario Circuit R","180","190","200","220","220","Y","","","287","heriawsity","8","20","13","2","2","41","24","190","10",""
+"3DS Mario Circuit T","190","200","210","230","230","Y","","","292","scrub","8","22","28","14","4","28","24","210","20",""
+"3DS Mario Circuit R/T","190","200","210","230","230","Y","","","267","Okayandia","8","20","37","14","8","12","24","210","20",""
+"3DS Neo Bowser City","165","175","185","205","205","Y","","","274","いきゅう","6","26","3","0","5","43","16","175","10",""
+"3DS Neo Bowser City R","165","175","185","205","205","Y","","","301","Hikarun","6","26","4","0","0","50","16","170","5",""
+"3DS Neo Bowser City T","190","200","210","230","225","Y","","","271","Ed Havok","6","26","33","12","0","40","16","205","15",""
+"3DS Neo Bowser City R/T","180","190","200","220","220","Y","","","281","BurntSausage","6","26","29","12","0","38","16","200","20",""
+"3DS Piranha Plant Slide","200","210","220","240","240","Y","","","294","Crazi","9","28","30","8","4","32","28","215","15",""
+"3DS Piranha Plant Slide R","170","180","190","210","210","Y","","","270","scrub","6","20","30","3","2","24","16","185","15",""
+"3DS Piranha Plant Slide T","215","225","235","255","255","","","","335","Captain Evan","8","18","50","6","6","44","20","240","25",""
+"3DS Piranha Plant Slide R/T","205","215","225","245","245","Y","","","274","Delta","8","28","39","5","0","28","24","215","10",""
+"3DS Rainbow Road","225","235","245","265","265","Y","","","333","Crazi","7","22","32","23","21","33","20","235","10","0"
+"3DS Rainbow Road R","205","215","220","235","240","Y","","","304","scrub","5","22","26","21","14","33","12","215","10","0"
+"3DS Rainbow Road T","225","235","245","265","265","Y","","","296","hiro","7","22","44","34","11","18","20","245","20","0"
+"3DS Rainbow Road R/T","230","240","250","270","280","Y","","","332","heriawsity","7","22","45","20","12","33","20","255","25",""
+"3DS Rock Rock Mountain","200","210","220","240","240","Y","","","310","DrkAndNight","6","20","13","12","25","40","16","235","35",""
+"3DS Rock Rock Mountain R","180","190","200","220","220","Y","","","249","Silgod","6","22","22","8","0","33","16","185","5",""
+"3DS Rock Rock Mountain T","210","220","230","250","250","Y","","","307","heriawsity","6","20","35","14","20","38","16","230","20",""
+"3DS Rosalina's Ice World","175","185","195","210","205","","","","243","RepleteLight","8","34","6","8","0","20","20","180","5","0"
+"3DS Rosalina's Ice World R","180","190","200","220","220","Y","","","289","stic","6","30","10","10","8","38","16","185","5","0"
+"3DS Rosalina's Ice World T","190","200","210","230","230","Y","","","258","stic","6","28","38","16","0","28","16","200","10","0"
+"3DS Rosalina's Ice World R/T","180","190","200","220","235","Y","","","266","seventere","6","25","30","14","4","30","16","195","15","0"
+"3DS Shy Guy Bazaar","185","195","205","225","225","Y","","","268","Sloth","6","24","20","10","8","36","16","210","25","15"
+"3DS Shy Guy Bazaar R","190","200","210","230","230","Y","","","264","RepleteLight","6","24","16","8","12","41","16","210","20","15"
+"3DS Shy Guy Bazaar T","210","220","230","250","250","Y","","","280","Luneos","8","22","44","12","6","40","24","235","25","15"
+"3DS Shy Guy Bazaar R/T","170","180","200","210","210","Y","","","240","scrub","6","22","26","10","0","16","16","175","5",""
+"3DS Toad Circuit","145","155","165","185","185","Y","","","231","ReFlex","6","18","2","2","4","33","16","150","5",""
+"3DS Toad Circuit R","145","155","165","185","185","Y","","","270","scrub","6","18","1","12","0","22","16","155","10",""
+"3DS Toad Circuit T","175","185","195","215","215","","","","253","MisterB, Porsche","6","16","45","2","3","33","12","195","20",""
+"3DS Toad Circuit R/T","165","175","185","205","205","Y","","","242","Danny","6","16","35","9","0","12","16","170","5",""
+"3DS Wario Shipyard","170","180","190","210","210","","","","253","scrub","6","26","16","18","4","18","12","180","10",""
+"3DS Wario Shipyard R","175","185","195","215","215","Y","","","267","RepleteLight","8","26","14","6","10","24","24","205","30",""
+"3DS Wario Shipyard T","175","185","195","215","215","Y","","","272","RexPlayz","6","24","44","6","0","22","16","190","15",""
+"3DS Wario Shipyard R/T","185","195","215","225","225","Y","","","260","Yoshi Bear","7","28","34","12","6","20","20","205","20",""
+"Amsterdam Drift","175","185","195","215","215","","","","261","Kasey!","6","32","16","4","10","30","12","190","15",""
+"Amsterdam Drift R","175","185","195","215","215","Y","","","257","Jayroo","6","28","22","2","6","32","16","195","20",""
+"Amsterdam Drift T","170","180","190","210","210","","","","253","Shadows","6","28","32","2","10","16","12","190","20",""
+"Amsterdam Drift R/T","175","185","195","215","215","Y","","","251","いきゅう","6","22","36","8","4","24","16","180","5",""
+"Amsterdam Drift 2","150","160","170","190","190","Y","","","229","Alessa","6","24","10","0","0","30","16","155","5",""
+"Amsterdam Drift 2R","145","155","160","185","185","Y","","","223","Ljcameron","6","26","10","0","0","26","16","150","5",""
+"Amsterdam Drift 2T","150","160","170","190","190","Y","","","217","Jayroo","6","18","26","2","0","20","16","155","5",""
+"Amsterdam Drift 2R/T","155","165","175","195","195","Y","","","217","いきゅう","6","16","22","0","10","28","16","180","25",""
+"Amsterdam Drift 3","150","160","170","190","190","Y","","","241","ReFlex","6","30","8","2","0","24","16","160","10",""
+"Amsterdam Drift 3R","150","160","170","190","190","Y","","","247","Jayroo","6","32","4","0","0","28","16","155","5",""
+"Amsterdam Drift 3T","155","175","175","195","195","Y","","","226","scrub, Ljcameron","6","22","25","4","4","18","16","180","25",""
+"Amsterdam Drift 3R/T","170","180","190","210","210","","","","214","scrub","6","20","34","4","0","28","12","180","10",""
+"Athens Dash","160","170","180","200","200","Y","","","261","Milotic","6","26","22","4","4","28","16","170","10",""
+"Athens Dash R","155","165","175","195","195","Y","","","224","いきゅう, Shadows","6","26","16","2","2","32","16","170","15",""
+"Athens Dash T","185","195","205","225","225","","","","247","Zircon","6","24","32","12","4","32","12","195","10",""
+"Athens Dash R/T","195","205","215","235","225","Y","","","268","prodbydemo","6","28","44","6","2","28","16","215","20",""
+"Athens Dash 2","185","195","205","225","215","Y","","","267","Jayroo","6","28","30","7","8","34","16","215","30",""
+"Athens Dash 2R","165","175","185","205","205","","","","233","WootMoo","6","26","24","6","4","26","12","175","10",""
+"Athens Dash 2T","175","185","195","215","215","Y","","","260","Jayroo","6","26","38","2","6","24","16","200","25",""
+"Athens Dash 2R/T","160","170","175","190","195","Y","","","219","hiro, Melody.0102","4","14","46","2","4","34","8","175","15",""
+"Athens Dash 3","175","185","195","215","205","Y","","","245","Tylerrr","6","24","24","8","0","30","16","190","15",""
+"Athens Dash 3R","175","185","200","215","205","Y","","","227","scrub","7","22","26","0","8","30","20","195","20",""
+"Athens Dash 3T","175","185","195","215","215","","","","254","vilify","6","20","32","4","6","24","12","200","25",""
+"Athens Dash 3R/T","175","185","195","215","210","Y","","","250","Shadows","6","24","36","0","0","28","16","190","15",""
+"Bangkok Rush","170","180","190","210","210","Y","","","245","miya","6","24","22","0","0","40","16","175","5",""
+"Bangkok Rush R","170","180","190","210","205","Y","","","249","Shoronpo","6","26","10","0","10","40","16","195","25",""
+"Bangkok Rush T","190","195","205","225","215","Y","","","254","いきゅう","6","20","44","0","6","38","16","220","30",""
+"Bangkok Rush R/T","170","180","190","210","210","Y","","","238","heriawsity","6","24","36","2","0","22","16","205","35",""
+"Bangkok Rush 2","170","180","190","210","210","","","","238","scrub","6","30","24","0","0","24","12","175","5",""
+"Bangkok Rush 2R","180","190","200","220","220","Y","","","271","scrub","6","32","16","0","6","40","16","190","10",""
+"Bangkok Rush 2T","185","195","205","225","225","","","","225","Shadow Legend, Jayroo","6","32","46","4","0","24","12","195","10",""
+"Bangkok Rush 2R/T","180","190","200","220","220","Y","","","268","yukky","6","30","38","0","5","24","16","200","20",""
+"Bangkok Rush 3","155","165","175","195","195","Y","","","261","seventere","6","16","14","0","10","36","16","175","20",""
+"Bangkok Rush 3R","140","150","160","180","180","Y","","","227","seventere","6","28","2","0","4","26","16","160","20",""
+"Bangkok Rush 3T","170","180","190","210","210","Y","","","257","scrub","6","18","30","2","4","30","16","180","10",""
+"Bangkok Rush 3R/T","185","195","205","225","225","Y","","","275","TyeGuy","8","26","36","8","0","24","24","195","10",""
+"Berlin Byways","150","160","170","190","190","","","","238","いきゅう","6","40","6","3","0","22","12","155","5",""
+"Berlin Byways R","150","160","170","190","190","Y","","","229","いきゅう","6","40","4","5","0","18","16","155","5",""
+"Berlin Byways T","170","180","185","210","200","Y","","","236","scrub","6","28","36","2","2","26","16","175","5",""
+"Berlin Byways R/T","165","175","185","205","205","Y","","","252","naoto","6","20","32","4","0","30","16","180","15",""
+"Berlin Byways 2","170","180","190","210","210","Y","","","256","Danny","8","24","12","0","10","26","24","175","5",""
+"Berlin Byways 2R","160","170","180","200","200","Y","","","261","いきゅう","6","28","12","0","8","34","16","175","15",""
+"Berlin Byways 2T","180","190","200","220","220","Y","","","257","Tylerrrr","8","20","30","1","2","30","24","205","25",""
+"Berlin Byways 2R/T","175","185","195","215","215","Y","","","260","Danny","6","26","32","0","0","32","16","180","5",""
+"Berlin Byways 3","145","155","165","185","185","","","","222","RepleteLight","6","32","3","0","0","26","12","155","10",""
+"Berlin Byways 3R","155","165","175","195","195","Y","","","249","hiro","6","34","0","2","0","32","16","175","20",""
+"Berlin Byways 3T","165","175","185","205","205","","","","225","lacavuigi","6","20","33","4","4","27","12","225","60",""
+"Berlin Byways 3R/T","160","170","180","200","200","Y","","","231","Zack","6","26","18","2","6","28","16","175","15",""
+"DS Airship Fortress","170","180","190","210","210","Y","","","248","Danny","6","38","10","4","4","22","16","180","10","10"
+"DS Airship Fortress R","170","180","190","210","210","Y","","","277","いきゅう","6","38","12","0","2","26","16","180","10","10"
+"DS Airship Fortress T","215","225","235","255","255","Y","","","341","Leo","8","34","45","8","0","26","24","220","5","10"
+"DS Airship Fortress R/T","210","220","230","250","250","Y","","","277","heriawsity","8","40","48","8","4","20","24","215","5","10"
+"DS DK Pass","185","195","205","225","225","Y","","","283","Danny","8","26","10","0","14","44","24","230","45",""
+"DS DK Pass R","195","205","215","235","235","Y","","","366","Tylerrrr","8","24","8","2","10","54","24","240","45",""
+"DS DK Pass T","230","240","250","270","270","Y","","","337","Rapha","8","33","48","0","10","40","24","265","35",""
+"DS DK Pass R/T","230","240","250","270","270","Y","","","311","scrub","7","18","44","6","8","64","20","275","45","0"
+"DS Luigi's Mansion","145","155","165","185","185","Y","","","235","いきゅう","6","18","9","2","0","26","16","155","10","10"
+"DS Luigi's Mansion R","155","165","175","195","195","","","","289","ReFlex","8","22","4","2","0","32","20","180","25","10"
+"DS Luigi's Mansion T","180","190","200","220","210","Y","","","258","Rachid","6","16","33","14","0","30","16","195","15","10"
+"DS Luigi's Mansion R/T","170","180","190","210","210","","","","264","ReFlex","8","14","28","6","0","26","20","190","20","10"
+"DS Mario Circuit","150","160","170","190","190","","Y","","237","Zack","6","40","2","0","0","20","16","155","5",""
+"DS Mario Circuit R","150","160","170","190","190","","","","265","scrub","6","28","8","0","0","32","12","155","5",""
+"DS Mario Circuit T","175","185","195","215","205","Y","","","272","prodbydemo","6","24","30","0","6","26","16","185","10",""
+"DS Mario Circuit R/T","170","180","190","210","210","Y","","","240","Ed Havok","6","20","36","0","4","26","16","185","15",""
+"DS Peach Gardens","155","165","175","195","195","","","","263","miya","6","40","12","6","0","18","12","170","15",""
+"DS Peach Gardens R","175","185","190","215","215","Y","","","282","RepleteLight","6","40","12","6","8","26","16","200","25",""
+"DS Peach Gardens T","180","190","200","220","220","Y","","","273","X211","6","32","36","2","0","26","16","210","30",""
+"DS Peach Gardens R/T","180","190","200","220","220","Y","","","267","Misterix","6","26","36","2","0","32","16","190","10",""
+"DS Shroom Ridge","160","170","180","185","200","Y","","N","258","miya","9","34","0","0","0","20","28","170","10",""
+"DS Shroom Ridge R","160","170","180","200","200","Y","","","267","scrub","9","30","4","0","11","19","28","170","10",""
+"DS Shroom Ridge T","185","195","205","225","225","","","","272","sand","9","24","32","2","4","27","24","200","15",""
+"DS Shroom Ridge R/T","175","185","195","215","215","Y","","","268","pweqy","7","16","38","0","7","26","20","195","20",""
+"DS Twilight House","150","150","180","175","220","Y","","","","","15","60","10","0","0","0","0","155","5",""
+"DS Waluigi Pinball","175","185","195","215","215","Y","","","294","stic","6","26","8","10","6","40","16","185","10",""
+"DS Waluigi Pinball R","215","225","235","255","255","Y","","","348","heriawsity","6","26","8","26","6","66","16","230","15",""
+"DS Waluigi Pinball T","215","225","235","255","255","Y","","","298","tsubasa","6","26","35","19","6","46","16","225","10",""
+"DS Waluigi Pinball R/T","220","230","240","260","260","Y","","","294","Danny","6","26","30","20","6","51","16","240","20",""
+"GBA Battle Course 1","150","150","180","175","220","","","","","","15","70","0","0","0","0","0","155","5",""
+"GBA Boo Lake","155","165","175","190","195","Y","","","238","Zircon","6","24","16","0","0","30","16","170","15","10"
+"GBA Boo Lake R","145","155","165","190","185","","","","269","Tylerrrr","6","26","16","0","0","22","12","155","10","10"
+"GBA Boo Lake T","155","165","175","195","195","","","","247","tsubasa","6","20","38","2","0","24","12","170","15","10"
+"GBA Boo Lake R/T","170","180","190","200","200","Y","","","227","MKD☆Supervel","6","18","26","2","6","28","16","200","30","10"
+"GBA Bowser's Castle 1","125","135","140","155","160","Y","","","214","miya","4","20","8","8","0","22","8","135","10",""
+"GBA Bowser's Castle 1R","130","140","145","160","165","Y","","","203","Ljcameron","4","18","10","8","0","29","8","145","15",""
+"GBA Bowser's Castle 1T","150","160","165","180","185","Y","","","245","scrubby","4","15","27","8","0","37","8","200","50",""
+"GBA Bowser's Castle 1R/T","170","180","185","220","185","Y","","","263","j.j.g_","4","12","22","20","0","46","8","200","30",""
+"GBA Bowser's Castle 2","180","190","200","220","220","Y","","","312","scrubby","6","22","22","26","0","32","16","190","10",""
+"GBA Bowser's Castle 2R","180","190","200","220","220","Y","","","270","Misterb","6","22","22","26","0","24","16","190","10",""
+"GBA Bowser's Castle 2T","210","220","230","250","250","Y","","","292","Kenta","6","22","59","28","0","24","16","220","10",""
+"GBA Bowser's Castle 2R/T","200","210","220","240","240","Y","","","260","heriawsity","6","20","50","24","0","24","16","215","15",""
+"GBA Bowser's Castle 3","185","195","205","225","225","Y","","","303","stic","8","32","22","10","0","26","24","195","10",""
+"GBA Bowser's Castle 3R","180","190","200","220","220","Y","","","318","pinbot","8","30","22","10","0","26","24","190","10",""
+"GBA Bowser's Castle 3T","215","225","235","255","255","Y","","","288","Danny","8","20","56","20","2","20","24","230","15",""
+"GBA Bowser's Castle 3R/T","200","210","220","240","240","Y","","","290","naoto","8","16","64","10","0","16","24","215","15",""
+"GBA Bowser's Castle 4","150","160","170","190","190","","","","230","RepleteLight","6","24","12","4","2","22","12","165","15",""
+"GBA Bowser's Castle 4R","140","150","155","170","175","Y","","","243","heriawsity","5","19","9","3","6","23","12","155","15",""
+"GBA Cheep-Cheep Island","140","150","160","180","180","","","","230","ER Draco655","6","28","4","2","0","24","12","145","5",""
+"GBA Cheep-Cheep Island R","150","160","170","190","190","Y","","","257","Swarls","6","30","4","2","0","28","16","160","10",""
+"GBA Cheep-Cheep Island T","185","195","205","220","220","Y","","","278","Acquiesce","6","28","45","4","0","28","16","200","15",""
+"GBA Cheep-Cheep Island R/T","185","205","205","225","220","Y","","","274","seventere","6","28","32","2","0","38","16","210","25",""
+"GBA Lakeside Park","145","155","165","185","185","","","","233","miya","6","28","4","2","0","30","12","150","5",""
+"GBA Lakeside Park R","145","155","165","185","185","Y","","","222","okayandia","6","28","4","2","0","28","16","150","5",""
+"GBA Lakeside Park T","160","170","180","195","190","Y","","","235","Porsche","6","20","21","0","0","36","16","170","10",""
+"GBA Lakeside Park R/T","155","165","175","190","185","","","","255","scrub","6","22","21","0","0","34","12","180","25",""
+"GBA Luigi Circuit","125","145","145","165","165","Y","","","221","Captain Evan","6","28","2","0","0","20","16","140","15",""
+"GBA Luigi Circuit R","125","135","145","165","165","","","","201","Zack","6","26","4","0","0","20","12","135","10",""
+"GBA Luigi Circuit T","185","195","205","225","210","Y","","","254","prodbydemo","6","28","22","10","0","50","16","230","45",""
+"GBA Luigi Circuit R/T","150","165","165","185","175","Y","","","224","seventere","6","16","16","0","7","33","16","155","5",""
+"GBA Peach Circuit","105","115","120","135","140","","","","137","Shadows","4","20","0","0","0","24","4","110","5",""
+"GBA Peach Circuit R","105","115","120","135","140","Y","","","199","seventere","4","14","2","0","6","20","8","110","5",""
+"GBA Peach Circuit T","160","175","180","190","190","","","","234","NoJokesInc.","6","16","26","0","8","30","12","170","10",""
+"GBA Peach Circuit R/T","130","140","145","160","165","","","","164","Delta","4","16","24","0","0","26","4","140","10",""
+"GBA Riverside Park","120","130","135","150","155","Y","","","246","scrub","4","28","4","2","0","22","8","125","5",""
+"GBA Riverside Park R","125","135","140","155","160","","","","220","Isai","4","24","4","2","2","24","4","130","5",""
+"GBA Riverside Park T","150","155","155","180","185","Y","","","237","Porsche","4","20","28","0","4","32","8","165","15",""
+"GBA Riverside Park R/T","175","185","195","215","215","Y","","","231","seventere","6","26","24","0","2","38","16","195","20",""
+"GBA Sky Garden","150","160","170","185","190","","","","230","WootMoo","6","28","8","0","6","24","12","155","5",""
+"GBA Sky Garden R","150","160","170","190","190","","","","247","POKAI","6","26","10","2","4","24","12","155","5",""
+"GBA Sky Garden T","165","175","185","195","205","","","","268","heriawsity","6","28","24","4","0","26","12","175","10",""
+"GBA Sky Garden R/T","165","175","185","205","205","Y","","","261","Plus","6","17","31","2","7","28","16","190","25",""
+"GBA Snow Land","150","160","170","190","190","Y","","","222","seventere","6","32","4","4","0","22","16","155","5",""
+"GBA Snow Land R","145","155","165","185","185","Y","","","233","nonononoes","6","28","4","2","0","22","16","150","5",""
+"GBA Snow Land T","165","175","185","195","195","Y","","Y","283","RepleteLight","6","20","34","0","0","26","16","175","10",""
+"GBA Snow Land R/T","175","185","195","215","205","Y","","","234","Esteban3000","6","22","23","2","8","32","16","190","15",""
+"GBA Sunset Wilds","150","160","170","190","190","Y","","","245","Nikey","6","34","4","6","0","20","16","155","5",""
+"GBA Sunset Wilds R","145","155","165","185","185","Y","","","237","ER Ivan","6","34","4","6","0","20","16","150","5",""
+"GBA Sunset Wilds T","195","205","215","235","220","Y","","","258","seventere","6","20","40","8","8","30","16","205","10",""
+"GBA Sunset Wilds R/T","180","190","200","220","205","Y","","","246","prodbydemo","6","22","50","2","0","18","16","185","5",""
+"GBA Yoshi Desert","165","175","185","205","205","Y","","","241","kyomu","6","26","26","0","0","28","16","175","10",""
+"GBA Yoshi Desert R","155","165","175","195","195","Y","","","252","heriawsity","6","26","18","0","0","28","16","175","20",""
+"GBA Yoshi Desert T","155","165","175","190","190","","","","246","Jhanc, Tylerrrr","6","22","26","2","0","26","12","160","5",""
+"GBA Yoshi Desert R/T","170","180","190","210","210","Y","","","250","Delta","6","22","34","0","0","32","16","185","15",""
+"GCN Baby Park","140","165","160","180","180","Y","","","235","RepleteLight","6","30","0","0","0","35","16","145","5",""
+"GCN Baby Park R","135","145","150","165","170","Y","","","255","heriawsity","5","25","5","10","0","30","12","150","15",""
+"GCN Baby Park T","170","180","190","210","210","","","","273","Pancho27","6","12","33","3","12","33","12","205","35",""
+"GCN Baby Park R/T","165","170","175","195","185","Y","","","206","Jayroo","5","25","24","5","0","40","12","175","10",""
+"GCN Cookie Land","150","150","180","175","220","Y","","","","","15","60","10","0","0","0","0","155","5",""
+"GCN Daisy Cruiser","150","160","170","190","190","Y","","","223","FixRudeBots","6","26","12","2","0","24","16","155","5",""
+"GCN Daisy Cruiser R","150","160","170","190","190","Y","","","227","RepleteLight","6","24","10","2","4","26","16","175","25",""
+"GCN Daisy Cruiser T","155","165","175","195","195","","","","242","seventere","6","18","30","4","0","20","12","170","15",""
+"GCN Daisy Cruiser R/T","165","175","185","205","205","","","","208","DrkAndNight","6","18","34","0","0","22","12","170","5",""
+"GCN Dino Dino Jungle","170","180","190","210","210","Y","","","277","Jayroo","8","32","22","0","6","16","24","180","10","10"
+"GCN Dino Dino Jungle R","180","190","200","220","220","Y","","","256","ER Ivan","6","18","22","6","6","46","16","200","20","10"
+"GCN Dino Dino Jungle T","185","195","205","225","225","Y","","","263","seventere","6","18","44","3","6","30","16","195","10","10"
+"GCN Dino Dino Jungle R/T","190","200","210","230","230","Y","","","293","Kahayata","6","18","45","4","0","38","16","195","5",""
+"GCN DK Mountain","165","175","185","205","205","Y","","","288","RepleteLight","6","38","14","0","4","24","16","180","15",""
+"GCN DK Mountain R","160","170","180","200","200","Y","","","248","DrkAndNight","6","42","14","0","4","18","16","180","20",""
+"GCN DK Mountain T","185","195","205","225","225","","","","275","-Th0mas-","6","26","38","8","10","22","12","220","35",""
+"GCN DK Mountain R/T","185","195","205","225","225","","","","284","ReFlex","6","24","42","4","10","26","12","215","30",""
+"GCN Mushroom Bridge","140","145","160","180","180","","","","214","heriawsity","6","22","0","10","0","20","12","145","5",""
+"GCN Mushroom Bridge R","140","145","160","180","180","","","","237","Jayroo","6","30","0","0","0","22","12","145","5",""
+"GCN Mushroom Bridge T","185","195","205","225","225","Y","","","261","seventere","6","20","34","8","0","34","16","200","15",""
+"GCN Mushroom Bridge R/T","185","195","205","225","225","Y","","","264","101","6","24","26","2","4","46","16","205","20",""
+"GCN Waluigi Stadium","175","185","195","215","215","","","","290","RepleteLight","6","24","20","10","0","42","12","190","15",""
+"GCN Waluigi Stadium R","195","205","215","235","235","Y","","","282","RepleteLight","6","30","26","10","4","40","16","200","5",""
+"GCN Waluigi Stadium T","190","200","210","230","230","Y","","","262","DrkAndNight","6","20","36","11","5","39","16","205","15",""
+"GCN Waluigi Stadium R/T","210","220","230","250","250","Y","","","307","scrub","8","28","42","10","6","38","24","225","15",""
+"GCN Yoshi Circuit","170","180","190","210","210","","","","272","scrub","6","42","3","0","0","44","12","175","5",""
+"GCN Yoshi Circuit R","175","185","195","215","215","Y","","","282","scrub","8","42","7","6","4","22","24","180","5",""
+"GCN Yoshi Circuit T","180","190","200","220","220","","","","287","scrub","8","26","18","0","6","38","20","195","15",""
+"GCN Yoshi Circuit R/T","205","215","225","245","245","Y","","","324","scrub","8","44","26","2","0","40","24","220","15",""
+"London Loop","160","170","180","200","200","Y","","","261","seventere","6","38","4","0","0","30","16","170","10",""
+"London Loop R","180","190","200","220","220","","","","229","scrub","8","40","3","0","0","38","20","185","5",""
+"London Loop T","185","195","205","225","225","","","","286","Jayroo","6","32","30","2","0","42","12","205","20",""
+"London Loop R/T","195","205","215","235","235","","","","260","heriawsity","8","30","36","0","0","42","20","205","10",""
+"London Loop 2","160","170","180","200","200","Y","","","247","Danny","6","36","6","0","0","34","16","170","10",""
+"London Loop 2R","150","160","170","190","190","Y","","","234","Jayroo","6","36","6","0","0","26","16","155","5",""
+"London Loop 2T","160","170","180","200","200","Y","","","235","scrub","6","24","28","4","0","18","16","165","5",""
+"London Loop 2R/T","155","165","175","195","195","Y","","","226","seventere","6","20","25","4","4","22","16","160","5",""
+"London Loop 3","155","165","175","195","195","Y","","","250","seventere","6","32","2","0","2","26","16","170","15","10"
+"London Loop 3R","160","170","180","200","200","Y","","","276","Tylerrr","6","28","4","4","8","26","16","180","20","10"
+"London Loop 3T","175","185","195","215","215","Y","","","266","tsubasa","6","20","32","10","2","18","16","185","10","10"
+"London Loop 3R/T","160","170","175","190","195","","","","214","Couch","4","26","28","4","14","30","4","185","25",""
+"Los Angeles Laps","155","165","175","195","195","Y","","","236","Luc","6","34","8","4","0","28","16","165","10",""
+"Los Angeles Laps R","140","150","160","180","180","","","","246","RepleteLight","6","30","6","2","0","28","12","160","20",""
+"Los Angeles Laps T","165","175","185","205","205","Y","","","301","Jayroo","6","20","32","2","6","24","16","200","35",""
+"Los Angeles Laps R/T","160","170","180","200","200","","","","260","RepleteLight","6","24","30","8","8","22","12","200","40",""
+"Los Angeles Laps 2","140","150","160","180","180","Y","","","236","seventere","6","34","1","0","3","22","16","150","10",""
+"Los Angeles Laps 2R","135","145","155","175","175","Y","","","242","hiro","6","34","0","0","0","20","16","145","10",""
+"Los Angeles Laps 2T","160","170","180","200","200","Y","","","228","scrub","6","24","26","0","0","26","16","170","10",""
+"Los Angeles Laps 2R/T","145","155","165","185","185","Y","","","228","RepleteLight","6","28","24","4","0","16","16","155","10",""
+"Los Angeles Laps 3","170","180","190","210","210","","","","281","Porsche","6","36","8","0","6","36","12","215","45",""
+"Los Angeles Laps 3R","160","170","180","200","200","Y","","","240","NHSpeedy","6","26","6","0","8","26","16","205","45",""
+"Los Angeles Laps 3T","170","180","190","210","210","Y","","","246","Royce9000","6","24","30","4","0","24","16","185","15",""
+"Los Angeles Laps 3R/T","170","180","190","210","210","Y","","","244","いきゅう","6","20","31","0","10","28","16","190","20",""
+"Madrid Drive","155","165","175","195","195","Y","","","278","minamiyoto","6","36","10","0","0","26","16","160","5",""
+"Madrid Drive R","150","160","170","190","190","Y","","","228","Dazzelem","6","34","10","0","0","24","16","155","5",""
+"Madrid Drive T","180","190","200","220","220","Y","","","284","いきゅう","8","24","32","2","4","28","24","210","30",""
+"Madrid Drive R/T","175","185","195","215","205","Y","","","259","seventere","6","22","40","0","6","24","16","180","5",""
+"Madrid Drive 2","175","185","195","215","215","Y","","","277","Mikan","6","40","18","2","6","30","16","180","5",""
+"Madrid Drive 2R","170","180","190","210","210","Y","","","299","seventere","6","40","18","2","6","24","16","175","5",""
+"Madrid Drive 2T","195","205","215","235","225","Y","","","243","Porsche","6","28","50","6","0","30","16","215","20",""
+"Madrid Drive 2R/T","185","195","205","225","215","Y","","","268","FK_21","6","28","30","6","8","34","16","195","10",""
+"Madrid Drive 3","160","170","180","200","200","Y","","","230","Ljcameron","6","36","16","0","0","24","16","175","15",""
+"Madrid Drive 3R","160","170","180","200","200","Y","","","229","melontoad","6","36","15","0","0","28","16","170","10",""
+"Madrid Drive 3T","180","190","200","220","220","Y","","","265","Porsche","6","36","36","0","0","24","16","190","10",""
+"Madrid Drive 3R/T","180","190","200","220","220","","","","224","scrub","6","30","38","2","0","26","12","190","10",""
+"Merry Mountain","165","175","185","205","205","Y","","","247","Jason436","6","30","12","6","0","34","16","175","10",""
+"Merry Mountain R","150","160","170","190","190","Y","","","218","RepleteLight","6","24","13","6","0","20","16","160","10",""
+"Merry Mountain T","165","175","185","205","205","Y","","","217","seventere","6","16","28","10","6","27","16","185","20",""
+"Merry Mountain R/T","170","180","190","210","210","","","","272","naoto","6","30","26","8","0","30","12","190","20",""
+"N64 Choco Mountain","170","180","190","210","210","Y","","","271","Shadows","6","26","17","0","4","34","16","205","35","5"
+"N64 Choco Mountain R","170","180","195","210","210","Y","","","272","Crappy","6","26","15","0","4","34","16","195","25","5"
+"N64 Choco Mountain T","175","185","195","215","215","Y","","","245","Captain Evan","6","20","40","6","0","26","16","200","25","5"
+"N64 Choco Mountain R/T","175","185","195","215","215","Y","","","265","mashiron","6","26","40","2","0","26","16","185","10","5"
+"N64 Frappe Snowland","155","165","175","195","195","Y","","","236","N3vermind","6","26","5","0","14","34","16","160","5",""
+"N64 Frappe Snowland R","155","165","175","195","195","Y","","","250","RepleteLight","6","24","3","2","14","24","16","165","10",""
+"N64 Frappe Snowland T","180","190","200","220","220","Y","","","266","heriawsity","6","18","40","10","14","24","16","185","5",""
+"N64 Frappe Snowland R/T","180","190","200","220","220","Y","","","269","いきゅう","6","22","39","2","5","32","16","190","10",""
+"N64 Kalimari Desert","145","155","165","185","185","Y","","","238","ugu","6","24","8","0","0","30","16","150","5",""
+"N64 Kalimari Desert R","165","175","185","205","205","Y","","","263","seventere","6","24","7","0","6","46","16","190","25",""
+"N64 Kalimari Desert T","175","185","195","220","215","Y","","","242","Crazi","6","16","41","0","0","32","16","185","10",""
+"N64 Kalimari Desert R/T","175","185","205","215","215","Y","","","262","Porsche","8","12","29","6","0","25","24","195","20",""
+"N64 Kalimari Desert 2","125","135","140","155","160","Y","","","231","Hikarun","5","22","6","1","0","25","12","145","20","10"
+"N64 Kalimari Desert 2R","130","140","155","170","170","Y","","","231","scrub","5","22","6","2","0","24","12","140","10","5"
+"N64 Kalimari Desert 2T","140","150","155","170","175","Y","","","229","scrub","5","18","20","1","0","32","12","155","15","5"
+"N64 Kalimari Desert 2R/T","135","145","150","165","170","Y","","","229","RepleteLight","5","21","22","0","0","20","12","145","10",""
+"N64 Koopa Troopa Beach","165","175","185","205","205","Y","","","255","RepleteLight","8","22","8","8","6","28","24","185","20",""
+"N64 Koopa Troopa Beach R","155","165","175","195","195","Y","","","266","heriawsity","6","26","8","4","6","28","16","165","10",""
+"N64 Koopa Troopa Beach T","185","195","205","215","215","","","","247","Luc","8","22","22","14","8","31","20","205","20",""
+"N64 Koopa Troopa Beach R/T","155","165","175","195","195","Y","","","236","Baseball Club","6","16","24","12","4","18","16","165","10",""
+"N64 Luigi Raceway","165","175","185","195","205","Y","","","259","Jason, NHSpeedy","7","28","10","12","0","32","20","170","5",""
+"N64 Luigi Raceway R","165","175","185","205","205","Y","","","268","heriawsity","7","28","10","12","0","32","20","170","5",""
+"N64 Luigi Raceway T","175","185","195","205","205","Y","","","248","Captain Evan","6","22","26","10","0","36","16","210","35",""
+"N64 Luigi Raceway R/T","160","170","180","200","200","","","","247","sand","6","18","20","8","8","22","12","170","10",""
+"N64 Mario Raceway","145","155","165","185","185","Y","","","230","Ljcameron, NoJokesInc.","6","34","4","0","0","20","16","150","5",""
+"N64 Mario Raceway R","145","155","165","185","185","Y","","","223","seventere","6","32","5","1","0","20","16","150","5",""
+"N64 Mario Raceway T","160","170","175","200","200","","","","211","seventere","6","18","40","0","0","24","12","175","15",""
+"N64 Mario Raceway R/T","160","170","180","195","190","Y","","","218","Jrwildboy03","6","17","34","3","3","25","16","170","10",""
+"N64 Royal Raceway","170","180","190","210","210","Y","","","256","heriawsity","6","38","2","4","6","34","16","185","15",""
+"N64 Royal Raceway R","165","175","185","205","205","Y","","","270","Danny","8","34","8","6","0","26","24","175","10",""
+"N64 Royal Raceway T","180","190","200","220","220","Y","","","267","scrub","6","26","32","14","0","26","16","185","5",""
+"N64 Royal Raceway R/T","180","190","200","220","220","","","","270","Alpha","6","32","24","8","4","34","12","205","25",""
+"N64 Yoshi Valley","170","180","190","210","210","Y","","","263","scrub","7","38","16","0","1","24","20","200","30",""
+"N64 Yoshi Valley R","165","175","185","205","200","Y","","","254","いきゅう","6","40","14","0","0","34","16","190","25",""
+"N64 Yoshi Valley T","200","210","220","240","240","","","","305","prodbydemo","6","23","55","0","4","36","12","255","55",""
+"N64 Yoshi Valley R/T","205","215","225","245","245","","","","315","DrkAndNight","8","36","34","6","8","32","20","225","20",""
+"New York Minute","130","140","150","170","170","","","","197","いきゅう","6","22","4","0","0","22","12","140","10",""
+"New York Minute R","140","150","160","180","180","","","","252","melontoad","6","20","2","0","0","32","12","150","10",""
+"New York Minute T","160","170","180","200","180","Y","","","229","Dazzelem","6","22","22","8","0","24","16","170","10",""
+"New York Minute R/T","160","170","180","200","185","Y","","","218","KazuP","6","16","24","8","0","32","16","175","15",""
+"New York Minute 2","145","155","165","185","185","Y","","","233","Jayroo","6","24","4","0","4","34","16","180","35",""
+"New York Minute 2R","140","150","160","180","180","Y","","","229","Crazi","6","22","4","0","4","30","16","180","40",""
+"New York Minute 2T","140","150","160","180","180","Y","","","212","Crazi","6","22","22","4","0","24","16","150","10",""
+"New York Minute 2R/T","155","165","175","195","190","Y","","","213","Crazi","6","20","24","4","0","28","16","175","20",""
+"New York Minute 3","130","140","150","170","170","Y","","","226","Ljcameron","6","22","6","0","0","26","16","145","15",""
+"New York Minute 3R","130","140","150","170","170","","","","220","Ljcameron","6","22","6","0","0","26","12","140","10",""
+"New York Minute 3T","140","150","160","180","180","Y","","","231","miya","6","22","22","2","0","20","16","150","10",""
+"New York Minute 3R/T","150","160","170","190","190","Y","","","206","Jhanc","6","20","22","2","0","30","16","170","20",""
+"New York Minute 4","110","120","125","140","145","","Y","","191","Zack","4","20","7","3","1","20","8","130","20",""
+"New York Minute 4R","110","120","125","140","145","","","","202","heriawsity","4","20","8","3","0","20","4","130","20",""
+"New York Minute 4T","115","125","130","145","150","Y","","","188","Ljcameron","4","16","20","1","2","20","8","135","20",""
+"New York Minute 4R/T","115","125","130","145","150","","","","207","scrub","4","18","20","4","1","21","4","125","10",""
+"New York Minute B","150","150","180","175","220","Y","","","","","15","70","0","0","0","0","52","155","5",""
+"Ninja Hideaway","180","190","200","220","220","Y","","","265","Nino","6","22","30","0","10","43","16","200","20",""
+"Ninja Hideaway R","180","190","200","220","220","Y","","","256","Shadow Legend","6","20","25","0","8","38","16","200","20",""
+"Ninja Hideaway T","185","195","205","225","225","Y","","","262","RexPlayz","6","20","38","0","4","44","16","190","5",""
+"Ninja Hideaway R/T","180","190","200","220","220","","","","252","M3FR★Vincent","6","28","40","0","0","38","12","195","15",""
+"Paris Promenade","130","140","145","160","165","Y","","","222","stic","4","24","2","0","6","32","8","150","20",""
+"Paris Promenade R","150","160","170","190","190","Y","","","238","riverboat","6","20","8","0","6","34","16","155","5",""
+"Paris Promenade T","130","140","145","160","165","","","","210","Delta","4","14","24","4","2","18","4","145","15",""
+"Paris Promenade R/T","150","160","170","190","190","Y","","","221","Rapha","6","18","18","4","0","26","16","170","20",""
+"Paris Promenade 2","130","140","150","170","170","","","","178","pweqy","6","18","5","0","0","22","12","140","10",""
+"Paris Promenade 2R","145","155","165","185","185","Y","","","251","Jhanc","6","20","5","0","0","31","16","155","10",""
+"Paris Promenade 2T","160","170","175","200","185","Y","","","255","KazuP","6","16","26","2","0","28","16","165","5",""
+"Paris Promenade 2R/T","145","155","165","185","185","","","","188","scrub","6","16","26","6","0","12","12","160","15",""
+"Paris Promenade 3","160","170","180","200","200","Y","","","284","seventere","6","34","6","0","0","44","16","175","15",""
+"Paris Promenade 3R","150","160","170","190","190","Y","","","226","Ljcameron","6","20","10","0","5","30","16","175","25",""
+"Paris Promenade 3T","165","175","185","205","200","Y","","","249","heriawsity","6","22","26","6","5","22","16","180","15",""
+"Paris Promenade 3R/T","160","170","180","200","200","Y","","","223","scrub","6","16","28","6","5","18","16","180","20",""
+"Paris Promenade B","150","150","180","175","220","Y","","","","","15","60","10","0","0","0","52","155","5",""
+"Piranha Plant Cove","150","160","170","190","190","Y","","","245","RepleteLight","6","20","25","4","0","24","16","165","15",""
+"Piranha Plant Cove R","145","155","165","185","185","","","","251","Lu","6","18","26","0","0","22","12","155","10",""
+"Piranha Plant Cove T","170","180","190","210","210","Y","","","247","Cool guy","6","12","42","0","8","26","16","195","25",""
+"Piranha Plant Cove R/T","165","175","185","205","205","Y","","","241","いきゅう","6","16","46","0","0","26","16","180","15",""
+"Piranha Plant Cove 2","175","185","195","215","215","","","","283","prodbydemo","7","24","26","0","8","30","16","195","20",""
+"Piranha Plant Cove 2R","160","170","180","200","200","","","","265","Tylerrr","7","10","20","4","8","30","16","185","25",""
+"Piranha Plant Cove 2T","185","195","205","225","220","Y","","","283","DrkAndNight","6","16","52","0","3","28","16","205","20",""
+"Piranha Plant Cove 2R/T","170","180","185","200","205","","","","237","scrub","5","22","48","0","0","40","8","185","15",""
+"Piranha Plant Cove 3","150","170","170","190","190","Y","","","228","scrub","6","18","22","0","0","26","16","155","5",""
+"Piranha Plant Cove 3R","130","150","150","170","170","","","","252","Porsche","6","12","12","0","0","24","12","135","5",""
+"Piranha Plant Cove 3T","175","185","195","215","215","Y","","","228","Jayroo","6","18","42","0","0","30","16","195","20",""
+"Piranha Plant Cove 3R/T","160","170","180","200","200","Y","","","237","Zack","6","18","32","0","0","28","16","170","10",""
+"Piranha Plant Pipeline","190","200","210","230","230","Y","","","268","hiro","6","26","30","0","4","40","16","220","30",""
+"Piranha Plant Pipeline R","190","200","210","230","230","Y","","","257","Jayroo","6","24","28","0","4","42","16","215","25",""
+"Piranha Plant Pipeline T","200","205","210","230","220","","","","260","いきゅう","6","24","52","0","0","46","12","225","25",""
+"Piranha Plant Pipeline R/T","190","195","205","225","220","Y","","","270","こぷ","6","20","44","0","8","38","16","215","25",""
+"RMX Bowser's Castle 1","150","160","170","190","190","Y","","","235","good 4 u, Thomas_08","6","27","7","4","0","23","16","160","10",""
+"RMX Bowser's Castle 1R","155","165","175","195","195","Y","","","274","RepleteLight","6","26","8","4","4","24","16","165","10",""
+"RMX Bowser's Castle 1T","170","180","190","210","210","Y","","","256","いきゅう","6","24","30","4","0","24","16","185","15",""
+"RMX Bowser's Castle 1R/T","150","160","165","180","185","Y","","","247","Kame","4","12","46","8","6","10","8","155","5",""
+"RMX Choco Island 1","150","160","165","180","185","Y","","","230","ER Draco655","4","18","33","0","0","34","8","170","20","10"
+"RMX Choco Island 1R","140","150","150","170","175","","","","191","David","4","18","24","2","0","32","4","155","15","10"
+"RMX Choco Island 1T","160","175","175","190","195","","","","251","melontoad","4","24","30","10","0","32","4","180","20","10"
+"RMX Choco Island 1R/T","155","165","170","185","185","Y","","","244","いきゅう","4","24","24","4","4","26","8","165","10","10"
+"RMX Choco Island 2","150","160","170","190","190","Y","","","230","heriawsity","8","20","16","2","0","18","24","155","5",""
+"RMX Choco Island 2R","150","160","170","190","190","Y","","","229","Luc, miya","6","20","16","4","6","28","16","165","15",""
+"RMX Choco Island 2T","165","175","185","205","195","Y","","","233","Anthony D","6","20","34","6","0","24","16","170","5",""
+"RMX Choco Island 2R/T","155","165","175","195","185","Y","","","233","★SUGArush⁷★","6","16","30","2","0","24","16","160","5",""
+"RMX Donut Plains 1","145","155","165","185","185","","","","268","RepleteLight","6","20","12","0","6","20","12","155","10","15"
+"RMX Donut Plains 1R","150","160","170","190","190","Y","","","233","いきゅう","6","20","20","2","0","20","16","160","10","15"
+"RMX Donut Plains 1T","175","185","195","215","215","Y","","","274","ReFlex","6","14","44","0","6","26","16","215","40","10"
+"RMX Donut Plains 1R/T","170","180","190","210","200","Y","","","226","vilify","6","18","44","6","0","20","16","190","20","10"
+"RMX Ghost Valley 1","150","160","170","190","190","Y","","","235","BurntSausage","6","34","26","0","0","18","16","170","20","10"
+"RMX Ghost Valley 1R","150","160","170","190","190","Y","","","241","RexPlayz, RepleteLight, melontoad","6","34","26","0","0","18","16","165","15","10"
+"RMX Ghost Valley 1T","155","165","175","195","195","Y","","","242","ER GODMODE","6","22","36","4","0","20","16","170","15","5"
+"RMX Ghost Valley 1R/T","160","170","180","200","200","","Y","","252","Porsche","6","14","40","0","8","26","16","195","35","5"
+"RMX Mario Circuit 1","175","185","195","215","215","","","","255","riverboat","8","24","24","4","0","31","20","185","10","10"
+"RMX Mario Circuit 1R","170","180","190","210","210","Y","","","232","Crazi","6","24","28","4","0","26","16","175","5","10"
+"RMX Mario Circuit 1T","190","200","210","230","230","Y","","","305","scrub","6","22","44","8","0","30","16","200","10","10"
+"RMX Mario Circuit 1R/T","190","200","210","230","230","Y","","","286","heriawsity, Party Polka","7","20","32","4","18","28","20","215","25",""
+"RMX Rainbow Road 1","180","190","200","220","220","Y","","","258","mashiron","6","18","20","6","22","30","16","200","20","0"
+"RMX Rainbow Road 1R","170","180","190","210","210","Y","","","249","Zephiel810","6","18","16","4","20","24","16","185","15","0"
+"RMX Rainbow Road 1T","185","195","205","225","225","Y","","","270","scrub","6","18","46","4","0","32","16","210","25","0"
+"RMX Rainbow Road 1R/T","170","180","185","200","205","Y","","","270","Mikke","4","20","40","2","6","36","8","190","20",""
+"RMX Rainbow Road 2","180","190","200","220","220","Y","","","278","Autodrift","6","20","34","4","6","28","16","200","20",""
+"RMX Rainbow Road 2R","170","180","190","210","210","Y","","","256","Jhanc","6","22","30","4","6","34","16","185","15",""
+"RMX Rainbow Road 2T","180","190","200","220","220","Y","","","277","heriawsity","6","20","52","6","6","23","16","200","20",""
+"RMX Rainbow Road 2R/T","200","210","220","240","240","Y","","","283","Jason","6","18","58","10","2","35","16","220","20",""
+"RMX Vanilla Lake 1","160","170","185","200","200","Y","","","251","RepleteLight","6","18","24","0","6","30","16","165","5",""
+"RMX Vanilla Lake 1R","160","170","180","200","200","Y","","","231","seventere","6","18","20","0","6","30","16","180","20",""
+"RMX Vanilla Lake 1T","175","185","195","215","215","","","","216","hiro","6","15","36","8","6","30","12","190","15",""
+"RMX Vanilla Lake 1R/T","160","170","175","205","180","","","","273","Shadows, Danny","4","16","16","0","18","50","4","250","90",""
+"RMX Vanilla Lake 2","155","165","175","195","195","","","","224","DrkAndNight","6","30","6","0","8","28","12","160","5",""
+"RMX Vanilla Lake 2R","155","165","175","195","195","","","","227","Danny","6","28","7","0","8","28","12","165","10",""
+"RMX Vanilla Lake 2T","170","180","190","210","210","","","","255","Jason","6","28","26","2","4","28","12","185","15",""
+"RMX Vanilla Lake 2R/T","190","200","210","230","230","","","","270","Porsche","6","26","47","6","7","18","12","205","15",""
+"Rome Avanti","170","185","190","210","210","","","","250","Jhanc","6","28","20","2","0","28","12","185","15",""
+"Rome Avanti R","150","160","170","190","190","Y","","","231","scrub","6","30","16","2","0","20","16","160","10",""
+"Rome Avanti T","170","180","190","210","210","Y","","","251","seventere","6","20","34","0","0","32","16","175","5",""
+"Rome Avanti R/T","180","190","200","220","220","","","","268","Jhanc","6","18","32","2","10","34","12","215","35",""
+"Rome Avanti 2","150","160","170","190","190","Y","","","234","いきゅう","6","34","16","0","0","20","16","165","15",""
+"Rome Avanti 2R","175","185","195","215","215","Y","","","256","Waygarr_TdK","6","34","16","0","4","38","16","205","30",""
+"Rome Avanti 2T","190","200","210","230","230","Y","","","274","scrub","6","30","36","4","0","38","16","200","10",""
+"Rome Avanti 2R/T","185","195","205","225","225","Y","","","316","RepleteLight","6","28","32","2","8","34","16","215","30",""
+"Rome Avanti 3","180","190","200","240","220","Y","","","319","minamiyoto","8","30","18","0","10","36","24","225","45",""
+"Rome Avanti 3R","165","175","185","225","205","","","","350","Party Polka","6","26","18","0","8","32","12","225","60",""
+"Rome Avanti 3T","190","200","210","260","230","Y","","","323","Party Polka","6","20","38","0","8","40","16","255","65",""
+"Rome Avanti 3R/T","190","200","210","230","230","","","","263","AviQado","6","28","40","2","0","36","12","210","20",""
+"Singapore Speedway","150","160","170","190","190","Y","","","234","playeryer","6","20","6","4","14","24","16","160","10",""
+"Singapore Speedway R","145","155","165","175","175","","","","216","ER Rachid","6","18","14","0","4","24","12","155","10",""
+"Singapore Speedway T","165","175","185","205","205","","","","260","pweqy","6","14","26","6","12","24","12","180","15",""
+"Singapore Speedway R/T","170","180","190","210","210","","","","231","いきゅう","6","20","22","8","6","34","12","180","10",""
+"Singapore Speedway 2","160","170","180","200","200","Y","","","242","Ljcameron","6","28","22","2","6","24","16","170","10",""
+"Singapore Speedway 2R","160","170","180","200","200","Y","","","252","miya","6","22","20","2","6","26","16","170","10",""
+"Singapore Speedway 2T","180","190","200","220","220","Y","","","275","KazuP","6","14","32","2","20","32","16","255","75",""
+"Singapore Speedway 2R/T","175","185","190","215","215","Y","","","258","PIEN","6","24","38","4","4","30","16","195","20",""
+"Singapore Speedway 3","150","160","170","190","190","","","","243","ReFlex","6","26","12","4","0","28","12","160","10",""
+"Singapore Speedway 3R","145","170","165","185","185","Y","","","232","scrub","6","28","8","6","0","20","16","160","15",""
+"Singapore Speedway 3T","175","185","195","215","215","","","","256","Ljcameron","6","22","30","2","12","28","12","205","30",""
+"Singapore Speedway 3R/T","170","180","190","210","210","","","","231","scrub","6","20","36","6","0","30","12","185","15",""
+"Sky-High Sundae","170","180","190","210","210","","","","249","Danny","6","26","36","0","6","24","12","180","10",""
+"Sky-High Sundae R","180","190","200","220","210","Y","","","261","Edhavok","6","16","34","0","16","30","16","205","25",""
+"Sky-High Sundae T","185","195","205","225","225","Y","","","251","Com Truise","6","16","41","2","7","36","16","195","10",""
+"Sky-High Sundae R/T","160","180","180","200","200","","","","216","aron","6","14","40","3","2","20","12","170","10",""
+"SNES Bowser Castle 3","175","185","195","215","230","Y","","","326","Com Truise","8","22","18","8","0","26","24","185","10",""
+"SNES Bowser Castle 3R","170","180","190","210","210","Y","","","275","Jayroo","6","24","18","10","8","24","16","180","10",""
+"SNES Bowser Castle 3T","200","210","220","240","240","","","","285","Hikarun","8","22","44","10","4","26","20","215","15",""
+"SNES Bowser Castle 3R/T","180","190","200","220","220","Y","","","260","Acquiesce","6","22","32","2","10","28","16","195","15",""
+"SNES Choco Island 1","125","135","140","155","160","Y","","","197","ER Ivan","4","14","29","0","0","28","8","130","5","10"
+"SNES Choco Island 1R","130","140","145","160","165","Y","","","208","okayandia","4","14","28","0","0","33","8","135","5","10"
+"SNES Choco Island 1T","130","140","145","160","165","Y","","","199","WootMoo","4","14","36","10","0","16","8","150","20","10"
+"SNES Choco Island 1R/T","125","135","140","155","160","Y","","","204","Porsche","4","12","32","2","0","24","8","130","5","10"
+"SNES Choco Island 2","150","160","170","210","190","Y","","","243","scrub","6","18","24","0","4","36","16","180","30","10"
+"SNES Choco Island 2R","140","150","155","180","175","Y","","","197","scrub","5","12","24","0","4","40","12","165","25","10"
+"SNES Choco Island 2T","130","140","145","160","165","Y","","","212","Tylerrrr","5","12","36","1","2","16","12","160","30","10"
+"SNES Choco Island 2R/T","125","135","145","165","165","Y","","","200","いきゅう","6","10","20","2","0","20","16","135","10","10"
+"SNES Donut Plains 1","110","120","125","140","145","Y","","","194","heriawsity","4","24","0","0","0","24","8","115","5","10"
+"SNES Donut Plains 1R","110","120","125","140","145","Y","","","158","Delta","4","24","0","0","0","24","8","115","5","10"
+"SNES Donut Plains 1T","130","140","145","160","165","Y","","","181","NoJokesInc.","4","18","26","2","0","22","8","140","10","10"
+"SNES Donut Plains 1R/T","115","125","130","145","150","Y","","","183","mashiron","4","16","8","2","6","22","8","135","20","10"
+"SNES Donut Plains 2","140","150","160","180","180","Y","","","249","Plus","6","25","12","0","0","24","16","150","10",""
+"SNES Donut Plains 2R","140","150","160","180","180","Y","","","229","Shadow Legend","6","25","10","0","0","22","16","155","15",""
+"SNES Donut Plains 2T","150","160","170","175","190","","","","219","melontoad","6","18","30","2","0","24","12","155","5",""
+"SNES Donut Plains 2R/T","165","180","185","205","200","Y","","","249","Plus","6","18","32","8","0","26","16","180","15",""
+"SNES Donut Plains 3","130","150","145","160","160","","","","181","pweqy","6","20","12","0","0","18","12","140","10","10"
+"SNES Donut Plains 3R","120","130","140","160","160","Y","","","190","Antonio","6","12","10","0","2","14","16","130","10","10"
+"SNES Donut Plains 3T","150","160","170","190","190","Y","","","227","Danny","6","18","26","0","0","22","16","165","15","10"
+"SNES Donut Plains 3R/T","155","165","165","195","195","","","","203","pweqy","6","14","26","0","0","26","12","175","20","10"
+"SNES Ghost Valley 1","105","115","120","135","140","Y","","","196","miya","4","14","7","0","0","26","8","120","15","10"
+"SNES Ghost Valley 1R","110","120","125","140","145","Y","","","186","Swarls","4","14","3","0","0","32","8","115","5","10"
+"SNES Ghost Valley 1T","120","130","135","150","155","Y","","","192","RepleteLight","4","14","30","0","0","24","8","135","15","10"
+"SNES Ghost Valley 1R/T","120","130","135","150","155","Y","","","196","Zircon","4","10","22","4","4","18","8","125","5","10"
+"SNES Ghost Valley 2","125","135","140","170","160","Y","","","217","stic","4","18","4","2","4","36","8","150","25",""
+"SNES Ghost Valley 2R","125","135","140","155","160","Y","","","217","miya","4","22","4","2","4","32","8","145","20",""
+"SNES Ghost Valley 2T","155","165","170","185","185","Y","","","247","Jayroo","4","10","28","10","8","34","8","210","55",""
+"SNES Ghost Valley 2R/T","155","170","170","180","175","Y","","","202","Danny","4","10","24","2","6","44","8","185","30",""
+"SNES Koopa Troopa Beach 2","120","130","140","155","160","Y","","","231","hiro","6","24","0","0","0","16","16","125","5",""
+"SNES Koopa Troopa Beach 2R","140","150","160","180","180","Y","","","220","Com Truise","7","20","2","2","0","26","20","165","25",""
+"SNES Koopa Troopa Beach 2T","145","155","165","185","185","Y","","","212","Luc, RepleteLight","6","20","14","2","0","26","16","150","5",""
+"SNES Koopa Troopa Beach 2R/T","145","155","165","185","185","","","","227","Tylerrrr","6","22","22","0","0","20","12","165","20",""
+"SNES Mario Circuit 1","120","130","135","150","155","Y","","","198","pweqy","4","18","0","0","0","42","8","125","5",""
+"SNES Mario Circuit 1R","105","115","120","135","140","Y","","","229","scrub","4","12","3","0","0","30","8","110","5",""
+"SNES Mario Circuit 1T","120","130","135","150","150","Y","","","180","Hercai","4","12","20","0","0","30","8","130","10",""
+"SNES Mario Circuit 1R/T","145","155","160","175","170","Y","","","200","Shadow Legend","4","10","21","4","6","38","8","150","5",""
+"SNES Mario Circuit 2","130","140","145","160","165","Y","","","207","RepleteLight","4","20","5","2","8","36","8","135","5",""
+"SNES Mario Circuit 2R","135","145","155","175","175","Y","","","236","ugu","6","18","3","0","2","32","16","140","5",""
+"SNES Mario Circuit 2T","145","155","165","185","185","Y","","","223","PepperRabbit","6","18","24","4","0","24","16","150","5",""
+"SNES Mario Circuit 2R/T","150","160","170","190","190","Y","","","215","Zircon","6","18","29","2","0","26","16","155","5",""
+"SNES Mario Circuit 3","145","155","165","185","185","Y","","","249","pweqy","6","26","0","2","0","42","16","155","10",""
+"SNES Mario Circuit 3R","145","155","165","185","185","Y","","","231","いきゅう","6","26","0","2","0","40","16","150","5",""
+"SNES Mario Circuit 3T","160","170","180","200","190","Y","","","222","seventere","6","26","22","2","0","32","16","180","20",""
+"SNES Mario Circuit 3R/T","175","185","195","215","200","Y","","","228","Danny","8","24","36","10","0","19","24","180","5",""
+"SNES Rainbow Road","150","160","170","190","190","Y","","","255","RepleteLight","6","16","20","0","0","37","16","165","15",""
+"SNES Rainbow Road R","160","170","180","200","200","Y","","","256","Melody","7","16","18","0","4","48","20","175","15",""
+"SNES Rainbow Road T","160","170","180","200","200","Y","","","248","?block","6","16","44","0","0","35","16","175","15",""
+"SNES Rainbow Road R/T","170","180","190","210","210","Y","","","265","ImAdalyHii","6","16","32","0","20","22","16","175","5",""
+"SNES Vanilla Lake 1","110","120","125","140","145","Y","","","187","Danny","4","12","0","0","0","32","8","135","25",""
+"SNES Vanilla Lake 1R","110","120","125","140","145","Y","","","202","AutoDrift","5","12","2","0","0","28","12","135","25",""
+"SNES Vanilla Lake 1T","130","140","150","170","170","Y","","","236","Danny, RepleteLight","6","14","20","0","0","28","16","150","20",""
+"SNES Vanilla Lake 1R/T","115","120","125","145","140","Y","","","165","scrub","5","10","12","4","6","22","12","130","15",""
+"SNES Vanilla Lake 2","105","115","120","135","130","","","","151","RepleteLight","4","10","6","0","0","26","4","115","10",""
+"SNES Vanilla Lake 2R","105","115","120","135","130","Y","","","178","scrub","4","14","12","0","0","26","8","115","10",""
+"SNES Vanilla Lake 2T","115","125","130","145","150","Y","","","175","Danny","4","8","22","6","0","26","8","130","15",""
+"SNES Vanilla Lake 2R/T","150","160","170","190","190","","","","207","いきゅう","6","16","24","4","8","38","12","165","15",""
+"Squeaky Clean Sprint","180","190","200","220","220","Y","","","280","Robert1202","6","20","44","0","16","24","16","205","25",""
+"Squeaky Clean Sprint R","175","185","195","215","215","","","","212","Captain Evan","6","20","44","0","6","30","12","195","20",""
+"Squeaky Clean Sprint T","190","195","200","210","210","Y","","","246","いきゅう","6","12","60","2","8","26","16","210","20",""
+"Squeaky Clean Sprint R/T","195","200","205","215","215","Y","","","250","いきゅう","6","20","65","2","6","26","16","220","25",""
+"Sydney Sprint","155","165","175","185","185","Y","","","244","Zack","6","32","6","0","4","26","16","160","5",""
+"Sydney Sprint R","155","165","175","195","195","Y","","","268","Ljcameron","6","32","6","0","4","28","16","205","50",""
+"Sydney Sprint T","195","205","215","225","225","Y","","","262","heriawsity","6","26","40","10","2","32","16","215","20",""
+"Sydney Sprint R/T","180","190","200","220","220","Y","","","268","WootMoo","6","28","32","6","6","26","16","205","25",""
+"Sydney Sprint 2","155","165","175","195","195","Y","","","253","RepleteLight","6","30","4","0","6","26","16","195","40",""
+"Sydney Sprint 2R","145","155","165","185","185","Y","","","233","Delta","6","28","4","0","6","22","16","180","35",""
+"Sydney Sprint 2T","185","195","205","225","225","Y","","","266","Jayroo","6","30","26","0","10","32","16","230","45",""
+"Sydney Sprint 2R/T","180","190","200","220","220","Y","","","250","scrub","6","12","38","8","12","26","16","210","30",""
+"Sydney Sprint 3","160","170","180","200","200","Y","","","237","Ljcameron","6","44","5","2","0","26","16","170","10",""
+"Sydney Sprint 3R","155","165","175","195","195","Y","","","259","Danny","6","40","2","0","0","32","16","165","10",""
+"Sydney Sprint 3T","195","205","215","235","235","Y","","","279","miya","6","32","36","4","0","38","16","230","35",""
+"Sydney Sprint 3R/T","185","195","205","225","225","Y","","","260","CrunchyCheez, ReFlex","8","34","20","2","4","36","24","195","10",""
+"Tokyo Blur","110","120","130","150","150","Y","","","201","Ljcameron, RepleteLight","6","20","0","0","0","24","16","115","5",""
+"Tokyo Blur R","110","120","125","140","145","Y","","","196","Danny","4","24","0","0","0","28","8","115","5",""
+"Tokyo Blur T","140","150","155","170","175","","","","220","RepleteLight","4","22","32","0","0","28","4","150","10",""
+"Tokyo Blur R/T","130","140","145","160","165","Y","","","196","Da Bear","4","23","16","2","0","30","8","145","15",""
+"Tokyo Blur 2","120","130","140","160","160","Y","","","205","Lengoss, RepleteLight","6","20","1","0","0","30","16","125","5",""
+"Tokyo Blur 2R","120","130","140","160","160","Y","","","211","miya","6","20","1","0","0","30","16","125","5",""
+"Tokyo Blur 2T","135","145","155","175","175","Y","","","206","Luneos","6","14","24","0","0","28","16","140","5",""
+"Tokyo Blur 2R/T","120","130","140","155","150","Y","","","198","Curtis","6","16","21","2","3","8","16","125","5",""
+"Tokyo Blur 3","155","165","175","195","195","","","","217","heriawsity","6","20","2","0","0","42","12","185","30",""
+"Tokyo Blur 3R","155","165","175","195","195","Y","","","258","heriawsity","8","24","2","0","0","36","24","160","5",""
+"Tokyo Blur 3T","180","190","200","220","220","Y","","","251","Party Polka","6","28","40","2","0","26","16","200","20",""
+"Tokyo Blur 3R/T","180","190","200","220","220","","","","278","いきゅう","6","24","24","13","18","18","12","230","50",""
+"Tokyo Blur 4","110","120","125","140","145","","","","181","Shadows","5","22","1","0","0","28","8","115","5",""
+"Tokyo Blur 4R","120","130","135","150","155","Y","","","204","ER Ivan","5","18","1","0","0","28","12","125","5",""
+"Tokyo Blur 4T","120","130","135","150","155","","","","199","Misterb","4","30","23","0","0","22","4","130","10",""
+"Tokyo Blur 4R/T","110","120","125","140","145","","","","172","Porsche","4","20","13","2","0","16","4","115","5",""
+"Vancouver Velocity","160","170","180","200","200","Y","","","251","seventere","6","26","14","0","6","32","16","175","15",""
+"Vancouver Velocity R","180","190","200","220","220","Y","","","255","Jhanc","6","40","18","2","6","30","16","195","15",""
+"Vancouver Velocity T","170","180","190","210","210","","","","214","Tylerrr","6","32","20","16","5","16","12","180","10",""
+"Vancouver Velocity R/T","185","195","205","215","215","Y","","","262","いきゅう","6","36","36","6","6","26","16","205","20",""
+"Vancouver Velocity 2","165","175","180","205","205","","","","188","pweqy","6","34","10","0","6","28","12","180","15",""
+"Vancouver Velocity 2R","165","175","190","205","205","","","","252","Draco655","6","32","10","2","8","26","12","175","10",""
+"Vancouver Velocity 2T","200","210","220","240","240","","","","297","Ljcameron","8","30","44","2","8","24","20","220","20",""
+"Vancouver Velocity 2R/T","195","205","215","235","235","","","","219","Luc","6","30","34","8","8","24","12","205","10",""
+"Vancouver Velocity 3","155","165","175","195","195","Y","","","252","ReFlex","6","36","4","0","0","38","16","170","15",""
+"Vancouver Velocity 3R","145","155","165","185","185","Y","","","235","Jason","6","34","6","0","2","18","16","155","10",""
+"Vancouver Velocity 3T","175","185","195","215","215","Y","","","249","scrub","6","24","36","4","0","24","16","185","10",""
+"Vancouver Velocity 3R/T","190","200","210","230","230","","","","258","seventere","6","26","40","2","0","40","12","215","25",""
+"Wii Coconut Mall","165","175","180","205","205","Y","","","246","seventere","6","30","26","10","2","18","16","170","5",""
+"Wii Coconut Mall R","165","175","180","205","205","Y","","","280","minamiyoto","6","26","20","8","0","26","16","175","10",""
+"Wii Coconut Mall T","200","210","215","240","240","Y","","","272","Nyuul","6","22","56","6","3","32","16","210","10",""
+"Wii Coconut Mall R/T","185","195","205","225","225","","","","232","pweqy","6","19","47","10","0","24","12","200","15",""
+"Wii Daisy Circuit","155","165","175","195","195","Y","","","255","scrub","7","32","2","2","4","22","20","160","5",""
+"Wii Daisy Circuit R","150","160","170","190","190","Y","","","252","いきゅう","6","28","2","0","8","24","16","160","10",""
+"Wii Daisy Circuit T","190","200","210","230","230","Y","","","284","sand","8","28","34","4","4","22","24","195","5",""
+"Wii Daisy Circuit R/T","180","190","200","220","220","","","","261","いきゅう","6","34","34","2","0","26","12","195","15",""
+"Wii DK Summit","180","190","200","220","220","Y","","","253","hiro","6","30","20","10","6","32","16","205","25",""
+"Wii DK Summit R","185","195","205","225","225","Y","","","291","RepleteLight","6","30","18","6","6","37","16","210","25",""
+"Wii DK Summit T","190","200","210","230","230","","","","270","CrunchyCheez","6","24","38","10","6","26","12","215","25",""
+"Wii DK Summit R/T","210","220","230","250","250","Y","","","277","zinma","6","24","46","10","6","36","16","235","25",""
+"Wii Dry Dry Ruins","170","180","190","210","210","","","","255","DrkAndNight","6","32","27","4","0","28","12","185","15",""
+"Wii Dry Dry Ruins R","165","175","185","205","205","Y","","","269","heriawsity","6","32","26","2","0","22","16","175","10",""
+"Wii Dry Dry Ruins T","160","170","180","200","200","Y","","","237","いきゅう","6","13","38","1","8","20","16","175","15",""
+"Wii Dry Dry Ruins R/T","150","160","165","180","185","","","","222","Jayroo","4","18","35","2","8","30","4","175","25",""
+"Wii Koopa Cape","200","210","220","240","240","Y","","","268","Myoonly","6","36","30","6","6","36","16","215","15",""
+"Wii Koopa Cape R","190","200","210","230","230","Y","","","266","Alpha","6","38","28","2","4","32","16","210","20",""
+"Wii Koopa Cape T","205","215","225","245","245","Y","","","281","JayHo6","6","32","40","6","6","36","16","240","35",""
+"Wii Koopa Cape R/T","215","230","235","255","250","Y","","","306","miya","6","20","44","8","14","44","16","255","40",""
+"Wii Maple Treeway","180","190","200","220","230","Y","","","266","stic","6","28","14","6","14","30","16","225","45","10"
+"Wii Maple Treeway R","170","180","190","210","230","Y","","","280","scrub","6","25","20","2","8","24","16","205","35","10"
+"Wii Maple Treeway T","205","215","225","225","235","Y","","","288","heriawsity","6","22","50","0","16","24","16","235","30","10"
+"Wii Maple Treeway R/T","195","205","215","235","235","Y","","","280","いきゅう","6","30","46","12","0","20","16","235","40","15"
+"Wii Moonview Highway","190","195","210","230","230","","","","246","DrkAndNight","12","32","2","26","0","22","36","195","5",""
+"Wii Moonview Highway R","190","200","210","230","230","","","","302","Danny","10","28","4","16","10","38","28","205","15",""
+"Wii Moonview Highway T","190","200","210","230","230","","","","261","scrub, shupernova, Hercai","6","22","36","14","8","32","12","205","15",""
+"Wii Moonview Highway R/T","175","185","195","215","205","","","","273","いきゅう","6","14","30","6","10","28","12","185","10",""
+"Wii Mushroom Gorge","180","190","200","220","220","Y","","","257","seventere","6","26","16","10","8","34","16","220","40",""
+"Wii Mushroom Gorge R","165","175","185","205","205","Y","","","269","Captain Evan","6","22","12","8","10","26","16","200","35",""
+"Wii Mushroom Gorge T","195","205","215","235","230","Y","","","256","いきゅう","6","16","56","8","0","30","16","215","20",""
+"Wii Mushroom Gorge R/T","175","185","195","215","215","Y","","","274","DrkAndNight","6","16","42","8","0","22","16","185","10",""
+"Wii Rainbow Road","145","155","160","175","180","Y","","","243","main","4","22","8","18","14","20","8","160","15",""
+"Wii Rainbow Road R","140","150","155","170","175","","","","225","Ugu","4","23","16","14","11","20","4","150","10",""
+"Wii Rainbow Road T","135","135","145","160","155","Y","","","192","Porsche","3","18","20","12","14","22","4","145","10",""
+"Wii Rainbow Road R/T","160","165","175","190","195","Y","","","244","seventere","4","22","30","15","15","20","8","175","15",""
+"Yoshi's Island","155","165","175","195","195","","","","250","Ljcameron","6","24","12","0","20","18","12","170","15","10"
+"Yoshi's Island R","160","170","180","200","200","","","","257","いきゅう","6","34","12","0","10","24","12","165","5","10"
+"Yoshi's Island T","180","190","200","220","220","Y","","","253","Jayroo","6","28","37","0","4","26","16","190","10","10"
+"Yoshi's Island R/T","175","185","190","215","215","","","","232","miya","6","24","31","2","11","29","12","195","20","5"
