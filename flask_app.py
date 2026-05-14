@@ -13,7 +13,7 @@ from werkzeug.datastructures import MultiDict
 
 from flask_wtf import FlaskForm
 from wtforms import IntegerField, FileField, SelectField, TextAreaField, BooleanField, SelectMultipleField, widgets
-import base, util, reader
+import base, util, reader, datetime
 
 pastTours = [
     ("01-battle.json", "Battle"),
@@ -99,6 +99,34 @@ rankedWeeks = [
     ("26-anniversary.json2", "Anniversary 2"),
 ]
 
+# 1. Define the anchor point: October 4, 2023, 06:00:00 UTC
+# Make sure to make it timezone-aware so calculations match server times perfectly
+start_date = datetime.datetime(2023, 10, 4, 6, 0, 0, tzinfo=datetime.timezone.utc)
+
+# 2. Get the current time in UTC
+current_date = datetime.datetime.now(datetime.timezone.utc)
+
+# 3. Calculate total elapsed seconds since the loop started
+elapsed_seconds = (current_date - start_date).total_seconds()
+
+# Define durations in seconds
+SECONDS_IN_A_WEEK = 7 * 24 * 60 * 60
+SECONDS_IN_A_TOUR = 14 * 24 * 60 * 60
+
+# 4. Calculate the current offset index
+# Int division (//) gives the total number of periods that have passed
+# Modulo (%) wraps it around based on the total number of items in your list
+tour_index = int(elapsed_seconds // SECONDS_IN_A_TOUR) % len(pastTours)
+week_index = int(elapsed_seconds // SECONDS_IN_A_WEEK) % len(rankedWeeks)
+
+# 5. Rotate the lists so the current tour/week is at the top
+current_tours = pastTours[tour_index:] + pastTours[:tour_index]
+current_weeks = rankedWeeks[week_index:] + rankedWeeks[:week_index]
+
+# Output to verify
+print("Current Tour:", current_tours[0][1])
+print("Current Ranked Week:", current_weeks[0][1])
+
 class MultiCheckboxField(SelectMultipleField):
     """
     A multiple-select, except displays a list of checkboxes.
@@ -154,8 +182,8 @@ class MyForm(FlaskForm):
     inventoryText = TextAreaField('Inventory', render_kw={"rows": 5, "cols": 35})
     playerLevel = IntegerField('Player level')
     mode = SelectField("Optimization mode: ", choices=[('ranked', 'Ranked'), ('acr', 'ACR')])
-    weeks = MultiCheckboxField("Ranked weeks to consider: ", choices=rankedWeeks)
-    tour = SelectField("Tour to consider", choices=pastTours)
+    weeks = MultiCheckboxField("Ranked weeks to consider: ", choices=current_weeks)
+    tour = SelectField("Tour to consider", choices=current_tours)
     # Ticket counts
     lnd = IntegerField()
     lnk = IntegerField()
