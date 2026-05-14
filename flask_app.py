@@ -128,6 +128,7 @@ def stringToCups(cupsString):
 
 def optimize(workDir, inventoryLines, tickets, playerLevel, wellFoughtFlags, simulatedItems, tourFile, toursAndCups, handicaps):
     coverageFile = os.path.join(workDir, "data", "alldata.json")
+    actionsFile = os.path.join(workDir, "data", "actions.csv")
     tourPath = os.path.join(workDir, "data", "pastTours", tourFile) if tourFile and tourFile != "current" else ""
     tourPaths = []
     for i in range(len(toursAndCups)):
@@ -142,7 +143,7 @@ def optimize(workDir, inventoryLines, tickets, playerLevel, wellFoughtFlags, sim
     courses, items = reader.readJson(coverageFile, wellFoughtFlags, tourPath, tourPaths)
     # if tourFile in {"current", "02-halloween.json", }
     considerPumpkins = False
-    reader.readActions(courses, considerPumpkins, handicaps)
+    reader.readActions(courses, considerPumpkins, handicaps, actionsFile)
     inventory = reader.readInventory(inventoryLines, items, simulatedItems)
     upgrades, rows, courseLoadouts, totalScores = util.optimize(inventory, courses, tickets, playerLevel)
 

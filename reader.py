@@ -3,10 +3,8 @@
 import csv
 import json
 import os
-import io
 import unidecode
 import re
-import requests
 
 import pandas as pd
 
@@ -228,18 +226,8 @@ def readJson(file, wellFoughtFlags, tour, rankedTours):
 
 
 
-def readActions(courses, considerPumpkins, handicaps):
-    # Google Sheet owned by myself, which copies the data from DKR's master sheet
-    url = f'https://docs.google.com/spreadsheets/d/19xo0WBLORLU8Xz_W2J7H3KnLAjE3__ejVG32xD2Pk0M/gviz/tq?tqx=out:csv&sheet=Sheet1'
-    # fetch the data from the sheet
-    response = requests.get(url)
-
-    # decode the response as CSV
-    csv_data = response.content.decode('utf-8')
-
-    # treat it as a file
-    f = io.StringIO(csv_data)
-    # with open(file) as f: # To read from file = actions.csv
+def readActions(courses, considerPumpkins, handicaps, actionsFile):
+    f = open(actionsFile, encoding="utf-8")
 
     reader = csv.DictReader(f, delimiter=",")
     for row in reader:
