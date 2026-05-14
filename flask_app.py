@@ -134,7 +134,7 @@ def optimize(workDir, inventoryLines, tickets, playerLevel, wellFoughtFlags, sim
     for i in range(len(toursAndCups)):
         tourFileName = toursAndCups[i][0]
         cupNumber = toursAndCups[i][1]
-        if tourFileName == "current":
+        if tourFileName == "curren":
             path = os.path.join(workDir, "data", "alldata.json")
             cupNumber = 2
         else:
