@@ -128,25 +128,34 @@
             </tr>
             <tr>
                 <td align="left" valign="top">
-                    <ul>
+                    <table>
                     {% for item, count in drivers_summary %}
-                        <li>{{ item }}: {{ count }}</li>
+                        <tr>
+                            <td align="left">{{ item }}</td>
+                            <td>{{ count }}</td>
+                        </tr>
                     {% endfor %}
-                    </ul>
+                    </table>
                 </td>
                 <td align="left" valign="top">
-                    <ul>
+                    <table>
                     {% for item, count in karts_summary %}
-                        <li>{{ item }}: {{ count }}</li>
+                        <tr>
+                            <td align="left">{{ item }}</td>
+                            <td>{{ count }}</td>
+                        </tr>
                     {% endfor %}
-                    </ul>
+                    </table>
                 </td>
                 <td align="left" valign="top">
-                    <ul>
+                    <table>
                     {% for item, count in gliders_summary %}
-                        <li>{{ item }}: {{ count }}</li>
+                        <tr>
+                            <td align="left">{{ item }}</td>
+                            <td>{{ count }}</td>
+                        </tr>
                     {% endfor %}
-                    </ul>
+                    </table>
                 </td>
             </tr>
         </table>
