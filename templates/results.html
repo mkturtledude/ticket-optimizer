@@ -116,6 +116,43 @@
         a different browser.
         </div>
       {% endif %}
+    {% if drivers_summary or karts_summary or gliders_summary %}
+        <button class="collapsible">Usage statistics</button>
+        <div class="content">
+        <div class="table-responsive">
+        <table>
+            <tr>
+                <th>Drivers</th>
+                <th>Karts</th>
+                <th>Gliders</th>
+            </tr>
+            <tr>
+                <td align="left" valign="top">
+                    <ul>
+                    {% for item, count in drivers_summary %}
+                        <li>{{ item }}: {{ count }}</li>
+                    {% endfor %}
+                    </ul>
+                </td>
+                <td align="left" valign="top">
+                    <ul>
+                    {% for item, count in karts_summary %}
+                        <li>{{ item }}: {{ count }}</li>
+                    {% endfor %}
+                    </ul>
+                </td>
+                <td align="left" valign="top">
+                    <ul>
+                    {% for item, count in gliders_summary %}
+                        <li>{{ item }}: {{ count }}</li>
+                    {% endfor %}
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        </div>
+        </div>
+      {% endif %}
       <br>
       <button onclick="goBack()">Go Back</button>
 {% endblock %}

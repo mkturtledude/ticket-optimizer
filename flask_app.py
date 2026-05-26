@@ -352,7 +352,28 @@ def results():
     coursesList = [(i, course, data) for i, (course, data) in enumerate(courseLoadouts.items())]
     weekLabels = dict(rankedWeeks)
     selectedLabels = [weekLabels[key] for key in weekStrings]
-    return render_template('results.html', form=form, upgrades=upgrades, rows=rows, courses=coursesList, scores=totalScores, weeks=selectedLabels)
+
+    from collections import Counter
+    driver_counts = Counter()
+    kart_counts = Counter()
+    glider_counts = Counter()
+    for course, data in courseLoadouts.items():
+        after_loadout = data[-1]
+        if len(after_loadout) >= 9:
+            driver_name = after_loadout[0]
+            kart_name = after_loadout[3]
+            glider_name = after_loadout[6]
+            if driver_name:
+                driver_counts[driver_name] += 1
+            if kart_name:
+                kart_counts[kart_name] += 1
+            if glider_name:
+                glider_counts[glider_name] += 1
+    drivers_summary = driver_counts.most_common()
+    karts_summary = kart_counts.most_common()
+    gliders_summary = glider_counts.most_common()
+
+    return render_template('results.html', form=form, upgrades=upgrades, rows=rows, courses=coursesList, scores=totalScores, weeks=selectedLabels, drivers_summary=drivers_summary, karts_summary=karts_summary, gliders_summary=gliders_summary)
 
 if __name__ == "__main__":
    app.run(debug=True)
